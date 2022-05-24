@@ -1,2 +1,4 @@
 theme: jekyll-theme-minimal
 title: TRL Workshop
+description: Website for the Table Representation Learning (TRL) Workshop.
+logo: /assets/Tables.png

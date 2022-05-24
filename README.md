@@ -2,10 +2,10 @@ This website will soon provide details for the first edition of the Table Repres
 
 Stay tuned!
 
-## Important dates
-TBC
-
 ## Call for Papers
+
+#### Important dates
+TBC
 
 #### Submission types
 TBC
@@ -14,7 +14,20 @@ TBC
 TBC
 
 ## Program
+
+#### Keynotes
+TBC
+
+#### Invited talks
+TBC
+
+#### Panel
 TBC
 
 ## Organization
+
+#### Workshop organizers
+TBC
+
+#### Program committee
 TBC
