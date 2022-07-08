@@ -49,8 +49,5 @@ for example, data management venues. Accepted papers will be published on the we
 workshop is non-archival.
 
 
-## Review process
-We will use OpenReview to organize the review process. Authors of submitted work will be asked
-to mark (domain) conflicts of interest with the workshop organizers and the program committee,
-and reviewing will be handled accordingly. Each paper will be reviewed by three PC members in a
-single-blind manner. Reviewers will recommend submissions for oral or poster presentation.
+## Submission and review process
+The submission and review process will be hosted through OpenReview (a link will follow soon). Authors of submitted work will be asked to mark (domain) conflicts of interest with the workshop organizers and the program committee, and reviewing will be handled accordingly. Each paper will be reviewed by three PC members in a single-blind manner. Reviewers will recommend submissions for oral or poster presentation.
