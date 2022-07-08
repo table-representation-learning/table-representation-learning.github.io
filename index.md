@@ -10,8 +10,6 @@ layout: default
 <h3><a href="mailto:table-representation-learning-workshop@googlegroups.com" target="blank"> table-representation-learning-workshop@googlegroups.com</a></h3>
 </div>
 
-<br>
-
 <p align="center">
     <img src="assets/trl_workshop.jpg"/>
 </p>
