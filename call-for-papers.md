@@ -28,6 +28,13 @@ data updating, error correction, monitoring.
 - Formalization, surveys, visions and reflections to structure and guide future research.
 
 
+### **Important dates**
+- Submission open: 10 September 2022
+- Submission deadline: <b>20 September 2022</b>
+- Notifications: 20 October 2022
+- Camera-ready, slides and recording upload: 3 November 2022
+
+
 ## Submission formats
 The workshop will accept regular research papers and industrial papers. Submissions should follow
 the NeurIPS proceedings format and choose the suitable category of:
