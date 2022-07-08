@@ -32,7 +32,7 @@ layout: default
 
 - Paul Groth (University of Amsterdam)
 - Sebastian Schelter (University of Amsterdam)
-- Ça ̆gatay Demiralp (Sigma Computing)
+- Çagatay Demiralp (Sigma Computing)
 - Vraj Shah (IBM)
 - Vasilis Efthymiou (FORTH-ICS/University of Crete)
 - Benjamin Hilprecht (TU Darmstadt)
