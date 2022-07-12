@@ -5,7 +5,7 @@ layout: default
 
 
 <div align="center">
-<h1><b>Table Representation Learning workshop</b></h1>
+<h1><b>Table Representation Learning workshop (TRL)</b></h1>
 <h2>Collocated with NeurIPS 2022</h2>
 <h3><a href="mailto:table-representation-learning-workshop@googlegroups.com" target="blank"> table-representation-learning-workshop@googlegroups.com</a></h3>
 </div>
