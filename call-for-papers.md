@@ -5,27 +5,26 @@ layout: default
 
 # Call for Papers (preliminary)
 
+## Abstract
+
+By learning latent representations from (semi-)structured tabular data, pretrained table models have shown preliminary but impressive performance for semantic parsing, question answering, table understanding, and data preparation [1,2,3,4]. With the increased interest in the “modern data stack”, “intelligent data systems”, and “data-centric AI”, the time has come to consider tabular data as a first-class modality for representation learning and stimulate advances in this direction. The Table Representation Learning workshop is the first workshop in this emerging research area and serves the following needs:
+
+1) **Motivate tabular data as a first-class modality** for representation learning and further shaping this area.
+
+2) **Showcase impactful applications** of pretrained table models and discussing future opportunities thereof.
+
+3) **Foster discussion and collaboration** across the machine learning, natural language processing, and data management communities.
+
+
 ## Scope
 
-We invite submissions that address, or relate to, any of the following topics:
-- Representation learning techniques for tabular data and full databases, e.g., architectures, data
-encoding techniques, pre-training, fine-tuning and prompting strategies, multi-task learning, etc.
-- Multimodal learning where tabular data is jointly embedded with, for example, natural language,
-code (e.g. SQL), knowledge bases, visualizations/images.
-- Downstream applications of tabular representations for tasks like data preparation (e.g. data
-cleaning, integration, cataloging), retrieval (e.g. search, fact-checking/QA, KG construction), and
-analysis (e.g. summarization, visualization, and query recommendation).
-Preprint. Under review.
-- Upstream applications of tabular representation models for optimizing table parsers/extraction
-(from documents, spreadsheets, presentations), storage (e.g. compression, indexing) and processing
-e.g. query plan optimization, cost estimation.
-- Evaluations and analyses of tabular representation models, including the utility of language models
-as base models versus alternatives.
-- Applications of tabular representation models in production (industry).
-- Challenges of maintaining and managing table representation models in a fast evolving context, e.g.
-data updating, error correction, monitoring.
-- New resources such as surveys, benchmarks and datasets, for tabular representation models.
-- Formalization, surveys, visions and reflections to structure and guide future research.
+We invite submissions that address, but are not limited to, any of the following topics on machine learning for tabular data:
+- **Representation Learning** Representation learning techniques for structured (e.g., relational databases) or semi-structured (Web tables, spreadsheet tables) tabular data. This includes developing specialized data encodings or adaptation of general-purpose ones (e.g., GPT-3) for tabular data, multimodal learning across tables, and other modalities (e.g., natural language, images, code), and relevant fine-tuning and prompting strategies.
+- **Downstream Applications** Machine learning applications involving tabular data, such as data preparation (e.g. data cleaning, integration, cataloging, anomaly detection), retrieval (e.g., semantic parsing, question answering, fact-checking), information extraction, and generation (e.g., table-to-text).
+- **Upstream Applications** Applications that use representation learning to optimize tabular data processing systems, such as table parsers (extracting tables from documents, spreadsheets, presentations, images), storage (e.g. compression, indexing), and querying (e.g. query plan optimization, cost estimation).
+- **Industry Papers** Applications of tabular representation models in production. Challenges of maintaining and managing table representation models in a fast evolving context, e.g. data updating, error correction, monitoring.
+- **New Resources** Survey papers, benchmarks and datasets for tabular representation models and their applications.
+- **Others** Formalization, surveys, visions and reflections to structure and guide future research.
 
 
 ### **Important dates**
@@ -36,18 +35,28 @@ data updating, error correction, monitoring.
 
 
 ## Submission formats
-The workshop will accept regular research papers and industrial papers. Submissions should follow
-the NeurIPS proceedings format and choose the suitable category of:
-- Short paper: at most 4 pages + references.
-- Regular paper: at most 8 pages + references.
+The workshop will accept regular research papers and industrial papers. Submissions should follow the NeurIPS proceedings format and choose the suitable category of:
+- Abstract: 1 page + references (open challenges, reflections, and thought-provoking visions).
+- Extended abstract: at most 4 pages + references.
+- Regular paper: at least 6 pages + references.
 
 
 ## Novelty and conflicts
-The workshop does not accept submissions that have previously been published at NeurIPS or
-other machine learning or related venues. We do invite submissions that have been published in,
-for example, data management venues. Accepted papers will be published on the website but the
-workshop is non-archival.
+
+The workshop does not accept submissions that have previously been published at NeurIPS or other machine learning or related venues. We do invite submissions that have been published in, for example, data management venues. Authors of submitted work will be asked to mark (domain) conflicts of interest with the workshop organizers and the program committee, and reviewing will be handled accordingly.
 
 
 ## Submission and review process
-The submission and review process will be hosted through OpenReview (a link will follow soon). Authors of submitted work will be asked to mark (domain) conflicts of interest with the workshop organizers and the program committee, and reviewing will be handled accordingly. Each paper will be reviewed by three PC members in a single-blind manner. Reviewers will recommend submissions for oral or poster presentation.
+
+The submission and review process will be hosted through OpenReview (a link will follow soon).  Papers will be reviewed in a single-blind manner. Reviewers will recommend submissions for oral or poster presentations. Accepted papers will be published on the website but the workshop is non-archival.
+
+
+## References
+
+[1] Yin, P., Neubig, G., Yih, W. T., & Riedel, S. TaBERT: Pretraining for Joint Understanding of Textual and Tabular Data. In *Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, 2020*.
+
+[2] Herzig, J., Nowak, P. K., Mueller, T., Piccinno, F., & Eisenschlos, J. TaPas: Weakly Supervised Table Parsing via Pre-training. In *Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics, 2020*.
+
+[3] Deng, X., Sun, H., Lees, A., Wu, Y., & Yu, C. TURL: Table Understanding through Representation Learning. *Proceedings of the VLDB Endowment, 2021*.
+
+[4] Tang, N., Fan, J., Li, F., Tu, J., Du, X., Li, G., ... & Ouzzani, M. RPT: relational pre-trained transformer is almost all you need towards democratizing data preparation. *Proceedings of the VLDB Endowment*, 2021.
