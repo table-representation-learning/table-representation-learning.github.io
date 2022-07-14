@@ -27,7 +27,7 @@ We invite submissions that address, but are not limited to, any of the following
 - **Others** Formalization, surveys, visions and reflections to structure and guide future research.
 
 
-### **Important dates**
+## Important dates
 - Submission open: 10 September 2022
 - Submission deadline: <b>20 September 2022</b>
 - Notifications: 20 October 2022
