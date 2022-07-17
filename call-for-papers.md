@@ -7,7 +7,7 @@ layout: default
 
 ## Abstract
 
-By learning latent representations from (semi-)structured tabular data, pretrained table models have shown preliminary but impressive performance for semantic parsing, question answering, table understanding, and data preparation [1,2,3,4]. With the increased interest in the “modern data stack”, “intelligent data systems”, and “data-centric AI”, the time has come to consider tabular data as a first-class modality for representation learning and stimulate advances in this direction. The Table Representation Learning workshop is the first workshop in this emerging research area and serves the following needs:
+The tabular data format is one of the most common modalities for storing, processing and sharing data across databases, spreadsheets, and other systems. By learning latent representations from (semi-)structured tabular data, pretrained table models have shown preliminary but impressive performance for semantic parsing, question answering, table understanding, and data preparation [1,2,3,4]. With the increased interest in the “modern data stack”, “intelligent data systems”, and “data-centric AI”, the time has come to consider tabular data as a first-class modality for representation learning and stimulate advances in this direction. The Table Representation Learning workshop is the first workshop in this emerging research area and serves the following needs:
 
 1) **Motivate tabular data as a first-class modality** for representation learning and further shaping this area.
 
@@ -28,10 +28,11 @@ We invite submissions that address, but are not limited to, any of the following
 
 
 ## Important dates
-- Submission open: 10 September 2022
-- Submission deadline: <b>20 September 2022</b>
-- Notifications: 20 October 2022
+- Submission open: 20 August 2022
+- Submission deadline: <b>18 September 2022</b>
+- Notifications: 18 October 2022
 - Camera-ready, slides and recording upload: 3 November 2022
+- Workshop: 2 December 2022
 
 
 ## Submission formats
@@ -48,7 +49,7 @@ The workshop does not accept submissions that have previously been published at 
 
 ## Submission and review process
 
-The submission and review process will be hosted through OpenReview (a link will follow soon).  Papers will be reviewed in a single-blind manner. Reviewers will recommend submissions for oral or poster presentations. Accepted papers will be published on the website but the workshop is non-archival.
+The submission should be uploaded through the <a href="https://openreview.net/group?id=NeurIPS.cc/2022/Workshop/TRL" target="blank">TRL Workshop page on OpenReview</a>. Papers will be reviewed in a single-blind manner. Reviewers will recommend submissions for oral or poster presentations. Accepted papers will be published on the website but the workshop is non-archival.
 
 
 ## References

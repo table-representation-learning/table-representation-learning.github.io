@@ -5,8 +5,8 @@ layout: default
 
 
 <div align="center">
-<h1><b>Table Representation Learning workshop (TRL)</b></h1>
-<h2>Collocated with NeurIPS 2022</h2>
+<h1><b>Table Representation Learning workshop</b></h1>
+<h2>Collocated with NeurIPS 2022 on Friday 2 December</h2>
 <h3><a href="mailto:table-representation-learning-workshop@googlegroups.com" target="blank"> table-representation-learning-workshop@googlegroups.com</a></h3>
 </div>
 
@@ -45,7 +45,7 @@ across the machine learning, natural language processing, and data management co
 - Submission deadline: <b>20 September 2022</b>
 - Notifications: 20 October 2022
 - Camera-ready, slides and recording upload: 3 November 2022
-- Workshop date: <b>2 or 3 December 2022</b>
+- Workshop: <b>Friday 2 December 2022</b>
 
 
 ### **Attendance support**

@@ -21,10 +21,17 @@
 title: "TRL Workshop"
 author: ""
 description: ""
-email: ""
+email: "table-representation-learning-workshop@googlegroups.com"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://table-representation-learning.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-avatar: assets/Tables.png
+
+footer-links:
+  email: table-representation-learning-workshop@googlegroups.com
+
+minima:
+  skin: solarized-light
+  social_links:
+    twitter: TrlWorkshop
 
 # Build settings
 theme: minima

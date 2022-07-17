@@ -5,4 +5,4 @@ layout: default
 
 # Program
 
-More details will follow soon.
+To be announced soon.
