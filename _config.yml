@@ -29,7 +29,7 @@ footer-links:
   email: table-representation-learning-workshop@googlegroups.com
 
 minima:
-  skin: solarized-light
+  skin: classic
   social_links:
     twitter: TrlWorkshop
 
