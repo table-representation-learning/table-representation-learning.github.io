@@ -5,8 +5,6 @@ layout: default
 
 # Call for Papers (preliminary)
 
-## Abstract
-
 Tabular data is one of the most common modalities for storing, processing and sharing data across databases, spreadsheets, and other systems. By learning latent representations from (semi-)structured tabular data, pretrained table models have shown preliminary but impressive performance for semantic parsing, question answering, table understanding, and data preparation [1,2,3,4]. As these early advances reveal a huge potential for making an impact on various downstream applications, the time has come to consider tabular data as a first-class modality for representation learning and stimulate advances in this direction. The Table Representation Learning workshop is the first workshop in this emerging research area and is centred around three main goals:
 
 1) **Foster discussion and collaboration** across the machine learning, natural language processing, and data management communities.
