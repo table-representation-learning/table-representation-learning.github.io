@@ -6,7 +6,7 @@ layout: default
 
 <div align="center">
 <h1><b>Table Representation Learning workshop</b></h1>
-<h2>Collocated with NeurIPS 2022 on Friday 2 December</h2>
+<h2>NeurIPS 2022, Friday 2 December, New Orleans, USA</h2>
 <h3><a href="mailto:table-representation-learning-workshop@googlegroups.com" target="blank"> table-representation-learning-workshop@googlegroups.com</a></h3>
 <h3><a href="https://twitter.com/TrlWorkshop" target="blank"> @TrlWorkshop</a></h3>
 </div>
