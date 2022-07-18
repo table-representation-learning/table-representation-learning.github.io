@@ -3,12 +3,17 @@ title: ""
 layout: default
 ---
 
-
 <div align="center">
 <h1><b>Table Representation Learning workshop</b></h1>
 <h2>NeurIPS 2022, Friday 2 December, New Orleans, USA</h2>
-<h3>Email: <a href="mailto:table-representation-learning-workshop@googlegroups.com" target="blank">table-representation-learning-workshop@googlegroups.com</a></h3>
-<h3>Twitter: <a href="https://twitter.com/TrlWorkshop" target="blank"> @TrlWorkshop</a></h3>
+<div>
+{% if site.minima.social_links.email -%}
+<a class="u-email" href="mailto:{{ site.minima.social_links.email }}">{{ site.minima.social_links.email }}</a>
+{%- endif %}
+</div>
+<div class="social-links">
+    {%- include social.html -%}
+</div>
 </div>
 
 <p align="center">
