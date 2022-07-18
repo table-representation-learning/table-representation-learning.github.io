@@ -31,12 +31,9 @@ such as free-form text), pretrained table models have shown preliminary but impr
 for semantic parsing, question answering, table understanding, and data preparation. Considering that such tasks share fundamental properties inherent to tables, representation
 learning for tabular data is an important direction to explore further. These works also
 surfaced many open challenges such as finding effective data encodings, pretraining objectives and
-downstream tasks. With the increased interest in the “modern data stack” and “data-centric AI”,
-the time has come to consider tabular data as a first-class modality for representation learning and
-stimulate advances in this direction.
+downstream tasks. We believe, the time has come to consider tabular data as a first-class modality for representation learning and stimulate advances in this direction.
 
-The Table Representation Learning workshop is the first workshop in this emerging research area
-and serves the following needs: 1) motivating tabular data as a first-class modality for representation
+The Table Representation Learning workshop is the first workshop in this emerging research area and has the following main goals: 1) motivating tabular data as a first-class modality for representation
 learning and further shaping this area, 2) show-casing impactful applications of pretrained table
 models and discussing future opportunities thereof, and 3) facilitating discussion and collaboration
 across the machine learning, natural language processing, and data management communities.
