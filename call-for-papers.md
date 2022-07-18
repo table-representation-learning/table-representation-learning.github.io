@@ -47,7 +47,7 @@ The workshop does not accept submissions that have previously been published at 
 
 ## Submission and review process
 
-The submission should be uploaded through the <a href="https://openreview.net/group?id=NeurIPS.cc/2022/Workshop/TRL" target="blank">TRL Workshop page on OpenReview</a>. Papers will be reviewed in a single-blind manner. Reviewers will recommend submissions for oral or poster presentations. Accepted papers will be published on the website but the workshop is non-archival.
+The submission should be uploaded through the <a href="https://openreview.net/group?id=NeurIPS.cc/2022/Workshop/TRL" target="blank">TRL Workshop page on OpenReview</a>. Papers will be reviewed in a single-anonymous manner. Reviewers will recommend submissions for oral or poster presentations. Accepted papers will be published on the website but the workshop is non-archival.
 
 
 ## References
