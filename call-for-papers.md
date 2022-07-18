@@ -29,8 +29,8 @@ We invite submissions that address, but are not limited to, any of the following
 
 ## Important dates
 - Submission open: 20 August 2022
-- Submission deadline: <b>18 September 2022</b>
-- Notifications: 18 October 2022
+- Submission deadline: <b>20 September 2022</b>
+- Notifications: 20 October 2022
 - Camera-ready, slides and recording upload: 3 November 2022
 - Workshop: 2 December 2022
 
