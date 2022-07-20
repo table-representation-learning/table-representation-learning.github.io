@@ -60,4 +60,4 @@ The submission should be uploaded through the <a href="https://openreview.net/gr
 
 [4] Tang, N., Fan, J., Li, F., Tu, J., Du, X., Li, G., ... & Ouzzani, M. RPT: relational pre-trained transformer is almost all you need towards democratizing data preparation. *Proceedings of the VLDB Endowment*, 2021.
 
-[5] Heidari, A., McGrath, J., Ilyas, I. F., & Rekatsinas T. HoloDetect: Few-Shot Learning for Error Detection. *Proceedings of the 2019 International Conference on Management of Data (SIGMOD)*, 2019
+[5] Wu, R., Zhang, A., Ilyas, I. F., & Rekatsinas T. Attention-based Learning for Missing Data Imputation in HoloClean. *Proceedings of Machine Learning and Systems (MLSys)*, 2020.
