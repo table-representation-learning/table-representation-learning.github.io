@@ -5,7 +5,7 @@ layout: default
 
 # Call for Papers
 
-Tabular data is one of the most common modalities for storing, processing and sharing data across databases, spreadsheets, and other systems. By learning latent representations from (semi-)structured tabular data, pretrained table models have shown preliminary but impressive performance for semantic parsing, question answering, table understanding, and data preparation [1,2,3,4]. As these early advances reveal a huge potential for making an impact on various downstream applications, the time has come to consider tabular data as a first-class modality for representation learning and stimulate advances in this direction. The Table Representation Learning workshop is the first workshop in this emerging research area and is centred around three main goals:
+Tabular data is one of the most common modalities for storing, processing and sharing data across databases, spreadsheets, and other systems. By learning latent representations from (semi-)structured tabular data, pretrained table models have shown preliminary but impressive performance for semantic parsing, question answering, table understanding, and data preparation [1,2,3,4,5]. As these early advances reveal a huge potential for making an impact on various downstream applications, the time has come to consider tabular data as a first-class modality for representation learning and stimulate advances in this direction. The Table Representation Learning workshop is the first workshop in this emerging research area and is centred around three main goals:
 
 1) **Motivate tabular data as a first-class modality** for representation learning and further shaping this area.
 
@@ -59,3 +59,5 @@ The submission should be uploaded through the <a href="https://openreview.net/gr
 [3] Deng, X., Sun, H., Lees, A., Wu, Y., & Yu, C. TURL: Table Understanding through Representation Learning. *Proceedings of the VLDB Endowment, 2021*.
 
 [4] Tang, N., Fan, J., Li, F., Tu, J., Du, X., Li, G., ... & Ouzzani, M. RPT: relational pre-trained transformer is almost all you need towards democratizing data preparation. *Proceedings of the VLDB Endowment*, 2021.
+
+[5] Heidari, A., McGrath, J., Ilyas, I. F., & Rekatsinas T. HoloDetect: Few-Shot Learning for Error Detection. *Proceedings of the 2019 International Conference on Management of Data (SIGMOD)*, 2019
