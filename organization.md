@@ -45,3 +45,4 @@ layout: default
 - Bei Chen (Microsoft Research)
 - Zhiruo Wang (CMU)
 - Zhoujun Cheng (STJU)
+- Simran Arora (Stanford)
