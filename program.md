@@ -5,7 +5,7 @@ layout: default
 
 # Program
 
-The below program is preliminary and due to changes.
+The below program is preliminary. More details will follow soon!
 
 - Welcome notes
 - Keynote talk 1
