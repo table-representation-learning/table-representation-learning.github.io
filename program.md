@@ -5,4 +5,17 @@ layout: default
 
 # Program
 
-To be announced soon.
+The below program is preliminary and due to changes.
+
+- Welcome notes
+- Keynote talk 1
+- Coffee break
+- Poster session 1
+- Invited/contributed talks
+- Lunch
+- Keynote talk 2
+- Invited/contributed talks
+- Coffee break
+- Poster session 2
+- Invited/contributed talk
+- Panel discussion
