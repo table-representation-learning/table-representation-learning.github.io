@@ -5,7 +5,7 @@ layout: default
 
 # Call for Papers
 
-We develop large models to “understand” images, videos and natural language that fuel many intelligent applications from text completion to self-driving cars. But tabular data has long been overlooked despite its dominant presence in data-intensive systems. By learning latent representations from (semi-)structured tabular data, pretrained table models have shown preliminary but impressive performance for semantic parsing, question answering, table understanding, and data preparation [1,2,3,4,5]. As these early advances reveal a huge potential for making an impact on various downstream applications, the time has come to consider tabular data as a first-class modality for representation learning and stimulate advances in this direction. The Table Representation Learning workshop is the first workshop in this emerging research area and is centred around three main goals:
+We develop large models to “understand” images, videos and natural language that fuel many intelligent applications from text completion to self-driving cars. But tabular data has long been overlooked despite its dominant presence in data-intensive systems. By learning latent representations from (semi-)structured tabular data, pretrained table models have shown preliminary but impressive performance for semantic parsing, question answering, table understanding, and data preparation [1,2,3,4,5,6]. As these early advances reveal a huge potential for making an impact on various downstream applications, the time has come to consider tabular data as a first-class modality for representation learning and stimulate advances in this direction. The Table Representation Learning workshop is the first workshop in this emerging research area and is centred around three main goals:
 
 1) **Motivate tabular data as a first-class modality** for representation learning and further shaping this area.
 
@@ -60,4 +60,8 @@ The submission should be uploaded through the <a href="https://openreview.net/gr
 
 [4] Tang, N., Fan, J., Li, F., Tu, J., Du, X., Li, G., ... & Ouzzani, M. RPT: relational pre-trained transformer is almost all you need towards democratizing data preparation. *Proceedings of the VLDB Endowment*, 2021.
 
-[5] Ilyas, I. F., & Rekatsinas T. Machine Learning and Data Cleaning: Which Serves the Other? *Journal of Data and Information Quality*, 2021.
+[5] Wang, Z., Dong, H., Jia, R., Li, J., Fu, Z., Han, S., & Zhang, D. TUTA: tree-based transformers for generally structured table pre-training. *Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining*, 2021.
+
+[6] Ilyas, I. F., & Rekatsinas T. Machine Learning and Data Cleaning: Which Serves the Other? *Journal of Data and Information Quality*, 2021.
+
+
