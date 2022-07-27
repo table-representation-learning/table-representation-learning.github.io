@@ -45,7 +45,7 @@ We are pleased to host the following speakers.
     </details>
 [Xinyun Chen](https://jungyhuk.github.io/), Google Brain
     <details><summary>Bio</summary>
-    Xinyun Chen is a Ph.D. candidate at UC Berkeley, working with Prof. Dawn Song. Her research lies at the intersection of deep learning, programming languages, and security. Her recent research focuses on neural program synthesis and adversarial machine learning. She received the Facebook Fellowship in 2020, and Rising Stars in Machine Learning in 2021. Her work SpreadsheetCoder for spreadsheet formula prediction was integrated into Google Sheets, and she was part of the AlphaCode team when she interned at DeepMind.
+    Xinyun Chen is a senior research scientist at Google Brain. She obtained her Ph.D. degree at UC Berkeley, working with Prof. Dawn Song. Her research lies at the intersection of deep learning, programming languages, and security. Her recent research focuses on neural program synthesis and adversarial machine learning. She received the Facebook Fellowship in 2020, and Rising Stars in Machine Learning in 2021. Her work SpreadsheetCoder for spreadsheet formula prediction was integrated into Google Sheets, and she was part of the AlphaCode team when she interned at DeepMind.
     </details>
 
 
