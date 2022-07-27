@@ -34,20 +34,20 @@ We invite submissions that address, but are not limited to, any of the following
 
 
 ## Submission formats
-The workshop will accept regular research papers and industrial papers. Submissions should follow the NeurIPS proceedings format and choose the suitable category of:
+The workshop will accept regular research papers and industrial papers. Submissions should follow the <a href="https://neurips.cc/Conferences/2022/PaperInformation/StyleFiles" target="blank">NeurIPS style files</a> and choose the suitable category of:
 - Abstract: 1 page + references (open challenges, reflections, and thought-provoking visions).
 - Extended abstract: at most 4 pages + references.
 - Regular paper: at least 6 pages + references.
 
 
-## Novelty and conflicts
-
-The workshop does not accept submissions that have previously been published at NeurIPS or other machine learning or related venues. We do invite submissions that have been published in, for example, data management venues. Authors of submitted work will be asked to mark (domain) conflicts of interest with the workshop organizers and the program committee, and reviewing will be handled accordingly.
-
-
 ## Submission and review process
 
 The submission should be uploaded through the <a href="https://openreview.net/group?id=NeurIPS.cc/2022/Workshop/TRL" target="blank">TRL Workshop page on OpenReview</a>. Papers will be reviewed in a single-anonymous manner. Reviewers will recommend submissions for oral or poster presentations. Accepted papers will be published on the website but the workshop is non-archival.
+
+
+## Novelty and conflicts
+
+The workshop does not accept submissions that have previously been published at NeurIPS or other machine learning venues. However, we do welcome submissions that have been published in, for example, data management venues. Authors of submitted work will be asked to mark (domain) conflicts of interest with the workshop organizers and the program committee, and reviewing will be handled accordingly.
 
 
 ## References
