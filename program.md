@@ -8,28 +8,28 @@ layout: default
 ## Speakers
 We are pleased to host the following speakers.
 
-[Alon Halevy (keynote)](https://ai.facebook.com/people/alon-halevy/), Meta AI
+<a href="https://ai.facebook.com/people/alon-halevy/" target="blank">Alon Halevy (keynote)</a>, Meta AI
     <details><summary>Bio</summary>
-    Alon Halevy has been a Director at Facebook AI since August 2019. He works on Affective Computing and on data management for artificial intelligence, including the combination of neural and symbolic techniques for data management. Prior to Facebook, he was the CEO of Megagon Labs (2015-2018) and led the Structured Data Research Group at Google Research (2005-2015), where they developed WebTables and Google Fusion Tables. From 1998-2005 he was a professor at the University of Washington, where he founded the database group. Before that, he was at AT&T Bell Labs (and AT&T Labs) (1993-1997). He founded two startups, Nimble Technology and Transformic Inc. (acquired by Google in 2005). He received his Ph.D in Computer Science from Stanford in 1993 and his Bachelors in Computer Science and Mathematics from the Hebrew University of Jerusalem in 1988. He has authored two books: The Infinite Emotions of Coffee (December, 2011) and Principles of Data Integration (with AnHai Doan and Zack Ives, published in 2012). He is a Fellow of the ACM and a recipient of the PECASE Award and Sloan Fellowship. He and his co-authors received VLDB 10-year Best Paper Awards for their 2008 paper on WebTables and for their 1996 paper on the Information Manifold Data Integration System.
+        Alon Halevy has been a Director at Facebook AI since August 2019. He works on Affective Computing and on data management for artificial intelligence, including the combination of neural and symbolic techniques for data management. Prior to Facebook, he was the CEO of Megagon Labs (2015-2018) and led the Structured Data Research Group at Google Research (2005-2015), where they developed WebTables and Google Fusion Tables. From 1998-2005 he was a professor at the University of Washington, where he founded the database group. Before that, he was at AT&T Bell Labs (and AT&T Labs) (1993-1997). He founded two startups, Nimble Technology and Transformic Inc. (acquired by Google in 2005). He received his Ph.D in Computer Science from Stanford in 1993 and his Bachelors in Computer Science and Mathematics from the Hebrew University of Jerusalem in 1988. He has authored two books: The Infinite Emotions of Coffee (December, 2011) and Principles of Data Integration (with AnHai Doan and Zack Ives, published in 2012). He is a Fellow of the ACM and a recipient of the PECASE Award and Sloan Fellowship. He and his co-authors received VLDB 10-year Best Paper Awards for their 2008 paper on WebTables and for their 1996 paper on the Information Manifold Data Integration System.
     </details>
-[Graham Neubig (keynote)](http://www.phontron.com/), Carnegie Mellon University
+<a href="http://www.phontron.com/" target="blank">(Graham Neubig (keynote)), Carnegie Mellon University
     <details><summary>Bio</summary>
     Graham Neubig is an associate professor at the Language Technologies Institute of Carnegie Mellon University. His research focuses on multilingual natural language processing, natural language interfaces to computers, and machine learning methods for NLP, with the final goal of every person in the world being able to communicate with each-other, and with computers in their own language. He also contributes to making NLP research more accessible through open publishing of research papers, advanced NLP course materials and video lectures, and open-source software, all of which are available on his web site.
     </details>
-[Carsten Binnig](Chttps://www.informatik.tu-darmstadt.de/datamanagement/datamanagement/index.en.jsp), TU Darmstadt
+<a href="https://www.informatik.tu-darmstadt.de/datamanagement/datamanagement/index.en.jsp" target="blank">Carsten Binnig</a>, TU Darmstadt
     <details><summary>Bio</summary>
     Carsten Binnig is a Full Professor in the Computer Science department at at TU Darmstadt and an Adjunct Associate Professor in the Computer Science department at Brown University. Carsten received his PhD at the University of Heidelberg in 2008. Afterwards, he spent time as a postdoctoral researcher in the Systems Group at ETH Zurich and at SAP working on in-memory databases. Currently, his research focus is on the design of scalable data management systems, databases and modern hardware as well as machine learning for scalable systems. His work has been awarded with a Google Faculty Award, as well as multiple best paper and best demo awards for his research.
     </details>
-[Bei Chen](https://www.microsoft.com/en-us/research/people/beichen/), Microsoft Research
+<a href="https://www.microsoft.com/en-us/research/people/beichen/" target="blank">Bei Chen</a>, Microsoft Research
     <details><summary>Bio</summary>
     Bei Chen (陈蓓) is a senior researcher at Microsoft Research Asia. She joined Microsoft in 2017 after receiving her Ph.D. degree from Department of Computer Science and Technology in Tsinghua University. Her research interests are primarily on machine learning and its applications in natural language processing and data mining, especially latent feature models, probabilistic graphical models, Bayesian nonparametrics, reinforcement learning and deep learning.
     </details>
-[Çağatay Demiralp) ](https://hci.stanford.edu/~cagatay/), Sigma Computing
+<a href="https://hci.stanford.edu/~cagatay/" target="blank">Çağatay Demiralp</a>, Sigma Computing
     <details><summary>Bio</summary>
     Çağatay is Chief Research Scientist at Sigma Computing. Previously, he was a senior research scientist at Megagon Labs, a visiting researcher with the data systems group at MIT CSAIL, and a research staff member at IBM Research. Between 2012-2014, he was a postdoctoral scholar at Stanford and member of IDL at the University of Washington. Çağatay obtained his PhD from Brown University and also co-founded Fitnescity, a startup providing easy access and data analytics for wellness lab tests.
     His current research focuses on solving problems at the intersection of Data Systems + Artificial Intelligence + Human-Computer Interaction at scale.
     </details>
-[Huan Sun](http://web.cse.ohio-state.edu/~sun.397/), Ohio State University
+<a href="http://web.cse.ohio-state.edu/~sun.397/" target="blank">Huan Sun</a>, Ohio State University
     <details><summary>Bio</summary>
     Huan Sun is an assistant professor in the Department of Computer Science
     and Engineering at the Ohio State University. She was a visiting scientist at
@@ -43,7 +43,7 @@ We are pleased to host the following speakers.
     Rising Stars (2015), the UC Regents’ Special Fellowship (2010, 2014), and
     the CS Ph.D. Progress Award (2014).
     </details>
-[Xinyun Chen](https://jungyhuk.github.io/), Google Brain
+<a href="https://jungyhuk.github.io/" target="blank">Xinyun Chen</a>, Google Brain
     <details><summary>Bio</summary>
     Xinyun Chen is a senior research scientist at Google Brain. She obtained her Ph.D. degree at UC Berkeley, working with Prof. Dawn Song. Her research lies at the intersection of deep learning, programming languages, and security. Her recent research focuses on neural program synthesis and adversarial machine learning. She received the Facebook Fellowship in 2020, and Rising Stars in Machine Learning in 2021. Her work SpreadsheetCoder for spreadsheet formula prediction was integrated into Google Sheets, and she was part of the AlphaCode team when she interned at DeepMind.
     </details>

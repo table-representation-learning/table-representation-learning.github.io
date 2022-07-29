@@ -46,6 +46,9 @@ layout: default
 - Zhiruo Wang (CMU)
 - Zhoujun Cheng (STJU)
 - Simran Arora (Stanford)
+- Qingping Yang (CAS)
+- Vadim Borisov (University of Tübingen)
+- Susie Rao (ETH Zurich)
 
 
 Please fill in the form below if you are interested and available to review for the TRL Workshop 2022:
