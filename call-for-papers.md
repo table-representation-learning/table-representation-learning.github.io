@@ -58,10 +58,8 @@ The workshop does not accept submissions that have previously been published at 
 
 [3] Deng, X., Sun, H., Lees, A., Wu, Y., & Yu, C. TURL: Table Understanding through Representation Learning. *Proceedings of the VLDB Endowment, 2021*.
 
-[4] Tang, N., Fan, J., Li, F., Tu, J., Du, X., Li, G., ... & Ouzzani, M. RPT: relational pre-trained transformer is almost all you need towards democratizing data preparation. *Proceedings of the VLDB Endowment*, 2021.
-
 [5] Wang, Z., Dong, H., Jia, R., Li, J., Fu, Z., Han, S., & Zhang, D. TUTA: tree-based transformers for generally structured table pre-training. *Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining*, 2021.
 
-[6] Ilyas, I. F., & Rekatsinas T. Machine Learning and Data Cleaning: Which Serves the Other? *Journal of Data and Information Quality*, 2021.
+[4] Tang, N., Fan, J., Li, F., Tu, J., Du, X., Li, G., Madden, S., & Ouzzani, M. RPT: relational pre-trained transformer is almost all you need towards democratizing data preparation. *Proceedings of the VLDB Endowment*, 2021.
 
-
+[6] Heidari, A., McGrath, J., Ilyas, I. F., & Rekatsinas, T. HoloDetect: Few-shot learning for error detection. *Proceedings of the 2019 International Conference on Management of Data*, 2019.
