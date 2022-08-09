@@ -18,9 +18,9 @@ Key questions that we aim to address in this workshop are:
 
 The Table Representation Learning workshop is the first workshop in this emerging research area and is centred around three main goals:
 
-1) Motivate tabular data as a primary modality for representation learning and shape the area further.
-2) Showcase impactful applications of pretrained table models and discussing future opportunities.
-3) Foster discussion and collaboration across the machine learning, natural language processing, and data management communities.
+1) **Motivate tabular data as a primary modality** for representation learning and shape the area further.
+2) **Showcase impactful applications of pretrained table models** and discussing future opportunities.
+3) **Foster discussion and collaboration** across the machine learning, natural language processing, and data management communities.
 
 
 ## Scope
@@ -45,7 +45,7 @@ We invite submissions that address, but are not limited to, any of the following
 ## Submission formats
 The workshop will accept regular research papers and industrial papers. Submissions should follow the <a href="https://neurips.cc/Conferences/2022/PaperInformation/StyleFiles" target="blank">NeurIPS style files</a> and choose the suitable category of:
 - Abstract: 1 page + references (e.g. open challenges, reflections, and thought-provoking visions).
-- Extended abstract: at most 4 pages + references.
+- Short paper: at most 4 pages + references.
 - Regular paper: at least 6 pages + references.
 
 
