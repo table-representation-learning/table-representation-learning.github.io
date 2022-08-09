@@ -56,10 +56,10 @@ layout: default
       <td style="border:none" width="25%"><a href="https://www.informatik.tu-darmstadt.de/fb20/organisation_fb20/professuren_und_gruppenleitungen/fb20professuren_und_gruppenleitungen_detailseite_21760.de.jsp" target="blank"><img src="assets/cb.jpg" width="120px" align="bottom" style="border-radius: 50%"></a></td>      
     </tr>
     <tr style="border:none" align="center">
-      <td style="border:none" bgcolor="white"><a href="https://ai.facebook.com/people/alon-halevy/" target="blank">Alon Halevy, Meta AI</a></td>
-      <td style="border:none" bgcolor="white"><a href="http://www.phontron.com/" target="blank">Graham Nuebig, Carnegie Mellon University</a></td>
-      <td style="border:none" bgcolor="white"><a href="https://jungyhuk.github.io/" target="blank">Xinyun Chen, Google Brain</a></td>
-      <td style="border:none" bgcolor="white"><a href="https://www.informatik.tu-darmstadt.de/fb20/organisation_fb20/professuren_und_gruppenleitungen/fb20professuren_und_gruppenleitungen_detailseite_21760.de.jsp" target="blank">Carsten Binnig, TU Darmstadt</a></td>
+      <td style="border:none" bgcolor="white"><a href="https://ai.facebook.com/people/alon-halevy/" target="blank">Alon Halevy<br>Meta AI</a></td>
+      <td style="border:none" bgcolor="white"><a href="http://www.phontron.com/" target="blank">Graham Nuebig<br>CMU</a></td>
+      <td style="border:none" bgcolor="white"><a href="https://jungyhuk.github.io/" target="blank">Xinyun Chen<br>Google Brain</a></td>
+      <td style="border:none" bgcolor="white"><a href="https://www.informatik.tu-darmstadt.de/fb20/organisation_fb20/professuren_und_gruppenleitungen/fb20professuren_und_gruppenleitungen_detailseite_21760.de.jsp" target="blank">Carsten Binnig<br>TU Darmstadt</a></td>
     </tr>
     <tr style="border:none" align="center">
       <td style="border:none" width="25%"><a href="http://web.cse.ohio-state.edu/~sun.397/" target="blank"><img src="assets/hs.jpg" width="120px" align="bottom" style="border-radius: 50%"></a></td>
@@ -67,9 +67,9 @@ layout: default
       <td style="border:none" width="25%"><a href="https://www.microsoft.com/en-us/research/people/beichen/" target="blank"><img src="assets/bc.jpg" width="120px" align="bottom" style="border-radius: 50%"></a></td>
     </tr>
     <tr style="border:none" align="center">
-      <td style="border:none" bgcolor="white"><a href="http://web.cse.ohio-state.edu/~sun.397/" target="blank">Huan Sun, Ohio State University</a></td>
-      <td style="border:none" bgcolor="white"><a href="https://hci.stanford.edu/~cagatay/" target="blank">Çağatay Demiralp, Sigma Computing</a></td>
-      <td style="border:none" bgcolor="white"><a href="https://www.microsoft.com/en-us/research/people/beichen/" target="blank">Bei Chen, Microsoft Research</a></td>      
+      <td style="border:none" bgcolor="white"><a href="http://web.cse.ohio-state.edu/~sun.397/" target="blank">Huan Sun<br>Ohio State University</a></td>
+      <td style="border:none" bgcolor="white"><a href="https://hci.stanford.edu/~cagatay/" target="blank">Çağatay Demiralp<br>Sigma Computing</a></td>
+      <td style="border:none" bgcolor="white"><a href="https://www.microsoft.com/en-us/research/people/beichen/" target="blank">Bei Chen<br>Microsoft Research</a></td>      
     </tr>
 </table>
 
