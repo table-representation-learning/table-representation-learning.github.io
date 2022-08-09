@@ -5,13 +5,22 @@ layout: default
 
 # Call for Papers
 
-We develop large models to “understand” images, videos and natural language that fuel many intelligent applications from text completion to self-driving cars. But tabular data has long been overlooked despite its dominant presence in data-intensive systems. By learning latent representations from (semi-)structured tabular data, pretrained table models have shown preliminary but impressive performance for semantic parsing, question answering, table understanding, and data preparation [1,2,3,4,5,6]. As these early advances reveal a huge potential for making an impact on various downstream applications, the time has come to consider tabular data as a first-class modality for representation learning and stimulate advances in this direction. The Table Representation Learning workshop is the first workshop in this emerging research area and is centred around three main goals:
+We develop large models to “understand” images, videos and natural language that fuel many intelligent applications from text completion to self-driving cars. But tabular data has long been overlooked despite its dominant presence in data-intensive systems. By learning latent representations from (semi-)structured tabular data, pretrained table models have shown preliminary but impressive performance for semantic parsing, question answering, table understanding, and data preparation [1,2,3,4,5,6]. As these early advances reveal a huge potential for making an impact on various downstream applications, the time has come to consider tabular data as a first-class modality for representation learning and stimulate advances in this direction.
 
-1) **Motivate tabular data as a first-class modality** for representation learning and further shaping this area.
+Key questions that we aim to address in this workshop are:
+- How should tabular data be encoded to make learned Table Models generalize across tasks?
+- Which pre-training objectives, architectures, fine-tuning and prompting strategies, work for tabular data?
+- How should the varying formats, data types, and sizes of tables be handled?
+- To what extend can Language Models be adapted towards tabular data tasks and what are their limits?
+- What tasks can existing Table Models accomplish well and what opportunities lie ahead?
+- How do existing Table Models perform, what do they learn, where and how do they fall short?
+- When and how should Table Models be updated in contexts where the underlying data source continuously evolves?
 
-2) **Showcase impactful applications** of pretrained table models and discussing future opportunities thereof.
+The Table Representation Learning workshop is the first workshop in this emerging research area and is centred around three main goals:
 
-3) **Foster discussion and collaboration** across the machine learning, natural language processing, and data management communities.
+1) Motivate tabular data as a primary modality for representation learning and shape the area further.
+2) Showcase impactful applications of pretrained table models and discussing future opportunities.
+3) Foster discussion and collaboration across the machine learning, natural language processing, and data management communities.
 
 
 ## Scope
@@ -35,7 +44,7 @@ We invite submissions that address, but are not limited to, any of the following
 
 ## Submission formats
 The workshop will accept regular research papers and industrial papers. Submissions should follow the <a href="https://neurips.cc/Conferences/2022/PaperInformation/StyleFiles" target="blank">NeurIPS style files</a> and choose the suitable category of:
-- Abstract: 1 page + references (open challenges, reflections, and thought-provoking visions).
+- Abstract: 1 page + references (e.g. open challenges, reflections, and thought-provoking visions).
 - Extended abstract: at most 4 pages + references.
 - Regular paper: at least 6 pages + references.
 
