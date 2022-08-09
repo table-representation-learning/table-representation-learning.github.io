@@ -6,7 +6,7 @@ layout: default
 # Program
 
 ## Speakers
-We are pleased to host the following speakers:
+<!-- We are pleased to host the following speakers:
 <a href="https://ai.facebook.com/people/alon-halevy/" target="blank">Alon Halevy (keynote)</a>, Meta AI
     <details><summary>Bio</summary>
         Alon Halevy has been a Director at Facebook AI since August 2019. He works on Affective Computing and on data management for artificial intelligence, including the combination of neural and symbolic techniques for data management. Prior to Facebook, he was the CEO of Megagon Labs (2015-2018) and led the Structured Data Research Group at Google Research (2005-2015), where they developed WebTables and Google Fusion Tables. From 1998-2005 he was a professor at the University of Washington, where he founded the database group. Before that, he was at AT&T Bell Labs (and AT&T Labs) (1993-1997). He founded two startups, Nimble Technology and Transformic Inc. (acquired by Google in 2005). He received his Ph.D in Computer Science from Stanford in 1993 and his Bachelors in Computer Science and Mathematics from the Hebrew University of Jerusalem in 1988. He has authored two books: The Infinite Emotions of Coffee (December, 2011) and Principles of Data Integration (with AnHai Doan and Zack Ives, published in 2012). He is a Fellow of the ACM and a recipient of the PECASE Award and Sloan Fellowship. He and his co-authors received VLDB 10-year Best Paper Awards for their 2008 paper on WebTables and for their 1996 paper on the Information Manifold Data Integration System.
@@ -45,7 +45,33 @@ We are pleased to host the following speakers:
 <a href="https://jungyhuk.github.io/" target="blank">Xinyun Chen</a>, Google Brain
     <details><summary>Bio</summary>
     Xinyun Chen is a senior research scientist at Google Brain. She obtained her Ph.D. degree at UC Berkeley, working with Prof. Dawn Song. Her research lies at the intersection of deep learning, programming languages, and security. Her recent research focuses on neural program synthesis and adversarial machine learning. She received the Facebook Fellowship in 2020, and Rising Stars in Machine Learning in 2021. Her work SpreadsheetCoder for spreadsheet formula prediction was integrated into Google Sheets, and she was part of the AlphaCode team when she interned at DeepMind.
-    </details>
+    </details> -->
+
+
+<table border="0" style="border:none; border-collapse:collapse; cellspacing:0; cellpadding:0" >
+    <tr style="border:none"  align="center">
+      <td style="border:none" width="25%"><a href="https://ai.facebook.com/people/alon-halevy/" target="blank"><img src="assets/ah.jpg" width="120px" align="bottom" style="border-radius: 50%"></a></td>
+      <td style="border:none" width="25%"><a href="http://www.phontron.com/" target="blank"><img src="assets/gn.jpg" width="120px" align="bottom" style="border-radius: 50%"></a></td>
+      <td style="border:none" width="25%"><a href="https://jungyhuk.github.io/" target="blank"><img src="assets/xc.jpg" width="120px" align="bottom" style="border-radius: 50%"></a></td>
+      <td style="border:none" width="25%"><a href="https://www.informatik.tu-darmstadt.de/fb20/organisation_fb20/professuren_und_gruppenleitungen/fb20professuren_und_gruppenleitungen_detailseite_21760.de.jsp" target="blank"><img src="assets/cb.jpg" width="120px" align="bottom" style="border-radius: 50%"></a></td>      
+    </tr>
+    <tr style="border:none" align="center">
+      <td style="border:none" bgcolor="white"><a href="https://ai.facebook.com/people/alon-halevy/" target="blank">Alon Halevy, Meta AI</a></td>
+      <td style="border:none" bgcolor="white"><a href="http://www.phontron.com/" target="blank">Graham Nuebig, Carnegie Mellon University</a></td>
+      <td style="border:none" bgcolor="white"><a href="https://jungyhuk.github.io/" target="blank">Xinyun Chen, Google Brain</a></td>
+      <td style="border:none" bgcolor="white"><a href="https://www.informatik.tu-darmstadt.de/fb20/organisation_fb20/professuren_und_gruppenleitungen/fb20professuren_und_gruppenleitungen_detailseite_21760.de.jsp" target="blank">Carsten Binnig, TU Darmstadt</a></td>
+    </tr>
+    <tr style="border:none" align="center">
+      <td style="border:none" width="25%"><a href="http://web.cse.ohio-state.edu/~sun.397/" target="blank"><img src="assets/hs.jpg" width="120px" align="bottom" style="border-radius: 50%"></a></td>
+      <td style="border:none" width="25%"><a href="https://hci.stanford.edu/~cagatay/" target="blank"><img src="assets/cd.jpg" width="120px" align="bottom" style="border-radius: 50%"></a></td>
+      <td style="border:none" width="25%"><a href="https://www.microsoft.com/en-us/research/people/beichen/" target="blank"><img src="assets/bc.jpg" width="120px" align="bottom" style="border-radius: 50%"></a></td>
+    </tr>
+    <tr style="border:none" align="center">
+      <td style="border:none" bgcolor="white"><a href="http://web.cse.ohio-state.edu/~sun.397/" target="blank">Huan Sun, Ohio State University</a></td>
+      <td style="border:none" bgcolor="white"><a href="https://hci.stanford.edu/~cagatay/" target="blank">Çağatay Demiralp, Sigma Computing</a></td>
+      <td style="border:none" bgcolor="white"><a href="https://www.microsoft.com/en-us/research/people/beichen/" target="blank">Bei Chen, Microsoft Research</a></td>      
+    </tr>
+</table>
 
 
 ## Panelists
@@ -56,16 +82,18 @@ To be announced soon.
 
 The below schedule is preliminary. More details will follow soon.
 
-- Opening notes
-- Keynote talk 1
-- Invited/contributed talks
-- Poster session 1
-- **Coffee break**
-- Invited/contributed talks
-- **Lunch**
-- Keynote talk 2
-- Invited/contributed talks
-- Poster session 2
-- **Coffee break**
-- Invited/contributed talks
-- Panel discussion
+| Element | Time (CST) | Info |
+|-------|--------|---------|
+| Opening notes | 9am - 9:15am |  |
+| Keynote 1 | TBA |  |
+| Invited/contributed talks | TBA |  |
+| Poster session 1 | TBA | |
+| Coffee break | 11am - 11:30am | |
+| Invited/contributed talks | TBA | |
+| Lunch | 1pm - 2pm | |
+| Keynote 2 | TBA | |
+| Invited'contributed talks | TBA | |
+| Poster session 2 | TBA | |
+| Coffee break | 4pm - 4:30pm | |
+| Invited/contributed talks | TBA | |
+| Panel discussion | 5pm - 6pm | |
