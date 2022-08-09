@@ -51,7 +51,8 @@ across the machine learning, natural language processing, and data management co
 - Workshop: <b>Friday 2 December 2022</b>
 
 
-### **Attendance support**
-
-We are currently seeking sponsorships to support attendees from underrepresented communities and geographies.
-More will follow soon.
+### **Further info**
+- [Call for Papers](https://table-representation-learning.github.io/call-for-papers.html)
+- [Program](https://table-representation-learning.github.io/program.html)
+- [Organization](https://table-representation-learning.github.io/organization.html)
+- [Attendance support](htps://table-representation-learning.github.io/attendance-support.html)
