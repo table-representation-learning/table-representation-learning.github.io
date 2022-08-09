@@ -6,8 +6,7 @@ layout: default
 # Program
 
 ## Speakers
-We are pleased to host the following speakers.
-
+We are pleased to host the following speakers:
 <a href="https://ai.facebook.com/people/alon-halevy/" target="blank">Alon Halevy (keynote)</a>, Meta AI
     <details><summary>Bio</summary>
         Alon Halevy has been a Director at Facebook AI since August 2019. He works on Affective Computing and on data management for artificial intelligence, including the combination of neural and symbolic techniques for data management. Prior to Facebook, he was the CEO of Megagon Labs (2015-2018) and led the Structured Data Research Group at Google Research (2005-2015), where they developed WebTables and Google Fusion Tables. From 1998-2005 he was a professor at the University of Washington, where he founded the database group. Before that, he was at AT&T Bell Labs (and AT&T Labs) (1993-1997). He founded two startups, Nimble Technology and Transformic Inc. (acquired by Google in 2005). He received his Ph.D in Computer Science from Stanford in 1993 and his Bachelors in Computer Science and Mathematics from the Hebrew University of Jerusalem in 1988. He has authored two books: The Infinite Emotions of Coffee (December, 2011) and Principles of Data Integration (with AnHai Doan and Zack Ives, published in 2012). He is a Fellow of the ACM and a recipient of the PECASE Award and Sloan Fellowship. He and his co-authors received VLDB 10-year Best Paper Awards for their 2008 paper on WebTables and for their 1996 paper on the Information Manifold Data Integration System.
