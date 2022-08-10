@@ -57,7 +57,7 @@ layout: default
     </tr>
     <tr style="border:none" align="center">
       <td style="border:none" bgcolor="white"><a href="https://ai.facebook.com/people/alon-halevy/" target="blank">Alon Halevy<br>Meta AI</a></td>
-      <td style="border:none" bgcolor="white"><a href="http://www.phontron.com/" target="blank">Graham Nuebig<br>CMU</a></td>
+      <td style="border:none" bgcolor="white"><a href="http://www.phontron.com/" target="blank">Graham Neubig<br>CMU</a></td>
       <td style="border:none" bgcolor="white"><a href="https://jungyhuk.github.io/" target="blank">Xinyun Chen<br>Google Brain</a></td>
       <td style="border:none" bgcolor="white"><a href="https://www.informatik.tu-darmstadt.de/fb20/organisation_fb20/professuren_und_gruppenleitungen/fb20professuren_und_gruppenleitungen_detailseite_21760.de.jsp" target="blank">Carsten Binnig<br>TU Darmstadt</a></td>
     </tr>
