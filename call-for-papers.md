@@ -20,11 +20,6 @@ learning for tabular data is an important direction to explore further. These wo
 surfaced many open challenges such as finding effective data encodings, pretraining objectives and
 downstream tasks. We believe, the time has come to consider tabular data as a first-class modality for representation learning and stimulate advances in this direction.
 
-The Table Representation Learning workshop is the first workshop in this emerging research area and has the following main goals: 1) motivating tabular data as a first-class modality for representation
-learning and further shaping this area, 2) show-casing impactful applications of pretrained table
-models and discussing future opportunities thereof, and 3) facilitating discussion and collaboration
-across the machine learning, natural language processing, and data management communities.
-
 Key questions that we aim to address in this workshop are:
 - How should tabular data be encoded to make learned Table Models generalize across tasks?
 - Which pre-training objectives, architectures, fine-tuning and prompting strategies, work for tabular data?
