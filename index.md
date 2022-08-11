@@ -63,4 +63,4 @@ The Table Representation Learning workshop is the first workshop in this emergin
 - [Call for Papers](https://table-representation-learning.github.io/call-for-papers.html)
 - [Program](https://table-representation-learning.github.io/program.html)
 - [Organization](https://table-representation-learning.github.io/organization.html)
-- [Awards](htps://table-representation-learning.github.io/awards.html)
+- [Awards](https://table-representation-learning.github.io/awards.html)
