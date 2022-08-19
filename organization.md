@@ -51,6 +51,11 @@ layout: default
 - Vadim Borisov (University of Tübingen)
 - Susie Rao (ETH Zurich)
 - Till Döhmen (University of Amsterdam)
+- Alexandra Savelieva (Microsoft, UC Berkeley)
+- Henry Gouk (University of Edinburgh)
+- Linyong Yan (Yale)
+- Qian Liu (Sea AI Lab)
+- Shuo Zhang (Bloomberg L.P.)
 
 
 Please fill in the form below if you are interested and available to review for the TRL Workshop 2022:
