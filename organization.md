@@ -56,6 +56,8 @@ layout: default
 - Linyong Yan (Yale)
 - Qian Liu (Sea AI Lab)
 - Shuo Zhang (Bloomberg L.P.)
+- Surabhi Bhargava (Adobe)
+- José Pablo Cambronero (MIT)
 
 
 Please fill in the form below if you are interested and available to review for the TRL Workshop 2022:
