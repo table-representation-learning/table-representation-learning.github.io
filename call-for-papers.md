@@ -55,16 +55,16 @@ We invite submissions that address, but are not limited to, any of the following
 - Workshop: 2 December 2022
 
 
-## Submission formats
-The workshop will accept regular research papers and industrial papers. Submissions should follow the <a href="https://neurips.cc/Conferences/2022/PaperInformation/StyleFiles" target="blank">NeurIPS style files</a> and choose the suitable category of:
-- Abstract: 1 page + references (e.g. open challenges, reflections, and thought-provoking visions).
+## Submissions
+We ask authors to avoid any non-inclusive writing and encourage a diverse writing style. The "Diversity and Inclusion in Writing" guide provided by the <a href="https://dbdni.github.io/pages/inclusivewriting.html" target="blank">Diversity and Inclusion in Database Conferences effort</a> is a good resource. The workshop will accept regular research papers and industrial papers. Submissions should follow the <a href="https://neurips.cc/Conferences/2022/PaperInformation/StyleFiles" target="blank">NeurIPS style files</a> and choose one of the following submission types:
+- Abstract: 1 page + references.
 - Short paper: at most 4 pages + references.
 - Regular paper: at least 6 pages + references.
 
 
-## Submission and review process
+## Review process
 
-The submission should be uploaded through the <a href="https://openreview.net/group?id=NeurIPS.cc/2022/Workshop/TRL" target="blank">TRL Workshop page on OpenReview</a>. Papers will be reviewed in a single-anonymous manner. Reviewers will recommend submissions for oral or poster presentations. Accepted papers will be published on the website but the workshop is non-archival.
+The submission should be uploaded through the <a href="https://openreview.net/group?id=NeurIPS.cc/2022/Workshop/TRL" target="blank">TRL Workshop page on OpenReview</a>. Papers will be reviewed in a single-anonymous manner. Reviewers will recommend submissions for oral or poster presentations. Accepted papers will be published on the website but the workshop is non-archival. Accepted submissions and their reviews are also published on OpenReview after the notification date.
 
 
 ## Novelty and conflicts
