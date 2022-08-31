@@ -58,7 +58,7 @@ layout: default
 - Shuo Zhang (Bloomberg L.P.)
 - Surabhi Bhargava (Adobe)
 - José Pablo Cambronero (MIT)
-- Kavitha Srinivas (MIT)
+- Kavitha Srinivas (IBM)
 
 
 Please fill in the form below if you are interested and available to review for the TRL Workshop 2022:
