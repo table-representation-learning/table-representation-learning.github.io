@@ -81,16 +81,17 @@ The below schedule is preliminary. More details will follow soon.
 
 | Element | Time (CST) | Info |
 |-------|--------|---------|
-| Opening notes | 9am - 9:15am |  |
-| Keynote 1 | TBA |  |
+| Opening notes | 8:45am - 9:00am |  |
+| Keynote 1 | 9:00am - 9:45am |  |
 | Invited/contributed talks | TBA |  |
 | Poster session 1 | TBA | |
-| Coffee break | 11am - 11:30am | |
+| Coffee break | 11am - 11:15am | |
 | Invited/contributed talks | TBA | |
-| Lunch | 1pm - 2pm | |
-| Keynote 2 | TBA | |
-| Invited'contributed talks | TBA | |
+| Lunch | 1:00pm - 2:00pm | |
+| Keynote 2 | 2:00pm - 2:45pm | |
+| Invited/contributed talks | TBA | |
 | Poster session 2 | TBA | |
-| Coffee break | 4pm - 4:30pm | |
+| Coffee break | 4:00pm - 4:15pm | |
 | Invited/contributed talks | TBA | |
-| Panel discussion | 5pm - 6pm | |
+| Panel discussion | 5:15pm - 6:00pm | |
+| Closing notes | 6:00pm - 6:15pm | |
