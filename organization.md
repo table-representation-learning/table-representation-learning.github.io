@@ -59,6 +59,7 @@ layout: default
 - Surabhi Bhargava (Adobe)
 - José Pablo Cambronero (MIT)
 - Kavitha Srinivas (IBM)
+- Hiroshi Iida (Sony Corporation)
 
 
 Please fill in the form below if you are interested and available to review for the TRL Workshop 2022:
