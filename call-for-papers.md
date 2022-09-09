@@ -64,12 +64,12 @@ We encourage authors to adopt an inclusive and diverse writing style. The "Diver
 
 ## Review process
 
-The submission should be uploaded through the <a href="https://openreview.net/group?id=NeurIPS.cc/2022/Workshop/TRL" target="blank">TRL Workshop page on OpenReview</a>. Papers will be reviewed in a single-anonymous manner. Reviewers will recommend submissions for oral or poster presentations. Accepted papers will be published on the website but the workshop is non-archival. Accepted submissions and their reviews are also published on OpenReview after the notification date.
+The submission should be uploaded through the <a href="https://openreview.net/group?id=NeurIPS.cc/2022/Workshop/TRL" target="blank">TRL Workshop page on OpenReview</a>. Papers will be reviewed in a single-anonymous manner. Reviewers will recommend submissions for oral or poster presentations. For poster presentations, we provide the option to submit a "YouTube short" recording that we will publish on our website and YouTube channel. Accepted papers will be published on the website but the workshop is non-archival. Accepted submissions and their reviews are also published on OpenReview after the notification date.
 
 
 ## Novelty and conflicts
 
-The workshop does not accept submissions that have previously been published at NeurIPS or other machine learning venues. However, we do welcome submissions that have been published in, for example, data management venues. We rely on OpenReview for handling conflicts. To that end, we ask authors to ensure that the conflicts in their OpenReview is complete with particular respect to the organization and program committees.
+The workshop does not accept submissions that have previously been published at NeurIPS or other machine learning venues. However, we do welcome submissions that have been published in, for example, data management venues. We rely on OpenReview for handling conflicts. To that end, we ask authors to ensure that the conflicts in their OpenReview profile is complete with particular respect to the organization and program committees.
 
 
 ## References
