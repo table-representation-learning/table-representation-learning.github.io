@@ -69,7 +69,7 @@ The submission should be uploaded through the <a href="https://openreview.net/gr
 
 ## Novelty and conflicts
 
-The workshop does not accept submissions that have previously been published at NeurIPS or other machine learning venues. However, we do welcome submissions that have been published in, for example, data management venues. Authors of submitted work will be asked to mark (domain) conflicts of interest with the workshop organizers and the program committee, and reviewing will be handled accordingly.
+The workshop does not accept submissions that have previously been published at NeurIPS or other machine learning venues. However, we do welcome submissions that have been published in, for example, data management venues. We rely on OpenReview for handling conflicts. To that end, we ask authors to ensure that the conflicts in their OpenReview is complete with particular respect to the organization and program committees.
 
 
 ## References
