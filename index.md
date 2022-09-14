@@ -7,12 +7,17 @@ layout: default
 <h1><b>Table Representation Learning workshop</b></h1>
 <h2>NeurIPS 2022, Friday 2 December, New Orleans, USA</h2>
 <div>
-{% if site.minima.social_links.email -%}
-<a class="u-email" href="mailto:{{ site.minima.social_links.email }}">{{ site.minima.social_links.email }}</a>
-{%- endif %}
+<div>
+<a href="https://groups.google.com/g/table-representation-learning-workshop" target="blank">FAQ</a>
 </div>
+{% if site.minima.social_links.email -%}
+<div>
+<a class="u-email" href="mailto:{{ site.minima.social_links.email }}">{{ site.minima.social_links.email }}</a>
+</div>
+{%- endif %}
 <div class="social-links">
     {%- include social.html -%}
+</div>
 </div>
 </div>
 
@@ -58,9 +63,18 @@ The Table Representation Learning workshop is the first workshop in this emergin
     </tr>
 </table>
 
-
 ## **Further info**
 - [Call for Papers](https://table-representation-learning.github.io/call-for-papers.html)
 - [Program](https://table-representation-learning.github.io/program.html)
 - [Organization](https://table-representation-learning.github.io/organization.html)
 - [Awards](https://table-representation-learning.github.io/awards.html)
+
+
+<!-- ## **Sponsors**
+We are grateful to the sponsors for supporting this workshop:
+
+<a href="https://ibm.com" target="blank"><img src="assets/ibm-logo-small.svg" height="100"/></a>
+<a href="https://google.com" target="blank"><img src="assets/google-logo.png" height="100"/></a>
+<a href="https://relational.ai" target="blank"><img src="assets/relationalai-logo.png" height="100"/></a>
+<br>
+<br> -->
