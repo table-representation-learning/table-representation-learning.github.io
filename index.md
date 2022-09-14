@@ -34,7 +34,7 @@ The Table Representation Learning workshop is the first workshop in this emergin
 
 
 ## **Important dates**
-- Submission deadline: <b>20 September 2022</b>
+- Submission deadline: <s>20 September 2022</s><b>23 September 2022</b>
 - Notifications: 20 October 2022
 - Camera-ready, slides and recording upload: 3 November 2022
 - Workshop: <b>Friday 2 December 2022</b>
@@ -70,11 +70,11 @@ The Table Representation Learning workshop is the first workshop in this emergin
 - [Awards](https://table-representation-learning.github.io/awards.html)
 
 
-<!-- ## **Sponsors**
+## **Sponsors**
 We are grateful to the sponsors for supporting this workshop:
 
 <a href="https://ibm.com" target="blank"><img src="assets/ibm-logo-small.svg" height="100"/></a>
 <a href="https://google.com" target="blank"><img src="assets/google-logo.png" height="100"/></a>
 <a href="https://relational.ai" target="blank"><img src="assets/relationalai-logo.png" height="100"/></a>
 <br>
-<br> -->
+<br>

@@ -5,13 +5,21 @@ layout: default
 
 # Awards
 
-We currently seek sponsorships to award the best contribution and support talented researchers for their travel to the workshop.
-Please reach out if you are interested in becoming a sponsor of the TRL workshop 2022.
+## Best paper award
+
+To motivate and reward excellent research contributions within the scope of the workshop, we will hand out an award for the best paper.
 
 ## Travel awards
 
-We will financially support attendance of young talented researchers that are eager to attend the TRL workshop at NeurIPS 2022 in New Orleans but have limited access to financial resources. More information and the application form will follow soon.
+We are pleased to financially support attendance of young talented researchers that are eager to attend the TRL workshop at NeurIPS 2022 in New Orleans but have limited access to financial resources and belong to historically marginalized groups (see the form for more details).
 
-## Best paper award
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSexmHcGx8XU7Ilas_MpLV4QF5rWLw5LIWLMnlXZCn-VhEpEoQ/viewform?embedded=true" width="640" height="560"></iframe>.
 
-To motivate and reward excellent research contributions within the scope of the workshop, we will hand out a best paper award funded by one of our sponsors. More information follows soon.
+# Sponsors
+We are grateful to the sponsors who make these awards possible:
+
+<a href="https://ibm.com" target="blank"><img src="assets/ibm-logo-small.svg" height="100"/></a>
+<a href="https://google.com" target="blank"><img src="assets/google-logo.png" height="100"/></a>
+<a href="https://relational.ai" target="blank"><img src="assets/relationalai-logo.png" height="100"/></a>
+<br>
+<br>
