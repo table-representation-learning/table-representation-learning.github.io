@@ -74,7 +74,11 @@ The Table Representation Learning workshop is the first workshop in this emergin
 We are grateful to the sponsors for supporting this workshop:
 
 <a href="https://ibm.com" target="blank"><img src="assets/ibm-logo-small.svg" height="100"/></a>
+<br>
+<br>
 <a href="https://google.com" target="blank"><img src="assets/google-logo.png" height="100"/></a>
-<a href="https://relational.ai" target="blank"><img src="assets/relationalai-logo.png" height="100"/></a>
+<br>
+<br>
+<a href="https://relational.ai" target="blank"><img src="assets/rai-logo.svg" height="70"/></a>
 <br>
 <br>
