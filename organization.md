@@ -3,8 +3,10 @@ title: Organization
 layout: default
 ---
 
-# Organizing Committee
+# Organization
 
+
+## Organizing Committee
 
 <table border="0" style="border:none; border-collapse:collapse; cellspacing:0; cellpadding:0" >
     <tr style="border:none"  align="left">
@@ -29,7 +31,7 @@ layout: default
 </table>
 
 
-# Program Committee
+## Program Committee
 
 - Paul Groth (University of Amsterdam)
 - Sebastian Schelter (University of Amsterdam)
