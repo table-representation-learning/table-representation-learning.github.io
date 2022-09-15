@@ -60,6 +60,7 @@ We encourage authors to adopt an inclusive and diverse writing style. The "Diver
 - Abstract: 1 page + references.
 - Short paper: at most 4 pages + references.
 - Regular paper: at least 6 pages + references.
+
 Supplementary material, if any, may be added in the main submission.
 
 ## Review process
