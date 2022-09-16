@@ -62,6 +62,7 @@ layout: default
 - José Pablo Cambronero (Microsoft)
 - Kavitha Srinivas (IBM)
 - Hiroshi Iida (Sony Corporation)
+- Juan Sequeda (data.world)
 
 
 Please fill in the form below if you are interested and available to review for the TRL Workshop 2022:
