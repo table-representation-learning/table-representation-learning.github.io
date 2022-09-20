@@ -11,7 +11,7 @@ To motivate and reward excellent research contributions within the scope of the 
 
 ## Travel awards
 
-We are pleased to financially support attendance of young talented researchers that are eager to attend the TRL workshop at NeurIPS 2022 in New Orleans but have limited access to financial resources and belong to historically marginalized groups (see the form for more details).
+We are pleased to financially support attendance of young talented researchers that are eager to attend the TRL workshop at NeurIPS 2022 in New Orleans but have limited access to financial resources and/or belong to historically marginalized groups. Applications are due 10 October 2022.
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSexmHcGx8XU7Ilas_MpLV4QF5rWLw5LIWLMnlXZCn-VhEpEoQ/viewform?embedded=true" width="640" height="560"></iframe>.
 
