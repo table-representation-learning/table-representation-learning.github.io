@@ -59,7 +59,7 @@ We invite submissions that address, but are not limited to, any of the following
 The workshop will accept regular research papers and industrial papers. Submissions should follow the <a href="https://neurips.cc/Conferences/2022/PaperInformation/StyleFiles" target="blank">NeurIPS style files</a>, but can exclude the checklist. Supplementary material, if any, may be added in the main submission. The footer should state "Table Representation Learning Workshop at NeurIPS 2022". Authors may choose one of the following submission types:
 - Abstract: 1 page + references.
 - Short paper: at most 4 pages + references.
-- Regular paper: at least 6 pages + references.
+- Regular paper: at least 6 pages and at most 10 pages + references.
 
 We encourage authors to adopt an inclusive and diverse writing style. The "Diversity and Inclusion in Writing" guide provided by the <a href="https://dbdni.github.io/pages/inclusivewriting.html" target="blank">Diversity and Inclusion in Database Conferences effort</a> is a good resource. 
 
