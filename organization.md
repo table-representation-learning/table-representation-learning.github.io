@@ -62,7 +62,6 @@ layout: default
 - José Pablo Cambronero (Microsoft)
 - Kavitha Srinivas (IBM)
 - Hiroshi Iida (Sony Corporation)
-- Juan Sequeda (data.world)
 - Andreas Kipf (Amazon)
 - Paolo Papotti (EURECOM)
 - Peng Shi (University of Waterloo)
