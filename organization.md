@@ -68,6 +68,7 @@ layout: default
 - Peng Shi (University of Waterloo)
 - Wenhu Chen (University of Waterloo)
 - Tianji Cong (University of Michigan)
+- Xinyun Chen (Google Brain)
 
 <!-- Please fill in the form below if you are interested and available to review for the TRL Workshop 2022:
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSehwvK6eJHT0y9XTpN0yusAR5sRFoBipfBdQChH2Xkh6dYdnA/viewform?embedded=true" width="640" height="760"></iframe>. -->
