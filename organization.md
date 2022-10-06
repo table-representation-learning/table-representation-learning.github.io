@@ -53,7 +53,6 @@ layout: default
 - Vadim Borisov (University of Tübingen)
 - Susie Rao (ETH Zurich)
 - Till Döhmen (University of Amsterdam)
-- Alexandra Savelieva (Microsoft, UC Berkeley)
 - Henry Gouk (University of Edinburgh)
 - Linyong Yan (Yale)
 - Qian Liu (Sea AI Lab)
@@ -62,7 +61,6 @@ layout: default
 - José Pablo Cambronero (Microsoft)
 - Kavitha Srinivas (IBM)
 - Hiroshi Iida (Sony Corporation)
-- Andreas Kipf (Amazon)
 - Paolo Papotti (EURECOM)
 - Peng Shi (University of Waterloo)
 - Wenhu Chen (University of Waterloo)
@@ -70,6 +68,7 @@ layout: default
 - Xinyun Chen (Google Brain)
 - Wensheng Dou (University of the Chinese Academy of Sciences)
 - Shi Han (Microsoft)
+- Yi Zhang (University of Pennsylvania)
 
 <!-- Please fill in the form below if you are interested and available to review for the TRL Workshop 2022:
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSehwvK6eJHT0y9XTpN0yusAR5sRFoBipfBdQChH2Xkh6dYdnA/viewform?embedded=true" width="640" height="760"></iframe>. -->

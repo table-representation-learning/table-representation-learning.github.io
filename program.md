@@ -79,19 +79,19 @@ To be announced soon.
 
 The below schedule is preliminary. More details will follow soon.
 
-| Element | Time (CST) | Info |
-|-------|--------|---------|
-| Opening notes | 8:45am - 9:00am |  |
-| Keynote 1 | 9:00am - 9:45am |  |
-| Invited/contributed talks | TBA |  |
-| Poster session 1 | TBA | |
-| Coffee break | 11am - 11:15am | |
-| Invited/contributed talks | TBA | |
-| Lunch | 1:00pm - 2:00pm | |
-| Keynote 2 | 2:00pm - 2:45pm | |
-| Invited/contributed talks | TBA | |
-| Poster session 2 | TBA | |
-| Coffee break | 4:00pm - 4:15pm | |
-| Invited/contributed talks | TBA | |
-| Panel discussion | 5:15pm - 6:00pm | |
-| Closing notes | 6:00pm - 6:15pm | |
+| Element | Time (CST) | Title | Speaker(s) | Info |
+|-------|--------|---------|---------|---------|
+| Opening | 8:30am - 8:45am | | | |
+| Keynote 1 | 8:45am - 9:30am | Structured Data inside and out | Alon Halevy | |
+| Invited/contributed talks | TBA | | | |
+| Coffee break | 10:15am - 10:30am | | | |
+| Poster session 1 | 10:30am - 11:00am | | | |
+| Invited/contributed talks | TBA | | | |
+| Lunch | 12:00am - 1:00pm | |  | |
+| Keynote 2 | 1:00pm - 1:45pm | Unsupervised methods for Table and Schema Understanding| Graham Neubig | |
+| Invited/contributed talks | TBA | | | |
+| Coffee break | 3:15pm - 3:30pm | | | |
+| Poster session 2 | 3:30pm - 4:00pm | | | | 
+| Invited/contributed talks | TBA | | | |
+| Panel discussion | 4:45pm - 5:30pm | |  | |
+| Closing | 5:30pm - 5:45pm | | | |
