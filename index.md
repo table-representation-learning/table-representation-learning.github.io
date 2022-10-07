@@ -79,6 +79,6 @@ We are grateful to the sponsors for supporting this workshop:
 <a href="https://google.com" target="blank"><img src="assets/google-logo.png" height="100"/></a>
 <br>
 <br>
-<a href="https://relational.ai" target="blank"><img src="assets/rai-logo.svg" height="70"/></a>
+<a href="https://relational.ai" target="blank"><img src="assets/rai-logo.svg" height="80"/></a>
 <br>
 <br>
