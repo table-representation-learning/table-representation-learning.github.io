@@ -3,5 +3,9 @@
 ---
 
 $content-width: 55%;
+@import "{{ site.theme }}";
+.site-title {font-size: 100px;}
+.site-header {border: none; font-size: 25px;}
+.site-footer {display: none;}
 
 @import "minima";
