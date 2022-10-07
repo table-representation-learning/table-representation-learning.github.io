@@ -33,42 +33,54 @@ layout: default
 
 ## Program Committee
 
-- Paul Groth (University of Amsterdam)
-- Sebastian Schelter (University of Amsterdam)
-- Çağatay Demiralp (Sigma Computing)
-- Vraj Shah (IBM)
-- Vasilis Efthymiou (FORTH-ICS/University of Crete)
-- Benjamin Hilprecht (TU Darmstadt)
-- Matteo Interlandi (Microsoft)
-- Cedrig Renggli (University of Zurich)
-- Merve Gurel (ETH Zurich)
-- Beliz Gunel (Stanford)
-- Mengyu Zhou (Microsoft)
-- Yan Gao (Microsoft)
-- Bei Chen (Microsoft)
-- Zhiruo Wang (CMU)
-- Zhoujun Cheng (STJU)
-- Simran Arora (Stanford)
-- Qingping Yang (CAS)
-- Vadim Borisov (University of Tübingen)
-- Susie Rao (ETH Zurich)
-- Till Döhmen (University of Amsterdam)
-- Henry Gouk (University of Edinburgh)
-- Linyong Yan (Yale)
-- Qian Liu (Sea AI Lab)
-- Shuo Zhang (Bloomberg L.P.)
-- Surabhi Bhargava (Adobe)
-- José Pablo Cambronero (Microsoft)
-- Kavitha Srinivas (IBM)
-- Hiroshi Iida (Sony Corporation)
-- Paolo Papotti (EURECOM)
-- Peng Shi (University of Waterloo)
-- Wenhu Chen (University of Waterloo)
-- Tianji Cong (University of Michigan)
-- Xinyun Chen (Google Brain)
-- Wensheng Dou (University of the Chinese Academy of Sciences)
-- Shi Han (Microsoft)
-- Yi Zhang (University of Pennsylvania)
+<table border="0" style="border:none; border-collapse:collapse; cellspacing:0; cellpadding:0">
+ <tr style="border:none"  align="left">
+    <td style="border:none">
+    <ul>
+      <li> Paul Groth (University of Amsterdam)</li>
+      <li> Sebastian Schelter (University of Amsterdam)</li>
+      <li> Çağatay Demiralp (Sigma Computing)</li>
+      <li> Vraj Shah (IBM)</li>
+      <li> Vasilis Efthymiou (FORTH-ICS/University of Crete)</li>
+      <li> Benjamin Hilprecht (TU Darmstadt)</li>
+      <li> Matteo Interlandi (Microsoft)</li>
+      <li> Cedrig Renggli (University of Zurich)</li>
+      <li> Merve Gurel (ETH Zurich)</li>
+      <li> Beliz Gunel (Stanford)</li>
+      <li> Mengyu Zhou (Microsoft)</li>
+      <li> Yan Gao (Microsoft)</li>
+      <li> Bei Chen (Microsoft)</li>
+      <li> Zhiruo Wang (CMU)</li>
+      <li> Zhoujun Cheng (STJU)</li>
+      <li> Simran Arora (Stanford)</li>
+      <li> Qingping Yang (CAS)</li>
+      <li> Vadim Borisov (University of Tübingen)</li>
+    </ul>  
+    </td>
+    <td style="border:none">
+      <ul>
+      <li> Susie Rao (ETH Zurich)</li>
+      <li> Till Döhmen (University of Amsterdam)</li>
+      <li> Henry Gouk (University of Edinburgh)</li>
+      <li> Linyong Yan (Yale)</li>
+      <li> Qian Liu (Sea AI Lab)</li>
+      <li> Shuo Zhang (Bloomberg L.P.)</li>
+      <li> Surabhi Bhargava (Adobe)</li>
+      <li> José Pablo Cambronero (Microsoft)</li>
+      <li> Kavitha Srinivas (IBM)</li>
+      <li> Hiroshi Iida (Sony Corporation)</li>
+      <li> Paolo Papotti (EURECOM)</li>
+      <li> Peng Shi (University of Waterloo)</li>
+      <li> Wenhu Chen (University of Waterloo)</li>
+      <li> Tianji Cong (University of Michigan)</li>
+      <li> Xinyun Chen (Google Brain)</li>
+      <li> Wensheng Dou (University of the Chinese Academy of Sciences)</li>
+      <li> Shi Han (Microsoft)</li>
+      <li> Yi Zhang (University of Pennsylvania)</li>
+      </ul>
+    </td>
+ </tr>
+</table>
 
 <!-- Please fill in the form below if you are interested and available to review for the TRL Workshop 2022:
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSehwvK6eJHT0y9XTpN0yusAR5sRFoBipfBdQChH2Xkh6dYdnA/viewform?embedded=true" width="640" height="760"></iframe>. -->

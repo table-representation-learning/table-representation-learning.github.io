@@ -79,19 +79,24 @@ To be announced soon.
 
 The below schedule is preliminary. More details will follow soon.
 
-| Element | Time (CST) | Title | Speaker(s) | Info |
-|-------|--------|---------|---------|---------|
-| Opening | 8:30am - 8:45am | | | |
-| Keynote 1 | 8:45am - 9:30am | Structured Data inside and out | Alon Halevy | |
-| Invited/contributed talks | TBA | | | |
-| Coffee break | 10:15am - 10:30am | | | |
-| Poster session 1 | 10:30am - 11:00am | | | |
-| Invited/contributed talks | TBA | | | |
-| Lunch | 12:00am - 1:00pm | |  | |
-| Keynote 2 | 1:00pm - 1:45pm | Unsupervised methods for Table and Schema Understanding| Graham Neubig | |
-| Invited/contributed talks | TBA | | | |
-| Coffee break | 3:15pm - 3:30pm | | | |
-| Poster session 2 | 3:30pm - 4:00pm | | | | 
-| Invited/contributed talks | TBA | | | |
-| Panel discussion | 4:45pm - 5:30pm | |  | |
-| Closing | 5:30pm - 5:45pm | | | |
+| Time | Component | Speaker | Title |
+| --- | --- | --- | --- |
+| 8:30-8:45 | Opening notes |  |  |
+| 8:45-9:30 | Keynote 1 | Alon Halevy | Structured Data Inside and Out |
+| 9:30-9:45 | Contributed talk |  |  |
+| 10:45-10:15 | Invited talk | Huan Sun | Self-supervised Pre-training on Tabular Data |
+| 10:15:10:30 | Break |  |  |
+| 10:30-11:15 | Poster session 1 |  |  |
+| 11:15-11:30 | Contributed talk |  |  |
+| 11:30-11:45 | Invited talk | Carsten Binnig |  |
+| 11:45-12:15 | Contributed talk |  |  |
+| 12:15-13:15 | Lunch |  |  |
+| 13:15-14:00 | Keynote 2 | Graham Neubig | Unsupervised Methods for Table and Schema Understanding |
+| 14:00-14:15 | Contributed talk |  |  |
+| 14:15-14:45 | Invited talk | Xinyun Chen | Program Synthesis from Semi-Structured Context |
+| 14:45-15:00 | Contributed talk |  |  |
+| 15:00-15:30 | Break |  |  |
+| 15:30-16:00 | Poster session 2 |  |  |
+| 16:00-16:30 | Invited talk | Cagatay Demiralp | |
+| 16:30-17:15 | Panel | TBA|  |
+| 17:15-17:30 | Closing notes |  |  |
