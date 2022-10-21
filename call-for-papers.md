@@ -51,8 +51,8 @@ We invite submissions that address, but are not limited to, any of the following
 - Submission open: <s>20 August 2022</s>
 - Submission deadline: <s>20 September 2022</s> <s><b>26 September 2022 15:00 GMT</b></s>
 - Notifications: <s>20 October 2022</s>
-- SlidesLive pre-recording talk upload (contributed and invited talks): 10 November 2022
-- "YouTube shorts" 60s. recording (optional for posters; will be published on the website): 15 November 2022
+- SlidesLive pre-recording talk upload (contributed and invited talks): 3 November 2022
+- Poster pitch (60s; optional for posters; will be published on the website): 15 November 2022
 - Camera-ready paper (OpenReview): 15 November 2022
 - Workshop: 2 December 2022
 
