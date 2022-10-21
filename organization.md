@@ -72,7 +72,7 @@ layout: default
       <li> Paolo Papotti (EURECOM)</li>
       <li> Peng Shi (University of Waterloo)</li>
       <li> Wenhu Chen (University of Waterloo)</li>
-      <li> Tianji Cong (University of Michigan)</li>
+      <li> Tianji Cong (University of Michigan, Sigma Computing)</li>
       <li> Xinyun Chen (Google Brain)</li>
       <li> Wensheng Dou (University of the Chinese Academy of Sciences)</li>
       <li> Shi Han (Microsoft)</li>
