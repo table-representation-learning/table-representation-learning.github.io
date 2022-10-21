@@ -5,7 +5,7 @@ layout: default
 
 # Program
 
-The workshop is hosted physically in New Orleans. Authors of accepted papers are expected to present their work in-person in New Orleans. Attendees can join the program virtually as the sessions will be live-streamed.
+The workshop will be hosted physically in New Orleans. Authors of accepted papers are expected to present their work in-person. While we welcome all other attendees to join us in New Orleans as well, it is also possible to attend the program virtually as the sessions will be live-streamed.
 
 ## Speakers
 <!-- We are pleased to host the following speakers:
