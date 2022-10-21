@@ -34,10 +34,13 @@ The Table Representation Learning workshop is the first workshop in this emergin
 
 
 ## **Important dates**
-- Submission deadline: <s>20 September 2022</s> <b>26 September 2022 15:00 GMT</b>
-- Notifications: 20 October 2022
-- Camera-ready, slides and recording upload: 3 November 2022
-- Workshop: <b>Friday 2 December 2022</b>
+- Submission open: <s>20 August 2022</s>
+- Submission deadline: <s>20 September 2022</s> <s><b>26 September 2022 15:00 GMT</b></s>
+- Notifications: <s>20 October 2022</s>
+- SlidesLive pre-recording talk upload (contributed and invited talks): 10 November 2022
+- "YouTube shorts" 60s. recording (optional for posters; will be published on the website): 15 November 2022
+- Camera-ready paper (OpenReview): 15 November 2022
+- Workshop: 2 December 2022
 
 
 ## **Speakers**
