@@ -5,6 +5,8 @@ layout: default
 
 # Program
 
+The workshop is hosted physically in New Orleans. Authors of accepted papers are expected to present their work in-person in New Orleans. Attendees can join the program virtually as the sessions will be live-streamed.
+
 ## Speakers
 <!-- We are pleased to host the following speakers:
 <a href="https://ai.facebook.com/people/alon-halevy/" target="blank">Alon Halevy (keynote)</a>, Meta AI

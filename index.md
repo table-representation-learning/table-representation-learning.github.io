@@ -5,7 +5,7 @@ layout: default
 
 <div align="center">
 <h1><b>Table Representation Learning workshop</b></h1>
-<h2>NeurIPS 2022, Friday 2 December, New Orleans, USA</h2>
+<h2>NeurIPS 2022, Friday 2 December, <b>New Orleans, USA</b></h2>
 <div>
 <div>
 <a href="https://groups.google.com/g/table-representation-learning-workshop" target="blank">FAQ</a>

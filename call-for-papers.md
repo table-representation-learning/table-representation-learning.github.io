@@ -57,13 +57,18 @@ We invite submissions that address, but are not limited to, any of the following
 - Workshop: 2 December 2022
 
 
-## Submissions
-The workshop will accept regular research papers and industrial papers. Submissions should follow the <a href="https://neurips.cc/Conferences/2022/PaperInformation/StyleFiles" target="blank">NeurIPS style files</a>, but can exclude the checklist. Supplementary material, if any, may be added in the main submission. The footer should state "Table Representation Learning Workshop at NeurIPS 2022". Authors may choose one of the following submission types:
+## Submissions and camera-ready versions
+The workshop will accept regular research papers and industrial papers. Submissions should follow the <a href="https://neurips.cc/Conferences/2022/PaperInformation/StyleFiles" target="blank">NeurIPS style files</a>, but can exclude the checklist. Supplementary material, if any, may be added in the main submission. <b>The footer should state "Table Representation Learning Workshop at NeurIPS 2022"</b>. Authors may choose one of the following submission types:
 - Abstract: 1 page + references.
 - Short paper: at most 4 pages + references.
-- Regular paper: at least 6 pages and at most 10 pages + references.
+- Regular paper: at least 6 pages and <b>at most 10 pages</b> + references.
 
-We encourage authors to adopt an inclusive and diverse writing style. The "Diversity and Inclusion in Writing" guide provided by the <a href="https://dbdni.github.io/pages/inclusivewriting.html" target="blank">Diversity and Inclusion in Database Conferences effort</a> is a good resource. 
+We encourage authors to adopt an inclusive and diverse writing style. The "Diversity and Inclusion in Writing" guide provided by the <a href="https://dbdni.github.io/pages/inclusivewriting.html" target="blank">Diversity and Inclusion in Database Conferences effort</a> is a good resource.
+
+All accepted papers, also those accepted as oral talk, are asked to present their work as posters during one of the poster sessions. Workshop posters should be printed on thin paper, not laminated and no larger than <b>24 inches wide x 36 inches high.</b> We will assign posters to sessions later. Authors of submissions accepted as posters are welcome to send us a recording of a 2min pitch (preferably .mp4), that will be linked on the website of the workshop.
+
+Contributed oral talks will be asked to upload a pre-recording of their talk (12 min.). SlidesLive will reach out with instructions for the upload of the recording. The live talk including Q&A may take no longer than 15 minutes during the workshop.
+
 
 ## Review process
 

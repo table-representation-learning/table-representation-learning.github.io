@@ -15,7 +15,7 @@ We are pleased to financially support attendance of young talented researchers t
 
 Please use this form to apply for the travel award: <a href="https://forms.gle/QAJZXCLe6AdCVCho8">https://forms.gle/QAJZXCLe6AdCVCho8</a>.
 
-Application due: 15 October 2022.
+Application due: <s>15 October 2022.</s>
 Notification: 30 October 2022.
 
 <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSexmHcGx8XU7Ilas_MpLV4QF5rWLw5LIWLMnlXZCn-VhEpEoQ/viewform?embedded=true" width="640" height="560"></iframe>. -->
