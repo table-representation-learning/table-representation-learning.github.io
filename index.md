@@ -43,6 +43,14 @@ The Table Representation Learning workshop is the first workshop in this emergin
 - Workshop: 2 December 2022
 
 
+## **Further info**]
+- [Program](https://table-representation-learning.github.io/program.html)
+- [Accepted Papers](https://table-representation-learning.github.io/accepted-papers.html)
+- [Organization](https://table-representation-learning.github.io/organization.html)
+- [Awards](https://table-representation-learning.github.io/awards.html)
+- [Call for Papers](https://table-representation-learning.github.io/call-for-papers.html)
+
+
 ## **Speakers**
 <table border="0" style="border:none; padding:0, border-collapse:collapse; cellspacing:0; cellpadding:0" >
     <tr style="border:none"  align="left">
@@ -65,12 +73,6 @@ The Table Representation Learning workshop is the first workshop in this emergin
       <td style="border:none" bgcolor="white"><a href="https://hci.stanford.edu/~cagatay/" target="blank">Çağatay Demiralp<br>Sigma Computing</a></td>   
     </tr>
 </table>
-
-## **Further info**
-- [Call for Papers](https://table-representation-learning.github.io/call-for-papers.html)
-- [Program](https://table-representation-learning.github.io/program.html)
-- [Organization](https://table-representation-learning.github.io/organization.html)
-- [Awards](https://table-representation-learning.github.io/awards.html)
 
 
 ## **Sponsors**
