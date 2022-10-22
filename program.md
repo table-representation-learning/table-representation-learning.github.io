@@ -99,6 +99,6 @@ The below schedule is preliminary. More details will follow soon.
 | 14:45-15:00 | Contributed talk |  |  |
 | 15:00-15:30 | Break |  |  |
 | 15:30-16:00 | Poster session 2 |  |  |
-| 16:00-16:30 | Invited talk | Cagatay Demiralp | |
+| 16:00-16:30 | Invited talk | Cagatay Demiralp | Representation Learning for Cloud Data Analytics Systems |
 | 16:30-17:15 | Panel | TBA|  |
 | 17:15-17:30 | Closing notes |  |  |
