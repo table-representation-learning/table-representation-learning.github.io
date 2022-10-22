@@ -72,7 +72,7 @@ Contributed oral talks will be asked to upload a pre-recording of their talk (12
 
 ## Review process
 
-The submission should be uploaded through the <a href="https://openreview.net/group?id=NeurIPS.cc/2022/Workshop/TRL" target="blank">TRL Workshop page on OpenReview</a>. Papers will be reviewed in a single-anonymous manner. Reviewers will recommend submissions for oral or poster presentations. For poster presentations, we provide the option to submit a "YouTube short" (60-second pitch) recording that will be published on the website and YouTube channel of the workshop. All accepted submissions will be published on the website but the workshop is non-archival. The papers and reviews are also published on OpenReview after the notification date.
+The submission should be uploaded through the <a href="https://openreview.net/group?id=NeurIPS.cc/2022/Workshop/TRL" target="blank">TRL Workshop page on OpenReview</a>. Papers will be reviewed in a single-anonymous manner. All accepted submissions will be published on the website but the workshop is non-archival. The papers and reviews are also published on OpenReview after the notification date.
 
 
 ## Novelty and conflicts
