@@ -83,9 +83,9 @@ The below schedule is preliminary. More details will follow soon.
 
 | Time | Component | Speaker | Title |
 | --- | --- | --- | --- |
-| 8:30-8:45 | Opening notes |  |  |
-| 8:45-9:30 | Keynote 1 | Alon Halevy | Structured Data Inside and Out |
-| 9:30-9:45 | Contributed talk |  |  |
+| 08:30-08:45 | Opening notes |  |  |
+| 08:45-09:30 | Keynote 1 | Alon Halevy | Structured Data Inside and Out |
+| 09:30-09:45 | Contributed talk |  |  |
 | 10:45-10:15 | Invited talk | Huan Sun | Self-supervised Pre-training on Tabular Data |
 | 10:15:10:30 | Break |  |  |
 | 10:30-11:15 | Poster session 1 |  |  |
