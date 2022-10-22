@@ -35,11 +35,11 @@ theme: minima
 
 header_pages:
   - index.md
-  - call-for-papers.md
   - program.md
   - accepted-papers.md
   - organization.md
   - awards.md
+  - call-for-papers.md
 
 # Google Analytics
 google_analytics: "G-TNBXJN1Y5L"
