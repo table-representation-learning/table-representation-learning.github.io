@@ -23,12 +23,8 @@ Notification: 30 October 2022.
 # Sponsors
 We are grateful to the sponsors who make these awards possible:
 
-<a href="https://ibm.com" target="blank"><img src="assets/ibm-logo-small.svg" height="100"/></a>
-<br>
-<br>
-<a href="https://google.com" target="blank"><img src="assets/google-logo.png" height="100"/></a>
-<br>
-<br>
-<a href="https://relational.ai" target="blank"><img src="assets/rai-logo.svg" height="80"/></a>
+<a href="https://ibm.com" target="blank"><img src="assets/ibm-logo-small.svg" height="70"/></a>&emsp;&emsp;
+<a href="https://google.com" target="blank"><img src="assets/google-logo.png" height="80"/></a>&emsp;&emsp;
+<a href="https://relational.ai" target="blank"><img src="assets/rai-logo.svg" height="60"/></a>
 <br>
 <br>
