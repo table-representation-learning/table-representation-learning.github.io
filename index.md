@@ -43,7 +43,7 @@ The Table Representation Learning workshop is the first workshop in this emergin
 - Workshop: 2 December 2022
 
 
-## **Further info**]
+## **Further info**
 - [Program](https://table-representation-learning.github.io/program.html)
 - [Accepted Papers](https://table-representation-learning.github.io/accepted-papers.html)
 - [Organization](https://table-representation-learning.github.io/organization.html)
