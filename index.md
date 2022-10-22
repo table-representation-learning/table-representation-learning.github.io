@@ -50,7 +50,7 @@ The Table Representation Learning workshop is the first workshop in this emergin
 - [Awards](https://table-representation-learning.github.io/awards.html)
 - [Call for Papers](https://table-representation-learning.github.io/call-for-papers.html)
 
-
+<!-- 
 ## **Speakers**
 <table border="0" style="border:none; padding:0, border-collapse:collapse; cellspacing:0; cellpadding:0" >
     <tr style="border:none"  align="left">
@@ -72,7 +72,7 @@ The Table Representation Learning workshop is the first workshop in this emergin
       <td style="border:none" bgcolor="white"><a href="http://web.cse.ohio-state.edu/~sun.397/" target="blank">Huan Sun<br>Ohio State University</a></td>
       <td style="border:none" bgcolor="white"><a href="https://hci.stanford.edu/~cagatay/" target="blank">Çağatay Demiralp<br>Sigma Computing</a></td>   
     </tr>
-</table>
+</table> -->
 
 
 ## **Sponsors**
