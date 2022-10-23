@@ -8,7 +8,7 @@ layout: default
 
 ## Organizing Committee
 
-<table border="0" style="border:none; border-collapse:collapse; cellspacing:0; cellpadding:0" >
+<table border="0" style="border:none; border-collapse:collapse; width: 70%;  cellspacing:0; cellpadding:0" >
     <tr style="border:none"  align="left">
       <td style="border:none" width="33%"><a href="https://madelonhulsebos.github.io/" target="blank"><img src="assets/mh.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>
       <td style="border:none" width="33%"><a href="https://www.microsoft.com/en-us/research/people/hadong" target="blank"><img src="assets/hd.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>

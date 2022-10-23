@@ -50,7 +50,7 @@ The workshop will be hosted physically in New Orleans. Authors of accepted paper
     </details> -->
 
 
-<table border="0" style="border:none; border-collapse:collapse; cellspacing:0; cellpadding:0" >
+<table border="0" style="border:none; border-collapse:collapse; width: 70%; cellspacing:0; cellpadding:0" >
     <tr style="border:none"  align="left">
       <td style="border:none" width="33%"><a href="https://ai.facebook.com/people/alon-halevy/" target="blank"><img src="assets/ah.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>
       <td style="border:none" width="33%"><a href="http://www.phontron.com/" target="blank"><img src="assets/gn.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>
