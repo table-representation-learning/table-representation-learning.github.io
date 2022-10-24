@@ -90,8 +90,8 @@ The below schedule is preliminary. More details will follow soon.
 | 10:15:10:30 | Break |  |  |
 | 10:30-11:15 | Poster session 1 |  |  |
 | 11:15-11:30 | Contributed talk |  |  |
-| 11:30-11:45 | Invited talk | Carsten Binnig |  |
-| 11:45-12:15 | Contributed talk |  |  |
+| 11:30-12:00 | Invited talk | Carsten Binnig | Pre-trained Models for Learned DBMS Components |
+| 12:00-12:15 | Contributed talk |  |  |
 | 12:15-13:15 | Lunch |  |  |
 | 13:15-14:00 | Keynote 2 | Graham Neubig | Unsupervised Methods for Table and Schema Understanding |
 | 14:00-14:15 | Contributed talk |  |  |
