@@ -86,19 +86,19 @@ The below schedule is preliminary. More details will follow soon.
 | 08:30-08:45 | Opening notes |  |  |
 | 08:45-09:30 | Keynote 1 | Alon Halevy | Structured Data Inside and Out |
 | 09:30-09:45 | Contributed talk |  |  |
-| 10:45-10:15 | Invited talk | Huan Sun | Self-supervised Pre-training on Tabular Data |
+| 09:45-10:15 | Invited talk | Huan Sun | Self-supervised Pre-training on Tabular Data |
 | 10:15:10:30 | Break |  |  |
 | 10:30-11:15 | Poster session 1 |  |  |
-| 11:15-11:30 | Contributed talk |  |  |
-| 11:30-12:00 | Invited talk | Carsten Binnig | Pre-trained Models for Learned DBMS Components |
+| 11:15-11:45 | Invited talk | Carsten Binnig | Pre-trained Models for Learned DBMS Components |
+| 11:45-12:00 | Contributed talk |  |  |
 | 12:00-12:15 | Contributed talk |  |  |
-| 12:15-13:15 | Lunch |  |  |
-| 13:15-14:00 | Keynote 2 | Graham Neubig | Unsupervised Methods for Table and Schema Understanding |
-| 14:00-14:15 | Contributed talk |  |  |
-| 14:15-14:45 | Invited talk | Xinyun Chen | Program Synthesis from Semi-Structured Context |
-| 14:45-15:00 | Contributed talk |  |  |
-| 15:00-15:30 | Break |  |  |
+| 12:15-13:30 | Lunch |  |  |
+| 13:30-14:15 | Keynote 2 | Graham Neubig | Unsupervised Methods for Table and Schema Understanding |
+| 14:15-14:30 | Contributed talk |  |  |
+| 14:30-15:00 | Invited talk | Cagatay Demiralp | Representation Learning for Cloud Data Analytics Systems |
+| 15:00-15:15 | Contributed talk |  |  |
+| 15:15-15:30 | Break |  |  |
 | 15:30-16:00 | Poster session 2 |  |  |
-| 16:00-16:30 | Invited talk | Cagatay Demiralp | Representation Learning for Cloud Data Analytics Systems |
-| 16:30-17:15 | Panel | TBA|  |
-| 17:15-17:30 | Closing notes |  |  |
+| 16:00-16:30 | Invited talk | Xinyun Chen | Program Synthesis from Semi-Structured Context |
+| 16:30-17:30 | Panel | TBA|  |
+| 17:30-17:45 | Closing notes |  |  |
