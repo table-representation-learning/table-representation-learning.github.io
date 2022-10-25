@@ -40,6 +40,7 @@ The Table Representation Learning workshop is the first workshop in this emergin
 - SlidesLive pre-recording talk upload (contributed and invited talks): 10 November 2022
 - Poster pitch recording (2min; for submissions accepted as posters; will be published on the website): 15 November 2022
 - Camera-ready paper (OpenReview): 15 November 2022
+- Poster submission: 15 November 2022
 - Workshop: 2 December 2022
 
 
