@@ -51,7 +51,7 @@ We invite submissions that address, but are not limited to, any of the following
 - Submission open: <s>20 August 2022</s>
 - Submission deadline: <s>20 September 2022</s> <s><b>26 September 2022 15:00 GMT</b></s>
 - Notifications: <s>20 October 2022</s>
-- SlidesLive pre-recording talk upload (contributed and invited talks): 3 November 2022
+- SlidesLive pre-recording talk upload (contributed and invited talks): 10 November 2022
 - Poster pitch recording (2min; for submissions accepted as posters; will be published on the website): 15 November 2022
 - Camera-ready paper (OpenReview): 15 November 2022
 - Workshop: 2 December 2022
@@ -65,7 +65,7 @@ The workshop will accept regular research papers and industrial papers. Submissi
 
 We encourage authors to adopt an inclusive and diverse writing style. The "Diversity and Inclusion in Writing" guide provided by the <a href="https://dbdni.github.io/pages/inclusivewriting.html" target="blank">Diversity and Inclusion in Database Conferences effort</a> is a good resource.
 
-All accepted papers, also those accepted as oral talk, are asked to present their work as posters during one of the poster sessions. Workshop posters should be printed on thin paper, not laminated and no larger than 24 inches wide x 36 inches high. Authors of submissions accepted as posters are also welcome to send us a recording of a 2min pitch (preferably .mp4), that will be linked on the website and YouTube channel of the workshop. Instructions for printing the poster in New Orleans can be found <a href="https://neurips.cc/FAQ/PrintPostersOnsite" target="blank">here</a>. Posters will be assigned to one of the two sessions later.
+All accepted papers, also those accepted as oral talk, are asked to present their work as posters during one of the poster sessions. Workshop posters should be printed on thin paper, not laminated and no larger than 24 inches wide x 36 inches high. Authors of submissions accepted as posters are also welcome to send us a recording of a 2min pitch (preferably .mp4), that will be linked on the website and YouTube channel of the workshop. Instructions for printing the poster in New Orleans can be found <a href="https://neurips.cc/FAQ/PrintPostersOnsite" target="blank">here</a> (deadline is 31 October!). Posters will be assigned to one of the two sessions later.
 
 Contributed oral talks will be asked to upload a pre-recording of their talk (12 min.). SlidesLive will reach out with instructions for the upload of the recording. The live talk including Q&A may take no longer than 15 minutes during the workshop.
 
