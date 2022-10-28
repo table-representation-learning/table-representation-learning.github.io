@@ -84,9 +84,9 @@ The workshop will be hosted physically in New Orleans. Authors of accepted paper
     </tr>
     <tr style="border:none" align="left">
       <td style="border:none" bgcolor="white"><a href="https://ml.informatik.uni-freiburg.de/profile/hutter/" target="blank">Frank Hutter<br>University of Freiburg</a></td>
-      <td style="border:none" bgcolor="white"><a href="https://eisenjulian.github.io/" target="blank">Julian Eisenschlos<br>Google Research</a></td>
       <td style="border:none" bgcolor="white"><a href="http://blender.cs.illinois.edu/hengji.html" target="blank">Heng Ji<br>University of Illinois</a></td>
       <td style="border:none" bgcolor="white"><a href="http://www.phontron.com/" target="blank">Graham Neubig<br>CMU</a></td>
+      <td style="border:none" bgcolor="white"><a href="https://eisenjulian.github.io/" target="blank">Julian Eisenschlos<br>Google Research</a></td>
     </tr>
 </table>
 
