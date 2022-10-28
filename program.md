@@ -78,9 +78,9 @@ The workshop will be hosted physically in New Orleans. Authors of accepted paper
 <table border="0" style="border:none; border-collapse:collapse; width: 100%; cellspacing:0; cellpadding:0" >
     <tr style="border:none"  align="left">
       <td style="border:none" width="25%"><a href="https://ml.informatik.uni-freiburg.de/profile/hutter/" target="blank"><img src="assets/fh.png" width="150px" align="bottom" style="border-radius: 50%"></a></td>
-      <td style="border:none" width="25%"><a href="https://eisenjulian.github.io/" target="blank"><img src="assets/je.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>
       <td style="border:none" width="25%"><a href="http://blender.cs.illinois.edu/hengji.html" target="blank"><img src="assets/hj.png" width="150px" height="150px" align="bottom" style="border-radius: 50%"></a></td>
       <td style="border:none" width="25%"><a href="http://www.phontron.com/" target="blank"><img src="assets/gn.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>
+    <td style="border:none" width="25%"><a href="https://eisenjulian.github.io/" target="blank"><img src="assets/je.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>
     </tr>
     <tr style="border:none" align="left">
       <td style="border:none" bgcolor="white"><a href="https://ml.informatik.uni-freiburg.de/profile/hutter/" target="blank">Frank Hutter<br>University of Freiburg</a></td>
