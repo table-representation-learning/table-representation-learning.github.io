@@ -54,7 +54,7 @@ We invite submissions that address, but are not limited to, any of the following
 - Talk pre-recording upload for submissions accepted as oral (SlidesLive): 10 November 2022
 - Slides for submissions accepted as oral (OpenReview): 15 November 2022
 - Poster pitch recording for submissions accepted as posters (optional; 2min .mp4; to be published on website; email to m.hulsebos@uva.nl): 15 November 2022
-- Poster submission (neurips.cc): 15 November 2022
+- Poster submission (<a href="https://neurips.cc/PosterUpload">neurips.cc</a>): 15 November 2022
 - Camera-ready paper (OpenReview): 15 November 2022
 - Workshop: 2 December 2022
 
