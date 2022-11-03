@@ -37,10 +37,11 @@ The Table Representation Learning workshop is the first workshop in this emergin
 - Submission open: <s>20 August 2022</s>
 - Submission deadline: <s>20 September 2022</s> <s><b>26 September 2022 15:00 GMT</b></s>
 - Notifications: <s>20 October 2022</s>
-- SlidesLive pre-recording talk upload (contributed and invited talks): 10 November 2022
-- Poster pitch recording (2min; for submissions accepted as posters; will be published on the website): 15 November 2022
+- Talk pre-recording upload for submissions accepted as oral (SlidesLive): 10 November 2022
+- Slides for submissions accepted as oral (OpenReview): 15 November 2022
+- Poster pitch recording for submissions accepted as posters (optional; 2min .mp4; to be published on website; email to m.hulsebos@uva.nl): 15 November 2022
+- Poster submission (neurips.cc): 15 November 2022
 - Camera-ready paper (OpenReview): 15 November 2022
-- Poster submission: 15 November 2022
 - Workshop: 2 December 2022
 
 
