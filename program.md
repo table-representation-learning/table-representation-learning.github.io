@@ -117,5 +117,5 @@ The below schedule is preliminary. More details will follow soon.
 | 15:15-15:30 | Break |  |  |
 | 15:30-16:00 | Poster session 2 |  |  |
 | 16:00-16:30 | Invited talk | Cagatay Demiralp | Representation Learning for Cloud Data Analytics Systems |
-| 16:30-17:30 | Panel | Frank Hutter, Heng Ji, Sebastian Raschka, Julian Eisenschlos, Graham Neubig  |  |
+| 16:30-17:30 | Panel | Frank Hutter, Heng Ji, Julian Eisenschlos, Sebastian Raschka, Graham Neubig  |  |
 | 17:30-17:45 | Closing notes |  |  |
