@@ -77,15 +77,17 @@ The workshop will be hosted physically in New Orleans. We are are pleased to hos
 
 <table border="0" style="border:none; border-collapse:collapse; width: 100%; cellspacing:0; cellpadding:0" >
     <tr style="border:none"  align="left">
-      <td style="border:none" width="25%"><a href="https://ml.informatik.uni-freiburg.de/profile/hutter/" target="blank"><img src="assets/fh.png" width="150px" align="bottom" style="border-radius: 50%"></a></td>
-      <td style="border:none" width="25%"><a href="http://blender.cs.illinois.edu/hengji.html" target="blank"><img src="assets/hj.png" width="150px" height="150px" align="bottom" style="border-radius: 50%"></a></td>
-    <td style="border:none" width="25%"><a href="https://eisenjulian.github.io/" target="blank"><img src="assets/je.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>
-    <td style="border:none" width="25%"><a href="http://www.phontron.com/" target="blank"><img src="assets/gn.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>
+      <td style="border:none" width="20%"><a href="https://ml.informatik.uni-freiburg.de/profile/hutter/" target="blank"><img src="assets/fh.png" width="150px" align="bottom" style="border-radius: 50%"></a></td>
+      <td style="border:none" width="20%"><a href="http://blender.cs.illinois.edu/hengji.html" target="blank"><img src="assets/hj.png" width="150px" height="150px" align="bottom" style="border-radius: 50%"></a></td>
+    <td style="border:none" width="20%"><a href="https://eisenjulian.github.io/" target="blank"><img src="assets/je.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>
+    <td style="border:none" width="20%"><a href="https://sebastianraschka.com/" target="blank"><img src="assets/sr.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>
+    <td style="border:none" width="20%"><a href="http://www.phontron.com/" target="blank"><img src="assets/gn.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>
     </tr>
     <tr style="border:none" align="left">
       <td style="border:none" bgcolor="white"><a href="https://ml.informatik.uni-freiburg.de/profile/hutter/" target="blank">Frank Hutter<br>University of Freiburg</a></td>
       <td style="border:none" bgcolor="white"><a href="http://blender.cs.illinois.edu/hengji.html" target="blank">Heng Ji<br>University of Illinois</a></td>
       <td style="border:none" bgcolor="white"><a href="https://eisenjulian.github.io/" target="blank">Julian Eisenschlos<br>Google Research</a></td>
+      <td style="border:none" bgcolor="white"><a href="https://sebastianraschka.com/" target="blank">Sebastian Raschka<br>UW-Madison / Lightning AI</a></td>      
       <td style="border:none" bgcolor="white"><a href="http://www.phontron.com/" target="blank">Graham Neubig<br>CMU</a></td>
     </tr>
 </table>
@@ -115,5 +117,5 @@ The below schedule is preliminary. More details will follow soon.
 | 15:15-15:30 | Break |  |  |
 | 15:30-16:00 | Poster session 2 |  |  |
 | 16:00-16:30 | Invited talk | Cagatay Demiralp | Representation Learning for Cloud Data Analytics Systems |
-| 16:30-17:30 | Panel | Frank Hutter, Heng Ji, Graham Neubig, Julian Eisenschlos |  |
+| 16:30-17:30 | Panel | Frank Hutter, Heng Ji, Sebastian Raschka, Julian Eisenschlos, Graham Neubig  |  |
 | 17:30-17:45 | Closing notes |  |  |
