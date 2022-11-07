@@ -5,7 +5,7 @@ layout: default
 
 # Program
 
-The workshop will be hosted physically in New Orleans. We are are pleased to host all speakers in-person, and authors of accepted papers are expected to present their work in-person as well. While we welcome all other attendees to join us in New Orleans physically, it is also possible to attend the program virtually as the sessions will be live-streamed.
+The workshop will be hosted physically in New Orleans. We are are pleased to host all speakers in-person, and authors of accepted papers will present their work in-person as well in a talk or during the poster sessions. While we welcome all other attendees to join us in New Orleans physically, it is also possible to attend the program virtually as the sessions will be live-streamed!
 
 ## Speakers
 <!-- We are pleased to host the following speakers:
@@ -73,7 +73,7 @@ The workshop will be hosted physically in New Orleans. We are are pleased to hos
 </table>
 
 
-## Panelists (TBC)
+## Panelists
 
 <table border="0" style="border:none; border-collapse:collapse; width: 100%; cellspacing:0; cellpadding:0" >
     <tr style="border:none"  align="left">
