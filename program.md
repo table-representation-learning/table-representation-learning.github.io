@@ -112,10 +112,10 @@ The below schedule is preliminary. More details will follow soon.
 | 12:15-13:30 | Lunch |  |  |
 | 13:30-14:15 | Keynote 2 | Graham Neubig | Unsupervised Methods for Table and Schema Understanding |
 | 14:15-14:30 | Contributed talk | David Vos | Towards Parameter-Efficient Automation of Data Wrangling Tasks with Prefix-Tuning |
-| 14:30-15:00 | Invited talk | Xinyun Chen | Program Synthesis from Semi-Structured Context |
+| 14:30-15:00 | Invited talk | Cagatay Demiralp | Representation Learning for Cloud Data Analytics Systems |
 | 15:00-15:15 | Contributed talk |  | TabPFN: A Transformer That Solves Small Tabular Classification Problems in a Second |
 | 15:15-15:30 | Break |  |  |
 | 15:30-16:00 | Poster session 2 |  |  |
-| 16:00-16:30 | Invited talk | Cagatay Demiralp | Representation Learning for Cloud Data Analytics Systems |
+| 16:00-16:30 | Invited talk | Xinyun Chen | Program Synthesis from Semi-Structured Context |
 | 16:30-17:30 | Panel | Frank Hutter, Heng Ji, Julian Eisenschlos, Sebastian Raschka, Graham Neubig  |  |
 | 17:30-17:45 | Closing notes |  |  |
