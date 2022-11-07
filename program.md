@@ -97,7 +97,7 @@ The workshop will be hosted physically in New Orleans. We are are pleased to hos
 The below schedule is preliminary. More details will follow soon.
 
 | Time | Component | Speaker | Title |
-| --- | --- | --- | --- |
+| --- | ---- | --- | ---- |
 | 08:30-08:45 | Opening notes |  |  |
 | 08:45-09:30 | Keynote 1 | Alon Halevy | Structured Data Inside and Out |
 | 09:30-09:45 | Contributed talk |  | STable: Table Generation Framework for Encoder-Decoder Models |
