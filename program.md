@@ -109,7 +109,7 @@ The below schedule is preliminary. More details will follow soon.
 | 12:00-12:15 | Contributed talk |  | Transfer Learning with Deep Tabular Models |
 | 12:15-13:30 | Lunch |  |  |
 | 13:30-14:15 | Keynote 2 | Graham Neubig | Unsupervised Methods for Table and Schema Understanding |
-| 14:15-14:30 | Contributed talk | David Vos | Towards Parameter-Efficient Automation of Data Wrangling Tasks with Prefix-Tuning
+| 14:15-14:30 | Contributed talk | David Vos | Towards Parameter-Efficient Automation of Data Wrangling Tasks with Prefix-Tuning |
 | 14:30-15:00 | Invited talk | Xinyun Chen | Program Synthesis from Semi-Structured Context |
 | 15:00-15:15 | Contributed talk |  | TabPFN: A Transformer That Solves Small Tabular Classification Problems in a Second |
 | 15:15-15:30 | Break |  |  |
