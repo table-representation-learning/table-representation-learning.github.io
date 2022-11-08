@@ -8,23 +8,19 @@ layout: default
 
 ## Organizing Committee
 
-<table border="0" style="border:none; border-collapse:collapse; width: 70%;  cellspacing:0; cellpadding:0" >
+<table border="0" style="border:none; border-collapse:collapse; width: 100%;  cellspacing:0; cellpadding:0" >
     <tr style="border:none"  align="left">
-      <td style="border:none" width="33%"><a href="https://madelonhulsebos.github.io/" target="blank"><img src="assets/mh.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>
-      <td style="border:none" width="33%"><a href="https://www.microsoft.com/en-us/research/people/hadong" target="blank"><img src="assets/hd.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>
-      <td style="border:none" width="33%"><a href="https://bojan.ninja/" target="blank"><img src="assets/bk.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>
+      <td style="border:none" width="20%"><a href="https://madelonhulsebos.github.io/" target="blank"><img src="assets/mh.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>
+      <td style="border:none" width="20%"><a href="https://www.microsoft.com/en-us/research/people/hadong" target="blank"><img src="assets/hd.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>
+      <td style="border:none" width="20%"><a href="https://bojan.ninja/" target="blank"><img src="assets/bk.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>
+      <td style="border:none" width="20%"><a href="https://cs.stanford.edu/people/lorr1" target="blank"><img src="assets/lo.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>
+      <td style="border:none" width="20%"><a href="https://pcyin.me/" target="blank"><img src="assets/py.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>
     </tr>
     <tr style="border:none" align="left">
       <td style="border:none" bgcolor="white">
       <a href="https://madelonhulsebos.github.io/" target="blank">Madelon Hulsebos<br>University of Amsterdam / Sigma Computing</a></td>
       <td style="border:none" bgcolor="white"><a href="https://www.microsoft.com/en-us/research/people/hadong" target="blank">Haoyu Dong<br>Microsoft Research Asia</a></td>
       <td style="border:none" bgcolor="white"><a href="https://bojan.ninja/" target="blank">Bojan Karlas<br>ETH Zurich</a></td>
-    </tr>
-    <tr style="border:none" align="left">
-      <td style="border:none" width="33%"><a href="https://cs.stanford.edu/people/lorr1" target="blank"><img src="assets/lo.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>
-      <td style="border:none" width="33%"><a href="https://pcyin.me/" target="blank"><img src="assets/py.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>
-    </tr>
-    <tr style="border:none" align="left">
       <td style="border:none" bgcolor="white"><a href="https://cs.stanford.edu/people/lorr1" target="blank">Laurel Orr<br>Stanford</a></td>
       <td style="border:none" bgcolor="white"><a href="https://pcyin.me/" target="blank">Pengcheng Yin<br>Google Research</a></td>
     </tr>
