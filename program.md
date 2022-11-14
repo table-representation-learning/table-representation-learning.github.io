@@ -116,5 +116,5 @@ The below schedule is preliminary. More details will follow soon.
 | 15:15-15:30 | **Break** |  |  |
 | 15:30-16:00 | Poster session 2 |  |  |
 | 16:00-16:30 | Invited talk | Xinyun Chen | Program Synthesis from Semi-Structured Context |
-| 16:30-17:30 | Panel | Frank Hutter, Julian Eisenschlos, Heng Ji, <br> Sebastian Raschka, Graham Neubig  |  |
+| 16:30-17:30 | Panel | Huan Sun (chair), Frank Hutter, Julian Eisenschlos, <br>  Heng Ji, Sebastian Raschka, Graham Neubig  |  |
 | 17:30-17:45 | Closing notes |  |  |
