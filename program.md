@@ -101,12 +101,12 @@ The below schedule is preliminary. More details will follow soon.
 | ---- | --------- | ------- | ----- |
 | 08:30-08:45 | Opening notes |  |  |
 | 08:45-09:30 | Keynote 1 | Alon Halevy | Structured Data Inside and Out |
-| 09:30-09:45 | Contributed talk | Michał Pietruszka | STable: Table Generation Framework for <br> Encoder-Decoder Models |
+| 09:30-09:45 | Contributed talk | Aneta Koleva | Analysis of the Attention in Tabular Language Models |
 | 09:45-10:15 | Invited talk | Huan Sun | Self-supervised Pre-training on Tabular Data |
 | 10:15:10:30 | **Break** |  |  |
 | 10:30-11:15 | Poster session 1 |  |  |
 | 11:15-11:45 | Invited talk | Carsten Binnig | Pre-trained Models for Learned DBMS Components |
-| 11:45-12:00 | Contributed talk | Aneta Koleva | Analysis of the Attention in Tabular Language Models |
+| 11:45-12:00 | Contributed talk | Michał Pietruszka | STable: Table Generation Framework for <br> Encoder-Decoder Models |
 | 12:00-12:15 | Contributed talk | Roman Levin | Transfer Learning with Deep Tabular Models |
 | 12:15-13:30 | **Lunch** |  |  |
 | 13:30-14:15 | Keynote 2 | Graham Neubig | Unsupervised Methods for Table and Schema Understanding |
