@@ -57,7 +57,7 @@ The workshop will be hosted physically in New Orleans. We are are pleased to hos
       <td style="border:none" width="16%"><a href="https://jungyhuk.github.io/" target="blank"><img src="assets/xc.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>   
       <td style="border:none" width="16%"><a href="https://www.informatik.tu-darmstadt.de/fb20/organisation_fb20/professuren_und_gruppenleitungen/fb20professuren_und_gruppenleitungen_detailseite_21760.de.jsp" target="blank"><img src="assets/cb.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>   
       <td style="border:none" width="16%"><a href="http://web.cse.ohio-state.edu/~sun.397/" target="blank"><img src="assets/hs.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>
-      <td style="border:none" width="16%"><a href="https://hci.stanford.edu/~cagatay/" target="blank"><img src="assets/cd.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>
+      <!-- <td style="border:none" width="16%"><a href="https://hci.stanford.edu/~cagatay/" target="blank"><img src="assets/cd.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td> -->
     </tr>
     <tr style="border:none" align="left">
       <td style="border:none" bgcolor="white"><a href="https://ai.facebook.com/people/alon-halevy/" target="blank">Alon Halevy<br>Meta AI</a></td>
@@ -65,7 +65,7 @@ The workshop will be hosted physically in New Orleans. We are are pleased to hos
       <td style="border:none" bgcolor="white"><a href="https://jungyhuk.github.io/" target="blank">Xinyun Chen<br>Google Brain</a></td>
       <td style="border:none" bgcolor="white"><a href="https://www.informatik.tu-darmstadt.de/fb20/organisation_fb20/professuren_und_gruppenleitungen/fb20professuren_und_gruppenleitungen_detailseite_21760.de.jsp" target="blank">Carsten Binnig<br>TU Darmstadt</a></td>
       <td style="border:none" bgcolor="white"><a href="http://web.cse.ohio-state.edu/~sun.397/" target="blank">Huan Sun<br>Ohio State University</a></td>
-      <td style="border:none" bgcolor="white"><a href="https://hci.stanford.edu/~cagatay/" target="blank">Çağatay Demiralp<br>Sigma Computing</a></td>   
+      <!-- <td style="border:none" bgcolor="white"><a href="https://hci.stanford.edu/~cagatay/" target="blank">Çağatay Demiralp<br>Sigma Computing</a></td>    -->
     </tr>
 </table>
 
