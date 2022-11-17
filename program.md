@@ -76,7 +76,7 @@ The workshop will be hosted physically in New Orleans. We are are pleased to hos
     <tr style="border:none"  align="left">
       <td style="border:none" width="16%"><a href="http://web.cse.ohio-state.edu/~sun.397/" target="blank"><img src="assets/hs.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>
       <td style="border:none" width="16%"><a href="https://ml.informatik.uni-freiburg.de/profile/hutter/" target="blank"><img src="assets/fh.png" width="150px" align="bottom" style="border-radius: 50%"></a></td>
-      <td style="border:none" width="16%"><a href="http://blender.cs.illinois.edu/hengji.html" target="blank"><img src="assets/hj.png" width="150px" height="150px" align="bottom" style="border-radius: 50%"></a></td>
+      <td style="border:none" width="16%"><a href="http://blender.cs.illinois.edu/hengji.html" target="blank"><img src="assets/hj.png" width="150px" align="bottom" style="border-radius: 50%"></a></td>
     <td style="border:none" width="16%"><a href="https://eisenjulian.github.io/" target="blank"><img src="assets/je.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>
     <td style="border:none" width="16%"><a href="https://sebastianraschka.com/" target="blank"><img src="assets/sr.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>
     <td style="border:none" width="16%"><a href="http://www.phontron.com/" target="blank"><img src="assets/gn.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>
@@ -113,8 +113,8 @@ The below schedule is preliminary. More details will follow soon.
 | 14:15-14:30 | Contributed talk | David Vos | Towards Parameter-Efficient Automation of Data <br> Wrangling Tasks with Prefix-Tuning |
 | 14:30-14:45 | Contributed talk | TBA | TBA |
 | 14:45-15:00 | Contributed talk | Noah Hollmann | TabPFN: A Transformer That Solves Small Tabular <br> Classification Problems in a Second |
-| 15:15-15:30 | **Break** |  |  |
-| 15:30-16:00 | Poster session 2 |  |  |
+| 15:00-15:15 | **Break** |  |  |
+| 15:15-16:00 | Poster session 2 |  |  |
 | 16:00-16:30 | Invited talk | Xinyun Chen | Program Synthesis from Semi-Structured Context |
 | 16:30-17:30 | Panel | Huan Sun (chair), Frank Hutter, Julian Eisenschlos, <br>  Heng Ji, Sebastian Raschka, Graham Neubig  |  |
 | 17:30-17:45 | Closing notes |  |  |
