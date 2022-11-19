@@ -101,18 +101,18 @@ The below schedule is preliminary. More details will follow soon.
 | ---- | --------- | ------- | ----- |
 | 08:30-08:45 | Opening notes |  |  |
 | 08:45-09:30 | Keynote 1 | Alon Halevy | Structured Data Inside and Out |
-| 09:30-09:45 | Contributed talk | Aneta Koleva | Analysis of the Attention in Tabular Language Models |
+| 09:30-09:45 | Contributed talk | Aneta Koleva | <a href="https://openreview.net/forum?id=-kZV-BVwISM" target="blank">Analysis of the Attention in Tabular Language Models</a> |
 | 09:45-10:15 | Invited talk | Huan Sun | Self-supervised Pre-training on Tabular Data |
 | 10:15:10:30 | **Break** |  |  |
 | 10:30-11:15 | Poster session 1 |  |  |
 | 11:15-11:45 | Invited talk | Carsten Binnig | Pre-trained Models for Learned DBMS Components |
-| 11:45-12:00 | Contributed talk | Michał Pietruszka | STable: Table Generation Framework for <br> Encoder-Decoder Models |
-| 12:00-12:15 | Contributed talk | Roman Levin | Transfer Learning with Deep Tabular Models |
+| 11:45-12:00 | Contributed talk | Michał Pietruszka | <a href="https://openreview.net/forum?id=ubmZh5wc3Da" target="blank">STable: Table Generation Framework for <br> Encoder-Decoder Models</a> |
+| 12:00-12:15 | Contributed talk | Roman Levin | <a href="https://openreview.net/forum?id=FUMxFwyLQZ" target="blank">Transfer Learning with Deep Tabular Models</a> |
 | 12:15-13:30 | **Lunch** |  |  |
 | 13:30-14:15 | Keynote 2 | Graham Neubig | Unsupervised Methods for Table and Schema Understanding |
-| 14:15-14:30 | Contributed talk | David Vos | Towards Parameter-Efficient Automation of Data <br> Wrangling Tasks with Prefix-Tuning |
+| 14:15-14:30 | Contributed talk | David Vos | <a href="https://openreview.net/forum?id=8kyYJs2YkFH" target="blank">Towards Parameter-Efficient Automation of Data <br> Wrangling Tasks with Prefix-Tuning</a> |
 | 14:30-14:45 | Contributed talk | TBA | TBA |
-| 14:45-15:00 | Contributed talk | Noah Hollmann | TabPFN: A Transformer That Solves Small Tabular <br> Classification Problems in a Second |
+| 14:45-15:00 | Contributed talk | Noah Hollmann | <a href="https://openreview.net/forum?id=eu9fVjVasr4" target="blank">TabPFN: A Transformer That Solves Small Tabular <br> Classification Problems in a Second</a> |
 | 15:00-15:15 | **Break** |  |  |
 | 15:15-16:00 | Poster session 2 |  |  |
 | 16:00-16:30 | Invited talk | Xinyun Chen | Program Synthesis from Semi-Structured Context |
