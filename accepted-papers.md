@@ -26,7 +26,7 @@ Michał Pietruszka, Michał Turski, Łukasz Borchmann, Tomasz Dwojak, Gabriela P
 
 ## Posters
 
-- <a href="https://openreview.net/forum?id=FiyUTAy4sB8" target="_blank">SAINT: Improved Neural Networks for Tabular Data via Row Attention and Contrastive Pre-Training</a><br>
+- <a href="assets/papers/saint_improved_neural_networks.pdf" target="_blank">SAINT: Improved Neural Networks for Tabular Data via Row Attention and Contrastive Pre-Training</a><br>
 Gowthami Somepalli, Avi Schwarzschild, Micah Goldblum, C. Bayan Bruss, Tom Goldstein
 
 - <a href="assets/papers/generic_entity_resolution_mode.pdf" target="_blank">Generic Entity Resolution Models</a><br>
@@ -53,7 +53,7 @@ Shuhan Zheng, Nontawat Charoenphakdee
 - <a href="assets/papers/self_supervised_pre_training_f.pdf" target="_blank">Self Supervised Pre-training for Large Scale Tabular Data</a><br>
 Sharad Chitlangia, Anand Muralidhar, Rajat Agarwal
 
-- <a href="https://openreview.net/forum?id=1USEPiEY3G" target="_blank">RoTaR: Efficient Row-Based Table Representation Learning via Teacher-Student Training</a><br>
+- <a href="assets/papers/rotar_efficient_row_based_tabl.pdf" target="_blank">RoTaR: Efficient Row-Based Table Representation Learning via Teacher-Student Training</a><br>
 Zui Chen, Lei Cao, Samuel Madden
 
 - <a href="assets/papers/stab_self_supervised_learning_.pdf" target="_blank">STab: Self-supervised Learning for Tabular Data</a><br>
@@ -68,7 +68,7 @@ Damian Konrad Kowalczyk, Pin-Jung Chen, Sahil Bhatnagar
 - <a href="assets/papers/met_masked_encoding_for_tabula.pdf" target="_blank">MET: Masked Encoding for Tabular Data</a><br>
 Kushal Alpesh Majmundar, Sachin Goyal, Praneeth Netrapalli, Prateek Jain
 
-- <a href="https://openreview.net/forum?id=MbpMqAXAGFH" target="_blank">Conditional Contrastive Networks</a><br>
+- <a href="assets/papers/conditional_contrastive_networ.pdf" target="_blank">Conditional Contrastive Networks</a><br>
 Emily Mu, John Guttag
 
 - <a href="assets/papers/active_learning_with_tabular_l.pdf" target="_blank">Active Learning with Table Language Models</a><br>

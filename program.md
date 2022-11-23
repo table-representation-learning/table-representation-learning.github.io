@@ -112,7 +112,7 @@ The below schedule is preliminary. More details will follow soon.
 | 13:30-14:15 | Keynote 2 | Graham Neubig | Unsupervised Methods for Table and Schema Understanding |
 | 14:15-14:30 | Contributed talk | David Vos | <a href="assets/papers/towards_parameter_efficient_au.pdf" target="blank">Towards Parameter-Efficient Automation of Data <br> Wrangling Tasks with Prefix-Tuning</a> |
 | 14:30-14:45 | Contributed talk | Byung-Hak Kim | RegCLR: A Self-Supervised Framework for Tabular Representation Learning in the Wild |
-| 14:45-15:00 | Contributed talk | Noah Hollmann | <a href="https://openreview.net/forum?id=eu9fVjVasr4" target="blank">TabPFN: A Transformer That Solves Small Tabular <br> Classification Problems in a Second</a> |
+| 14:45-15:00 | Contributed talk | Noah Hollmann | <a href="assets/papers/tabpfn_a_transformer_that_solv.pdf" target="blank">TabPFN: A Transformer That Solves Small Tabular <br> Classification Problems in a Second</a> |
 | 15:00-15:15 | **Break** |  |  |
 | 15:15-16:00 | Poster session 2 | - | <a href="/accepted-papers.html" target="blank">Accepted papers</a> |
 | 16:00-16:30 | Invited talk | Xinyun Chen | Program Synthesis from Semi-Structured Context |
