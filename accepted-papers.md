@@ -13,7 +13,7 @@ Aneta Koleva, Martin Ringsquandl, Volker Tresp
 -  <a href="assets/papers/transfer_learning_with_deep_ta.pdf" target="_blank">Transfer Learning with Deep Tabular Models</a><br>
 Roman Levin, Valeriia Cherepanova, Avi Schwarzschild, Arpit Bansal, C. Bayan Bruss, Tom Goldstein, Andrew Gordon Wilson, Micah Goldblum
 
-- <a href="https://openreview.net/forum?id=eu9fVjVasr4" target="_blank">TabPFN: A Transformer That Solves Small Tabular Classification Problems in a Second</a><br>
+- <a href="assets/papers/tabpfn_a_transformer_that_solv.pdf" target="_blank">TabPFN: A Transformer That Solves Small Tabular Classification Problems in a Second</a><br>
 Noah Hollmann, Samuel Müller, Katharina Eggensperger, Frank Hutter
 
 - <a href="assets/papers/towards_parameter_efficient_au.pdf" target="_blank">Towards Parameter-Efficient Automation of Data Wrangling Tasks with Prefix-Tuning</a><br>
