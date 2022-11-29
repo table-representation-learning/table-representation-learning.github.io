@@ -47,16 +47,16 @@ We invite submissions that address, but are not limited to, any of the following
 - **Others** Formalization, surveys, visions and reflections to structure and guide future research.
 
 
-## Important dates
+## **Important dates**
 - Submission open: <s>20 August 2022</s>
 - Submission deadline: <s>20 September 2022</s> <s><b>26 September 2022 15:00 GMT</b></s>
 - Notifications: <s>20 October 2022</s>
-- Talk pre-recording upload for submissions accepted as oral (SlidesLive): 10 November 2022
-- Slides for submissions accepted as oral (OpenReview): 15 November 2022
-- Poster pitch recording for submissions accepted as posters (optional; 2min .mp4; to be published on website; email to m.hulsebos@uva.nl): 15 November 2022
-- Poster submission (<a href="https://neurips.cc/PosterUpload">neurips.cc</a>): 15 November 2022
-- Camera-ready paper (OpenReview): 15 November 2022
-- Workshop: 2 December 2022
+- Talk pre-recording upload for submissions accepted as oral (SlidesLive): <s>10 November 2022</s>
+- Slides for submissions accepted as oral (OpenReview): <s>15 November 2022</s>
+- Poster pitch recording for submissions accepted as posters (optional; 2min .mp4; to be published on website; email to m.hulsebos@uva.nl): <s>15 November 2022</s>
+- Poster submission (<a href="https://neurips.cc/PosterUpload">neurips.cc</a>): <s>15 November 2022</s>
+- Camera-ready paper (OpenReview): <s>15 November 2022</s>
+- Workshop: <b>2 December 2022</b>
 
 
 ## Submissions and camera-ready versions

@@ -22,6 +22,8 @@ David Vos, Till Döhmen, Sebastian Schelter
 - <a href="assets/papers/stable_table_generation_framew.pdf" target="_blank">STable: Table Generation Framework for Encoder-Decoder Models</a><br>
 Michał Pietruszka, Michał Turski, Łukasz Borchmann, Tomasz Dwojak, Gabriela Pałka, Karolina Szyndler, Dawid Jurkiewicz, Łukasz Garncarek
 
+- <a href="https://openreview.net/forum?id=7q_-aEdnGZw" target="_blank">RegCLR: A Self-Supervised Framework for Tabular Representation Learning in the Wild</a><br>
+Weiyao Wang, Byung-Hak Kim, Varun Ganapathi
 
 
 ## Posters
@@ -35,19 +37,16 @@ Jiawei Tang, Yifei Zuo, Lei Cao, Samuel Madden
 - <a href="assets/papers/stunt_few_shot_tabular_learnin.pdf" target="_blank">STUNT: Few-shot Tabular Learning with Self-generated Tasks from Unlabeled Tables</a><br>
 Jaehyun Nam, Jihoon Tack, Kyungmin Lee, Hankook Lee, Jinwoo Shin
 
-- <a href="assets/papers/towards_foundation_models_for_.pdf" target="_blank">Towards Foundation Models for Relational Databases</a><br>
+- <a href="assets/papers/towards_foundation_models_for_.pdf" target="_blank">Towards Foundation Models for Relational Databases</a> [video]<br>
 Liane Vogel, Benjamin Hilprecht, Carsten Binnig
 
 - <a href="assets/papers/tabular_data_generation_can_we.pdf" target="_blank">Tabular Data Generation: Can We Fool XGBoost?</a><br>
 EL Hacen Zein, Tanguy Urvoy
 
-- <a href="https://openreview.net/forum?id=7q_-aEdnGZw" target="_blank">RegCLR: A Self-Supervised Framework for Tabular Representation Learning in the Wild</a><br>
-Weiyao Wang, Byung-Hak Kim, Varun Ganapathi
-
-- <a href="assets/papers/sima_federating_data_silos_usi.pdf" target="_blank">SiMa: Federating Data Silos using GNNs</a><br>
+- <a href="assets/papers/sima_federating_data_silos_usi.pdf" target="_blank">SiMa: Federating Data Silos using GNNs</a> [video]<br>
 Christos Koutras, Rihan Hai, Kyriakos Psarakis, Marios Fragkoulis, Asterios Katsifodimos
 
-- <a href="assets/papers/diffusion_models_for_missing_v.pdf" target="_blank">Diffusion models for missing value imputation in tabular data</a><br>
+- <a href="assets/papers/diffusion_models_for_missing_v.pdf" target="_blank">Diffusion models for missing value imputation in tabular data</a> [video]<br>
 Shuhan Zheng, Nontawat Charoenphakdee
 
 - <a href="assets/papers/self_supervised_pre_training_f.pdf" target="_blank">Self Supervised Pre-training for Large Scale Tabular Data</a><br>
@@ -77,7 +76,7 @@ Martin Ringsquandl, Aneta Koleva
 - <a href="assets/papers/self_supervised_representation.pdf" target="_blank">Self-supervised Representation Learning Across Sequential and Tabular Features Using Transformers</a><br>
 Rajat Agarwal, Anand Muralidhar, Agniva Som, Hemant Kowshik
 
-- <a href="assets/papers/structural_embedding_of_data_f.pdf" target="_blank">Structural Embedding of Data Files with MAGRITTE</a><br>
+- <a href="assets/papers/structural_embedding_of_data_f.pdf" target="_blank">Structural Embedding of Data Files with MAGRITTE</a> [video]<br>
 Gerardo Vitagliano, Mazhar Hameed, Felix Naumann
 
 - <a href="assets/papers/the_need_for_tabular_represent.pdf" target="_blank">The Need for Tabular Representation Learning: An Industry Perspective</a><br>

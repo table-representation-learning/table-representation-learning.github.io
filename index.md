@@ -37,12 +37,19 @@ The Table Representation Learning workshop is the first workshop in this emergin
 - Submission open: <s>20 August 2022</s>
 - Submission deadline: <s>20 September 2022</s> <s><b>26 September 2022 15:00 GMT</b></s>
 - Notifications: <s>20 October 2022</s>
-- Talk pre-recording upload for submissions accepted as oral (SlidesLive): 10 November 2022
-- Slides for submissions accepted as oral (OpenReview): 15 November 2022
-- Poster pitch recording for submissions accepted as posters (optional; 2min .mp4; to be published on website; email to m.hulsebos@uva.nl): 15 November 2022
-- Poster submission (<a href="https://neurips.cc/PosterUpload">neurips.cc</a>): 15 November 2022
-- Camera-ready paper (OpenReview): 15 November 2022
-- Workshop: 2 December 2022
+- Talk pre-recording upload for submissions accepted as oral (SlidesLive): <s>10 November 2022</s>
+- Slides for submissions accepted as oral (OpenReview): <s>15 November 2022</s>
+- Poster pitch recording for submissions accepted as posters (optional; 2min .mp4; to be published on website; email to m.hulsebos@uva.nl): <s>15 November 2022</s>
+- Poster submission (<a href="https://neurips.cc/PosterUpload">neurips.cc</a>): <s>15 November 2022</s>
+- Camera-ready paper (OpenReview): <s>15 November 2022</s>
+- Workshop: <b>2 December 2022</b>
+
+
+## **Feedback**
+Did you attend and/or contribute to the workshop or would you be interested in joining next year? We would love to get your feedback to improve the organization for future editions. Please fill in the below form (responses are anonymous!).
+<!-- <a href="https://forms.gle/QAJZXCLe6AdCVCho8">https://forms.gle/QAJZXCLe6AdCVCho8</a>. -->
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfLmJhHEqy3cZa4Y2TX9uj81KI5_gtTSykLVPINvQdK6WrgGw/viewform?embedded=true" width="840" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 
 ## **Further info**
@@ -51,6 +58,7 @@ The Table Representation Learning workshop is the first workshop in this emergin
 - [Organization](https://table-representation-learning.github.io/organization.html)
 - [Awards](https://table-representation-learning.github.io/awards.html)
 - [Call for Papers](https://table-representation-learning.github.io/call-for-papers.html)
+
 
 <!-- 
 ## **Speakers**
