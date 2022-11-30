@@ -5,7 +5,7 @@ layout: default
 
 <div align="center">
 <h1><b>Table Representation Learning workshop</b></h1>
-<h2>NeurIPS 2022, Friday 2 December, <b>New Orleans, USA</b></h2>
+<h2>NeurIPS 2022, <b>Room 398</b>, Friday 2 December, <b>New Orleans, USA</b></h2>
 <div>
 <div>
 <a href="https://groups.google.com/g/table-representation-learning-workshop" target="blank">FAQ</a>
@@ -49,7 +49,7 @@ The Table Representation Learning workshop is the first workshop in this emergin
 Did you attend and/or contribute to the workshop or would you be interested in joining next year? We would love to get your feedback to improve the organization for future editions. Please fill in the below form (responses are anonymous!).
 <!-- <a href="https://forms.gle/QAJZXCLe6AdCVCho8">https://forms.gle/QAJZXCLe6AdCVCho8</a>. -->
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfLmJhHEqy3cZa4Y2TX9uj81KI5_gtTSykLVPINvQdK6WrgGw/viewform?embedded=true" width="840" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfLmJhHEqy3cZa4Y2TX9uj81KI5_gtTSykLVPINvQdK6WrgGw/viewform?embedded=true" width="840" height="840" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 
 ## **Further info**
