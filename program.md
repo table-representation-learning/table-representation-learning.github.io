@@ -78,7 +78,7 @@ The workshop will be hosted physically in New Orleans. We are are pleased to hos
       <td style="border:none" width="16%"><a href="https://ml.informatik.uni-freiburg.de/profile/hutter/" target="blank"><img src="assets/fh.png" width="150px" align="bottom" style="border-radius: 50%"></a></td>
       <td style="border:none" width="16%"><a href="http://blender.cs.illinois.edu/hengji.html" target="blank"><img src="assets/hj.png" width="150px" align="bottom" style="border-radius: 50%"></a></td>
     <td style="border:none" width="16%"><a href="https://eisenjulian.github.io/" target="blank"><img src="assets/je.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>
-    <td style="border:none" width="16%"><a href="https://sebastianraschka.com/" target="blank"><img src="assets/sr.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>
+    <td style="border:none" width="16%"><a href="https://gael-varoquaux.info/" target="blank"><img src="assets/gv.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>
     <td style="border:none" width="16%"><a href="http://www.phontron.com/" target="blank"><img src="assets/gn.jpg" width="150px" align="bottom" style="border-radius: 50%"></a></td>
     </tr>
     <tr style="border:none" align="left">
@@ -86,7 +86,7 @@ The workshop will be hosted physically in New Orleans. We are are pleased to hos
       <td style="border:none" bgcolor="white"><a href="https://ml.informatik.uni-freiburg.de/profile/hutter/" target="blank">Frank Hutter<br>University of Freiburg</a></td>
       <td style="border:none" bgcolor="white"><a href="http://blender.cs.illinois.edu/hengji.html" target="blank">Heng Ji<br>University of Illinois</a></td>
       <td style="border:none" bgcolor="white"><a href="https://eisenjulian.github.io/" target="blank">Julian Eisenschlos<br>Google Research</a></td>
-      <td style="border:none" bgcolor="white"><a href="https://sebastianraschka.com/" target="blank">Sebastian Raschka<br>UW-Madison / Lightning AI</a></td>
+      <td style="border:none" bgcolor="white"><a href="https://gael-varoquaux.info/" target="blank">Gaël Varoquaux<br>INRIA</a></td>
       <td style="border:none" bgcolor="white"><a href="http://www.phontron.com/" target="blank">Graham Neubig<br>CMU</a></td>
     </tr>
 </table>
@@ -116,5 +116,5 @@ The below schedule is preliminary. More details will follow soon.
 | 15:00-15:15 | **Break** |  |  |
 | 15:15-16:00 | Poster session 2 | - | <a href="/accepted-papers.html" target="blank">Accepted papers</a> |
 | 16:00-16:30 | Invited talk | Xinyun Chen <br><details><summary>Bio</summary>Xinyun Chen is a senior research scientist in the Brain team of Google Research. She obtained her Ph.D. in Computer Science from University of California, Berkeley. Her research lies at the intersection of deep learning, programming languages, and security. Her recent research focuses on learning-based program synthesis and adversarial machine learning. She received the Facebook Fellowship in 2020, and Rising Stars in Machine Learning in 2021. Her work SpreadsheetCoder for spreadsheet formula prediction was integrated into Google Sheets, and she was part of the AlphaCode team when she interned at DeepMind.</details> | Program Synthesis from Semi-Structured Context <br> <details><summary>Abstract</summary>With the advancement of modern technologies, programming becomes ubiquitous not only among professional software developers, but also for general computer users. However, gaining programming expertise is time-consuming and challenging. Therefore, program synthesis has many applications, where the computer automatically synthesizes programs from user-written descriptions. In this talk, I will discuss my research on neural program synthesis from semi-structured context, where the synthesized program is executed on structured input for data processing and analysis. In particular, I will present my work SpreadsheetCoder for spreadsheet formula prediction, which was integrated into Google Sheets. Our work demonstrates that modeling the tabular structure and learning from multi-modal input is important for inferring user intents, especially when the program specifications are implicit and ambiguous.</details> |
-| 16:30-17:30 | Panel | Huan Sun (chair), Frank Hutter, Julian Eisenschlos, <br>  Heng Ji, Sebastian Raschka, Graham Neubig  | Challenges, opportunities, and limitations of <br> Table Representation Learning (TBD) |
+| 16:30-17:30 | Panel | Huan Sun (chair), Frank Hutter, Julian Eisenschlos, <br>  Heng Ji, Gaël Varoquaux, Graham Neubig  | Challenges, opportunities, and limitations of <br> Table Representation Learning (TBD) |
 | 17:30-17:45 | Closing notes |  |  |
