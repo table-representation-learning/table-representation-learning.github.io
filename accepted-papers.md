@@ -22,7 +22,7 @@ Noah Hollmann, Samuel Müller, Katharina Eggensperger, Frank Hutter
 - <a href="assets/papers/towards_parameter_efficient_au.pdf" target="_blank">Towards Parameter-Efficient Automation of Data Wrangling Tasks with Prefix-Tuning</a><b> [Poster session 2 (3:15pm)]</b><br>
 David Vos, Till Döhmen, Sebastian Schelter
 
-- <a href="https://openreview.net/forum?id=7q_-aEdnGZw" target="_blank">RegCLR: A Self-Supervised Framework for Tabular Representation Learning in the Wild</a><b> [Poster session 2 (3:15pm)]</b><br>
+- <a href="https://openreview.net/forum?id=7q_-aEdnGZw" target="_blank">RegCLR: A Self-Supervised Framework for Tabular Representation Learning in the Wild</a><b> [Poster session 2 (3:15pm)][<a href="https://www.youtube.com/watch?v=drn_LI3WPD8" target="_blank">video</a>]</b><br>
 Weiyao Wang, Byung-Hak Kim, Varun Ganapathi
 
 
@@ -34,10 +34,10 @@ Gowthami Somepalli, Avi Schwarzschild, Micah Goldblum, C. Bayan Bruss, Tom Golds
 - <a href="assets/papers/generic_entity_resolution_mode.pdf" target="_blank">Generic Entity Resolution Models</a><b> [Poster session 1 (10:30am)]</b><br>
 Jiawei Tang, Yifei Zuo, Lei Cao, Samuel Madden
 
-- <a href="assets/papers/towards_foundation_models_for_.pdf" target="_blank">Towards Foundation Models for Relational Databases</a><b> [Poster session 1 (10:30am)]</b><br>
+- <a href="assets/papers/towards_foundation_models_for_.pdf" target="_blank">Towards Foundation Models for Relational Databases</a><b> [Poster session 1 (10:30am)][<a href="https://www.youtube.com/watch?v=GyeGQGmTv30" target="_blank">video</a>]</b><br>
 Liane Vogel, Benjamin Hilprecht, Carsten Binnig
 
-- <a href="assets/papers/diffusion_models_for_missing_v.pdf" target="_blank">Diffusion models for missing value imputation in tabular data</a><b> [Poster session 1 (10:30am)]</b><br>
+- <a href="assets/papers/diffusion_models_for_missing_v.pdf" target="_blank">Diffusion models for missing value imputation in tabular data</a><b> [Poster session 1 (10:30am)][<a href="https://www.youtube.com/watch?v=URlh7KJfXzM" target="_blank">video</a>]</b><br>
 Shuhan Zheng, Nontawat Charoenphakdee
 
 - <a href="assets/papers/stab_self_supervised_learning_.pdf" target="_blank">STab: Self-supervised Learning for Tabular Data</a><b> [Poster session 1 (10:30am)]</b><br>
@@ -61,7 +61,7 @@ Jaehyun Nam, Jihoon Tack, Kyungmin Lee, Hankook Lee, Jinwoo Shin
 - <a href="assets/papers/tabular_data_generation_can_we.pdf" target="_blank">Tabular Data Generation: Can We Fool XGBoost?</a><b> [Poster session 2 (3:15pm)]</b><br>
 EL Hacen Zein, Tanguy Urvoy
 
-- <a href="assets/papers/sima_federating_data_silos_usi.pdf" target="_blank">SiMa: Federating Data Silos using GNNs</a><b> [Poster session 2 (3:15pm)]</b><br>
+- <a href="assets/papers/sima_federating_data_silos_usi.pdf" target="_blank">SiMa: Federating Data Silos using GNNs</a><b> [Poster session 2 (3:15pm)][<a href="https://www.youtube.com/watch?v=y4ZOobI1v2w" target="_blank">video</a>]</b><br>
 Christos Koutras, Rihan Hai, Kyriakos Psarakis, Marios Fragkoulis, Asterios Katsifodimos
 
 - <a href="assets/papers/self_supervised_pre_training_f.pdf" target="_blank">Self Supervised Pre-training for Large Scale Tabular Data</a><b> [Poster session 2 (3:15pm)]</b><br>
@@ -79,5 +79,5 @@ Kushal Alpesh Majmundar, Sachin Goyal, Praneeth Netrapalli, Prateek Jain
 - <a href="assets/papers/active_learning_with_tabular_l.pdf" target="_blank">Active Learning with Table Language Models</a><b> [Poster session 2 (3:15pm)]</b><br>
 Martin Ringsquandl, Aneta Koleva
 
-- <a href="assets/papers/structural_embedding_of_data_f.pdf" target="_blank">Structural Embedding of Data Files with MAGRITTE</a><b> [Poster session 2 (3:15pm)]</b><br>
+- <a href="assets/papers/structural_embedding_of_data_f.pdf" target="_blank">Structural Embedding of Data Files with MAGRITTE</a><b> [Poster session 2 (3:15pm)][<a href="https://www.youtube.com/watch?v=_seBQIBzFoI" target="_blank">video</a>]</b><br>
 Gerardo Vitagliano, Mazhar Hameed, Felix Naumann
