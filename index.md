@@ -49,7 +49,7 @@ The Table Representation Learning workshop is the first workshop in this emergin
 Did you attend and/or contribute to the workshop or would you be interested in joining next year? We would love to get your feedback to improve the organization for future editions. Please fill in the below form (responses are anonymous!).
 <!-- <a href="https://forms.gle/QAJZXCLe6AdCVCho8">https://forms.gle/QAJZXCLe6AdCVCho8</a>. -->
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfLmJhHEqy3cZa4Y2TX9uj81KI5_gtTSykLVPINvQdK6WrgGw/viewform?embedded=true" width="840" height="840" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfLmJhHEqy3cZa4Y2TX9uj81KI5_gtTSykLVPINvQdK6WrgGw/viewform?embedded=true" width="100%" height="840" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 
 ## **Further info**
