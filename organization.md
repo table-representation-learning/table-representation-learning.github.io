@@ -18,7 +18,7 @@ layout: default
     </tr>
     <tr style="border:none" align="left">
       <td style="border:none" bgcolor="white">
-      <a href="https://madelonhulsebos.github.io/" target="blank">Madelon Hulsebos<br>University of Amsterdam / Sigma Computing</a></td>
+      <a href="https://madelonhulsebos.github.io/" target="blank">Madelon Hulsebos<br>University of Amsterdam</a></td>
       <td style="border:none" bgcolor="white"><a href="https://www.microsoft.com/en-us/research/people/hadong" target="blank">Haoyu Dong<br>Microsoft Research Asia</a></td>
       <td style="border:none" bgcolor="white"><a href="https://bojan.ninja/" target="blank">Bojan Karlas<br>ETH Zurich</a></td>
       <td style="border:none" bgcolor="white"><a href="https://cs.stanford.edu/people/lorr1" target="blank">Laurel Orr<br>Stanford</a></td>
