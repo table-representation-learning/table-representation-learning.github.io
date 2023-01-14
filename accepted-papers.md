@@ -61,8 +61,10 @@ Jaehyun Nam, Jihoon Tack, Kyungmin Lee, Hankook Lee, Jinwoo Shin
 - <a href="assets/papers/tabular_data_generation_can_we.pdf" target="_blank">Tabular Data Generation: Can We Fool XGBoost?</a><b> [Poster session 2 (3:15pm)]</b><br>
 EL Hacen Zein, Tanguy Urvoy
 
-- <a href="assets/papers/sima_federating_data_silos_usi.pdf" target="_blank">SiMa: Federating Data Silos using GNNs</a><b> [Poster session 2 (3:15pm)][<a href="https://www.youtube.com/watch?v=y4ZOobI1v2w" target="_blank">video</a>]</b><br>
-Christos Koutras, Rihan Hai, Kyriakos Psarakis, Marios Fragkoulis, Asterios Katsifodimos
+- SiMa: Federating Data Silos using GNNs [Poster session 2 (3:15pm)]<br> Anonymized
+
+<!-- - <a href="assets/papers/sima_federating_data_silos_usi.pdf" target="_blank">SiMa: Federating Data Silos using GNNs</a><b> [Poster session 2 (3:15pm)][<a href="https://www.youtube.com/watch?v=y4ZOobI1v2w" target="_blank">video</a>]</b><br>
+Christos Koutras, Rihan Hai, Kyriakos Psarakis, Marios Fragkoulis, Asterios Katsifodimos -->
 
 - <a href="assets/papers/self_supervised_pre_training_f.pdf" target="_blank">Self Supervised Pre-training for Large Scale Tabular Data</a><b> [Poster session 2 (3:15pm)]</b><br>
 Sharad Chitlangia, Anand Muralidhar, Rajat Agarwal
