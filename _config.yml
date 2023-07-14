@@ -33,13 +33,16 @@ minima:
 # Build settings
 theme: minima
 
+# include:
+#   - 2023/
+
 header_pages:
   - index.md
-  - program.md
-  - organization.md
-  - accepted-papers.md
-  - call-for-papers.md
-  - awards.md
+  # - 2023/program.md
+  # - 2023/organization.md
+  # - 2023/accepted-papers.md
+  # - 2023/call-for-papers.md
+  # - 2023/awards.md
 
 # Google Analytics
 google_analytics: "G-TNBXJN1Y5L"
