@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "2023"
 layout: default
 ---
 
@@ -12,7 +12,10 @@ layout: default
 </div>
 {% if site.minima.social_links.email -%}
 <div>
-<a class="u-email" href="mailto:{{ site.minima.social_links.email }}">{{ site.minima.social_links.email }}</a>
+General questions: <a class="u-email" href="mailto:{{ site.minima.social_links.email }}">{{ site.minima.social_links.email }}</a>
+</div>
+<div>
+Specific questions: <a class="u-email" href="mailto:m.hulsebos@uva.nl">m.hulsebos@uva.nl</a>
 </div>
 {%- endif %}
 <div class="social-links">
