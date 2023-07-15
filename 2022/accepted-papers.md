@@ -7,7 +7,7 @@ layout: default
 
 ## Orals
 
-- <a href="assets/papers/analysis_of_the_attention_in_t.pdf" target="_blank">Analysis of the Attention in Tabular Language Models</a><b> [<a href="https://slideslive.com/38993349" target="blank">recording</a>]</b><br>
+- <a href="../../assets/papers/analysis_of_the_attention_in_t.pdf" target="_blank">Analysis of the Attention in Tabular Language Models</a><b> [<a href="https://slideslive.com/38993349" target="blank">recording</a>]</b><br>
 Aneta Koleva, Martin Ringsquandl, Volker Tresp
 
 -  <a href="assets/papers/transfer_learning_with_deep_ta.pdf" target="_blank">Transfer Learning with Deep Tabular Models</a><b> [<a href="https://slideslive.com/38993348" target="blank">recording</a>]</b><br>

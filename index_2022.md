@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "2022"
 layout: default
 ---
 
@@ -47,17 +47,17 @@ The Table Representation Learning workshop is the first workshop in this emergin
 
 ## **Feedback**
 Did you attend and/or contribute to the workshop or would you be interested in joining next year? We would love to get your feedback to improve the organization for future editions. Please fill in the below form (responses are anonymous!).
-<!-- <a href="https://forms.gle/QAJZXCLe6AdCVCho8">https://forms.gle/QAJZXCLe6AdCVCho8</a>. -->
+<a href="https://forms.gle/QAJZXCLe6AdCVCho8">https://forms.gle/QAJZXCLe6AdCVCho8</a>.
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfLmJhHEqy3cZa4Y2TX9uj81KI5_gtTSykLVPINvQdK6WrgGw/viewform?embedded=true" width="100%" height="840" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfLmJhHEqy3cZa4Y2TX9uj81KI5_gtTSykLVPINvQdK6WrgGw/viewform?embedded=true" width="100%" height="840" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
 
 
 ## **Further info**
-- [Program](https://table-representation-learning.github.io/program.html)
-- [Accepted Papers](https://table-representation-learning.github.io/accepted-papers.html)
-- [Organization](https://table-representation-learning.github.io/organization.html)
-- [Awards](https://table-representation-learning.github.io/awards.html)
-- [Call for Papers](https://table-representation-learning.github.io/call-for-papers.html)
+- [Program](https://table-representation-learning.github.io/2022/program.html)
+- [Accepted Papers](https://table-representation-learning.github.io/2022/accepted-papers.html)
+- [Organization](https://table-representation-learning.github.io/2022/organization.html)
+- [Awards](https://table-representation-learning.github.io/2022/awards.html)
+- [Call for Papers](https://table-representation-learning.github.io/2022/call-for-papers.html)
 
 
 <!-- 

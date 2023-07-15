@@ -38,6 +38,7 @@ theme: minima
 
 header_pages:
   - index.md
+  - index_2022.md
   # - 2023/program.md
   # - 2023/organization.md
   # - 2023/accepted-papers.md
