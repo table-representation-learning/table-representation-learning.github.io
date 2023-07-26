@@ -1,0 +1,887 @@
+---
+layout: project
+urltitle: "Table Representation Learning Workshop"
+title: "Table Representation Learning Workshop"
+categories: workshop, table representation learning, natural language, machine learning, neurips, 2023
+permalink: /
+bibtex: true
+paper: true
+acknowledgements: ""
+---
+
+<!-- <br /> -->
+<!-- <div class="row" id="title">
+  <div class="col-xs-12">
+    <center><h1>Natural Language Reasoning and Structured Explanations Workshop</h1></center>
+    <center><h2>July 13-14, 2023 @ ACL 2023. Toronto, Canada.</h2></center>
+ 
+  </div>
+</div> -->
+<!-- <br /> -->
+
+<br />
+
+<div class="row">
+    <div class="col-xs-12">
+        <p>
+            We develop large models to "understand" images, videos and natural language that fuel many intelligent
+            applications from text completion to self-driving cars. But tabular data has long been overlooked despite
+            its dominant presence in data-intensive systems. The majority (67%) of datasets in Google Dataset Search,
+            for example, contain typical tabular file formats like CSV and XLS. Similarly, the top-3 most-used data
+            management systems are all relational database management systems (RDBMS). Besides dedicated tabular file
+            formats and database systems, tables are widely used for presenting data in documents, Wikipedia pages,
+            papers, and presentations. By learning latent representations from structured tabular data (possibly
+            combined with other modalities such as free-form text), pretrained table models have shown preliminary but
+            impressive performance for semantic parsing, question answering, table understanding, and data preparation.
+            Considering that such tasks share fundamental properties inherent to tables, representation learning for
+            tabular data is an important direction to explore further. These works also surfaced many open challenges
+            such as finding effective data encodings, pretraining objectives and downstream tasks. We believe, the time
+            has come to consider tabular data as a first-class modality for representation learning and stimulate
+            advances in this direction.
+        </p>
+        <br />
+    </div>
+
+    <div class="col-xs-12">
+        <div>
+            Frequently Asked Questions: <a href="https://groups.google.com/g/table-representation-learning-workshop"
+                target="blank">FAQ</a>
+        </div>
+        <div>
+            General Questions: <a class="u-email"
+                href="mailto:table-representation-learning-workshop@googlegroups.com">table-representation-learning-workshop@googlegroups.com</a>
+        </div>
+        <div>
+            Specific Questions: <a class="u-email" href="mailto:m.hulsebos@uva.nl">m.hulsebos@uva.nl</a>
+        </div>
+        <!-- <a rel="me" href="https://twitter.com/TrlWorkshop" target="_blank" title="TrlWorkshop"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg>@TrlWorkshop</a> -->
+    </div>
+
+    <p align="center col-xs-12" style="text-align:center;">
+        <img src="assets/trl_workshop.jpg">
+    </p>
+
+    <!-- Schedule -->
+    <!-- <div class="row" id="schedule">
+        <div class="col-md-4 col-xs-12">
+            <h2>Schedule</h2>
+        </div>
+        <div class="col-md-8 col-xs-12">
+            <select id="timezone-select" class="form-control"></select>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <table class="table table-striped" id="schedule-table">
+                <tbody>
+                    <tr>
+                        <th scope="row" data-time="08:00">08:00 AM</th>
+                        <td>Virtual Poster Session 1</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" data-time="09:00">09:00 AM</th>
+                        <td>Opening Remarks</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" data-time="09:10">09:10 AM</th>
+                        <td>
+                            Invited Speaker: Ellie Pavlick<br />
+                            <span style="font-style:italic">Mechanistic Evidence of Structured Reasoning in LLMs</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" data-time="09:50">09:50 AM</th>
+                        <td>
+                            Invited Speaker: Noah Goodman<br />
+                            <span style="font-style:italic">[Talk title forthcoming]</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" data-time="10:30">10:30 AM</th>
+                        <td>Break 1</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" data-time="11:00">11:00 AM</th>
+                        <td>
+                            Oral Presentation: Li Zhang, Liam Dugan, Hainiu Xu and Chris Callison-burch<br />
+                            <span style="font-style:italic">Exploring the Curious Case of Code Prompts</span>
+                            <a data-toggle="collapse" href="#schedule-talk3" aria-cexpanded="false"
+                                aria-controls="schedule-talk3">[Abstract]</a>
+                            <div class="collapse" id="schedule-talk3">
+                                Abstract: Recent work has shown that prompting language models with code-like
+                                representations of natural language leads to performance improvements on structured
+                                reasoning tasks. However, such tasks comprise only a small subset of all natural
+                                language tasks. In our work, we seek to answer whether or not code-prompting is the
+                                preferred way of interacting with language models in general. We compare code and text
+                                prompts across three popular GPT models (davinci, code-davinci-002, and
+                                text-davinci-002) on a broader selection of tasks (e.g., QA, sentiment, summarization)
+                                and find that with few exceptions, code prompts do not consistently outperform text
+                                prompts. Furthermore, we show that the style of code prompt has a large effect on
+                                performance for some (but not all) tasks and that fine-tuning on text instructions leads
+                                to better relative performance of code prompts.
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" data-time="11:10">11:10 AM</th>
+                        <td>
+                            Oral Presentation: Vanya Cohen and Raymond Mooney<br />
+                            <span style="font-style:italic">Using Planning to Improve Semantic Parsing of Instructional
+                                Texts</span>
+                            <a data-toggle="collapse" href="#schedule-talk4" aria-cexpanded="false"
+                                aria-controls="schedule-talk4">[Abstract]</a>
+                            <div class="collapse" id="schedule-talk4">
+                                Abstract: We develop a symbolic planning-based decoder to improve the few-shot semantic
+                                parsing of instructional texts. The system takes long-form instructional texts as input
+                                and produces sequences of actions in a formal language that enable execution of the
+                                instructions. This task poses unique challenges since input texts may contain long
+                                context dependencies and ambiguous and domain-specific language. Valid semantic parses
+                                also require sequences of steps that constitute an executable plan. We build on recent
+                                progress in semantic parsing by leveraging large language models to learn parsers from
+                                small amounts of training data. During decoding, our method employs planning methods and
+                                domain information to rank and correct candidate parses. To validate our method, we
+                                evaluate on four domains: two household instruction-following domains and two cooking
+                                recipe interpretation domains. We present results for few-shot semantic parsing using
+                                leave-one-out cross-validation. We show that utilizing planning domain information
+                                improves the quality of generated plans. Through ablations we also explore the effects
+                                of our decoder design choices.
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" data-time="11:20">11:20 PM</th>
+                        <td>In-Person Poster Session 1 / Virtual Poster Session 2 (See posters below)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" data-time="12:20">12:20 PM</th>
+                        <td>Lunch</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" data-time="13:30">13:30 PM</th>
+                        <td>In-Person Poster Session 2 (See posters below)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" data-time="14:30">14:30 PM</th>
+                        <td>
+                            Oral Presentation: Jinheon Baek, Alham Fikri Aji and Amir Saffari<br />
+                            <span style="font-style:italic">Knowledge-Augmented Language Model Prompting for Zero-Shot
+                                Knowledge Graph Question Answering</span>
+                            <a data-toggle="collapse" href="#schedule-talk5" aria-cexpanded="false"
+                                aria-controls="schedule-talk5">[Abstract]</a>
+                            <div class="collapse" id="schedule-talk5">
+                                Abstract: Large Language Models (LLMs) are capable of performing zero-shot closed-book
+                                question answering tasks, based on their internal knowledge stored in parameters during
+                                pre-training. However, such internalized knowledge might be insufficient and incorrect,
+                                which could lead LLMs to generate factually wrong answers. Furthermore, fine-tuning LLMs
+                                to update their knowledge is expensive. To this end, we propose to augment the knowledge
+                                directly in the input of LLMs. Specifically, we first retrieve the relevant facts to the
+                                input question from the knowledge graph based on semantic similarities between the
+                                question and its associated facts. After that, we prepend the retrieved facts to the
+                                input question in the form of the prompt, which is then forwarded to LLMs to generate
+                                the answer. Our framework, Knowledge-Augmented language model PromptING (KAPING),
+                                requires no model training, thus completely zero-shot. We validate the performance of
+                                our KAPING framework on the knowledge graph question answering task, that aims to answer
+                                the user's question based on facts over a knowledge graph, on which ours outperforms
+                                relevant zero-shot baselines by up to 48% in average, across multiple LLMs of various
+                                sizes.
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" data-time="14:40">14:40 PM</th>
+                        <td>
+                            Oral Presentation: Michal Štefánik and Marek Kadlcik<br />
+                            <span style="font-style:italic">Can In-context Learners Learn a Reasoning Concept from
+                                Demonstrations?</span>
+                            <a data-toggle="collapse" href="#schedule-6" aria-cexpanded="false"
+                                aria-controls="schedule-6">[Abstract]</a>
+                            <div class="collapse" id="schedule-6">
+                                Abstract: Large language models show an emergent ability to learn a new task from a
+                                small number of input-output demonstrations. However, recent work shows that in-context
+                                learners largely rely on their pre-trained knowledge, such as the sentiment of the
+                                labels, instead of finding new associations in the input. However, the commonly-used
+                                few-shot evaluation settings using a random selection of in-context demonstrations can
+                                not disentangle models' ability to learn a new skill from demonstrations, as most of the
+                                randomly-selected demonstrations do not present relations informative for prediction
+                                beyond exposing the new task distribution.
+                                To disentangle models' in-context learning ability independent of models' memory, we
+                                introduce a Conceptual few-shot learning method selecting the demonstrations sharing a
+                                possibly-informative concept with the predicted sample. We extract a set of such
+                                concepts from annotated explanations and measure how much can models benefit from
+                                presenting these concepts in few-shot demonstrations.
+                                We find that smaller models are more sensitive to the presented concepts. While some of
+                                the models are able to benefit from concept-presenting demonstrations for each assessed
+                                concept, we find that none of the assessed in-context learners can benefit from all
+                                presented reasoning concepts consistently, leaving the in-context concept learning an
+                                open challenge.
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" data-time="14:50">14:50 PM</th>
+                        <td>
+                            Invited Speaker: Peter Clark<br />
+                            <span style="font-style:italic">The role of NL reasoning in the age of GPT</span>
+                            <a data-toggle="collapse" href="#schedule-talk7" aria-cexpanded="false"
+                                aria-controls="schedule-talk7">[Abstract]</a>
+                            <a data-toggle="collapse" href="#speaker-bio-talk7" aria-cexpanded="false"
+                                aria-controls="speaker-bio-talk7">[Speaker Bio]</a>
+                            <div class="collapse" id="schedule-talk7">
+                                Abstract: While the performance of new LLMs is stunning, it remains unclear how (or even
+                                if) an answer follows from their latent "beliefs" about the world, or whether an LLM
+                                even has a coherent internal belief system. In this talk I'll describe recent work we
+                                have done to probe a model's beliefs, construct interpretable representations of how the
+                                model's answers systematically follow from them, and how a broader system can identify
+                                and repair inconsistencies that may exist among those beliefs. More generally, I'll
+                                promote architectures in which interpretable, systematic NL reasoning and LLM-style
+                                reasoning co-exist in a broader system, allowing both styles of reasoning to inform each
+                                other, and paving the way for more interactive systems where users can probe, argue
+                                with, learn from, and teach our future companions.
+                            </div>
+                            <div class="collapse" id="speaker-bio-talk7">
+                                Peter Clark is a Senior Director and the interim CEO at the Allen Institute for AI
+                                (AI2), and leads the Aristo Project. His work focuses on natural language processing,
+                                machine reasoning, and world knowledge, and the interplay between these three areas.
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" data-time="15:30">15:30 PM</th>
+                        <td>Break 2</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" data-time="16:00">16:00 PM</th>
+                        <td>
+                            Invited Speaker: Denny Zhou<br />
+                            <span style="font-style:italic">Teach Language Models to Reason</span>
+                            <a data-toggle="collapse" href="#schedule-talk8" aria-cexpanded="false"
+                                aria-controls="schedule-talk8">[Abstract]</a>
+                            <a data-toggle="collapse" href="#speaker-bio-talk8" aria-cexpanded="false"
+                                aria-controls="speaker-bio-talk8">[Speaker Bio]</a>
+                            <div class="collapse" id="schedule-talk8">
+                                Over the past decades, the machine learning community has developed a multitude of
+                                data-driven techniques aimed at enhancing learning efficiency. These include
+                                semi-supervised learning, meta learning, active learning, transfer learning, and more.
+                                However, none of these techniques have proven to be highly effective for real-world
+                                natural language processing tasks. This shortcoming uncovers a fundamental flaw in
+                                machine learning - the absence of reasoning. Humans often learn from just a few examples
+                                because of their capacity to reason, as opposed to relying on data statistics. In this
+                                talk, I will talk about the large language models (LLM) reasoning work that we
+                                pioneered, and show that the techniques we developed can greatly narrow the gap between
+                                human intelligence and machine learning: crushed SoTA in the literature while demanding
+                                only a few annotated examples and no training. Our work was showcased at Google I/O 2022
+                                by Google CEO Sundar Pichai.
+                            </div>
+                            <div class="collapse" id="speaker-bio-talk8">
+                                Denny Zhou is a principal scientist / research director in Google DeepMind, where he is
+                                the founder and current lead of the Reasoning Team. His primary research interest is
+                                building and teaching large language models (LLMs) with an ambitious goal of attaining
+                                human-level reasoning capabilities within these models. His team in Google has developed
+                                chain-of-thought prompting, self-consistency decoding, least-to-most prompting,
+                                instruction tuning (FLAN2), LLMs self-debugging and various investigations of emergent
+                                properties of LLMs. He won Google Research Tech Impact Award in 2022.
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row" data-time="16:40">16:40 PM</th>
+                        <td>
+                            Invited Speaker: Sarah Wiegreffe
+                            <span style="font-style:italic">Two Views of Language Model Interpretability</span>
+                            <a data-toggle="collapse" href="#schedule-talk9" aria-cexpanded="false"
+                                aria-controls="schedule-talk9">[Abstract]</a>
+                            <a data-toggle="collapse" href="#speaker-bio-talk9" aria-cexpanded="false"
+                                aria-controls="speaker-bio-talk9">[Speaker Bio]</a>
+                            <div class="collapse" id="schedule-talk9">
+                                When generating text from language models (LMs), many prompting methods strive to
+                                explain LM behavior by eliciting specifically-structured outputs (e.g, chain-of-thought
+                                prompting). Relatedly, querying a model with specially-designed inputs and observing
+                                output behavior is a longstanding and popular method in the NLP interpreter’s toolbox.
+                                Prompting and querying approaches explain how LMs operate at a high-level (in natural
+                                language) without attributing behaviors to any specific components of the network. A
+                                separate line of work has investigated attributing or attempting to reconstruct model
+                                behaviors at the model parameter or hidden representation-level, generally at a small
+                                scale. While these two techniques often seem at odds in terms of their stated aims, they
+                                collectively inform a large progression in our understanding of LMs in the past 2 years.
+                                In this talk, I will give examples of both of these approaches, highlight their
+                                similarities and differences, and discuss paths forward that leverage their combined
+                                strengths.
+                            </div>
+                            <div class="collapse" id="speaker-bio-talk9">
+                                Sarah Wiegreffe is a Young Investigator (postdoc) at the Allen Institute of AI, where
+                                she is a member of the Aristo team. She also holds a courtesy appointment in the Allen
+                                School at the University of Washington. Her research interests encompass
+                                interpretability + explainability of NLP models, with a focus on the faithfulness of
+                                generated text to internal LM prediction mechanisms and the utility of model-generated
+                                textual explanations to humans. She received her PhD in 2022 from Georgia Tech, advised
+                                by Mark Riedl. She also received an M.S. in Computer Science (2020) and B.S. in Data
+                                Science (2017) from Georgia Tech and the College of Charleston, respectively. Outside of
+                                work, she enjoys rock climbing, cooking, and exploring Seattle.
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div> -->
+
+
+    <!-- <hr /> -->
+
+    <!-- Speakers -->
+    <!-- <div class="row" id="speakers">
+        <div class="col-xs-12">
+            <h2>Speakers</h2>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 col-lg-3">
+                <a href="https://allenai.org/team/peterc">
+                    <img class="people-pic"
+                        src="https://images.ctfassets.net/wf5t1ptx352c/30A5DGuNxSgIm2Kso0OIcg/0308a951718f1b8061e354a12b0c5ec5/Peter-Clark.jpg?w=320&h=320&fit=fill">
+                </a>
+                <div class="people-name">
+                    <a href="https://allenai.org/team/peterc">Peter Clark</a>
+                    <h6>Allen Institute for AI</h6>
+                </div>
+            </div>
+            <div class="col-xs-6 col-lg-3">
+                <a href="https://cs.brown.edu/people/epavlick/">
+                    <img class="people-pic" src="http://cs.brown.edu/people/epavlick/profile-pic-circle.gif">
+                </a>
+                <div class="people-name">
+                    <a href="https://cs.brown.edu/people/epavlick/">Ellie Pavlick</a>
+                    <h6>Brown University</h6>
+                </div>
+            </div>
+            <div class="col-xs-6 col-lg-3">
+                <a href="https://dennyzhou.github.io/">
+                    <img class="people-pic" src="https://dennyzhou.github.io/unnamed.jpeg">
+                </a>
+                <div class="people-name">
+                    <a href="https://dennyzhou.github.io/">Denny Zhou</a>
+                    <h6>Google AI</h6>
+                </div>
+            </div>
+            <div class="col-xs-6 col-lg-3">
+                <a href="https://cocolab.stanford.edu/ndg">
+                    <img class="people-pic" src="https://cocolab.stanford.edu/images/members/noah.jpg">
+                </a>
+                <div class="people-name">
+                    <a href="https://cocolab.stanford.edu/ndg">Noah Goodman</a>
+                    <h6>Stanford University</h6>
+                </div>
+            </div>
+            <div class="col-xs-6 col-lg-3">
+                <a href="https://sarahwie.github.io/">
+                    <img class="people-pic" src="{{ " /static/img/people/sarah_wiegraffe.jpg" | prepend:site.baseurl
+                        }}">
+                </a>
+                <div class="people-name">
+                    <a href="https://sarahwie.github.io/">Sarah Wiegreffe</a>
+                    <h6>Allen Institute for AI</h6>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <hr />
+    <div class="row" id="cfp">
+        <div class="col-xs-12">
+            <h2>Call for Papers</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <p>
+                Key questions that we aim to address in this workshop are:
+            </p>
+            <p>
+            <ul>
+                <li>How should tabular data be encoded to make learned Table Models generalize across tasks?</li>
+                <li>Which pre-training objectives, architectures, fine-tuning and prompting strategies, work for
+                    tabular
+                    data?</li>
+                <li>How should the varying formats, data types, and sizes of tables be handled?</li>
+                <li>To what extend can Language Models be adapted towards tabular data tasks and what are their
+                    limits?
+                </li>
+                <li>What tasks can existing Table Models accomplish well and what opportunities lie ahead?</li>
+                <li>How do existing Table Models perform, what do they learn, where and how do they fall short?</li>
+                <li>When and how should Table Models be updated in contexts where the underlying data source
+                    continuously
+                    evolves?
+                </li>
+            </ul>
+            </p>
+            <p>
+                The Table Representation Learning workshop is the first workshop in this emerging research area and
+                is centred around three main goals:
+            </p>
+            <p>
+            <ul>
+                <li> (1) <b>Motivate tabular data as a primary modality</b> for representation learning and shape the
+                    area further. </li>
+                <li> (2) <b>Showcase impactful applications of pretrained table models</b> and discussing future
+                    opportunities. </li>
+                <li> (3) <b>Foster discussion and collaboration</b> across the machine learning, natural language
+                    processing, and data management communities. </li>
+            </ul>
+            </p>
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="row" id="guidelines">
+        <div class="col-xs-12">
+            <h2>Submission Guidelines</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <p>We invite submissions that address, but are not limited to, any of the following topics on machine
+                learning
+                for tabular data:
+            </p>
+
+            <ul>
+                <li><b>Representation Learning: </b> Representation learning techniques for structured (e.g.,
+                    relational
+                    databases) or semi-structured (Web tables, spreadsheet tables) tabular data. This includes
+                    developing
+                    specialized data encodings or adaptation of general-purpose ones (e.g., GPT-3) for tabular data,
+                    multimodal learning across tables, and other modalities (e.g., natural language, images, code),
+                    and
+                    relevant fine-tuning and prompting strategies.</li>
+                <li><b>Downstream Applications: </b> Machine learning applications involving tabular data, such as
+                    data
+                    preparation (e.g. data cleaning, integration, cataloging, anomaly detection), retrieval (e.g.,
+                    semantic
+                    parsing, question answering, fact-checking), information extraction, and generation (e.g.,
+                    table-to-text).</li>
+                <li><b>Upstream Applications: </b> Applications that use representation learning to optimize tabular
+                    data
+                    processing systems, such as table parsers (extracting tables from documents, spreadsheets,
+                    presentations, images), storage (e.g. compression, indexing), and querying (e.g. query plan
+                    optimization, cost estimation).</li>
+                <li><b>Industry Papers: </b> Applications of tabular representation models in production. Challenges
+                    of
+                    maintaining and managing table representation models in a fast evolving context, e.g. data
+                    updating,
+                    error correction, monitoring. </li>
+                <li><b>New Resources: </b> Survey papers, benchmarks and datasets for tabular representation models
+                    and
+                    their applications. </li>
+                <li><b>Others: </b> Formalization, surveys, visions and reflections to structure and guide future
+                    research.
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <hr />
+
+
+    <div class="row" id="accepted">
+        <div class="col-xs-12">
+            <h2>Accepted Papers (2022) </h2>
+            <!-- <p>Note: 2 additional papers were accepted but are not listed here because of an anonymity period.</p> -->
+        </div>
+    </div>
+
+    <br/>
+
+    <h3>Oral</h3>
+
+    <br/>
+    
+    <ul class="paper-list">
+    <li>
+        <a class="paper-title" href="../../assets/papers/analysis_of_the_attention_in_t.pdf" target="_blank">Analysis of the Attention in
+            Tabular
+            Language Models</a> &nbsp; &nbsp; <a style="border-bottom: 0;" href="https://slideslive.com/38993349" target="blank"><i class="fa fa-play" aria-hidden="true"></i> recording</a>
+        <br>
+        <span class="paper-authors">Aneta Koleva, Martin Ringsquandl, Volker Tresp</span>
+        <br>
+    </li>
+    </li>
+
+    <li> <a class="paper-title" href="assets/papers/transfer_learning_with_deep_ta.pdf" target="_blank">Transfer Learning with Deep
+            Tabular
+            Models</a>&nbsp; &nbsp; <a style="border-bottom: 0;" href="https://slideslive.com/38993348" target="blank"><i class="fa fa-play" aria-hidden="true"></i> recording</a>
+        <br>
+        <span class="paper-authors">Roman Levin, Valeriia Cherepanova, Avi Schwarzschild, Arpit Bansal, C. Bayan
+            Bruss,
+            Tom
+            Goldstein, Andrew Gordon Wilson, Micah Goldblum</span>
+    </li>
+
+    <li> <a class="paper-title" href="assets/papers/stable_table_generation_framew.pdf" target="_blank">STable: Table Generation
+            Framework
+            for
+            Encoder-Decoder Models</a>
+                &nbsp; &nbsp; <a style="border-bottom: 0;" href="https://slideslive.com/38993352" target="blank"><i class="fa fa-play" aria-hidden="true"></i> recording</a>
+
+                <br>
+        <span class="paper-authors">Michał Pietruszka, Michał Turski, Łukasz Borchmann, Tomasz Dwojak, Gabriela
+            Pałka,
+            Karolina Szyndler, Dawid Jurkiewicz, Łukasz Garncarek</span>
+    </li>
+
+    <li> <a class="paper-title" href="assets/papers/tabpfn_a_transformer_that_solv.pdf" target="_blank">TabPFN: A Transformer That
+            Solves
+            Small
+            Tabular Classification Problems in a Second</a>
+            &nbsp; &nbsp; <a style="border-bottom: 0;" href="https://slideslive.com/38993350" target="blank"><i class="fa fa-play" aria-hidden="true"></i> recording</a>
+            <br>
+        <span class="paper-authors">Noah Hollmann, Samuel Müller, Katharina Eggensperger, Frank Hutter</span>
+    </li>
+
+    <li> <a class="paper-title" href="assets/papers/towards_parameter_efficient_au.pdf" target="_blank">Towards Parameter-Efficient
+            Automation
+            of Data Wrangling Tasks with Prefix-Tuning</a>
+            &nbsp; &nbsp; <a style="border-bottom: 0;" href="https://slideslive.com/38993351" target="blank"><i class="fa fa-play" aria-hidden="true"></i> recording</a>
+            <br>
+        <span class="paper-authors">David Vos, Till Döhmen, Sebastian Schelter</span>
+    </li>
+
+    <li> <a class="paper-title" href="https://openreview.net/forum?id=7q_-aEdnGZw" target="_blank">RegCLR: A Self-Supervised Framework
+            for
+            Tabular Representation Learning in the Wild</a>
+            &nbsp; &nbsp; <a style="border-bottom: 0;" href="https://slideslive.com/38996604" target="blank"><i class="fa fa-play" aria-hidden="true"></i> recording</a>
+            <br>
+        <span class="paper-authors">Weiyao Wang, Byung-Hak Kim, Varun Ganapathi</span>
+    </li>
+    </ul>
+
+    <br/>
+
+    <h3>Poster</h3>
+    
+    <br/>
+
+    <ul class="paper-list">
+    <li> <a class="paper-title" href="assets/papers/saint_improved_neural_networks.pdf" target="_blank">SAINT: Improved Neural Networks
+            for
+            Tabular Data via Row Attention and Contrastive Pre-Training</a><br>
+        <span class="paper-authors">Gowthami Somepalli, Avi Schwarzschild, Micah Goldblum, C. Bayan Bruss, Tom
+            Goldstein</span>
+    </li>
+
+    <li> <a class="paper-title" href="assets/papers/generic_entity_resolution_mode.pdf" target="_blank">Generic Entity Resolution
+            Models</a><br>
+        <span class="paper-authors">Jiawei Tang, Yifei Zuo, Lei Cao, Samuel Madden</span>
+    </li>
+
+    <li> <a class="paper-title" href="assets/papers/towards_foundation_models_for_.pdf" target="_blank">Towards Foundation Models for
+            Relational
+            Databases</a>[<a class="paper-title" href="https://www.youtube.com/watch?v=GyeGQGmTv30" target="_blank">video
+                pitch</a>]<br>
+        <span class="paper-authors">Liane Vogel, Benjamin Hilprecht, Carsten Binnig</span>
+    </li>
+
+    <li> <a class="paper-title" href="assets/papers/diffusion_models_for_missing_v.pdf" target="_blank">Diffusion models for missing
+            value
+            imputation in tabular data</a>[<a class="paper-title" href="https://www.youtube.com/watch?v=URlh7KJfXzM"
+                target="_blank">video
+                pitch</a>]<br>
+        <span class="paper-authors">Shuhan Zheng, Nontawat Charoenphakdee</span>
+    </li>
+
+    <li> <a class="paper-title" href="assets/papers/stab_self_supervised_learning_.pdf" target="_blank">STab: Self-supervised Learning
+            for
+            Tabular Data</a><br>
+        <span class="paper-authors">Ehsan Hajiramezanali, Max W Shen, Gabriele Scalia, Nathaniel Lee Diamant</span>
+    </li>
+
+    <li> <a class="paper-title" href="assets/papers/caspr_customer_activity_sequen.pdf" target="_blank">CASPR: Customer Activity
+            Sequence
+            based
+            Prediction and Representation</a><br>
+        <span class="paper-authors">Damian Konrad Kowalczyk, Pin-Jung Chen, Sahil Bhatnagar</span>
+    </li>
+
+    <li> <a class="paper-title" href="assets/papers/conditional_contrastive_networ.pdf" target="_blank">Conditional Contrastive
+            Networks</a><br>
+        <span class="paper-authors">Emily Mu, John Guttag</span>
+    </li>
+
+    <li> <a class="paper-title" href="assets/papers/self_supervised_representation.pdf" target="_blank">Self-supervised Representation
+            Learning
+            Across Sequential and Tabular Features Using Transformers</a><br>
+        <span class="paper-authors">Rajat Agarwal, Anand Muralidhar, Agniva Som, Hemant Kowshik</span>
+    </li>
+
+    <li> <a class="paper-title" href="assets/papers/the_need_for_tabular_represent.pdf" target="_blank">The Need for Tabular
+            Representation
+            Learning: An Industry Perspective</a><br>
+        <span class="paper-authors">Joyce Cahoon, Alexandra Savelieva, Andreas C Mueller, Avrilia Floratou, Carlo
+            Curino,
+            Hiren Patel, Jordan Henkel, Markus Weimer, Roman Batoukov, Shaleen Deep, Venkatesh Emani, Richard
+            Wydrowski,
+            Nellie Gustafsson</span>
+    </li>
+
+    <li> <a class="paper-title" href="assets/papers/stunt_few_shot_tabular_learnin.pdf" target="_blank">STUNT: Few-shot Tabular Learning
+            with
+            <span class="paper-authors">Self-generated Tasks from Unlabeled Tables</a><br>
+        Jaehyun Nam, Jihoon Tack, Kyungmin Lee, Hankook Lee, Jinwoo Shin</span></li>
+
+    <li> <a class="paper-title" href="assets/papers/tabular_data_generation_can_we.pdf" target="_blank">Tabular Data Generation: Can We
+            Fool
+            XGBoost?</a>
+        <br>
+        <span class="paper-authors">EL Hacen Zein, Tanguy Urvoy</span>
+    </li>
+
+    <li> SiMa: Federating Data Silos using GNNs<br></li>
+
+    <!-- 
+<li>
+    <li> <a class="paper-title" href="assets/papers/sima_federating_data_silos_usi.pdf" target="_blank">SiMa: Federating Data Silos using
+            GNNs</a>[Poster session 2 (3:15pm)][<a class="paper-title" href="https://www.youtube.com/watch?v=y4ZOobI1v2w"
+                target="_blank">video</a>]<br>
+        <span class="paper-authors">Christos Koutras, Rihan Hai, Kyriakos Psarakis, Marios Fragkoulis, Asterios
+            Katsifodimos -->
+
+    <li> <a class="paper-title" href="assets/papers/self_supervised_pre_training_f.pdf" target="_blank">Self Supervised Pre-training for
+            Large Scale Tabular Data</a><br>
+        <span class="paper-authors">Sharad Chitlangia, Anand Muralidhar, Rajat Agarwal</span>
+    </li>
+
+    <li> <a class="paper-title" href="assets/papers/rotar_efficient_row_based_tabl.pdf" target="_blank">RoTaR: Efficient Row-Based Table
+            Representation Learning via Teacher-Student Training</a><br>
+        <span class="paper-authors">Zui Chen, Lei Cao, Samuel Madden</span>
+    </li>
+
+    <li> <a class="paper-title" href="assets/papers/mapqa_a_dataset_for_question_a.pdf" target="_blank">MapQA: A Dataset for Question
+            Answering on Choropleth Maps</a><br>
+        <span class="paper-authors">Shuaichen Chang, David Palzer, Jialin Li, Eric Fosler-Lussier, Ningchuan
+            Xiao</span>
+    </li>
+
+    <li> <a class="paper-title" href="assets/papers/met_masked_encoding_for_tabula.pdf" target="_blank">MET: Masked Encoding for Tabular
+            Data</a><br>
+        <span class="paper-authors">Kushal Alpesh Majmundar, Sachin Goyal, Praneeth Netrapalli, Prateek Jain</span>
+    </li>
+
+    <li> <a class="paper-title" href="assets/papers/active_learning_with_tabular_l.pdf" target="_blank">Active Learning with Table
+            Language
+            Models</a><br>
+        <span class="paper-authors">Martin Ringsquandl, Aneta Koleva</span>
+    </li>
+
+    <li> <a class="paper-title" href="assets/papers/structural_embedding_of_data_f.pdf" target="_blank">Structural Embedding of Data
+            Files
+            with MAGRITTE</a>
+            &nbsp; &nbsp; <a style="border-bottom: 0;" href="https://www.youtube.com/watch?v=_seBQIBzFoI" target="blank"><i class="fa fa-play" aria-hidden="true"></i> video
+                pitch</a>
+                <br>
+        <span class="paper-authors">Gerardo Vitagliano, Mazhar Hameed, Felix Naumann</span>
+    </li>
+    </ul>
+    
+    <hr />
+
+    <div class="row" id="dates">
+        <div class="col-xs-12">
+            <h2>Important Dates</h2>
+        </div>
+    </div>
+
+    <br>
+    <div class="row">
+        <div class="col-xs-12">
+            <table class="table table-striped">
+                <tbody>
+                    <tr>
+                        <td>Paper Submission Deadline</td>
+                        <td><b>September 10, 2023</b> (All deadlines are 11:59 PM AoE time.)</td>
+                    </tr>
+                    <tr>
+                        <td>Paper Submission Deadline</td>
+                        <td><b>September 29, 2023</b> (All deadlines are 11:59 PM AoE time.)</td>
+                    </tr>
+                    <tr>
+                        <td>Decision Notifications</td>
+                        <td><b>October 25, 2023</b></td>
+                    </tr>
+                    <!-- <tr>
+          <td>Camera Ready Paper Deadline</td>
+          <td><s>June 6, 2023 (11:59 PM Pacific time)</s></td>
+        </tr> -->
+                    <tr>
+                        <td>Workshop Date</td>
+                        <td>December, 15 / 16, 2023</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <hr />
+
+
+    <!-- Organizers -->
+    <div class="row" id="organizers">
+        <div class="col-xs-12">
+            <h2>Organizers</h2>
+        </div>
+    </div>
+    
+    <br/>
+
+    <div class="row">
+        <div class="col-xs-6 col-lg-3">
+            <a href="https://madelonhulsebos.github.io/">
+                <img class="people-pic" src="assets/mh.jpg">
+            </a>
+            <div class="people-name">
+                <a href="https://madelonhulsebos.github.io/">Madelon Hulsebos</a>
+                <h6>University of Amsterdam</h6>
+            </div>
+        </div>
+        <div class="col-xs-6 col-lg-3">
+            <a href="https://gael-varoquaux.info/">
+                <img class="people-pic" src="assets/gv.jpeg">
+            </a>
+            <div class="people-name">
+                <a href="https://gael-varoquaux.info/">Gaël Varoquaux</a>
+                <h6>INRIA</h6>
+            </div>
+        </div>
+        <div class="col-xs-6 col-lg-3">
+            <a href="https://www.microsoft.com/en-us/research/people/hadong">
+                <img class="people-pic" src="assets/hd.jpg">
+            </a>
+            <div class="people-name">
+                <a href="https://www.microsoft.com/en-us/research/people/hadong">Haoyu Dong</a>
+                <h6>Microsoft Research Asia</h6>
+            </div>
+        </div>
+        <div class="col-xs-6 col-lg-3">
+            <a href="https://bojan.ninja">
+                <img class="people-pic" src="assets/bk.jpg">
+            </a>
+            <div class="people-name">
+                <a href="https://bojan.ninja">Bojan Karlas</a>
+                <h6>ETH Zurich</h6>
+            </div>
+        </div>
+        <div class="col-xs-6 col-lg-3">
+            <a href="https://cs.stanford.edu/people/lorr1">
+                <img class="people-pic" src="assets/lo.jpg">
+            </a>
+            <div class="people-name">
+                <a href="https://cs.stanford.edu/people/lorr1">Laurel Orr</a>
+                <h6>Stanford</h6>
+            </div>
+        </div>
+        <div class="col-xs-6 col-lg-3">
+            <a href="https://pcyin.me/">
+                <img class="people-pic" src="assets/py.jpg">
+            </a>
+            <div class="people-name">
+                <a href="https://pcyin.me/">Pengcheng Yin</a>
+                <h6>Google Research</h6>
+            </div>
+        </div>
+        <div class="col-xs-6 col-lg-3">
+            <a href="https://siviltaram.github.io/">
+                <img class="people-pic" src="assets/ql.png">
+            </a>
+            <div class="people-name">
+                <a href="https://siviltaram.github.io/">Qian Liu</a>
+                <h6>Sea AI Lab</h6>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Submission -->
+    <!-- <div class="row" id="guidelines">
+        <div class="col-xs-12">
+            <h2>Submission Guidelines</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <p>
+                We welcome two types of papers: regular workshop papers and non-archival submissions. Only regular
+                workshop
+                papers will be included in the workshop proceedings. All submissions should be in PDF format and
+                made
+                through <a style="color:#2980b9;font-weight:400;"
+                    href=" https://softconf.com/acl2023/nl-reasoning/">Softconf</a>. In line with the ACL main
+                conference
+                policy, camera-ready versions of papers will be given one additional page of content.
+            </p>
+            <ul>
+                <li><b>Regular workshop papers</b>: Authors should submit a paper up to <b>8 pages (both short and
+                        long
+                        papers are welcome)</b>, with unlimited pages for references, following the <a
+                        style="color:#2980b9;font-weight:400;"
+                        href="https://2023.aclweb.org/calls/main_conference/#paper-types-and-formats">ACL 2023
+                        formatting
+                        requirements</a>. The reported research should be substantially original. All submissions
+                    will
+                    be
+                    reviewed in a single track, regardless of length. Accepted papers will be presented as posters
+                    by
+                    default, and best papers may be given the opportunity for a brief talk to introduce their work.
+                    Reviewing will be double-blind, and thus no author information should be included in the papers;
+                    self-reference that identifies the authors should be avoided or anonymised. Accepted papers will
+                    appear
+                    in the workshop proceedings.
+                </li>
+                <li><b>Non-archival submissions</b>: We also solicit cross-submissions, i.e., papers on relevant
+                    topics
+                    that
+                    <i>have appeared</i> in other venues (e.g., workshop or conference papers at NLP, ML, or
+                    cognitive
+                    science venues, among others). Accepted papers will be presented at the workshop, with an
+                    indication
+                    of
+                    original venue, but will not be included in the workshop proceedings. Cross-submissions are
+                    ideal
+                    for
+                    related work which would benefit from exposure to the <b>NLReasoning</b> audience. Interested
+                    authors
+                    should submit their papers in PDF format through the <b>NLReasoning</b> Softconf website, with a
+                    note on
+                    the original venue. They will be reviewed in a <b>single-blind</b> fashion. Papers in this
+                    category
+                    do
+                    not need to follow the ACL format, and the submission length is determined by the original
+                    venue.
+                    The
+                    paper selection will be solely determined by the organizing committee.
+                </li>
+            </ul>
+            <p>
+                In addition, we welcome papers on relevant topics that are under review or to be submitted to other
+                venues
+                (including the ACL 2023 main conference). These papers must follow the regular workshop paper format
+                and
+                will not be included in the workshop proceedings. Papers in this category will be reviewed by
+                workshop
+                reviewers.</p>
+
+            <p>
+                <b>Note to authors: While you submit your paper through Softconf (<a
+                        style="color:#2980b9;font-weight:400;"
+                        href=" https://softconf.com/acl2023/nl-reasoning/">here</a>), please select the “Submission
+                    Type”
+                    properly based on the guidelines.
+                </b>
+            </p>
+            <p>
+                For questions about the submission guidelines, please contact workshop organizers via <a
+                    href="nl-reasoning@googlegroups.com">nl-reasoning@googlegroups.com</a>.
+
+            </p>
+
+        </div> -->
