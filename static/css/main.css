@@ -8,8 +8,15 @@ body {
 }
 
 body *::selection {
-  background: #e67e22;
+  background: #859900;
   color: #fff;
+}
+
+a:link{
+  color: #859900;
+}
+a:visited {
+	color: #859900;
 }
 
 .container {
