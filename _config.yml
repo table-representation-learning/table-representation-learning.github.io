@@ -1,54 +1,9 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
 title: "TRL Workshop"
-author: ""
-description: ""
+description: "TRL Workshop"
+  ---
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://table-representation-learning.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-
-minima:
-  skin: classic
-  social_links:
-    twitter: TrlWorkshop
-    email: table-representation-learning-workshop@googlegroups.com
 
 # Build settings
-theme: minima
-
-# include:
-#   - 2023/
-
-header_pages:
-  - index.md
-  - index_2022.md
-  # - 2023/program.md
-  # - 2023/organization.md
-  # - 2023/accepted-papers.md
-  # - 2023/call-for-papers.md
-  # - 2023/awards.md
-
-# Google Analytics
-google_analytics: "G-TNBXJN1Y5L"
-
-markdown: CommonMarkGhPages
-commonmark:
-  options: ["UNSAFE", "SMART", "FOOTNOTES"]
-  extensions: ["strikethrough", "autolink", "table"]
+markdown: kramdown
+include: ['_pages']
+ga_id: G-TNBXJN1Y5L
