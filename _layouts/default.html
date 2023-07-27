@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+
+    {% include header.html %}
+
+    <div class="container">
+      <!-- <div class="page-header"></div> -->
+      <!-- <div class="page-header" id="banner">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1>
+              {{ page.title }}
+              {% if page.paper %}
+                <a target="_blank" style="color:#aaa; font-size:15px;" href="{{ page.arxiv }}">[paper]</a>
+              {% endif %}
+              {% if page.bibtex %}
+                <a style="color:#aaa; font-size:15px;" href="#bibtex">[bibtex]</a>
+              {% endif %}
+            </h1>
+            <p class="lead authors">{{ page.authors }}</p>
+          </div>
+        </div>
+      </div> -->
+      <div class="page-content">
+          {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    <!-- Google analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', '{{ site.ga_id }}', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+    <script type="text/javascript" src="{{ "/static/js/jquery.min.js" | prepend:site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ "/static/js/bootstrap.min.js" | prepend:site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ "/static/js/moment.js" | prepend:site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ "/static/js/moment-timezone.js" | prepend:site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ "/static/js/timezones.js" | prepend:site.baseurl }}"></script>
+  </body>
+</html>
+
+

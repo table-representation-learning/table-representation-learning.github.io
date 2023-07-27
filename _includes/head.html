@@ -1,0 +1,34 @@
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  
+    <meta name="keywords" content={{ page.categories }}>
+  
+    {% if page.favicon %}
+    <link rel="shortcut icon" href="{{ page.favicon | prepend:site.baseurl }}">
+    {% endif %}
+  
+  
+    <title>{{ page.urltitle }}</title>
+    <meta name="description" content="{{site.description}}">
+  
+    <!--Open Graph Related Stuff-->
+    <meta property="og:title" content="{{page.title}}"/>
+    <meta property="og:url" content="https://table-representation-learning.github.io"/>
+    <meta property="og:description" content="{{site.description}}"/>
+    <meta property="og:site_name" content="{{page.urltitle}}"/>
+    <meta property="og:image" content=""/>
+    <meta property="og:image:url" content=""/>
+  
+    <!--Twitter Card Stuff-->
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title" content="{{page.title}}"/>
+    <meta name="twitter:description" content="{{site.description}}"/>
+  
+    <!-- CSS  -->
+    <link rel="stylesheet" type="text/css" href="{{ "/static/css/bootstrap.min.css" | prepend:site.baseurl }}">
+    <link rel="stylesheet" type="text/css" href="{{ "/static/css/font-awesome.min.css" | prepend:site.baseurl }}">
+    <link rel="stylesheet" type="text/css" href="{{ "/static/css/main.css" | prepend:site.baseurl }}" media="screen,projection">
+  </head>
+  
