@@ -4,7 +4,7 @@ body {
   font-weight: 300;
   -webkit-font-smoothing: subpixel-antialiased;
   color: #333;
-  padding-top: 50px;
+  padding-top: 25px;
 }
 
 body *::selection {
