@@ -75,17 +75,17 @@ a {
 }
 
 #title {
-  background-image: url("../img/background/blue_abstract_crop.jpg");
+  background-image: url("../img/background/negative-space-abstract-shape-pattern-background-8.jpg");
   background-size: cover;
   padding: 50px 0px;
 }
 
 #title h1 {
-  color: #fff;
+  color: #666666;
 }
 
 #title h2 {
-  color: #fff;
+  color: #666666;
 }
 
 .navbar a {
