@@ -9,61 +9,75 @@ paper: true
 acknowledgements: ""
 ---
 
-<!-- <br /> -->
-<!-- <div class="row" id="title">
-  <div class="col-xs-12">
-    <center><h1>Natural Language Reasoning and Structured Explanations Workshop</h1></center>
-    <center><h2>July 13-14, 2023 @ ACL 2023. Toronto, Canada.</h2></center>
- 
-  </div>
-</div> -->
-<!-- <br /> -->
-
 <br />
 
 <div class="row">
     <div class="col-xs-12">
         <p>
-            We develop large models to "understand" images, videos and natural language that fuel many intelligent
-            applications from text completion to self-driving cars. But tabular data has long been overlooked despite
-            its dominant presence in data-intensive systems. The majority (67%) of datasets in Google Dataset Search,
-            for example, contain typical tabular file formats like CSV and XLS. Similarly, the top-3 most-used data
-            management systems are all relational database management systems (RDBMS). Besides dedicated tabular file
-            formats and database systems, tables are widely used for presenting data in documents, Wikipedia pages,
-            papers, and presentations. By learning latent representations from structured tabular data (possibly
-            combined with other modalities such as free-form text), pretrained table models have shown preliminary but
-            impressive performance for semantic parsing, question answering, table understanding, and data preparation.
-            Considering that such tasks share fundamental properties inherent to tables, representation learning for
-            tabular data is an important direction to explore further. These works also surfaced many open challenges
-            such as finding effective data encodings, pretraining objectives and downstream tasks. We believe, the time
-            has come to consider tabular data as a first-class modality for representation learning and stimulate
-            advances in this direction.
+            <b>Tables are a promising modality for representation learning with too much application potential to ignore.</b>
+            However, tables have long been overlooked despite their dominant presence in the data landscape, e.g. data management and analysis pipelines.
+            The majority of datasets in Google Dataset Search, for example, resembles typical tabular file formats like CSVs.
+            Similarly, the top-3 most-used database management systems are all relational (RDBMS).
+            Representation learning over tables, possibly combined with other modalities such as text or SQL, has shown impressive performance for tasks like semantic parsing,
+            question answering, table understanding, and data preparation. More recently, the pre-training paradigm was shown to be effective for tabular ML as well,
+            while researchers also started exploring the impressive capabilities of LLMs for table encoding and data manipulation.
         </p>
-        <br />
+        <p>
+            The Table Representation Learning workshop is the first in this emerging research area and
+            concentrates on three main goals:
+        </p>
+        <p>
+        <ul>
+            <li> (1) <b>Motivate tables as a primary modality</b> for representation and generative learning and shape the area further. </li>
+            <li> (2) <b>Showcase impactful applications of pretrained table models</b> and discussing future opportunities. </li>
+            <li> (3) <b>Foster discussion and collaboration</b> across the ML, NLP and DB communities. </li>
+        </ul>
+        </p>
     </div>
-
-    <div class="col-xs-12">
-        <div>
-            Frequently Asked Questions: <a href="https://groups.google.com/g/table-representation-learning-workshop"
-                target="blank">FAQ</a>
-        </div>
-        <div>
-            General Questions: <a class="u-email"
-                href="mailto:table-representation-learning-workshop@googlegroups.com">table-representation-learning-workshop@googlegroups.com</a>
-        </div>
-        <div>
-            Specific Questions: <a class="u-email" href="mailto:m.hulsebos@uva.nl">m.hulsebos@uva.nl</a>
-        </div>
-        <div>
-            Following Us:
-            <i aria-hidden="true" class="fa fa-twitter"></i>
-            <a class="menulink" href="https://twitter.com/TrlWorkshop" target="_blank">Twitter</a>
+    <div >
+        <div class="col-xs-12">
+            <div>
+                Frequently Asked Questions: <a href="https://groups.google.com/g/table-representation-learning-workshop"
+                    target="blank">FAQ</a>
+            </div>
+            <div>
+                General Questions: <a class="u-email"
+                    href="mailto:table-representation-learning-workshop@googlegroups.com">table-representation-learning-workshop@googlegroups.com</a>
+            </div>
+            <div>
+                Specific Questions: <a class="u-email" href="mailto:m.hulsebos@uva.nl">m.hulsebos@uva.nl</a>
+            </div>
+            <div>
+                Follow Us:
+                <i aria-hidden="true" class="fa fa-twitter"></i>
+                <a class="menulink" href="https://twitter.com/TrlWorkshop" target="_blank"><b>Twitter</b></a>
+            </div>
         </div>
     </div>
+</div>
 
-    <p align="center col-xs-12" style="text-align:center;">
-        <img src="assets/trl_workshop.jpg">
-    </p>
+
+    <!-- <p>With TRL we seek to address the following questions, among others:</p>
+
+    <p>
+    <ul>
+        <li>How should tables be encoded to make learned Table Models generalize across tasks?</li>
+        <li>Which pre-training objectives, architectures, fine-tuning and prompting strategies, work for tabular data?</li>
+        <li>How should the varying formats, data types, and sizes of tables be handled?</li>
+        <li>How and to what extent can LLMs be adapted towards tabular data tasks and what are their limitations?</li>
+        <li>What tasks can existing neural table models accomplish well and what opportunities lie ahead?</li>
+        <li>How do existing neural table models perform, what do they learn, where and how do they fall short?</li>
+        <li>When and how should neural table models be updated in contexts where the underlying data source continuously evolves?</li>
+    </ul>
+    </p> -->
+
+    <br>
+
+    <hr />
+
+    <!-- <p align="center col-xs-24" style="text-align:center;">
+        <img src="assets/trl_workshop.png">
+    </p> -->
 
     <!-- Schedule -->
     <!-- <div class="row" id="schedule">
@@ -388,50 +402,92 @@ acknowledgements: ""
         </div>
     </div> -->
 
-
-    <hr />
-    <div class="row" id="cfp">
+    <div>
+        <div class="row" id="cfp">
+            <div class="col-xs-12">
+                <h2>Call for Papers</h2>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row" id="dates">
         <div class="col-xs-12">
-            <h2>Call for Papers</h2>
+            <h3>Important Dates</h3>
         </div>
     </div>
     <div class="row">
         <div class="col-xs-12">
-            <p>
-                Key questions that we aim to address in this workshop are:
+            <br>
+            <table class="table table-striped">
+                <tbody>
+                    <tr>
+                        <td>Submission Open</td>
+                        <td>August 15, 2023 (15:00 GMT)</td>
+                    </tr>
+                    <tr>
+                        <td>Submission Deadline</td>
+                        <td><b>October 2, 2023</b> (15:00 GMT)</td>
+                    </tr>
+                    <tr>
+                        <td>Notifications</td>
+                        <td><b>October 25, 2023</b></td>
+                    </tr>
+                    <tr>
+                        <td>Workshop Date</td>
+                        <td>December 15 or 16, 2023</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12">
+            <h3>Scope</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+
+            <p>We invite submissions on representation and generative learning over tables, related to any of the following topics:
             </p>
-            <p>
+
             <ul>
-                <li>How should tabular data be encoded to make learned Table Models generalize across tasks?</li>
-                <li>Which pre-training objectives, architectures, fine-tuning and prompting strategies, work for
-                    tabular
-                    data?</li>
-                <li>How should the varying formats, data types, and sizes of tables be handled?</li>
-                <li>To what extend can Language Models be adapted towards tabular data tasks and what are their
-                    limits?
+                <li><b>Representation Learning over tables  </b> which can be structured as well as semi-structured, and extend to full databases. 
+                    Example contributions are new model architectures, data encoding techniques, pre-training,
+                    fine-tuning, and prompting strategies, multi-task learning, etc.
                 </li>
-                <li>What tasks can existing Table Models accomplish well and what opportunities lie ahead?</li>
-                <li>How do existing Table Models perform, what do they learn, where and how do they fall short?</li>
-                <li>When and how should Table Models be updated in contexts where the underlying data source
-                    continuously
-                    evolves?
+                <li><b>Generative Learning and LLMs  </b>  for structured data and interfaces to structured data
+                    (e.g. queries, analysis).
+                </li>
+                <li><b>Multimodal learning  </b>
+                    where tables are jointly embedded with, for example, natural language, code (e.g. SQL),
+                    knowledge bases, visualizations/images.
+                </li>
+                <li><b>Downstream Applications  </b> of table representations for tasks like data preparation
+                    (e.g. data cleaning, validation, integration, cataloging, feature engineering),
+                    retrieval (e.g. search, fact-checking/QA, KG construction),
+                    analysis (e.g. summarization, visualization, and query recommendation), and (end-to-end) machine learning.
+                </li>
+                <li><b>Upstream Applications  </b> of table representation models for optimizing table parsers/extraction
+                    (from documents, spreadsheets, presentations), storage (e.g. compression, indexing)
+                    and query processing e.g. query optimization
+                </li>
+                <li><b>Production challenges  </b>of table representation models.
+                    Work addressing the challenges of maintaining and managing TRL models in fast evolving contexts,
+                    e.g. data updating, error correction, monitoring.
+                </li>
+                <li><b>Domain-specific challenges  </b>for learned table models often arise in domains such as enterprise,
+                    finance, medical, law. These challenges pertain to table content, table structure, privacy, security
+                    limitations, and other factors that necessitate tailored solutions.
+                </li>
+                <li><b>Benchmarks and analyses  </b>of table representation models, including the utility of language models as base models
+                    versus alternatives and robustness regarding large, messy, heterogeneous, or complex tables.
+                </li>
+                <li><b>Others: </b> Formalization, surveys, datasets, visions, and reflections to structure and guide future
+                    research.
                 </li>
             </ul>
-            </p>
-            <p>
-                The Table Representation Learning workshop is the first workshop in this emerging research area and
-                is centred around three main goals:
-            </p>
-            <p>
-            <ul>
-                <li> (1) <b>Motivate tabular data as a primary modality</b> for representation learning and shape the
-                    area further. </li>
-                <li> (2) <b>Showcase impactful applications of pretrained table models</b> and discussing future
-                    opportunities. </li>
-                <li> (3) <b>Foster discussion and collaboration</b> across the machine learning, natural language
-                    processing, and data management communities. </li>
-            </ul>
-            </p>
         </div>
     </div>
 
@@ -444,82 +500,36 @@ acknowledgements: ""
     </div>
     <div class="row">
         <div class="col-xs-12">
-            <p>We invite submissions that address, but are not limited to, any of the following topics on machine
-                learning
-                for tabular data:
-            </p>
+            <h3>Submission link</h3>
+            Submit your paper through OpenReview at: <b><a href="https://openreview.net/group?id=NeurIPS.cc/2023/Workshop/TRL" target="blank">https://openreview.net/group?id=NeurIPS.cc/2023/Workshop/TRL</a></b>
+        </div>
 
+        <div class="col-xs-12">
+            <br>
+            <h3>Formatting guidelines</h3>
+            The workshop accepts regular research papers and industrial papers of the following types:
             <ul>
-                <li><b>Representation Learning: </b> Representation learning techniques for structured (e.g.,
-                    relational
-                    databases) or semi-structured (Web tables, spreadsheet tables) tabular data. This includes
-                    developing
-                    specialized data encodings or adaptation of general-purpose ones (e.g., GPT-3) for tabular data,
-                    multimodal learning across tables, and other modalities (e.g., natural language, images, code),
-                    and
-                    relevant fine-tuning and prompting strategies.</li>
-                <li><b>Downstream Applications: </b> Machine learning applications involving tabular data, such as
-                    data
-                    preparation (e.g. data cleaning, integration, cataloging, anomaly detection), retrieval (e.g.,
-                    semantic
-                    parsing, question answering, fact-checking), information extraction, and generation (e.g.,
-                    table-to-text).</li>
-                <li><b>Upstream Applications: </b> Applications that use representation learning to optimize tabular
-                    data
-                    processing systems, such as table parsers (extracting tables from documents, spreadsheets,
-                    presentations, images), storage (e.g. compression, indexing), and querying (e.g. query plan
-                    optimization, cost estimation).</li>
-                <li><b>Industry Papers: </b> Applications of tabular representation models in production. Challenges
-                    of
-                    maintaining and managing table representation models in a fast evolving context, e.g. data
-                    updating,
-                    error correction, monitoring. </li>
-                <li><b>New Resources: </b> Survey papers, benchmarks and datasets for tabular representation models
-                    and
-                    their applications. </li>
-                <li><b>Others: </b> Formalization, surveys, visions and reflections to structure and guide future
-                    research.
-                </li>
+                <div class="col-xs-12">
+                    <li>Short paper: 4 pages + references.</li>
+                    <li>Regular paper: 8 pages + references.</li>
+                </div>
             </ul>
+            <br>
+            <br>
+            Submissions should follow the NeurIPS style files, but can exclude the checklist. Supplementary material, if any, may be added in the appendix.
+            The footer of accepted papers should state “Table Representation Learning Workshop at NeurIPS 2023”. We expect authors to adopt an inclusive and diverse writing style.
+            The <a href="https://dbdni.github.io/pages/inclusivewriting.html" target="blank">“Diversity and Inclusion in Writing”</a> guide by the DE&I in DB Conferences effort is a good resource.
         </div>
-    </div>
 
-    <hr />
-
-    <div class="row" id="dates">
         <div class="col-xs-12">
-            <h2>Important Dates</h2>
+            <br>
+            <h3>Novelty and conflicts</h3>
+            The workshop does not accept submissions that have previously been published at NeurIPS or other machine learning venues.
+            However, we do welcome submissions that have been published in, for example, data management venues.
+            We rely on OpenReview for handling conflicts, so please ensure that the conflicts in every author's OpenReview profile are complete, in particular, with respect to the organization and program committees.
+            <br>
         </div>
-    </div>
-
-    <br>
-    <div class="row">
-        <div class="col-xs-12">
-            <table class="table table-striped">
-                <tbody>
-                    <tr>
-                        <td>Paper Submission Deadline</td>
-                        <td><b>September 10, 2023</b> (All deadlines are 11:59 PM AoE time.)</td>
-                    </tr>
-                    <tr>
-                        <td>Paper Submission Deadline</td>
-                        <td><b>September 29, 2023</b> (All deadlines are 11:59 PM AoE time.)</td>
-                    </tr>
-                    <tr>
-                        <td>Decision Notifications</td>
-                        <td><b>October 25, 2023</b></td>
-                    </tr>
-                    <!-- <tr>
-          <td>Camera Ready Paper Deadline</td>
-          <td><s>June 6, 2023 (11:59 PM Pacific time)</s></td>
-        </tr> -->
-                    <tr>
-                        <td>Workshop Date</td>
-                        <td>December, 15 / 16, 2023</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+        <br>
     </div>
 
     <hr />
@@ -576,7 +586,7 @@ acknowledgements: ""
             </a>
             <div class="people-name">
                 <a href="https://research.google/people/PengchengYin/">Pengcheng Yin</a>
-                <h6>Google Research</h6>
+                <h6>Google DeepMind</h6>
             </div>
         </div>
         <div class="col-xs-6 col-lg-3">
@@ -603,199 +613,218 @@ acknowledgements: ""
 
     <div class="row" id="accepted">
         <div class="col-xs-12">
-            <h2>Accepted Papers (2022) </h2>
+            <h2>Accepted Papers</h2>
             <!-- <p>Note: 2 additional papers were accepted but are not listed here because of an anonymity period.</p> -->
         </div>
     </div>
 
     <br/>
 
-    <h3>Oral</h3>
+    <div>
+        <h3>2023</h3>
+
+        <br/>
+
+        <b>TBC</b>
+    </div>
 
     <br/>
+    <br/>
 
-    <ul class="paper-list">
-    <li>
-        <a class="paper-title" href="../../assets/papers/analysis_of_the_attention_in_t.pdf" target="_blank">Analysis of the Attention in
-            Tabular
-            Language Models</a> &nbsp; &nbsp; <a style="border-bottom: 0;" href="https://slideslive.com/38993349" target="blank"><i class="fa fa-play" aria-hidden="true"></i> recording</a>
-        <br>
-        <span class="paper-authors">Aneta Koleva, Martin Ringsquandl, Volker Tresp</span>
-        <br>
-    </li>
-    </li>
+    <div>
+        <h3>2022</h3>
 
-    <li> <a class="paper-title" href="assets/papers/transfer_learning_with_deep_ta.pdf" target="_blank">Transfer Learning with Deep
-            Tabular
-            Models</a>&nbsp; &nbsp; <a style="border-bottom: 0;" href="https://slideslive.com/38993348" target="blank"><i class="fa fa-play" aria-hidden="true"></i> recording</a>
-        <br>
-        <span class="paper-authors">Roman Levin, Valeriia Cherepanova, Avi Schwarzschild, Arpit Bansal, C. Bayan
-            Bruss,
-            Tom
-            Goldstein, Andrew Gordon Wilson, Micah Goldblum</span>
-    </li>
+        <br/>
 
-    <li> <a class="paper-title" href="assets/papers/stable_table_generation_framew.pdf" target="_blank">STable: Table Generation
-            Framework
-            for
-            Encoder-Decoder Models</a>
-                &nbsp; &nbsp; <a style="border-bottom: 0;" href="https://slideslive.com/38993352" target="blank"><i class="fa fa-play" aria-hidden="true"></i> recording</a>
+        <h4>Oral</h4>
 
+        <br/>
+
+        <ul class="paper-list">
+        <li>
+            <a class="paper-title" href="../../assets/papers/analysis_of_the_attention_in_t.pdf" target="_blank">Analysis of the Attention in
+                Tabular
+                Language Models</a> &nbsp; &nbsp; <a style="border-bottom: 0;" href="https://slideslive.com/38993349" target="blank"><i class="fa fa-play" aria-hidden="true"></i> recording</a>
+            <br>
+            <span class="paper-authors">Aneta Koleva, Martin Ringsquandl, Volker Tresp</span>
+            <br>
+        </li>
+        </li>
+
+        <li> <a class="paper-title" href="assets/papers/transfer_learning_with_deep_ta.pdf" target="_blank">Transfer Learning with Deep
+                Tabular
+                Models</a>&nbsp; &nbsp; <a style="border-bottom: 0;" href="https://slideslive.com/38993348" target="blank"><i class="fa fa-play" aria-hidden="true"></i> recording</a>
+            <br>
+            <span class="paper-authors">Roman Levin, Valeriia Cherepanova, Avi Schwarzschild, Arpit Bansal, C. Bayan
+                Bruss,
+                Tom
+                Goldstein, Andrew Gordon Wilson, Micah Goldblum</span>
+        </li>
+
+        <li> <a class="paper-title" href="assets/papers/stable_table_generation_framew.pdf" target="_blank">STable: Table Generation
+                Framework
+                for
+                Encoder-Decoder Models</a>
+                    &nbsp; &nbsp; <a style="border-bottom: 0;" href="https://slideslive.com/38993352" target="blank"><i class="fa fa-play" aria-hidden="true"></i> recording</a>
+
+                    <br>
+            <span class="paper-authors">Michał Pietruszka, Michał Turski, Łukasz Borchmann, Tomasz Dwojak, Gabriela
+                Pałka,
+                Karolina Szyndler, Dawid Jurkiewicz, Łukasz Garncarek</span>
+        </li>
+
+        <li> <a class="paper-title" href="assets/papers/tabpfn_a_transformer_that_solv.pdf" target="_blank">TabPFN: A Transformer That
+                Solves
+                Small
+                Tabular Classification Problems in a Second</a>
+                &nbsp; &nbsp; <a style="border-bottom: 0;" href="https://slideslive.com/38993350" target="blank"><i class="fa fa-play" aria-hidden="true"></i> recording</a>
                 <br>
-        <span class="paper-authors">Michał Pietruszka, Michał Turski, Łukasz Borchmann, Tomasz Dwojak, Gabriela
-            Pałka,
-            Karolina Szyndler, Dawid Jurkiewicz, Łukasz Garncarek</span>
-    </li>
+            <span class="paper-authors">Noah Hollmann, Samuel Müller, Katharina Eggensperger, Frank Hutter</span>
+        </li>
 
-    <li> <a class="paper-title" href="assets/papers/tabpfn_a_transformer_that_solv.pdf" target="_blank">TabPFN: A Transformer That
-            Solves
-            Small
-            Tabular Classification Problems in a Second</a>
-            &nbsp; &nbsp; <a style="border-bottom: 0;" href="https://slideslive.com/38993350" target="blank"><i class="fa fa-play" aria-hidden="true"></i> recording</a>
-            <br>
-        <span class="paper-authors">Noah Hollmann, Samuel Müller, Katharina Eggensperger, Frank Hutter</span>
-    </li>
-
-    <li> <a class="paper-title" href="assets/papers/towards_parameter_efficient_au.pdf" target="_blank">Towards Parameter-Efficient
-            Automation
-            of Data Wrangling Tasks with Prefix-Tuning</a>
-            &nbsp; &nbsp; <a style="border-bottom: 0;" href="https://slideslive.com/38993351" target="blank"><i class="fa fa-play" aria-hidden="true"></i> recording</a>
-            <br>
-        <span class="paper-authors">David Vos, Till Döhmen, Sebastian Schelter</span>
-    </li>
-
-    <li> <a class="paper-title" href="https://openreview.net/forum?id=7q_-aEdnGZw" target="_blank">RegCLR: A Self-Supervised Framework
-            for
-            Tabular Representation Learning in the Wild</a>
-            &nbsp; &nbsp; <a style="border-bottom: 0;" href="https://slideslive.com/38996604" target="blank"><i class="fa fa-play" aria-hidden="true"></i> recording</a>
-            <br>
-        <span class="paper-authors">Weiyao Wang, Byung-Hak Kim, Varun Ganapathi</span>
-    </li>
-    </ul>
-
-    <br/>
-
-    <h3>Poster</h3>
-    
-    <br/>
-
-    <ul class="paper-list">
-    <li> <a class="paper-title" href="assets/papers/saint_improved_neural_networks.pdf" target="_blank">SAINT: Improved Neural Networks
-            for
-            Tabular Data via Row Attention and Contrastive Pre-Training</a><br>
-        <span class="paper-authors">Gowthami Somepalli, Avi Schwarzschild, Micah Goldblum, C. Bayan Bruss, Tom
-            Goldstein</span>
-    </li>
-
-    <li> <a class="paper-title" href="assets/papers/generic_entity_resolution_mode.pdf" target="_blank">Generic Entity Resolution
-            Models</a><br>
-        <span class="paper-authors">Jiawei Tang, Yifei Zuo, Lei Cao, Samuel Madden</span>
-    </li>
-
-    <li> <a class="paper-title" href="assets/papers/towards_foundation_models_for_.pdf" target="_blank">Towards Foundation Models for
-            Relational
-            Databases</a>[<a class="paper-title" href="https://www.youtube.com/watch?v=GyeGQGmTv30" target="_blank">video
-                pitch</a>]<br>
-        <span class="paper-authors">Liane Vogel, Benjamin Hilprecht, Carsten Binnig</span>
-    </li>
-
-    <li> <a class="paper-title" href="assets/papers/diffusion_models_for_missing_v.pdf" target="_blank">Diffusion models for missing
-            value
-            imputation in tabular data</a>[<a class="paper-title" href="https://www.youtube.com/watch?v=URlh7KJfXzM"
-                target="_blank">video
-                pitch</a>]<br>
-        <span class="paper-authors">Shuhan Zheng, Nontawat Charoenphakdee</span>
-    </li>
-
-    <li> <a class="paper-title" href="assets/papers/stab_self_supervised_learning_.pdf" target="_blank">STab: Self-supervised Learning
-            for
-            Tabular Data</a><br>
-        <span class="paper-authors">Ehsan Hajiramezanali, Max W Shen, Gabriele Scalia, Nathaniel Lee Diamant</span>
-    </li>
-
-    <li> <a class="paper-title" href="assets/papers/caspr_customer_activity_sequen.pdf" target="_blank">CASPR: Customer Activity
-            Sequence
-            based
-            Prediction and Representation</a><br>
-        <span class="paper-authors">Damian Konrad Kowalczyk, Pin-Jung Chen, Sahil Bhatnagar</span>
-    </li>
-
-    <li> <a class="paper-title" href="assets/papers/conditional_contrastive_networ.pdf" target="_blank">Conditional Contrastive
-            Networks</a><br>
-        <span class="paper-authors">Emily Mu, John Guttag</span>
-    </li>
-
-    <li> <a class="paper-title" href="assets/papers/self_supervised_representation.pdf" target="_blank">Self-supervised Representation
-            Learning
-            Across Sequential and Tabular Features Using Transformers</a><br>
-        <span class="paper-authors">Rajat Agarwal, Anand Muralidhar, Agniva Som, Hemant Kowshik</span>
-    </li>
-
-    <li> <a class="paper-title" href="assets/papers/the_need_for_tabular_represent.pdf" target="_blank">The Need for Tabular
-            Representation
-            Learning: An Industry Perspective</a><br>
-        <span class="paper-authors">Joyce Cahoon, Alexandra Savelieva, Andreas C Mueller, Avrilia Floratou, Carlo
-            Curino,
-            Hiren Patel, Jordan Henkel, Markus Weimer, Roman Batoukov, Shaleen Deep, Venkatesh Emani, Richard
-            Wydrowski,
-            Nellie Gustafsson</span>
-    </li>
-
-    <li> <a class="paper-title" href="assets/papers/stunt_few_shot_tabular_learnin.pdf" target="_blank">STUNT: Few-shot Tabular Learning
-            with
-            <span class="paper-authors">Self-generated Tasks from Unlabeled Tables</a><br>
-        Jaehyun Nam, Jihoon Tack, Kyungmin Lee, Hankook Lee, Jinwoo Shin</span></li>
-
-    <li> <a class="paper-title" href="assets/papers/tabular_data_generation_can_we.pdf" target="_blank">Tabular Data Generation: Can We
-            Fool
-            XGBoost?</a>
-        <br>
-        <span class="paper-authors">EL Hacen Zein, Tanguy Urvoy</span>
-    </li>
-
-    <li> SiMa: Federating Data Silos using GNNs<br></li>
-
-    <!-- 
-<li>
-    <li> <a class="paper-title" href="assets/papers/sima_federating_data_silos_usi.pdf" target="_blank">SiMa: Federating Data Silos using
-            GNNs</a>[Poster session 2 (3:15pm)][<a class="paper-title" href="https://www.youtube.com/watch?v=y4ZOobI1v2w"
-                target="_blank">video</a>]<br>
-        <span class="paper-authors">Christos Koutras, Rihan Hai, Kyriakos Psarakis, Marios Fragkoulis, Asterios
-            Katsifodimos -->
-
-    <li> <a class="paper-title" href="assets/papers/self_supervised_pre_training_f.pdf" target="_blank">Self Supervised Pre-training for
-            Large Scale Tabular Data</a><br>
-        <span class="paper-authors">Sharad Chitlangia, Anand Muralidhar, Rajat Agarwal</span>
-    </li>
-
-    <li> <a class="paper-title" href="assets/papers/rotar_efficient_row_based_tabl.pdf" target="_blank">RoTaR: Efficient Row-Based Table
-            Representation Learning via Teacher-Student Training</a><br>
-        <span class="paper-authors">Zui Chen, Lei Cao, Samuel Madden</span>
-    </li>
-
-    <li> <a class="paper-title" href="assets/papers/mapqa_a_dataset_for_question_a.pdf" target="_blank">MapQA: A Dataset for Question
-            Answering on Choropleth Maps</a><br>
-        <span class="paper-authors">Shuaichen Chang, David Palzer, Jialin Li, Eric Fosler-Lussier, Ningchuan
-            Xiao</span>
-    </li>
-
-    <li> <a class="paper-title" href="assets/papers/met_masked_encoding_for_tabula.pdf" target="_blank">MET: Masked Encoding for Tabular
-            Data</a><br>
-        <span class="paper-authors">Kushal Alpesh Majmundar, Sachin Goyal, Praneeth Netrapalli, Prateek Jain</span>
-    </li>
-
-    <li> <a class="paper-title" href="assets/papers/active_learning_with_tabular_l.pdf" target="_blank">Active Learning with Table
-            Language
-            Models</a><br>
-        <span class="paper-authors">Martin Ringsquandl, Aneta Koleva</span>
-    </li>
-
-    <li> <a class="paper-title" href="assets/papers/structural_embedding_of_data_f.pdf" target="_blank">Structural Embedding of Data
-            Files
-            with MAGRITTE</a>
-            &nbsp; &nbsp; <a style="border-bottom: 0;" href="https://www.youtube.com/watch?v=_seBQIBzFoI" target="blank"><i class="fa fa-play" aria-hidden="true"></i> video
-                pitch</a>
+        <li> <a class="paper-title" href="assets/papers/towards_parameter_efficient_au.pdf" target="_blank">Towards Parameter-Efficient
+                Automation
+                of Data Wrangling Tasks with Prefix-Tuning</a>
+                &nbsp; &nbsp; <a style="border-bottom: 0;" href="https://slideslive.com/38993351" target="blank"><i class="fa fa-play" aria-hidden="true"></i> recording</a>
                 <br>
-        <span class="paper-authors">Gerardo Vitagliano, Mazhar Hameed, Felix Naumann</span>
-    </li>
-    </ul>
+            <span class="paper-authors">David Vos, Till Döhmen, Sebastian Schelter</span>
+        </li>
+
+        <li> <a class="paper-title" href="https://openreview.net/forum?id=7q_-aEdnGZw" target="_blank">RegCLR: A Self-Supervised Framework
+                for
+                Tabular Representation Learning in the Wild</a>
+                &nbsp; &nbsp; <a style="border-bottom: 0;" href="https://slideslive.com/38996604" target="blank"><i class="fa fa-play" aria-hidden="true"></i> recording</a>
+                <br>
+            <span class="paper-authors">Weiyao Wang, Byung-Hak Kim, Varun Ganapathi</span>
+        </li>
+        </ul>
+
+        <br/>
+
+        <h4>Poster</h4>
+        
+        <br/>
+
+        <ul class="paper-list">
+        <li> <a class="paper-title" href="assets/papers/saint_improved_neural_networks.pdf" target="_blank">SAINT: Improved Neural Networks
+                for
+                Tabular Data via Row Attention and Contrastive Pre-Training</a><br>
+            <span class="paper-authors">Gowthami Somepalli, Avi Schwarzschild, Micah Goldblum, C. Bayan Bruss, Tom
+                Goldstein</span>
+        </li>
+
+        <li> <a class="paper-title" href="assets/papers/generic_entity_resolution_mode.pdf" target="_blank">Generic Entity Resolution
+                Models</a><br>
+            <span class="paper-authors">Jiawei Tang, Yifei Zuo, Lei Cao, Samuel Madden</span>
+        </li>
+
+        <li> <a class="paper-title" href="assets/papers/towards_foundation_models_for_.pdf" target="_blank">Towards Foundation Models for
+                Relational
+                Databases</a>&nbsp; &nbsp; <a style="border-bottom: 0;" href="https://www.youtube.com/watch?v=GyeGQGmTv30" target="blank"><i class="fa fa-play" aria-hidden="true"></i> video
+                    pitch</a>
+                <br>
+            <span class="paper-authors">Liane Vogel, Benjamin Hilprecht, Carsten Binnig</span>
+        </li>
+
+
+        <li> <a class="paper-title" href="assets/papers/diffusion_models_for_missing_v.pdf" target="_blank">Diffusion models for missing
+                value
+                imputation in tabular data</a>
+                &nbsp; &nbsp; <a style="border-bottom: 0;" href="https://www.youtube.com/watch?v=URlh7KJfXzM" target="blank"><i class="fa fa-play" aria-hidden="true"></i> video
+                    pitch</a>
+                    <br>
+                <br>
+            <span class="paper-authors">Shuhan Zheng, Nontawat Charoenphakdee</span>
+        </li>
+
+        <li> <a class="paper-title" href="assets/papers/stab_self_supervised_learning_.pdf" target="_blank">STab: Self-supervised Learning
+                for
+                Tabular Data</a><br>
+            <span class="paper-authors">Ehsan Hajiramezanali, Max W Shen, Gabriele Scalia, Nathaniel Lee Diamant</span>
+        </li>
+
+        <li> <a class="paper-title" href="assets/papers/caspr_customer_activity_sequen.pdf" target="_blank">CASPR: Customer Activity
+                Sequence
+                based
+                Prediction and Representation</a><br>
+            <span class="paper-authors">Damian Konrad Kowalczyk, Pin-Jung Chen, Sahil Bhatnagar</span>
+        </li>
+
+        <li> <a class="paper-title" href="assets/papers/conditional_contrastive_networ.pdf" target="_blank">Conditional Contrastive
+                Networks</a><br>
+            <span class="paper-authors">Emily Mu, John Guttag</span>
+        </li>
+
+        <li> <a class="paper-title" href="assets/papers/self_supervised_representation.pdf" target="_blank">Self-supervised Representation
+                Learning
+                Across Sequential and Tabular Features Using Transformers</a><br>
+            <span class="paper-authors">Rajat Agarwal, Anand Muralidhar, Agniva Som, Hemant Kowshik</span>
+        </li>
+
+        <li> <a class="paper-title" href="assets/papers/the_need_for_tabular_represent.pdf" target="_blank">The Need for Tabular
+                Representation
+                Learning: An Industry Perspective</a><br>
+            <span class="paper-authors">Joyce Cahoon, Alexandra Savelieva, Andreas C Mueller, Avrilia Floratou, Carlo
+                Curino,
+                Hiren Patel, Jordan Henkel, Markus Weimer, Roman Batoukov, Shaleen Deep, Venkatesh Emani, Richard
+                Wydrowski,
+                Nellie Gustafsson</span>
+        </li>
+
+        <li> <a class="paper-title" href="assets/papers/stunt_few_shot_tabular_learnin.pdf" target="_blank">STUNT: Few-shot Tabular Learning
+                with
+                <span class="paper-authors">Self-generated Tasks from Unlabeled Tables</a><br>
+            Jaehyun Nam, Jihoon Tack, Kyungmin Lee, Hankook Lee, Jinwoo Shin</span></li>
+
+        <li> <a class="paper-title" href="assets/papers/tabular_data_generation_can_we.pdf" target="_blank">Tabular Data Generation: Can We
+                Fool
+                XGBoost?</a>
+            <br>
+            <span class="paper-authors">EL Hacen Zein, Tanguy Urvoy</span>
+        </li>
+
+        <li> <a class="paper-title" href="assets/papers/sima_federating_data_silos_usi.pdf" target="_blank">SiMa: Federating Data Silos using
+                GNNs</a>&nbsp; &nbsp; <a style="border-bottom: 0;" href="https://www.youtube.com/watch?v=y4ZOobI1v2w" target="blank"><i class="fa fa-play" aria-hidden="true"></i> video
+                    pitch</a>
+                    <br>
+            <span class="paper-authors">Christos Koutras, Rihan Hai, Kyriakos Psarakis, Marios Fragkoulis, Asterios
+                Katsifodimos
+
+        <li> <a class="paper-title" href="assets/papers/self_supervised_pre_training_f.pdf" target="_blank">Self Supervised Pre-training for
+                Large Scale Tabular Data</a><br>
+            <span class="paper-authors">Sharad Chitlangia, Anand Muralidhar, Rajat Agarwal</span>
+        </li>
+
+        <li> <a class="paper-title" href="assets/papers/rotar_efficient_row_based_tabl.pdf" target="_blank">RoTaR: Efficient Row-Based Table
+                Representation Learning via Teacher-Student Training</a><br>
+            <span class="paper-authors">Zui Chen, Lei Cao, Samuel Madden</span>
+        </li>
+
+        <li> <a class="paper-title" href="assets/papers/mapqa_a_dataset_for_question_a.pdf" target="_blank">MapQA: A Dataset for Question
+                Answering on Choropleth Maps</a><br>
+            <span class="paper-authors">Shuaichen Chang, David Palzer, Jialin Li, Eric Fosler-Lussier, Ningchuan
+                Xiao</span>
+        </li>
+
+        <li> <a class="paper-title" href="assets/papers/met_masked_encoding_for_tabula.pdf" target="_blank">MET: Masked Encoding for Tabular
+                Data</a><br>
+            <span class="paper-authors">Kushal Alpesh Majmundar, Sachin Goyal, Praneeth Netrapalli, Prateek Jain</span>
+        </li>
+
+        <li> <a class="paper-title" href="assets/papers/active_learning_with_tabular_l.pdf" target="_blank">Active Learning with Table
+                Language
+                Models</a><br>
+            <span class="paper-authors">Martin Ringsquandl, Aneta Koleva</span>
+        </li>
+
+        <li> <a class="paper-title" href="assets/papers/structural_embedding_of_data_f.pdf" target="_blank">Structural Embedding of Data
+                Files
+                with MAGRITTE</a>
+                &nbsp; &nbsp; <a style="border-bottom: 0;" href="https://www.youtube.com/watch?v=_seBQIBzFoI" target="blank"><i class="fa fa-play" aria-hidden="true"></i> video
+                    pitch</a>
+                    <br>
+            <span class="paper-authors">Gerardo Vitagliano, Mazhar Hameed, Felix Naumann</span>
+        </li>
+        </ul>
+
+    </div>

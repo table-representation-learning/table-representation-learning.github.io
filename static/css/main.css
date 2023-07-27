@@ -4,19 +4,19 @@ body {
   font-weight: 300;
   -webkit-font-smoothing: subpixel-antialiased;
   color: #333;
-  padding-top: 70px;
+  padding-top: 50px;
 }
 
 body *::selection {
-  background: #859900;
+  background: #D1C4E9;
   color: #fff;
 }
 
 a:link{
-  color: #859900;
+  color: rgb(123, 188, 197);
 }
 a:visited {
-	color: #859900;
+	color: rgb(123, 188, 197);
 }
 
 .container {
@@ -29,7 +29,7 @@ a:visited {
   width: 100%;
 }
 
-h1 h2 h3 {
+h1 h2 h3 h4 {
   color: #1a1a1a;
   font-weight: 300;
 }
@@ -50,6 +50,12 @@ h3 {
   margin: 0;
   font-size: 20px;
   line-height: 25px;
+}
+
+h4 {
+  margin: 0;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .page-header {
@@ -95,9 +101,13 @@ a {
   color: #666666;
 }
 
+.navbar {
+  margin-top: 0px;
+}
+
 .navbar a {
   border-bottom: 0;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 p.lead.authors a {
