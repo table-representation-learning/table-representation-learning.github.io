@@ -8,7 +8,10 @@
     {% if page.favicon %}
     <link rel="shortcut icon" href="{{ page.favicon | prepend:site.baseurl }}">
     {% endif %}
-  
+
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+    {% include google-analytics.html %}
+    {% endif %}
   
     <title>{{ page.urltitle }}</title>
     <meta name="description" content="{{site.description}}">

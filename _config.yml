@@ -6,4 +6,4 @@ baseurl: "" # the subpath of your site, e.g. /blog
 # Build settings
 markdown: kramdown
 include: ['_pages']
-ga_id: G-TNBXJN1Y5L
+google_analytics: "G-TNBXJN1Y5L"
