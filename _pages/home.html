@@ -80,134 +80,6 @@ acknowledgements: ""
     <hr />
 
     <!-- Schedule -->
-    <div class="row" id="schedule">
-        <div class="col-md-4 col-xs-12">
-            <h2>Schedule</h2>
-        </div>
-        <div class="col-md-8 col-xs-12">
-            <select id="timezone-select" class="form-control"></select>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-12">
-            <table class="table table-striped" id="schedule-table">
-                <tbody>
-                    <tr>
-                        <th scope="row" data-time="06:30">06:30 AM</th>
-                        <td>Opening Notes</td>
-                    </tr>
-                    <tr>
-                        <th scope="row" data-time="06:45">06:45 AM</th>
-                        <td>
-                            Invited Speaker: Simran Arora<br />
-                            <span style="font-style:italic">
-                                [Talk title forthcoming]
-                            <
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row" data-time="07:15">07:15 AM</th>
-                        <td>Spotlight Talks: Session 1</td>
-                    </tr>
-                    <tr>
-                        <th scope="row" data-time="08:00">08:00 AM</th>
-                        <td>Coffee Break / Poster Setup</td>
-                    </tr>
-                    <tr>
-                        <th scope="row" data-time="08:30">08:30 AM</th>
-                        <td>Poster: Session 1</td>
-                    </tr>
-                    <tr>
-                        <th scope="row" data-time="09:00">09:00 AM</th>
-                        <td>
-                            Invited Speaker: Frank Hutter<br />
-                            <span style="font-style:italic">[Talk title forthcoming]<
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row" data-time="09:30">09:30 AM</th>
-                        <td>Spotlight Talks: Session 2</td>
-                    </tr>
-                    <tr>
-                        <th scope="row" data-time="10:00">10:00 AM</th>
-                        <td>Lunch Break</td>
-                    </tr>
-                    <tr>
-                        <th scope="row" data-time="11:30">11:30 AM</th>
-                        <td>
-                            Invited Speaker: Immanuel Trummer<br />
-                            <span style="font-style:italic">Next-Generation Data Management with Large Language Models<
-                            <a data-toggle="collapse" href="#schedule-talk3" aria-cexpanded="false"
-                                aria-controls="schedule-talk3">[Abstract]</a>
-                            <div class="collapse" id="schedule-talk3">
-                                Abstract: The past years have been marked by several breakthrough results in the domain of generative AI, culminating in the rise of tools like ChatGPT, able to solve a variety of language-related tasks without specialized training. In this talk, I discuss several recent research projects at Cornell, exploiting large language models to enhance relational database management systems. These projects cover applications of language models in the database interface, enabling users to specify high-level analysis goals for fully automated end-to-end analysis, as well as applications in the backend, using language models to extract useful information for data profiling and database tuning from text documents.
-                            </div>
-                            <a data-toggle="collapse" href="#speaker-bio-talk3" aria-cexpanded="false"
-                            aria-controls="speaker-bio-talk3">[Speaker Bio]</a>
-                            <div class="collapse" id="speaker-bio-talk3">
-                                Immanuel Trummer is an assistant professor at Cornell University and a member of the Cornell Database Group. His papers were selected for “Best of VLDB”, “Best of SIGMOD”, for the ACM SIGMOD Research Highlight Award, and for publication in CACM as CACM Research Highlight. His online lecture introducing students to database topics collected over a million views. He received the NSF CAREER Award and multiple Google Faculty Research Awards.
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row" data-time="12:00">12:00 PM</th>
-                        <td>Spotlight Talks: Session 3</td>
-                    </tr>
-                    <tr>
-                        <th scope="row" data-time="12:30">12:30 PM</th>
-                        <td>
-                            Invited Speaker: Tao Yu<br />
-                            <span style="font-style:italic">[Talk title forthcoming]<
-                            <!-- <a data-toggle="collapse" href="#schedule-talk3" aria-cexpanded="false"
-                                aria-controls="schedule-talk3">[Abstract]</a>
-                            <div class="collapse" id="schedule-talk3">
-                                Abstract: The past years have been marked by several breakthrough results in the domain of generative AI, culminating in the rise of tools like ChatGPT, able to solve a variety of language-related tasks without specialized training. In this talk, I discuss several recent research projects at Cornell, exploiting large language models to enhance relational database management systems. These projects cover applications of language models in the database interface, enabling users to specify high-level analysis goals for fully automated end-to-end analysis, as well as applications in the backend, using language models to extract useful information for data profiling and database tuning from text documents.
-                            </div>
-                            <a data-toggle="collapse" href="#speaker-bio-talk3" aria-cexpanded="false"
-                            aria-controls="speaker-bio-talk3">[Speaker Bio]</a>
-                            <div class="collapse" id="schedule-bio-talk3">
-                                Immanuel Trummer is an assistant professor at Cornell University and a member of the Cornell Database Group. His papers were selected for “Best of VLDB”, “Best of SIGMOD”, for the ACM SIGMOD Research Highlight Award, and for publication in CACM as CACM Research Highlight. His online lecture introducing students to database topics collected over a million views. He received the NSF CAREER Award and multiple Google Faculty Research Awards.
-                            </div> -->
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row" data-time="13:00">01:00 PM</th>
-                        <td>Coffee Break / Poster Setup</td>
-                    </tr>
-                    <tr>
-                        <th scope="row" data-time="13:30">01:30 PM</th>
-                        <td>Poster: Session 2</td>
-                    </tr>
-                    <tr>
-                        <th scope="row" data-time="14:00">02:00 PM</th>
-                        <td>
-                            Invited Speaker: Wenhu Chen<br />
-                            <span style="font-style:italic">Enabling Large Language Models to Reason with Tables<
-                            <a data-toggle="collapse" href="#schedule-talk5" aria-cexpanded="false"
-                                aria-controls="schedule-talk5">[Abstract]</a>
-                            <div class="collapse" id="schedule-talk5">
-                                Abstract: Large language models (LLMs) are becoming attractive as few-shot reasoners to solve Natural Language (NL)-related tasks. However, there is still much to learn about how well LLMs understand structured data, such as tables. While it is true that tables can be used as inputs to LLMs with serialization, there lack comprehensive studies examining whether LLMs can truly comprehend such data. In this talk, I will cover different ways to utilize LLMs to interface with tables. One approach is to feed the whole table as a sequence to LLMs for reasoning. In this direction, we will talk about the recent paper GPT4Table to summarize the lessons learned in different table linearization strategies, including table input format, content order, role prompting, and partition marks. The other approach is to use tools like SQL or other language to interface with table for data access without feeding the entire table. LLMs will work as a reasoner to derive the answer based on the interfaced results from the table.
-                            </div>
-                            <a data-toggle="collapse" href="#speaker-bio-talk5" aria-cexpanded="false"
-                            aria-controls="speaker-bio-talk5">[Speaker Bio]</a>
-                            <div class="collapse" id="speaker-bio-talk5">
-                                Wenhu Chen has been an assistant professor at Computer Science Department in University of Waterloo and Vector Institute since 2022. He obtained Canada CIFAR AI Chair Award in 2022. He also works for Google Deepmind as a part-time research scientist since 2021. Before that, he obtained his PhD from the University of California, Santa Barbara under the supervision of William Wang and Xifeng Yan. His research interest lies in natural language processing, deep learning and multimodal learning. He aims to design models to handle complex reasoning scenarios like math problem-solving, structure knowledge grounding, etc. He is also interested in building more powerful multimodal models to bridge different modalities. He received the Area Chair Award in AACL-IJCNLP 2023, the Best Paper Honorable Mention in WACV 2021, and the UCSB CS Outstanding Dissertation Award in 2021.
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row" data-time="14:30">02:30 PM</th>
-                        <td>Panel - TBA</td>
-                    </tr>
-                    <tr>
-                        <th scope="row" data-time="15:15">03:15 PM</th>
-                        <td>Closing Notes</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-
     <!-- <hr /> -->
 
         <!-- Speakers -->
@@ -271,6 +143,135 @@ acknowledgements: ""
                     </div>
                 </div>
     
+
+                <div class="row" id="schedule">
+                    <div class="col-md-4 col-xs-12">
+                        <h3>Schedule</h3>
+                    </div>
+                    <div class="col-md-8 col-xs-12">
+                        <select id="timezone-select" class="form-control"></select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-striped" id="schedule-table">
+                            <tbody>
+                                <tr>
+                                    <th scope="row" data-time="06:30">06:30 AM</th>
+                                    <td>Opening Notes</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" data-time="06:45">06:45 AM</th>
+                                    <td>
+                                        Invited Speaker: Simran Arora<br />
+                                        <span style="font-style:italic">
+                                            [Talk title forthcoming]
+                                        <
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" data-time="07:15">07:15 AM</th>
+                                    <td>Spotlight Talks: Session 1</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" data-time="08:00">08:00 AM</th>
+                                    <td>Coffee Break / Poster Setup</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" data-time="08:30">08:30 AM</th>
+                                    <td>Poster: Session 1</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" data-time="09:00">09:00 AM</th>
+                                    <td>
+                                        Invited Speaker: Frank Hutter<br />
+                                        <span style="font-style:italic">[Talk title forthcoming]<
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" data-time="09:30">09:30 AM</th>
+                                    <td>Spotlight Talks: Session 2</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" data-time="10:00">10:00 AM</th>
+                                    <td>Lunch Break</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" data-time="11:30">11:30 AM</th>
+                                    <td>
+                                        Invited Speaker: Immanuel Trummer<br />
+                                        <span style="font-style:italic">Next-Generation Data Management with Large Language Models<
+                                        <a data-toggle="collapse" href="#schedule-talk3" aria-cexpanded="false"
+                                            aria-controls="schedule-talk3">[Abstract]</a>
+                                        <div class="collapse" id="schedule-talk3">
+                                            Abstract: The past years have been marked by several breakthrough results in the domain of generative AI, culminating in the rise of tools like ChatGPT, able to solve a variety of language-related tasks without specialized training. In this talk, I discuss several recent research projects at Cornell, exploiting large language models to enhance relational database management systems. These projects cover applications of language models in the database interface, enabling users to specify high-level analysis goals for fully automated end-to-end analysis, as well as applications in the backend, using language models to extract useful information for data profiling and database tuning from text documents.
+                                        </div>
+                                        <a data-toggle="collapse" href="#speaker-bio-talk3" aria-cexpanded="false"
+                                        aria-controls="speaker-bio-talk3">[Speaker Bio]</a>
+                                        <div class="collapse" id="speaker-bio-talk3">
+                                            Immanuel Trummer is an assistant professor at Cornell University and a member of the Cornell Database Group. His papers were selected for “Best of VLDB”, “Best of SIGMOD”, for the ACM SIGMOD Research Highlight Award, and for publication in CACM as CACM Research Highlight. His online lecture introducing students to database topics collected over a million views. He received the NSF CAREER Award and multiple Google Faculty Research Awards.
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" data-time="12:00">12:00 PM</th>
+                                    <td>Spotlight Talks: Session 3</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" data-time="12:30">12:30 PM</th>
+                                    <td>
+                                        Invited Speaker: Tao Yu<br />
+                                        <span style="font-style:italic">[Talk title forthcoming]<
+                                        <!-- <a data-toggle="collapse" href="#schedule-talk3" aria-cexpanded="false"
+                                            aria-controls="schedule-talk3">[Abstract]</a>
+                                        <div class="collapse" id="schedule-talk3">
+                                            Abstract: The past years have been marked by several breakthrough results in the domain of generative AI, culminating in the rise of tools like ChatGPT, able to solve a variety of language-related tasks without specialized training. In this talk, I discuss several recent research projects at Cornell, exploiting large language models to enhance relational database management systems. These projects cover applications of language models in the database interface, enabling users to specify high-level analysis goals for fully automated end-to-end analysis, as well as applications in the backend, using language models to extract useful information for data profiling and database tuning from text documents.
+                                        </div>
+                                        <a data-toggle="collapse" href="#speaker-bio-talk3" aria-cexpanded="false"
+                                        aria-controls="speaker-bio-talk3">[Speaker Bio]</a>
+                                        <div class="collapse" id="schedule-bio-talk3">
+                                            Immanuel Trummer is an assistant professor at Cornell University and a member of the Cornell Database Group. His papers were selected for “Best of VLDB”, “Best of SIGMOD”, for the ACM SIGMOD Research Highlight Award, and for publication in CACM as CACM Research Highlight. His online lecture introducing students to database topics collected over a million views. He received the NSF CAREER Award and multiple Google Faculty Research Awards.
+                                        </div> -->
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" data-time="13:00">01:00 PM</th>
+                                    <td>Coffee Break / Poster Setup</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" data-time="13:30">01:30 PM</th>
+                                    <td>Poster: Session 2</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" data-time="14:00">02:00 PM</th>
+                                    <td>
+                                        Invited Speaker: Wenhu Chen<br />
+                                        <span style="font-style:italic">Enabling Large Language Models to Reason with Tables<
+                                        <a data-toggle="collapse" href="#schedule-talk5" aria-cexpanded="false"
+                                            aria-controls="schedule-talk5">[Abstract]</a>
+                                        <div class="collapse" id="schedule-talk5">
+                                            Abstract: Large language models (LLMs) are becoming attractive as few-shot reasoners to solve Natural Language (NL)-related tasks. However, there is still much to learn about how well LLMs understand structured data, such as tables. While it is true that tables can be used as inputs to LLMs with serialization, there lack comprehensive studies examining whether LLMs can truly comprehend such data. In this talk, I will cover different ways to utilize LLMs to interface with tables. One approach is to feed the whole table as a sequence to LLMs for reasoning. In this direction, we will talk about the recent paper GPT4Table to summarize the lessons learned in different table linearization strategies, including table input format, content order, role prompting, and partition marks. The other approach is to use tools like SQL or other language to interface with table for data access without feeding the entire table. LLMs will work as a reasoner to derive the answer based on the interfaced results from the table.
+                                        </div>
+                                        <a data-toggle="collapse" href="#speaker-bio-talk5" aria-cexpanded="false"
+                                        aria-controls="speaker-bio-talk5">[Speaker Bio]</a>
+                                        <div class="collapse" id="speaker-bio-talk5">
+                                            Wenhu Chen has been an assistant professor at Computer Science Department in University of Waterloo and Vector Institute since 2022. He obtained Canada CIFAR AI Chair Award in 2022. He also works for Google Deepmind as a part-time research scientist since 2021. Before that, he obtained his PhD from the University of California, Santa Barbara under the supervision of William Wang and Xifeng Yan. His research interest lies in natural language processing, deep learning and multimodal learning. He aims to design models to handle complex reasoning scenarios like math problem-solving, structure knowledge grounding, etc. He is also interested in building more powerful multimodal models to bridge different modalities. He received the Area Chair Award in AACL-IJCNLP 2023, the Best Paper Honorable Mention in WACV 2021, and the UCSB CS Outstanding Dissertation Award in 2021.
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" data-time="14:30">02:30 PM</th>
+                                    <td>Panel - TBA</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" data-time="15:15">03:15 PM</th>
+                                    <td>Closing Notes</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
                 <h3>Panelists</h3>
                 TBC
             </div>
