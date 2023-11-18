@@ -80,7 +80,7 @@ acknowledgements: ""
     <hr />
 
     <!-- Schedule -->
-    <!-- <div class="row" id="schedule">
+    <div class="row" id="schedule">
         <div class="col-md-4 col-xs-12">
             <h2>Schedule</h2>
         </div>
@@ -93,255 +93,120 @@ acknowledgements: ""
             <table class="table table-striped" id="schedule-table">
                 <tbody>
                     <tr>
-                        <th scope="row" data-time="08:00">08:00 AM</th>
-                        <td>Virtual Poster Session 1</td>
+                        <th scope="row" data-time="06:30">06:30 AM</th>
+                        <td>Opening Notes</td>
                     </tr>
                     <tr>
-                        <th scope="row" data-time="09:00">09:00 AM</th>
-                        <td>Opening Remarks</td>
-                    </tr>
-                    <tr>
-                        <th scope="row" data-time="09:10">09:10 AM</th>
+                        <th scope="row" data-time="06:45">06:45 AM</th>
                         <td>
-                            Invited Speaker: Ellie Pavlick<br />
-                            <span style="font-style:italic">Mechanistic Evidence of Structured Reasoning in LLMs</span>
+                            Invited Speaker: Simran Arora<br />
+                            <span style="font-style:italic">
+                                [Talk title forthcoming]
+                            </span>
                         </td>
                     </tr>
                     <tr>
-                        <th scope="row" data-time="09:50">09:50 AM</th>
+                        <th scope="row" data-time="07:15">07:15 AM</th>
+                        <td>Spotlight Talks: Session 1</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" data-time="08:00">08:00 AM</th>
+                        <td>Coffee Break / Poster Setup</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" data-time="08:30">08:30 AM</th>
+                        <td>Poster: Session 1</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" data-time="09:00">09:00 AM</th>
                         <td>
-                            Invited Speaker: Noah Goodman<br />
+                            Invited Speaker: Frank Hutter<br />
                             <span style="font-style:italic">[Talk title forthcoming]</span>
                         </td>
                     </tr>
                     <tr>
-                        <th scope="row" data-time="10:30">10:30 AM</th>
-                        <td>Break 1</td>
+                        <th scope="row" data-time="09:30">09:30 AM</th>
+                        <td>Spotlight Talks: Session 2</td>
                     </tr>
                     <tr>
-                        <th scope="row" data-time="11:00">11:00 AM</th>
+                        <th scope="row" data-time="10:00">10:00 AM</th>
+                        <td>Lunch Break</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" data-time="11:30">11:30 AM</th>
                         <td>
-                            Oral Presentation: Li Zhang, Liam Dugan, Hainiu Xu and Chris Callison-burch<br />
-                            <span style="font-style:italic">Exploring the Curious Case of Code Prompts</span>
+                            Invited Speaker: Immanuel Trummer<br />
+                            <span style="font-style:italic">Next-Generation Data Management with Large Language Models</span>
                             <a data-toggle="collapse" href="#schedule-talk3" aria-cexpanded="false"
                                 aria-controls="schedule-talk3">[Abstract]</a>
                             <div class="collapse" id="schedule-talk3">
-                                Abstract: Recent work has shown that prompting language models with code-like
-                                representations of natural language leads to performance improvements on structured
-                                reasoning tasks. However, such tasks comprise only a small subset of all natural
-                                language tasks. In our work, we seek to answer whether or not code-prompting is the
-                                preferred way of interacting with language models in general. We compare code and text
-                                prompts across three popular GPT models (davinci, code-davinci-002, and
-                                text-davinci-002) on a broader selection of tasks (e.g., QA, sentiment, summarization)
-                                and find that with few exceptions, code prompts do not consistently outperform text
-                                prompts. Furthermore, we show that the style of code prompt has a large effect on
-                                performance for some (but not all) tasks and that fine-tuning on text instructions leads
-                                to better relative performance of code prompts.
+                                Abstract: The past years have been marked by several breakthrough results in the domain of generative AI, culminating in the rise of tools like ChatGPT, able to solve a variety of language-related tasks without specialized training. In this talk, I discuss several recent research projects at Cornell, exploiting large language models to enhance relational database management systems. These projects cover applications of language models in the database interface, enabling users to specify high-level analysis goals for fully automated end-to-end analysis, as well as applications in the backend, using language models to extract useful information for data profiling and database tuning from text documents.
+                            </div>
+                            <a data-toggle="collapse" href="#speaker-bio-talk3" aria-cexpanded="false"
+                            aria-controls="speaker-bio-talk3">[Speaker Bio]</a>
+                            <div class="collapse" id="schedule-bio-talk3">
+                                Immanuel Trummer is an assistant professor at Cornell University and a member of the Cornell Database Group. His papers were selected for “Best of VLDB”, “Best of SIGMOD”, for the ACM SIGMOD Research Highlight Award, and for publication in CACM as CACM Research Highlight. His online lecture introducing students to database topics collected over a million views. He received the NSF CAREER Award and multiple Google Faculty Research Awards.
                             </div>
                         </td>
                     </tr>
                     <tr>
-                        <th scope="row" data-time="11:10">11:10 AM</th>
+                        <th scope="row" data-time="12:00">12:00 PM</th>
+                        <td>Spotlight Talks: Session 3</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" data-time="12:30">12:30 PM</th>
                         <td>
-                            Oral Presentation: Vanya Cohen and Raymond Mooney<br />
-                            <span style="font-style:italic">Using Planning to Improve Semantic Parsing of Instructional
-                                Texts</span>
-                            <a data-toggle="collapse" href="#schedule-talk4" aria-cexpanded="false"
-                                aria-controls="schedule-talk4">[Abstract]</a>
-                            <div class="collapse" id="schedule-talk4">
-                                Abstract: We develop a symbolic planning-based decoder to improve the few-shot semantic
-                                parsing of instructional texts. The system takes long-form instructional texts as input
-                                and produces sequences of actions in a formal language that enable execution of the
-                                instructions. This task poses unique challenges since input texts may contain long
-                                context dependencies and ambiguous and domain-specific language. Valid semantic parses
-                                also require sequences of steps that constitute an executable plan. We build on recent
-                                progress in semantic parsing by leveraging large language models to learn parsers from
-                                small amounts of training data. During decoding, our method employs planning methods and
-                                domain information to rank and correct candidate parses. To validate our method, we
-                                evaluate on four domains: two household instruction-following domains and two cooking
-                                recipe interpretation domains. We present results for few-shot semantic parsing using
-                                leave-one-out cross-validation. We show that utilizing planning domain information
-                                improves the quality of generated plans. Through ablations we also explore the effects
-                                of our decoder design choices.
+                            Invited Speaker: Tao Yu<br />
+                            <span style="font-style:italic">[Talk title forthcoming]</span>
+                            <!-- <a data-toggle="collapse" href="#schedule-talk3" aria-cexpanded="false"
+                                aria-controls="schedule-talk3">[Abstract]</a>
+                            <div class="collapse" id="schedule-talk3">
+                                Abstract: The past years have been marked by several breakthrough results in the domain of generative AI, culminating in the rise of tools like ChatGPT, able to solve a variety of language-related tasks without specialized training. In this talk, I discuss several recent research projects at Cornell, exploiting large language models to enhance relational database management systems. These projects cover applications of language models in the database interface, enabling users to specify high-level analysis goals for fully automated end-to-end analysis, as well as applications in the backend, using language models to extract useful information for data profiling and database tuning from text documents.
                             </div>
+                            <a data-toggle="collapse" href="#speaker-bio-talk3" aria-cexpanded="false"
+                            aria-controls="speaker-bio-talk3">[Speaker Bio]</a>
+                            <div class="collapse" id="schedule-bio-talk3">
+                                Immanuel Trummer is an assistant professor at Cornell University and a member of the Cornell Database Group. His papers were selected for “Best of VLDB”, “Best of SIGMOD”, for the ACM SIGMOD Research Highlight Award, and for publication in CACM as CACM Research Highlight. His online lecture introducing students to database topics collected over a million views. He received the NSF CAREER Award and multiple Google Faculty Research Awards.
+                            </div> -->
                         </td>
                     </tr>
                     <tr>
-                        <th scope="row" data-time="11:20">11:20 PM</th>
-                        <td>In-Person Poster Session 1 / Virtual Poster Session 2 (See posters below)</td>
+                        <th scope="row" data-time="13:00">01:00 PM</th>
+                        <td>Coffee Break / Poster Setup</td>
                     </tr>
                     <tr>
-                        <th scope="row" data-time="12:20">12:20 PM</th>
-                        <td>Lunch</td>
+                        <th scope="row" data-time="13:30">01:30 PM</th>
+                        <td>Poster: Session 2</td>
                     </tr>
                     <tr>
-                        <th scope="row" data-time="13:30">13:30 PM</th>
-                        <td>In-Person Poster Session 2 (See posters below)</td>
-                    </tr>
-                    <tr>
-                        <th scope="row" data-time="14:30">14:30 PM</th>
+                        <th scope="row" data-time="14:00">02:00 PM</th>
                         <td>
-                            Oral Presentation: Jinheon Baek, Alham Fikri Aji and Amir Saffari<br />
-                            <span style="font-style:italic">Knowledge-Augmented Language Model Prompting for Zero-Shot
-                                Knowledge Graph Question Answering</span>
+                            Invited Speaker: Wenhu Chen<br />
+                            <span style="font-style:italic">[Talk title forthcoming]</span>
                             <a data-toggle="collapse" href="#schedule-talk5" aria-cexpanded="false"
                                 aria-controls="schedule-talk5">[Abstract]</a>
                             <div class="collapse" id="schedule-talk5">
-                                Abstract: Large Language Models (LLMs) are capable of performing zero-shot closed-book
-                                question answering tasks, based on their internal knowledge stored in parameters during
-                                pre-training. However, such internalized knowledge might be insufficient and incorrect,
-                                which could lead LLMs to generate factually wrong answers. Furthermore, fine-tuning LLMs
-                                to update their knowledge is expensive. To this end, we propose to augment the knowledge
-                                directly in the input of LLMs. Specifically, we first retrieve the relevant facts to the
-                                input question from the knowledge graph based on semantic similarities between the
-                                question and its associated facts. After that, we prepend the retrieved facts to the
-                                input question in the form of the prompt, which is then forwarded to LLMs to generate
-                                the answer. Our framework, Knowledge-Augmented language model PromptING (KAPING),
-                                requires no model training, thus completely zero-shot. We validate the performance of
-                                our KAPING framework on the knowledge graph question answering task, that aims to answer
-                                the user's question based on facts over a knowledge graph, on which ours outperforms
-                                relevant zero-shot baselines by up to 48% in average, across multiple LLMs of various
-                                sizes.
+                                Abstract: Large language models (LLMs) are becoming attractive as few-shot reasoners to solve Natural Language (NL)-related tasks. However, there is still much to learn about how well LLMs understand structured data, such as tables. While it is true that tables can be used as inputs to LLMs with serialization, there lack comprehensive studies examining whether LLMs can truly comprehend such data. In this talk, I will cover different ways to utilize LLMs to interface with tables. One approach is to feed the whole table as a sequence to LLMs for reasoning. In this direction, we will talk about the recent paper GPT4Table to summarize the lessons learned in different table linearization strategies, including table input format, content order, role prompting, and partition marks. The other approach is to use tools like SQL or other language to interface with table for data access without feeding the entire table. LLMs will work as a reasoner to derive the answer based on the interfaced results from the table.
+                            </div>
+                            <a data-toggle="collapse" href="#speaker-bio-talk5" aria-cexpanded="false"
+                            aria-controls="speaker-bio-talk5">[Speaker Bio]</a>
+                            <div class="collapse" id="schedule-bio-talk5">
+                                Wenhu Chen has been an assistant professor at Computer Science Department in University of Waterloo and Vector Institute since 2022. He obtained Canada CIFAR AI Chair Award in 2022. He also works for Google Deepmind as a part-time research scientist since 2021. Before that, he obtained his PhD from the University of California, Santa Barbara under the supervision of William Wang and Xifeng Yan. His research interest lies in natural language processing, deep learning and multimodal learning. He aims to design models to handle complex reasoning scenarios like math problem-solving, structure knowledge grounding, etc. He is also interested in building more powerful multimodal models to bridge different modalities. He received the Area Chair Award in AACL-IJCNLP 2023, the Best Paper Honorable Mention in WACV 2021, and the UCSB CS Outstanding Dissertation Award in 2021.
                             </div>
                         </td>
                     </tr>
                     <tr>
-                        <th scope="row" data-time="14:40">14:40 PM</th>
-                        <td>
-                            Oral Presentation: Michal Štefánik and Marek Kadlcik<br />
-                            <span style="font-style:italic">Can In-context Learners Learn a Reasoning Concept from
-                                Demonstrations?</span>
-                            <a data-toggle="collapse" href="#schedule-6" aria-cexpanded="false"
-                                aria-controls="schedule-6">[Abstract]</a>
-                            <div class="collapse" id="schedule-6">
-                                Abstract: Large language models show an emergent ability to learn a new task from a
-                                small number of input-output demonstrations. However, recent work shows that in-context
-                                learners largely rely on their pre-trained knowledge, such as the sentiment of the
-                                labels, instead of finding new associations in the input. However, the commonly-used
-                                few-shot evaluation settings using a random selection of in-context demonstrations can
-                                not disentangle models' ability to learn a new skill from demonstrations, as most of the
-                                randomly-selected demonstrations do not present relations informative for prediction
-                                beyond exposing the new task distribution.
-                                To disentangle models' in-context learning ability independent of models' memory, we
-                                introduce a Conceptual few-shot learning method selecting the demonstrations sharing a
-                                possibly-informative concept with the predicted sample. We extract a set of such
-                                concepts from annotated explanations and measure how much can models benefit from
-                                presenting these concepts in few-shot demonstrations.
-                                We find that smaller models are more sensitive to the presented concepts. While some of
-                                the models are able to benefit from concept-presenting demonstrations for each assessed
-                                concept, we find that none of the assessed in-context learners can benefit from all
-                                presented reasoning concepts consistently, leaving the in-context concept learning an
-                                open challenge.
-                            </div>
-                        </td>
+                        <th scope="row" data-time="14:30">02:30 PM</th>
+                        <td>Panel - TBA</td>
                     </tr>
                     <tr>
-                        <th scope="row" data-time="14:50">14:50 PM</th>
-                        <td>
-                            Invited Speaker: Peter Clark<br />
-                            <span style="font-style:italic">The role of NL reasoning in the age of GPT</span>
-                            <a data-toggle="collapse" href="#schedule-talk7" aria-cexpanded="false"
-                                aria-controls="schedule-talk7">[Abstract]</a>
-                            <a data-toggle="collapse" href="#speaker-bio-talk7" aria-cexpanded="false"
-                                aria-controls="speaker-bio-talk7">[Speaker Bio]</a>
-                            <div class="collapse" id="schedule-talk7">
-                                Abstract: While the performance of new LLMs is stunning, it remains unclear how (or even
-                                if) an answer follows from their latent "beliefs" about the world, or whether an LLM
-                                even has a coherent internal belief system. In this talk I'll describe recent work we
-                                have done to probe a model's beliefs, construct interpretable representations of how the
-                                model's answers systematically follow from them, and how a broader system can identify
-                                and repair inconsistencies that may exist among those beliefs. More generally, I'll
-                                promote architectures in which interpretable, systematic NL reasoning and LLM-style
-                                reasoning co-exist in a broader system, allowing both styles of reasoning to inform each
-                                other, and paving the way for more interactive systems where users can probe, argue
-                                with, learn from, and teach our future companions.
-                            </div>
-                            <div class="collapse" id="speaker-bio-talk7">
-                                Peter Clark is a Senior Director and the interim CEO at the Allen Institute for AI
-                                (AI2), and leads the Aristo Project. His work focuses on natural language processing,
-                                machine reasoning, and world knowledge, and the interplay between these three areas.
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row" data-time="15:30">15:30 PM</th>
-                        <td>Break 2</td>
-                    </tr>
-                    <tr>
-                        <th scope="row" data-time="16:00">16:00 PM</th>
-                        <td>
-                            Invited Speaker: Denny Zhou<br />
-                            <span style="font-style:italic">Teach Language Models to Reason</span>
-                            <a data-toggle="collapse" href="#schedule-talk8" aria-cexpanded="false"
-                                aria-controls="schedule-talk8">[Abstract]</a>
-                            <a data-toggle="collapse" href="#speaker-bio-talk8" aria-cexpanded="false"
-                                aria-controls="speaker-bio-talk8">[Speaker Bio]</a>
-                            <div class="collapse" id="schedule-talk8">
-                                Over the past decades, the machine learning community has developed a multitude of
-                                data-driven techniques aimed at enhancing learning efficiency. These include
-                                semi-supervised learning, meta learning, active learning, transfer learning, and more.
-                                However, none of these techniques have proven to be highly effective for real-world
-                                natural language processing tasks. This shortcoming uncovers a fundamental flaw in
-                                machine learning - the absence of reasoning. Humans often learn from just a few examples
-                                because of their capacity to reason, as opposed to relying on data statistics. In this
-                                talk, I will talk about the large language models (LLM) reasoning work that we
-                                pioneered, and show that the techniques we developed can greatly narrow the gap between
-                                human intelligence and machine learning: crushed SoTA in the literature while demanding
-                                only a few annotated examples and no training. Our work was showcased at Google I/O 2022
-                                by Google CEO Sundar Pichai.
-                            </div>
-                            <div class="collapse" id="speaker-bio-talk8">
-                                Denny Zhou is a principal scientist / research director in Google DeepMind, where he is
-                                the founder and current lead of the Reasoning Team. His primary research interest is
-                                building and teaching large language models (LLMs) with an ambitious goal of attaining
-                                human-level reasoning capabilities within these models. His team in Google has developed
-                                chain-of-thought prompting, self-consistency decoding, least-to-most prompting,
-                                instruction tuning (FLAN2), LLMs self-debugging and various investigations of emergent
-                                properties of LLMs. He won Google Research Tech Impact Award in 2022.
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row" data-time="16:40">16:40 PM</th>
-                        <td>
-                            Invited Speaker: Sarah Wiegreffe
-                            <span style="font-style:italic">Two Views of Language Model Interpretability</span>
-                            <a data-toggle="collapse" href="#schedule-talk9" aria-cexpanded="false"
-                                aria-controls="schedule-talk9">[Abstract]</a>
-                            <a data-toggle="collapse" href="#speaker-bio-talk9" aria-cexpanded="false"
-                                aria-controls="speaker-bio-talk9">[Speaker Bio]</a>
-                            <div class="collapse" id="schedule-talk9">
-                                When generating text from language models (LMs), many prompting methods strive to
-                                explain LM behavior by eliciting specifically-structured outputs (e.g, chain-of-thought
-                                prompting). Relatedly, querying a model with specially-designed inputs and observing
-                                output behavior is a longstanding and popular method in the NLP interpreter’s toolbox.
-                                Prompting and querying approaches explain how LMs operate at a high-level (in natural
-                                language) without attributing behaviors to any specific components of the network. A
-                                separate line of work has investigated attributing or attempting to reconstruct model
-                                behaviors at the model parameter or hidden representation-level, generally at a small
-                                scale. While these two techniques often seem at odds in terms of their stated aims, they
-                                collectively inform a large progression in our understanding of LMs in the past 2 years.
-                                In this talk, I will give examples of both of these approaches, highlight their
-                                similarities and differences, and discuss paths forward that leverage their combined
-                                strengths.
-                            </div>
-                            <div class="collapse" id="speaker-bio-talk9">
-                                Sarah Wiegreffe is a Young Investigator (postdoc) at the Allen Institute of AI, where
-                                she is a member of the Aristo team. She also holds a courtesy appointment in the Allen
-                                School at the University of Washington. Her research interests encompass
-                                interpretability + explainability of NLP models, with a focus on the faithfulness of
-                                generated text to internal LM prediction mechanisms and the utility of model-generated
-                                textual explanations to humans. She received her PhD in 2022 from Georgia Tech, advised
-                                by Mark Riedl. She also received an M.S. in Computer Science (2020) and B.S. in Data
-                                Science (2017) from Georgia Tech and the College of Charleston, respectively. Outside of
-                                work, she enjoys rock climbing, cooking, and exploring Seattle.
-                            </div>
-                        </td>
+                        <th scope="row" data-time="15:15">03:15 PM</th>
+                        <td>Closing Notes</td>
                     </tr>
                 </tbody>
             </table>
         </div>
-    </div> -->
+    </div>
 
     <!-- <hr /> -->
 
