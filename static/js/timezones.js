@@ -84,8 +84,8 @@ $.fn.timezones.defaults = {
 function updateTable() {
   $("#schedule-table th").each(function() {
     var newTime = moment.tz("2023-12-15 " + $(this).data("time"), "America/Los_Angeles").tz($("#timezone-select").val());
-    if (newTime.format("DD") != "10") {
-      $(this).html(newTime.format("HH:mm A [(June] DD[)]"));
+    if (newTime.format("DD") != "15") {
+      $(this).html(newTime.format("HH:mm A [(Dec] DD[)]"));
     } else {
       $(this).html(newTime.format("HH:mm A"));
     }
