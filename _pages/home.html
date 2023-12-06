@@ -41,11 +41,15 @@ acknowledgements: ""
                     target="blank">FAQ</a>
             </div> -->
             <div>
+                Submit:
+                <a href="https://openreview.net/group?id=NeurIPS.cc/2023/Workshop/TRL" target="blank">https://openreview.net/group?id=NeurIPS.cc/2023/Workshop/TRL</a>
+            </div>
+            <div>
                 Public questions: <a class="u-email"
                     href="https://groups.google.com/g/table-representation-learning-workshop"target="blank">table-representation-learning-workshop@googlegroups.com</a>
             </div>
             <div>
-                Private questions (or sponsor requests): <a class="u-email" href="mailto:m.hulsebos@uva.nl"  target="blank">m.hulsebos@uva.nl</a>
+                Private questions (or sponsor requests): <a class="u-email" href="mailto:madelon@berkeley.edu"  target="blank">madelon@berkeley.edu</a>
             </div>
             <div>
                 Follow on Twitter:
@@ -53,37 +57,20 @@ acknowledgements: ""
                 <a class="menulink" href="https://twitter.com/TrlWorkshop" target="_blank">@TrlWorkshop</a>
             </div>
             <div>
-                Submit:
-                <b><a href="https://openreview.net/group?id=NeurIPS.cc/2023/Workshop/TRL" target="blank">https://openreview.net/group?id=NeurIPS.cc/2023/Workshop/TRL</a></b>
+                Sponsored by: <a href="https://www.approximatelabs.com/" target="blank"><img src="/assets/approximate-logo.svg" width="300"></a>
             </div>
+
         </div>
     </div>
 </div>
 
 
-    <!-- <p>With TRL we seek to address the following questions, among others:</p>
-
-    <p>
-    <ul>
-        <li>How should tables be encoded to make learned Table Models generalize across tasks?</li>
-        <li>Which pre-training objectives, architectures, fine-tuning and prompting strategies, work for tabular data?</li>
-        <li>How should the varying formats, data types, and sizes of tables be handled?</li>
-        <li>How and to what extent can LLMs be adapted towards tabular data tasks and what are their limitations?</li>
-        <li>What tasks can existing neural table models accomplish well and what opportunities lie ahead?</li>
-        <li>How do existing neural table models perform, what do they learn, where and how do they fall short?</li>
-        <li>When and how should neural table models be updated in contexts where the underlying data source continuously evolves?</li>
-    </ul>
-    </p> -->
-
     <br>
 
     <hr />
 
-    <!-- Schedule -->
-    <!-- <hr /> -->
-
-        <!-- Speakers -->
-        <div class="row" id="speakers">
+        <!-- Program -->
+        <div class="row" id="program">
             <div class="col-xs-12">
                 <h2>Program</h2>
 
@@ -170,10 +157,18 @@ acknowledgements: ""
                                 <tr>
                                     <th scope="row" data-time="06:45">06:45 AM</th>
                                     <td>
-                                        Invited Speaker: Simran Arora<br />
-                                        <span style="font-style:italic">
-                                            [Talk title forthcoming]
-                                        </span>
+                                        Invited Talk: Simran Arora<br />
+                                        <span style="font-style:italic">Co-Designing LLMs and LLM-Powered Data Management Tools</span>
+                                        <a data-toggle="collapse" href="#schedule-talk1" aria-cexpanded="false"
+                                            aria-controls="schedule-talk3">[Abstract]</a>
+                                        <div class="collapse" id="schedule-talk1">
+                                            Abstract: Large Language Models (LLMs) are now widely used for data management. We recently proposed Evaporate [ICLR Spotlight 2023, VLDB 2024], a system that uses LLMs to help users efficiently query semi-structured documents. We also showed how off-the-shelf LLMs perform data-wrangling tasks with state-of-the-art quality and no specialized training [VLDB 2023]. This talk discusses some of my lessons from working on these early LLM-for-data-management projects and subsequent research to improve the reach of these systems — in particular, there is a ways to go for extending LLMs to datatypes such as private, semi-structured, and long-sequence data. Towards extending our capabilities on these datatypes, I’ll discuss MQAR and Monarch Mixer [NeurIPS Oral 2023], new LM architectures that can match the quality of attention-based LMs, while remaining asymptotically more efficient at training and inference time. We’ll finally discuss how these fundamental breakthroughs can power next-generation data management tools.
+                                        </div>
+                                        <a data-toggle="collapse" href="#speaker-bio-talk1" aria-cexpanded="false"
+                                        aria-controls="speaker-bio-talk3">[Speaker Bio]</a>
+                                        <div class="collapse" id="speaker-bio-talk1">
+                                            Bio: Simran Arora is a PhD student at Stanford University in machine learning systems, advised by Chris Ré. She develops tools that help users apply foundation models to challenging datatypes such as private, semi-structured, and long-sequence data. To unlock these capabilities, she leverages a detailed understanding of the data and inductive biases used to train foundation models. Her work has received Oral (top 5%) and Spotlight (top 25%) awards at NeurIPS and ICLR. Simran also recently created and taught a new [Systems for Machine Learning](https://cs229s.stanford.edu/fall2023/) full-unit course at Stanford. She is grateful for the support of the SGF Sequoia Fellowship.
+                                        </div>
                                     </td>
                                 </tr>
                                 <tr>
@@ -191,7 +186,7 @@ acknowledgements: ""
                                 <tr>
                                     <th scope="row" data-time="09:00">09:00 AM</th>
                                     <td>
-                                        Invited Speaker: Frank Hutter<br />
+                                        Invited Talk: Frank Hutter<br />
                                         <span style="font-style:italic">[Talk title forthcoming]</span>
                                     </td>
                                 </tr>
@@ -206,7 +201,7 @@ acknowledgements: ""
                                 <tr>
                                     <th scope="row" data-time="11:30">11:30 AM</th>
                                     <td>
-                                        Invited Speaker: Immanuel Trummer<br />
+                                        Invited Talk: Immanuel Trummer<br />
                                         <span style="font-style:italic">Next-Generation Data Management with Large Language Models</span>
                                         <a data-toggle="collapse" href="#schedule-talk3" aria-cexpanded="false"
                                             aria-controls="schedule-talk3">[Abstract]</a>
@@ -216,7 +211,7 @@ acknowledgements: ""
                                         <a data-toggle="collapse" href="#speaker-bio-talk3" aria-cexpanded="false"
                                         aria-controls="speaker-bio-talk3">[Speaker Bio]</a>
                                         <div class="collapse" id="speaker-bio-talk3">
-                                            Immanuel Trummer is an assistant professor at Cornell University and a member of the Cornell Database Group. His papers were selected for “Best of VLDB”, “Best of SIGMOD”, for the ACM SIGMOD Research Highlight Award, and for publication in CACM as CACM Research Highlight. His online lecture introducing students to database topics collected over a million views. He received the NSF CAREER Award and multiple Google Faculty Research Awards.
+                                            Bio: Immanuel Trummer is an assistant professor at Cornell University and a member of the Cornell Database Group. His papers were selected for “Best of VLDB”, “Best of SIGMOD”, for the ACM SIGMOD Research Highlight Award, and for publication in CACM as CACM Research Highlight. His online lecture introducing students to database topics collected over a million views. He received the NSF CAREER Award and multiple Google Faculty Research Awards.
                                         </div>
                                     </td>
                                 </tr>
@@ -227,18 +222,9 @@ acknowledgements: ""
                                 <tr>
                                     <th scope="row" data-time="12:30">12:30 PM</th>
                                     <td>
-                                        Invited Speaker: Tao Yu<br />
+                                        Invited Talk: Tao Yu<br />
                                         <span style="font-style:italic">[Talk title forthcoming]</span>
-                                        <!-- <a data-toggle="collapse" href="#schedule-talk3" aria-cexpanded="false"
-                                            aria-controls="schedule-talk3">[Abstract]</a>
-                                        <div class="collapse" id="schedule-talk3">
-                                            Abstract: The past years have been marked by several breakthrough results in the domain of generative AI, culminating in the rise of tools like ChatGPT, able to solve a variety of language-related tasks without specialized training. In this talk, I discuss several recent research projects at Cornell, exploiting large language models to enhance relational database management systems. These projects cover applications of language models in the database interface, enabling users to specify high-level analysis goals for fully automated end-to-end analysis, as well as applications in the backend, using language models to extract useful information for data profiling and database tuning from text documents.
-                                        </div>
-                                        <a data-toggle="collapse" href="#speaker-bio-talk3" aria-cexpanded="false"
-                                        aria-controls="speaker-bio-talk3">[Speaker Bio]</a>
-                                        <div class="collapse" id="schedule-bio-talk3">
-                                            Immanuel Trummer is an assistant professor at Cornell University and a member of the Cornell Database Group. His papers were selected for “Best of VLDB”, “Best of SIGMOD”, for the ACM SIGMOD Research Highlight Award, and for publication in CACM as CACM Research Highlight. His online lecture introducing students to database topics collected over a million views. He received the NSF CAREER Award and multiple Google Faculty Research Awards.
-                                        </div> -->
+                                        
                                     </td>
                                 </tr>
                                 <tr>
@@ -252,7 +238,7 @@ acknowledgements: ""
                                 <tr>
                                     <th scope="row" data-time="14:00">02:00 PM</th>
                                     <td>
-                                        Invited Speaker: Wenhu Chen<br />
+                                        Invited Talk: Wenhu Chen<br />
                                         <span style="font-style:italic">Enabling Large Language Models to Reason with Tables</span>
                                         <a data-toggle="collapse" href="#schedule-talk5" aria-cexpanded="false"
                                             aria-controls="schedule-talk5">[Abstract]</a>
@@ -262,7 +248,7 @@ acknowledgements: ""
                                         <a data-toggle="collapse" href="#speaker-bio-talk5" aria-cexpanded="false"
                                         aria-controls="speaker-bio-talk5">[Speaker Bio]</a>
                                         <div class="collapse" id="speaker-bio-talk5">
-                                            Wenhu Chen has been an assistant professor at Computer Science Department in University of Waterloo and Vector Institute since 2022. He obtained Canada CIFAR AI Chair Award in 2022. He also works for Google Deepmind as a part-time research scientist since 2021. Before that, he obtained his PhD from the University of California, Santa Barbara under the supervision of William Wang and Xifeng Yan. His research interest lies in natural language processing, deep learning and multimodal learning. He aims to design models to handle complex reasoning scenarios like math problem-solving, structure knowledge grounding, etc. He is also interested in building more powerful multimodal models to bridge different modalities. He received the Area Chair Award in AACL-IJCNLP 2023, the Best Paper Honorable Mention in WACV 2021, and the UCSB CS Outstanding Dissertation Award in 2021.
+                                            Bio: Wenhu Chen has been an assistant professor at Computer Science Department in University of Waterloo and Vector Institute since 2022. He obtained Canada CIFAR AI Chair Award in 2022. He also works for Google Deepmind as a part-time research scientist since 2021. Before that, he obtained his PhD from the University of California, Santa Barbara under the supervision of William Wang and Xifeng Yan. His research interest lies in natural language processing, deep learning and multimodal learning. He aims to design models to handle complex reasoning scenarios like math problem-solving, structure knowledge grounding, etc. He is also interested in building more powerful multimodal models to bridge different modalities. He received the Area Chair Award in AACL-IJCNLP 2023, the Best Paper Honorable Mention in WACV 2021, and the UCSB CS Outstanding Dissertation Award in 2021.
                                         </div>
                                     </td>
                                 </tr>
@@ -310,23 +296,23 @@ acknowledgements: ""
                     </tr>
                     <tr>
                         <td>Notifications</td>
-                        <td><s><b>October 27, 2023</b> (11:59PM AoE)</s></td>
+                        <td><s>October 27, 2023 (11:59PM AoE)</s></td>
                     </tr>
                     <tr>
-                        <td style="color: red">Camera-ready</td>
-                        <td style="color: red">November 15, 2023 (11:59PM AoE)</td>
+                        <td>Camera-ready</td>
+                        <td><s>November 15, 2023 (11:59PM AoE)</s></td>
                     </tr>
                     <tr>
-                        <td style="color: red">Slides for spotlight talks</td>
-                        <td style="color: red">November 28, 2023 (11:59PM AoE)</td>
+                        <td>Slides for spotlight talks</td>
+                        <td><s>November 28, 2023 (11:59PM AoE)</s></td>
                     </tr>
                     <tr>
-                        <td style="color: red">Video pitches for posters</td>
-                        <td style="color: red">November 28, 2023 (11:59PM AoE)</td>
+                        <td >Video pitches for posters</td>
+                        <td ><s>November 28, 2023 (11:59PM AoE)</s></td>
                     </tr>
                     <tr>
                         <td>Workshop Date</td>
-                        <td>December 15, 2023</td>
+                        <td><b>December 15, 2023</b></td>
                     </tr>
                 </tbody>
             </table>
@@ -529,50 +515,54 @@ acknowledgements: ""
 
     <div class="col-xs-12">
         <h3>Program Committee</h3>
-        Vadim Borisov,	University of Tuebingen<br>
-        Paul Groth,	University of Amsterdam<br>
-        Wensheng Dou,	Institute of Software Chinese Academy of Sciences<br>
-        Hiroshi Iida,	The University of Tokyo<br>
-        Sharad Chitlangia,	Amazon<br>
-        Jaehyun Nam,	KAIST<br>
-        Jinyang Li,	The University of Hong Kong<br>
-        Gerardo Vitagliano,	Hasso Plattner Institute<br>
-        Rajat Agarwal,	Amazon<br>
-        Micah Goldblum,	New York University<br>
-        Yury Gorishniy,	Yandex Research<br>
-        Roman Levin,	Amazon<br>
-        Bhavesh Neekhra,	Ashoka University<br>
-        Sebastian Schelter,	University of Amsterdam<br>
-        Qingping Yang,	University of Chinese Academy of Sciences<br>
-        Matteo Interlandi,	Microsoft<br>
-        Tianji Cong,	University of Michigan<br>
-        Xiang Deng,	Google<br>
-        Beliz Gunel,	Google<br>
-        Qian Liu,	Sea AI Lab<br>
-        Shuaichen Chang,	Ohio State University<br>
-        Zhoujun Cheng,	Shanghai Jiaotong University<br>
-        Roee Shraga,	Worcester Polytechnic Institute<br>
-        Yi Zhang,	AWS AI Labs<br>
-        Xi Rao,	ETH Zurich<br>
-        Liane Vogel, Technical University of Darmstadt<br>
-        Aneta Koleva, University of Munich / Siemens<br>
-        Ivan Rubachev, HSE University / Yandex<br>
-        Meghana Moorthy Bhat, Salesforce Research<br>
-        José Cambronero, Microsoft<br>
-        Till Döhmen, MotherDuck / University of Amsterdam<br>
-        Noah Hollman, Charité Berlin / University of Freiburg<br>
-        Julian Martin Eisenschlos, Google<br>
-        Paolo Papotti, Eurecom<br>
-        Zhiruo Wang, Carnegie Mellon University<br>
-        Mukul Singh, Microsoft<br>
-        Zezhou Huang, Columbia University<br>
-        Carsten Binnig, TU Darmstadt<br>
-        Linyong Nan, Yale<br>
-        Shuo Zhang, Bloomberg<br>
-        Alejandro Sierra Múnera, Hasso Plattner Institute<br>
-        Qian Liu, Sea AI Labs<br>
-        Anirudh Khatry, Microsoft<br>
-        Haoyu Dong, Microsoft<br><br>
+        <a data-toggle="collapse" href="#pc" aria-cexpanded="false"
+        aria-controls="pc">Unfold for full committee</a>
+        <div class="collapse" id="pc">
+            Vadim Borisov,	University of Tuebingen<br>
+            Paul Groth,	University of Amsterdam<br>
+            Wensheng Dou,	Institute of Software Chinese Academy of Sciences<br>
+            Hiroshi Iida,	The University of Tokyo<br>
+            Sharad Chitlangia,	Amazon<br>
+            Jaehyun Nam,	KAIST<br>
+            Jinyang Li,	The University of Hong Kong<br>
+            Gerardo Vitagliano,	Hasso Plattner Institute<br>
+            Rajat Agarwal,	Amazon<br>
+            Micah Goldblum,	New York University<br>
+            Yury Gorishniy,	Yandex Research<br>
+            Roman Levin,	Amazon<br>
+            Bhavesh Neekhra,	Ashoka University<br>
+            Sebastian Schelter,	University of Amsterdam<br>
+            Qingping Yang,	University of Chinese Academy of Sciences<br>
+            Matteo Interlandi,	Microsoft<br>
+            Tianji Cong,	University of Michigan<br>
+            Xiang Deng,	Google<br>
+            Beliz Gunel,	Google<br>
+            Qian Liu,	Sea AI Lab<br>
+            Shuaichen Chang,	Ohio State University<br>
+            Zhoujun Cheng,	Shanghai Jiaotong University<br>
+            Roee Shraga,	Worcester Polytechnic Institute<br>
+            Yi Zhang,	AWS AI Labs<br>
+            Xi Rao,	ETH Zurich<br>
+            Liane Vogel, Technical University of Darmstadt<br>
+            Aneta Koleva, University of Munich / Siemens<br>
+            Ivan Rubachev, HSE University / Yandex<br>
+            Meghana Moorthy Bhat, Salesforce Research<br>
+            José Cambronero, Microsoft<br>
+            Till Döhmen, MotherDuck / University of Amsterdam<br>
+            Noah Hollman, Charité Berlin / University of Freiburg<br>
+            Julian Martin Eisenschlos, Google<br>
+            Paolo Papotti, Eurecom<br>
+            Zhiruo Wang, Carnegie Mellon University<br>
+            Mukul Singh, Microsoft<br>
+            Zezhou Huang, Columbia University<br>
+            Carsten Binnig, TU Darmstadt<br>
+            Linyong Nan, Yale<br>
+            Shuo Zhang, Bloomberg<br>
+            Alejandro Sierra Múnera, Hasso Plattner Institute<br>
+            Qian Liu, Sea AI Labs<br>
+            Anirudh Khatry, Microsoft<br>
+            Haoyu Dong, Microsoft<br><br>
+        </div>
     </div>
 
 
