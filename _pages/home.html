@@ -220,6 +220,7 @@ acknowledgements: ""
                                     <td>
                                         Invited Talk: Simran Arora<br />
                                         <span style="font-style:italic">Co-Designing LLMs and LLM-Powered Data Management Tools</span>
+                                        <br/>
                                         <a data-toggle="collapse" href="#schedule-talk1" aria-cexpanded="false"
                                             aria-controls="schedule-talk3">[Abstract]</a>
                                         <div class="collapse" id="schedule-talk1">
@@ -234,7 +235,78 @@ acknowledgements: ""
                                 </tr>
                                 <tr>
                                     <th scope="row" data-time="07:15">07:15 AM</th>
-                                    <td>Spotlight Talks: Session 1</td>
+                                    <td>Spotlight Talks: Session 1 (Data Wrangling and Table QA)</td>
+                                </tr>
+                                <tr style="font-weight: 300;">
+                                    <th scope="row" data-time="07:15">07:15 AM</th>
+                                    <td>
+                                    <a class="paper-title" href="https://openreview.net/forum?id=gs6yfSvwue" target="_blank">High-Performance Transformers for Table Structure Recognition Need Early Convolutions </a>
+                                    <br>
+                                    <span class="paper-authors">Jacob Yoke Hong Si, Rahul Krishnan, Michael Cooper, Wendy Yusi Cheng
+                                    </span>
+                                    <a data-toggle="collapse" href="#spotlight-paper-1" aria-cexpanded="false"
+                                        aria-controls="spotlight-paper-1">[Abstract]</a>
+                                    <div class="collapse" id="spotlight-paper-1">
+                                        Abstract: Table structure recognition (TSR) aims to convert tabular images into a machine-readable format, where a visual encoder extracts image features and a textual decoder generates table-representing tokens. Existing approaches use classic convolutional neural network (CNN) backbones for the visual encoder and transformers for the textual decoder. However, this hybrid CNN-Transformer architecture introduces a complex visual encoder that accounts for nearly half of the total model parameters, markedly reduces both training and inference speed, and hinders the potential for self-supervised learning in TSR. In this work, we design a lightweight visual encoder for TSR without sacrificing expressive power. We discover that a convolutional stem can match classic CNN backbone performance, with a much simpler model. The convolutional stem strikes an optimal balance between two crucial factors for high-performance TSR: a higher receptive field (RF) ratio and a longer sequence length. This allows it to "see" an appropriate portion of the table and "store" the complex table structure within sufficient context length for the subsequent transformer. We conducted reproducible ablation studies and open-sourced our code at https://anonymous.4open.science/r/NeurIPS23-TRL-2 to enhance transparency, inspire innovations, and facilitate fair comparisons in our domain as tables are a promising modality for representation learning.
+                                    </div>
+                                    </td>
+                                </tr>
+                                <tr style="font-weight: 300;">
+                                    <th scope="row" data-time="07:23">07:23 AM</th>
+                                    <td>
+                                    <a class="paper-title" href="https://openreview.net/forum?id=6Kb3pE9nWQ" target="_blank">Pool-Search-Demonstrate: Improving Data-wrangling LLMs via better in-context examples </a>
+                                    <br>
+                                    <span class="paper-authors">Joon Suk Huh, Changho Shin, Elina Choi
+                                    </span>
+                                    <a data-toggle="collapse" href="#spotlight-paper-2" aria-cexpanded="false"
+                                        aria-controls="spotlight-paper-2">[Abstract]</a>
+                                    <div class="collapse" id="spotlight-paper-2">
+                                        Abstract: Data-wrangling is a process that transforms raw data for further analysis and for use in downstream tasks. Recently, it has been shown that foundation models can be successfully used for data-wrangling tasks (Narayan et. al., 2022). An important aspect of data wrangling with LMs is to properly construct prompts for the given task. Within these prompts, a crucial component is the choice of in-context examples. In the previous study of Narayan et. al., demonstration examples are chosen manually by the authors, which may not be scalable to new datasets. In this work, we propose a simple demonstration strategy that individualizes demonstration examples for each input by selecting them from a pool based on their distance in the embedding space. Additionally, we propose a postprocessing method that exploits the embedding of labels under a closed-world assumption. Empirically, our embedding-based example retrieval and postprocessing improve foundation models' performance by up to 84\% over randomly selected examples and 49\% over manually selected examples in the demonstration. Ablation tests reveal the effect of class embeddings, and various factors in demonstration such as quantity, quality, and diversity.
+                                    </div>
+                                    </td>
+                                </tr>
+                                <tr style="font-weight: 300;">
+                                    <th scope="row" data-time="07:31">07:31 AM</th>
+                                    <td>
+                                    <a class="paper-title" href="https://openreview.net/forum?id=4MkkNsAEmO" target="_blank">TabPFGen – Tabular Data Generation with TabPFN</a>
+                                    <br>
+                                    <span class="paper-authors">Jeremy (Junwei) Ma, Apoorv Dankar, George Stein, Guangwei Yu, Anthony Caterini
+                                    </span>
+                                    <a data-toggle="collapse" href="#spotlight-paper-3" aria-cexpanded="false"
+                                        aria-controls="spotlight-paper-3">[Abstract]</a>
+                                    <div class="collapse" id="spotlight-paper-3">
+                                        Abstract: Advances in deep generative modelling have not translated well to tabular data. We argue that this is caused by a mismatch in structure between popular generative models and discriminative models of tabular data. We thus devise a technique to turn TabPFN -- a highly performant transformer initially designed for in-context discriminative tabular tasks -- into an energy-based generative model, which we dub TabPFGen. This novel framework leverages the pre-trained TabPFN as part of the energy function and does not require any additional training or hyperparameter tuning, thus inheriting TabPFN's in-context learning capability. We can sample from TabPFGen analogously to other energy-based models. We demonstrate strong results on standard generative modelling tasks, including data augmentation, class-balancing, and imputation, unlocking a new frontier of tabular data generation.
+                                    </div>
+                                    </td>
+                                </tr>
+                                <tr style="font-weight: 300;">
+                                    <th scope="row" data-time="07:38">07:38 AM</th>
+                                    <td>
+                                    <a class="paper-title" href="https://openreview.net/forum?id=FflKTuIRTD" target="_blank">Data Ambiguity Strikes Back: How Documentation Improves GPT's Text-to-SQL</a>
+                                    <br>
+                                    <span class="paper-authors">Zachary Huang, Pavan Kalyan Damalapati, Eugene Wu
+                                    </span>
+                                    <a data-toggle="collapse" href="#spotlight-paper-4" aria-cexpanded="false"
+                                        aria-controls="spotlight-paper-4">[Abstract]</a>
+                                    <div class="collapse" id="spotlight-paper-4">
+                                        Abstract: Text-to-SQL allows experts to use databases without in-depth knowledge of them. However, real-world tasks have both query and data ambiguities. Most works on Text-to-SQL focused on query ambiguities and designed chat interfaces for experts to provide clarifications.In contrast, the data management community has long studied data ambiguities, but mainly addresses error detection and correction, rather than documenting them for disambiguation in data tasks. This work delves into these data ambiguities in real-world datasets. We have identified prevalent data ambiguities of value consistency, data coverage, and data granularity that affect tasks. We examine how documentation, originally made to help humans to disambiguate data, can help GPT-4 with Text-to-SQL tasks. By offering documentation on these, we found GPT-4's performance improved by 28.9%.
+                                    </div>
+                                    </td>
+                                </tr>
+
+                                <tr style="font-weight: 300;">
+                                    <th scope="row" data-time="07:46">07:46 AM</th>
+                                    <td>
+                                    <a class="paper-title" href="https://openreview.net/forum?id=zxaoBcdACd" target="_blank">MultiTabQA: Generating Tabular Answers for Multi-Table Question Answering</a>
+                                    <br>
+                                    <span class="paper-authors">Vaishali Pal, Andrew Yates, Evangelos Kanoulas, Maarten Rijke
+                                    </span>
+                                    <a data-toggle="collapse" href="#spotlight-paper-4" aria-cexpanded="false"
+                                        aria-controls="spotlight-paper-4">[Abstract]</a>
+                                    <div class="collapse" id="spotlight-paper-4">
+                                        Abstract: Recent advances in tabular question answering (QA) with large language models are constrained in their coverage and only answer questions over a single table. However, real-world queries are complex in nature, often over multiple tables in a relational database or web page. Single table questions do not involve common table operations such as set operations, Cartesian products (joins), or nested queries. Furthermore, multi-table operations often result in a tabular output, which necessitates table generation capabilities of tabular QA models. To fill this gap, we propose a new task of answering questions over multiple tables. Our model, MultiTabQA, not only answers questions over multiple tables, but also generalizes to generate tabular answers. To enable effective training, we build a pre-training dataset comprising of 132,645 SQL queries and tabular answers. Further, we evaluate the generated tables by introducing table-specific metrics of varying strictness assessing various levels of granularity of the table structure. MultiTabQA outperforms state-of-the-art single table QA models adapted to a multi-table QA setting by finetuning on three datasets: Spider, Atis and GeoQuery.
+                                    </div>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <th scope="row" data-time="08:00">08:00 AM</th>
@@ -243,6 +315,11 @@ acknowledgements: ""
                                 <tr>
                                     <th scope="row" data-time="08:20">08:20 AM</th>
                                     <td>Poster: Session 1</td>
+                                    <a data-toggle="collapse" href="#poster-1" aria-cexpanded="false"
+                                    aria-controls="poster-1">[Details]</a>
+                                    <div class="collapse" id="poster-1">
+                                    Bio: Simran Arora is a PhD student at Stanford University in machine learning systems, advised by Chris Ré. She develops tools that help users apply foundation models to challenging datatypes such as private, semi-structured, and long-sequence data. To unlock these capabilities, she leverages a detailed understanding of the data and inductive biases used to train foundation models. Her work has received Oral (top 5%) and Spotlight (top 25%) awards at NeurIPS and ICLR. Simran also recently created and taught a new [Systems for Machine Learning](https://cs229s.stanford.edu/fall2023/) full-unit course at Stanford. She is grateful for the support of the SGF Sequoia Fellowship.
+                                </div>
                                 </tr>
                                 <tr>
                                     <th scope="row" data-time="09:00">09:00 AM</th>
