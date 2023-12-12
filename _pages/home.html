@@ -301,7 +301,6 @@ acknowledgements: ""
                                     </div>
                                     </td>
                                 </tr>
-
                                 <tr >
                                     <th></th>
                                     <td>
@@ -311,9 +310,9 @@ acknowledgements: ""
                                     <br>
                                     <span class="paper-authors">Vaishali Pal, Andrew Yates, Evangelos Kanoulas, Maarten Rijke
                                     </span>
-                                    <a data-toggle="collapse" href="#spotlight-paper-4" aria-cexpanded="false"
-                                        aria-controls="spotlight-paper-4">[Abstract]</a>
-                                    <div class="collapse" id="spotlight-paper-4">
+                                    <a data-toggle="collapse" href="#spotlight-paper-5" aria-cexpanded="false"
+                                        aria-controls="spotlight-paper-5">[Abstract]</a>
+                                    <div class="collapse" id="spotlight-paper-5">
                                         Abstract: Recent advances in tabular question answering (QA) with large language models are constrained in their coverage and only answer questions over a single table. However, real-world queries are complex in nature, often over multiple tables in a relational database or web page. Single table questions do not involve common table operations such as set operations, Cartesian products (joins), or nested queries. Furthermore, multi-table operations often result in a tabular output, which necessitates table generation capabilities of tabular QA models. To fill this gap, we propose a new task of answering questions over multiple tables. Our model, MultiTabQA, not only answers questions over multiple tables, but also generalizes to generate tabular answers. To enable effective training, we build a pre-training dataset comprising of 132,645 SQL queries and tabular answers. Further, we evaluate the generated tables by introducing table-specific metrics of varying strictness assessing various levels of granularity of the table structure. MultiTabQA outperforms state-of-the-art single table QA models adapted to a multi-table QA setting by finetuning on three datasets: Spider, Atis and GeoQuery.
                                     </div>
                                     </td>
@@ -341,7 +340,67 @@ acknowledgements: ""
                                 </tr>
                                 <tr>
                                     <th scope="row" data-time="09:30">09:30 AM</th>
-                                    <td>Spotlight Talks: Session 2</td>
+                                    <td>Spotlight Talks: Session 2 (Tabular ML)</td>
+                                </tr>
+                                <tr >
+                                    <th></th>
+                                    <td>
+                                    <span scope="row" data-time="09:30">09:30 AM</span> ~
+                                    <span scope="row" data-time="09:37">09:37 AM</span>
+                                    <a class="paper-title" href="https://openreview.net/forum?id=dkeZPuFmIz" target="_blank">Self-supervised Representation Learning from Random Data Projectors</a>
+                                    <br/>
+                                    <span class="paper-authors">Yi Sui, Tongzi Wu, Jesse Cresswell, Ga Wu, George Stein, Xiao Shi Huang, Xiaochen Zhang, Maksims Volkovs</span>
+                                    <a data-toggle="collapse" href="#spotlight-paper-2-1" aria-cexpanded="false"
+                                        aria-controls="spotlight-paper-2-1">[Abstract]</a>
+                                    <div class="collapse" id="spotlight-paper-2-1">
+                                        Abstract: Self-supervised representation learning SSRL has advanced considerably by exploiting the transformation invariance assumption under artificially designed data augmentations. While augmentation-based SSRL algorithms push the boundaries of performance in computer vision and natural language processing, they are often not directly applicable to other data modalities such as tabular and time-series data. This paper presents an SSRL approach that can be applied to these data modalities because it does not rely on augmentations or masking. Specifically, we show that high-quality data representations can be learned by reconstructing random data projections. We evaluate the proposed approach on real-world applications with tabular and time-series data. We show that it outperforms multiple state-of-the-art SSRL baselines and is competitive with methods built on domain-specific knowledge. Due to its wide applicability and strong empirical results, we argue that learning from randomness is a fruitful research direction worthy of attention and further study.
+                                    </div>
+                                    </td>
+                                </tr>
+                                <tr >
+                                    <th></th>
+                                    <td>
+                                    <span scope="row" data-time="09:38">09:38 AM</span> ~
+                                    <span scope="row" data-time="09:45">09:45 AM</span>
+                                    <a class="paper-title" href="https://openreview.net/forum?id=jSebr3OJA2" target="_blank">GCondNet: A Novel Method for Improving Neural Networks on Small High-Dimensional Tabular Data</a>
+                                    <br>
+                                    <span class="paper-authors">Andrei Margeloiu, Nikola Simidjievski, Pietro Lió, Mateja Jamnik</span>
+                                    <a data-toggle="collapse" href="#spotlight-paper-2-2" aria-cexpanded="false"
+                                        aria-controls="spotlight-paper-2-2">[Abstract]</a>
+                                    <div class="collapse" id="spotlight-paper-2-2">
+                                        Abstract: Neural network models often struggle with high-dimensional but small sample-size tabular datasets. One reason is that current weight initialisation methods assume independence between weights, which can be problematic when there are insufficient samples to estimate the model's parameters accurately. In such small data scenarios, leveraging additional structures can improve the model's performance and training stability. To address this, we propose GCondNet, a general approach to enhance neural networks by leveraging implicit structures present in tabular data. We create a graph between samples for each data dimension, and utilise Graph Neural Networks (GNNs) for extracting this implicit structure, and for conditioning the parameters of the first layer of an underlying predictor network. By creating many small graphs, GCondNet exploits the data's high-dimensionality, and thus improves the performance of an underlying predictor network. We demonstrate the effectiveness of our method on 9 real-world datasets, where GCondNet outperforms 15 standard and state-of-the-art methods. The results show that GCondNet is a versatile framework for injecting graph-regularisation into various types of neural networks, including MLPs and tabular Transformers.
+                                    </div>
+                                    </td>
+                                </tr>
+                                <tr >
+                                    <th></th>
+                                    <td>
+                                    <span scope="row" data-time="09:46">09:46 AM</span> ~
+                                    <span scope="row" data-time="09:53">09:53 AM</span>
+                                    <a class="paper-title" href="https://openreview.net/forum?id=VRBhaU8IDz" target="_blank">HyperFast: Instant Classification for Tabular Data</a>
+                                    <br>
+                                    <span class="paper-authors">David Bonet, Daniel Mas Montserrat, Xavier Giró-i-Nieto, Alexander Ioannidis</span>
+                                    <a data-toggle="collapse" href="#spotlight-paper-2-3" aria-cexpanded="false"
+                                        aria-controls="spotlight-paper-2-3">[Abstract]</a>
+                                    <div class="collapse" id="spotlight-paper-2-3">
+                                        Abstract: Training deep learning models and performing hyperparameter tuning can be computationally demanding and time-consuming. Meanwhile, traditional machine learning methods like gradient-boosting algorithms remain the preferred choice for most tabular data applications, while neural network alternatives require extensive hyperparameter tuning or work only in toy datasets under limited settings. In this paper, we introduce HyperFast, a meta-trained hypernetwork designed for instant classification of tabular data in a single forward pass. HyperFast generates a task-specific neural network tailored to an unseen dataset that can be directly used for classification inference, removing the need for training a model. We report extensive experiments with OpenML and genomic data, comparing HyperFast to competing tabular data neural networks, traditional ML methods, AutoML systems, and boosting machines. HyperFast shows highly competitive results, while being significantly faster. Additionally, our approach demonstrates robust adaptability across a variety of classification tasks with little to no fine-tuning, positioning HyperFast as a strong solution for numerous applications and rapid model deployment. HyperFast introduces a promising paradigm for fast classification, with the potential to substantially decrease the computational burden of deep learning. Our code, which offers a scikit-learn-like interface, along with the trained HyperFast model, can be found at www.url-hidden-for-submission.
+                                    </div>
+                                    </td>
+                                </tr>
+                                <tr >
+                                    <th></th>
+                                    <td>
+                                    <span scope="row" data-time="09:54">09:54 AM</span> ~
+                                    <span scope="row" data-time="10:01">10:01 AM</span>    
+                                    <a class="paper-title" href="https://openreview.net/forum?id=UkP1BSm2tt" target="_blank">Training-Free Generalization on Heterogeneous Tabular Data via Meta-Representation</a>
+                                    <br>
+                                    <span class="paper-authors">Han-Jia Ye, Qile Zhou, De-Chuan Zhan</span>
+                                    <a data-toggle="collapse" href="#spotlight-paper-2-4" aria-cexpanded="false"
+                                        aria-controls="spotlight-paper-2-4">[Abstract]</a>
+                                    <div class="collapse" id="spotlight-paper-2-4">
+                                        Abstract: Tabular data is prevalent across various machine learning domains. Yet, the inherent heterogeneities in attribute and class spaces across different tabular datasets hinder the effective sharing of knowledge, limiting a tabular model to benefit from other datasets. In this paper, we propose Tabular data Pre-Training via Meta-representation (TabPTM), which allows one tabular model pre-training on a set of heterogeneous datasets. Then, this pre-trained model can be directly applied to unseen datasets that have diverse attributes and classes without additional training. Specifically, TabPTM represents an instance through its distance to a fixed number of prototypes, thereby standardizing heterogeneous tabular datasets. A deep neural network is then trained to associate these meta-representations with dataset-specific classification confidences, endowing TabPTM with the ability of training-free generalization. Experiments validate that TabPTM achieves promising performance in new datasets, even under few-shot scenarios.
+                                    </div>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <th scope="row" data-time="10:00">10:00 AM</th>
