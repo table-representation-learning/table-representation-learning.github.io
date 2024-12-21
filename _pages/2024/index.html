@@ -1,0 +1,1904 @@
+---
+layout: project
+urltitle: "Table Representation Learning Workshop"
+title: "Table Representation Learning Workshop"
+categories: workshop, table representation learning, structured data, generative AI, natural language, machine learning, neurips, 2024
+permalink: /
+bibtex: true
+paper: true
+acknowledgements: ""
+---
+
+<br />
+
+
+<div class="row">
+
+    <div class="col-xs-12">
+        <br>
+        <b>Mailinglist: </b> <a href="https://forms.gle/Lg1twbWvV8w83zH38" target="blank">signup here</a>!
+    </div>
+    <div class="col-xs-12">
+        <b>Follow on Bluesky</b>:
+        <a href="https://bsky.app/profile/trl-research.bsky.social" target="_blank">@trl-research</a>
+    </div>
+    <div class="col-xs-12">
+        <b>New: Join the TRL Discord!</b>:
+        <a href="https://discord.gg/evZj4tF9" target="_blank">TRL Discord</a>
+        <br><br>
+    </div>
+
+
+    <div class="col-xs-12">
+        <p>
+
+            <b>Tables are a promising modality for representation learning and generative models with too much application potential to ignore.</b>
+            However, tables have long been overlooked despite their dominant presence in the data landscape, e.g. data management and analysis pipelines.
+            The majority of datasets in Google Dataset Search, for example, resembles typical tabular file formats like CSVs.
+            Similarly, the top-3 most-used database management systems are all intended for relational data.
+
+            Representation learning for tables, possibly combined with other modalities such as code and text, has shown impressive performance for tasks like semantic parsing,
+            question answering, table understanding, data preparation, and data analysis (e.g. text-to-sql). The pre-training paradigm was shown to be effective for tabular ML (classification/regression) as well.
+            More recently, we also observe promising potential in applying and enhancing LLMs in the domain of structured data to improve how we process and derive insights from structured data.
+        </p>
+        <p>
+            The Table Representation Learning (TRL) workshop is the premier venue in this emerging research area and
+            has three main goals:
+
+        <ul>
+            <li> (1) Motivate tables as a primary modality for representation and generative models and advance the area further. </li>
+            <li> (2) Showcase impactful applications of pretrained table models and identify open challenges for future research, with a particular focus on industry insights in 2024.</li>
+            <li> (3) Foster discussion and collaboration across the ML, NLP, IR and DB communities. </li>
+        </ul>
+        </p>
+    </div>
+
+    <div >
+        <div class="col-xs-12">
+            <!-- <div>
+                Frequently Asked Questions: <a href="https://groups.google.com/g/table-representation-learning-workshop"
+                    target="blank">FAQ</a>
+            </div> -->
+            <div>
+                When: Saturday 14 December 2024.<br>
+                Where: <b>East Meeting Room 11 & 12</b>, Vancouver Convention Centre, Vancouver, Canada.<br>
+            </div>
+            <div>
+                Submit:
+                20 September 2024, <a href="https://openreview.net/group?id=NeurIPS.cc/2024/Workshop/TRL" target="blank">https://openreview.net/group?id=NeurIPS.cc/2024/Workshop/TRL</a>
+            </div>
+            <div>
+                General questions: <a class="u-email"
+                    href="https://groups.google.com/g/table-representation-learning-workshop"target="blank">table-representation-learning-workshop@googlegroups.com</a>
+            </div>
+            <div>
+                Specific questions: <a class="u-email" href="mailto:madelon@berkeley.edu"  target="blank">madelon@berkeley.edu</a>
+            </div>
+            <!-- <div>Apply for travel award (students), deadline 31 Oct '24: <a href="https://docs.google.com/forms/d/e/1FAIpQLSdmJMhbQnlfcPFNN3uXpy6t6u2ghm1FNLwCUL0K4Mc_CClE8Q/viewform?usp=sf_link" target="blank">https://forms.gle/hgCfMakWa91e6Zmj9</a>
+            </div> -->
+            <div>
+                <br>
+                Sponsored by: <a href="https://www.sap.com/" target="blank" style="text-decoration:none;"><img src="/assets/sap-logo.png" width="150"></a>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+    <br>
+
+    <hr />
+
+    <div>
+        <div class="row" id="cfp">
+            <div class="col-xs-12">
+                <h2>Call for Papers</h2>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row" id="dates">
+        <div class="col-xs-12">
+            <h3>Important Dates</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <br>
+            <table class="table table-striped">
+                <tbody>
+                    <tr>
+                        <td>Submission Open</td>
+                        <td>September 1, 2024</td>
+                    </tr>
+                    <tr>
+                        <td>Submission Deadline</td>
+                        <td><b>September <b>20</b>, 2024</b> (11:59PM AoE)</td>
+                    </tr>
+                    <tr>
+                        <td>Notifications</td>
+                        <td>October 9, 2024 (11:59PM AoE)</td>
+                    </tr>
+                    <tr>
+                        <td>Camera-ready</td>
+                        <td>October 30, 2024 (11:59PM AoE)</td>
+                    </tr>
+                    <tr>
+                        <td>Slides for contributed talks</td>
+                        <td>November 30, 2024 (11:59PM AoE)</td>
+                    </tr>
+                    <tr>
+                        <td >Video pitches for posters (optional)</td>
+                        <td >November 30, 2024 (11:59PM AoE)</td>
+                    </tr>
+                    <tr>
+                        <td>Workshop Date</td>
+                        <td><b>December 14, 2024</b></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12">
+            <h3>Scope</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+
+            <p>We invite submissions on representation and generative learning over tables, related to any of the following topics:
+            </p>
+
+            <ul>
+                <li><b>Representation Learning for (semi-)Structured Data</b> such as spreadsheets, tables, and full relational databases. 
+                    Example contributions are new model architectures, data encoding techniques, tailored tokenization methods, pre-training and fine-tuning
+                    techniques, etc.
+                </li>
+                <li><b>Generative Models and LLMs for Structured Data</b> such as Large Language Models (LLMs) and diffusion models, and specialized techniques for prompt engineering, single-task and multi-task fine-tuning,
+                    LLM-driven interfaces and multi-agent systems, retrieval-augmented generation, etc.
+                </li>
+                <li><b>Multimodal Learning </b> where structured data is jointly embedded or combined with other modalities such as
+                    text, images, and code (e.g., SQL), knowledge graphs, visualizations/images.
+                </li>
+                <li><b>Applications of TRL models </b> of table representations for tasks like data preparation
+                    (e.g. data cleaning, validation, integration, cataloging, feature engineering),
+                    retrieval (e.g. data search, fact-checking/QA, KG alignment), analysis (e.g. text-to-SQL and visualization),
+                    tabular data generation, (end-to-end) tabular machine learning, table extraction (e.g. parsers/extraction for unstructured data), and query optimization (e.g. cardinality estimation).
+                </li>
+                <li><b>Challenges of TRL models in production </b>
+                    Work addressing the challenges of maintaining and managing TRL models in fast-evolving contexts,
+                    e.g., data updating, error correction, and monitoring, handling data privacy, personalization performance, etc.
+                </li>
+                <li><b>Domain-specific challenges  </b>for learned table models often arise in domains such as enterprise,
+                    finance, medical, law. These challenges pertain to table content, table structure, privacy, security
+                    limitations, and other factors that necessitate tailored solutions.
+                </li>
+                <li><b>Benchmarks, analyses, and datasets for TRL </b> including assessing LLMs and other generative models as base models versus
+                    alternative approaches, analysis of model robustness with respect to large, messy, and heterogeneous tabular
+                    data, etc.
+                </li>
+                <li><b>Other contributions </b> such as surveys, demonstrations, visions, and reflections on table representation learning and
+                    generative models for structured data.
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <hr />
+
+    <!-- Organizers -->
+    <div class="row" id="organization">
+        <div class="col-xs-12">
+            <h2>Organization</h2>
+        </div>
+
+    <div class="col-xs-12">
+        <h3>Workshop Chairs</h3>
+        <br>
+        <div class="col-xs-6 col-lg-2">
+            <a href="https://www.madelonhulsebos.com/" target="blank">
+                <img class="people-pic" src="assets/people/mh.jpg">
+            </a>
+            <div class="people-name">
+                <a href="https://www.madelonhulsebos.com/" target="blank">Madelon Hulsebos</a>
+                <h6>CWI</h6>
+            </div>
+        </div>
+        <div class="col-xs-6 col-lg-2">
+            <a href="https://www.microsoft.com/en-us/research/people/hadong" target="blank">
+                <img class="people-pic" src="assets/people/hd.jpg">
+            </a>
+            <div class="people-name">
+                <a href="https://www.microsoft.com/en-us/research/people/hadong" target="blank">Haoyu Dong</a>
+                <h6>Microsoft</h6>
+            </div>
+        </div>
+        <div class="col-xs-6 col-lg-2">
+            <a href="https://cs.stanford.edu/people/lorr1" target="blank">
+                <img class="people-pic" src="assets/people/lo.jpg">
+            </a>
+            <div class="people-name">
+                <a href="https://cs.stanford.edu/people/lorr1" target="blank">Laurel Orr</a>
+                <h6>Numbers Station AI</h6>
+            </div>
+        </div>
+        <div class="col-xs-6 col-lg-2">
+            <a href="https://siviltaram.github.io/" target="blank">
+                <img class="people-pic" src="assets/people/ql.png">
+            </a>
+            <div class="people-name">
+                <a href="https://siviltaram.github.io/" target="blank">Qian Liu</a>
+                <h6>Sea AI Lab</h6>
+                <br>
+            </div>
+        </div>
+        <div class="col-xs-6 col-lg-2">
+            <a href="https://unnir.github.io/" target="blank">
+                <img class="people-pic" src="assets/people/vb.jpeg">
+            </a>
+            <div class="people-name">
+                <a href="https://unnir.github.io/" target="blank">Vadim Borisov</a>
+                <h6>University of Tübingen<br></h6>
+            </div>
+            <br>
+        </div>
+        <br>
+    </div>
+    </div>
+
+    <hr />
+
+
+        <!-- Program -->
+        <div class="row" id="program">
+            <br>
+            <div class="col-xs-12">
+                <h2>Program</h2>
+
+                TRL is again entirely in-person, and will this year feature 2 poster sessions and contributed talks. We also host a few exciting invited talks on established research in this emerging area,
+                and a panel discussion focused on industry/startup perspectives.<br>
+
+                <br>
+
+                <h3>Invited Speakers</h3>
+                <br>
+
+                <div class="row">
+                    
+                    <div class="col-xs-6 col-lg-2">
+                        <a href="" target="blank">
+                            <img class="people-pic" src="/assets/people/gv.jpg">
+                        </a>
+                        <div class="people-name">
+                            <a href="https://gael-varoquaux.info/" target="blank">Gaël Varoquaux</a>
+                            <h6>Inria, Probabl</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-6 col-lg-2">
+                        <a href="" target="blank">
+                            <img class="people-pic" src="/assets/people/ya.png">
+                        </a>
+                        <div class="people-name">
+                            <a href="https://research.google/people/yasemin-altun" target="blank">Yasemin Altun</a>
+                            <h6>Google DeepMind</h6>
+                        </div>
+                    </div>
+
+
+                    <div class="col-xs-6 col-lg-2">
+                        <a href="" target="blank">
+                            <img class="people-pic" src="/assets/people/mz.png">
+                        </a>
+                        <div class="people-name">
+                            <a href="https://people.eecs.berkeley.edu/~matei/" target="blank">Matei Zaharia</a>
+                            <h6>UC Berkeley, Databricks</h6>
+                        </div>
+                        <br>
+                        <br>
+                    </div>
+
+                    <div class="col-xs-6 col-lg-2">
+                        <a href="" target="blank">
+                            <img class="people-pic" src="/assets/people/jg.png">
+                        </a>
+                        <div class="people-name">
+                            <a href="https://homes.cs.washington.edu/~jpgard/" target="blank">Josh Gardner</a>
+                            <h6>Apple</h6>
+                        </div>
+                    </div>
+
+                </div> 
+                <br>
+                <div>
+                    <br>
+                    <div>
+                        <br>
+                        <h3>Panelists</h3>
+                        <br>
+
+                        Moderated by Laurel Orr.
+                        <br>
+    
+                        <div class="col-xs-6 col-lg-2">
+                            <a href="https://www.linkedin.com/in/xiao-ling-50338916/" target="blank">
+                                <img class="people-pic" src="/assets/people/xl.jpg">
+                            </a>
+                            <div class="people-name">
+                                <a href="https://www.linkedin.com/in/xiao-ling-50338916/" target="blank">Xiao Ling</a>
+                                <h6>Numbers Station</h6>
+                            </div>
+                            <br>
+                            <br>
+                        </div>
+
+    
+                        <div class="col-xs-6 col-lg-2">
+                            <a href="https://www.linkedin.com/in/kennydaniel/" target="blank">
+                                <img class="people-pic" src="/assets/people/kd.jpg">
+                            </a>
+                            <div class="people-name">
+                                <a href="https://www.linkedin.com/in/kennydaniel/" target="blank">Kenny Daniel</a>
+                                <h6>hyperparam</h6>
+                            </div>
+                            <br>
+                            <br>
+                        </div>
+    
+                        <div class="col-xs-6 col-lg-2">
+                            <a href="https://maithraraghu.com/" target="blank">
+                                <img class="people-pic" src="/assets/people/mr.jpg">
+                            </a>
+                            <div class="people-name">
+                                <a href="https://maithraraghu.com/" target="blank">Maithra Raghu</a>
+                                <h6>Samaya AI</h6>
+                            <br>
+                            </div>
+                            <br>
+                        </div>
+    
+                        <div class="col-xs-6 col-lg-2">
+                            <a href="https://www.linkedin.com/in/shivam-singhal/" target="blank">
+                                <img class="people-pic" src="/assets/people/ss.jpg">
+                            </a>
+                            <div class="people-name">
+                                <a href="https://www.linkedin.com/in/shivam-singhal/" target="blank">Shivam Singhal</a>
+                                <h6>Structured</h6>
+                            <br>
+                            </div>
+                            <br>
+                        </div>
+
+                        <div class="col-xs-6 col-lg-2">
+                            <a href="https://ca.linkedin.com/in/jeremy-ma" target="blank">
+                                <img class="people-pic" src="/assets/people/jm.jpeg">
+                            </a>
+                            <div class="people-name">
+                                <a href="https://ca.linkedin.com/in/jeremy-ma" target="blank">Junwei Ma</a>
+                                <h6>layer6</h6>
+                            </div>
+                            <br>
+                            <br>
+                        </div>
+    
+                    <div class="col-xs-6 col-lg-2">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+
+                <div class="row" id="schedule">
+                    <br>
+                    <div class="col-md-12 col-xs-12">
+                        <br>
+                        <h3>Schedule (tentative)</h3>
+                        <br>
+                    </div>
+                    <div class="col-md-8 col-xs-12">
+                        <select id="timezone-select" class="form-control"></select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-striped" id="schedule-table">
+                            <tbody>
+
+                                <tr>
+                                    <th scope="row" data-time="08:30">08:30 AM</th>
+                                    <td><b>Opening Notes</b></td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row" data-time="08:40">08:40 PM</th> 
+                                    <td><b>Session 1 (TRL for Tabular ML):</b></td>
+                                </tr>
+
+                                <tr>
+                                    <th></th>
+                                    <td>
+                                        <span scope="row" data-time="08:40">08:40 AM</span> -
+                                        <span scope="row" data-time="09:20">09:20 AM</span>
+                                        <a  href="https://gael-varoquaux.info" target="_blank">Invited talk by Gaël Varoquaux: Tabular foundation models for analytics: challenges and progress</a>
+                                        <br/>
+                                        <a data-toggle="collapse" href="#schedule-talk1" aria-cexpanded="false"
+                                            aria-controls="schedule-talk1">[Abstract]</a>
+                                        <div class="collapse" id="schedule-talk1">
+                                            Deep-learning typically does not outperform tree-based models on tabular data. Often this may be explained by the small size of such datasets. For images, sound, text, the solution has be pretrained models, leading to foundation models, adapted and reused for many tasks. I will discuss the challenges to bring these ideas to tabular learning, and the progress that we have made, leading to the CARTE tabular model.
+                                        </div>
+                                        <a data-toggle="collapse" href="#speaker-bio-talk1" aria-cexpanded="false"
+                                        aria-controls="speaker-bio-talk1">[Speaker Bio]</a>
+                                        <div class="collapse" id="speaker-bio-talk1">
+                                            Gaël Varoquaux is a research director working on data science at Inria (French computer science national research) where he leads the Soda team. He is also co-founder and scientific advisor of Probabl.
+Varoquaux's research covers fundamentals of artificial intelligence, statistical learning, natural language processing, causal inference, as well as applications to health, with a current focus on public health and epidemiology. He also creates technology: he co-founded scikit-learn, one of the reference machine-learning toolboxes, and helped build various central tools for data analysis in Python.
+Varoquaux has worked at UC Berkeley, McGill, and university of Florence. He did a PhD in quantum physics supervised by Alain Aspect and is a graduate from Ecole Normale Superieure, Paris.
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr >
+                                    <th ></th>
+                                    <td>
+                                    <span scope="row" data-time="09:20">09:20 AM</span> -
+                                    <span scope="row" data-time="09:30">09:30 AM</span>
+                                        <a class="paper-title" href="https://openreview.net/forum?id=QYdXAN3mLH" target="_blank">MotherNet: Fast Training and Inference via Hyper-Network Transformers</a>
+                                        <br>
+                                        <span class="paper-authors">Andreas Mueller, Carlo Curino, Raghu Ramakrishnan</span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th ></th>
+                                    <td>
+                                    <span scope="row" data-time="09:30">09:30 AM</span>-
+                                    <span scope="row" data-time="09:40">09:40 AM</span> -
+                                        <a class="paper-title" href="https://openreview.net/forum?id=2ZHKA9xo8V" target="_blank">PyTorch Frame: A Modular Framework for Multi-Modal Tabular Learning</a>
+                                        <br>
+                                        <span class="paper-authors">Weihua Hu, Yiwen Yuan, Zecheng Zhang, Akihiro Nitta, Kaidi Cao, Vid Kocijan, Jinu Sunil, Jure Leskovec, Matthias Fey</span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row" data-time="09:40">09:40 AM</th> 
+                                    <td>
+                                        <span><b>Coffee Break</b></span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row" data-time="10:00">10:00 AM</th>
+                                    <td><b>Session 2 (LLMs & Tables):</b></td>
+                                </tr>
+
+                                <tr>
+                                    <th> </th>
+                                    <td>
+                                        <span scope="row" data-time="10:00">10:00 AM</span>-
+                                        <span scope="row" data-time="10:35">10:35 AM</span>
+                                        <a href="https://research.google/people/105781/" target="_blank">Invited Talk by Yasemin Altun (Google DeepMind): Advancements in Structure-Aware Reasoning for Tabular Data</a>
+                                        <br/>
+                                        <a data-toggle="collapse" href="#schedule-talk2" aria-cexpanded="false"
+                                            aria-controls="schedule-talk2">[Abstract]</a>
+                                        <div class="collapse" id="schedule-talk2">
+                                            
+Traditional methods had struggled to capture the rich structural relationships within tables, limiting their reasoning capabilities. I will give an overview of our work in the last few years to highlight some of the advancements in structure-aware reasoning over tabular data with novel model architectures, task formulations and training regimes, leading to significant performance gains in various tasks, as well as opening up new possibilities for applications.
+                                        </div>
+                                        <a data-toggle="collapse" href="#speaker-bio-talk2" aria-cexpanded="false"
+                                        aria-controls="speaker-bio-talk2">[Speaker Bio]</a>
+                                        <div class="collapse" id="speaker-bio-talk2">
+                                            Yasemin Altun is a Research Scientist at Google working on natural language understanding. She received her PhD from Brown University. Before joining Google, she was a faculty member in Toyota Technological Institute, Chicago and Max Planck Institute for Biological Cybernetics, Tuebingen.
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th ></th>
+                                    <td>
+                                    <span scope="row" data-time="10:35">10:35 AM</span> -
+                                    <span scope="row" data-time="10:45">10:45 AM</span>
+                                        <a class="paper-title" href="https://openreview.net/forum?id=xzEB47W6VS" target="_blank">Large Language Models Engineer Too Many Simple Features for Tabular Data</a>
+                                        <br>
+                                        <span class="paper-authors">Jaris Küken, Lennart Purucker, Frank Hutter</span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th></th>
+                                    <td>
+                                    <span scope="row" data-time="10:45">10:45 AM</span> -
+                                    <span scope="row" data-time="10:55">10:55 AM</span>
+                                    <a class="paper-title" href="https://openreview.net/forum?id=UF8RE1rkfU" target="_blank">TabDiff: a Unified Diffusion Model for Multi-Modal Tabular Data Generation</a>
+                                    <br/>
+                                    <span class="paper-authors">Juntong Shi, Minkai Xu, Harper Hua, Hengrui Zhang, Stefano Ermon, Jure Leskovec
+                                    </span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th></th>
+                                    <td>
+                                    <span scope="row" data-time="10:55">10:55 AM</span> -
+                                    <span scope="row" data-time="11:05">11:05 AM</span>
+                                    <a class="paper-title" href="https://openreview.net/forum?id=N3o3jF9H0G" target="_blank">Expertise-Centric Prompting Framework for Financial Tabular Data Generation using Pre-trained Large Language Models</a>
+                                    <br>
+                                    <span class="paper-authors">Subin Kim, Jungmin Son, Minyoung Jung, Youngjun Kwak </span>
+                                    </td>
+                                </tr>
+
+                                <tr >
+                                    <th></th>
+                                    <td>
+                                        <span scope="row" data-time="11:05">11:05 AM</span> -
+                                        <span scope="row" data-time="11:15">11:15 AM</span>
+                                        <a class="paper-title" href="https://openreview.net/forum?id=j4KoseJBUO target="_blank">TabSketchFM: Sketch-based Tabular Representation Learning for Data Discovery over Data Lakes</a>
+                                        <br>
+                                        <span class="paper-authors">Aamod Khatiwada, Harsha Kokel, Ibrahim Abdelaziz, Subhajit Chaudhury, Julian Dolby, Oktie Hassanzadeh, Zhenhan Huang, Tejaswini Pedapati, Horst Samulowitz, Kavitha Srinivas
+                                        </span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th ></th>
+                                    <td>
+                                    <span scope="row" data-time="11:15">11:15 AM</span>-
+                                    <span scope="row" data-time="12:00">12:00 AM</span>
+                                        <a data-toggle="collapse" href="#poster-1" aria-cexpanded="false"
+                                        aria-controls="poster-1">Poster session 1 (unfold)</a>
+                                        <div class="collapse" id="poster-1">
+                                            <li>Drift-Resilient TabPFN: In-Context Learning Temporal Distribution Shifts on Tabular Data</li>
+                                            <li>Towards Localization via Data Embedding for TabPFN</li>
+                                            <li>From One to Zero: RAG-IM Adapts Language Models for Interpretable Zero-Shot Predictions on Clinical Tabular Data</li>
+                                            <li>Tabular Data Generation using Binary Diffusion</li>
+                                            <li>Unmasking Trees for Tabular Data</li>
+                                            <li>AdapTable: Test-Time Adaptation for Tabular Data via Shift-Aware Uncertainty Calibrator and Label Distribution Handler</li>
+                                            <li>Adapting TabPFN for Zero-Inflated Metagenomic Data</li>
+                                            <li>Exploration of autoregressive models for in-context learning on tabular data</li>
+                                            <li>TabGraphs: A Benchmark and Strong Baselines for Learning on Graphs with Tabular Node Features</li>
+                                            <li>Augmenting Small-size Tabular Data with Class-Specific Energy-Based Models</li>
+                                            <li>The Tabular Foundation Model TabPFN Outperforms Specialized Time Series Forecasting Models Based on Simple Features</li>
+                                            <li>Adaptivee: Adaptive Ensemble for Tabular Data</li>
+                                            <li>MotherNet: Fast Training and Inference via Hyper-Network Transformers</li>
+                                            <li>PyTorch Frame: A Modular Framework for Multi-Modal Tabular Learning</li>
+                                            <li>Scaling Generative Tabular Learning for Large Language Models</li>
+
+                                            <li>TabDiff: a Unified Diffusion Model for Multi-Modal Tabular Data Generation</li>
+                                            <li>Large Language Models Engineer Too Many Simple Features for Tabular Data</li>
+                                            <li>TART: An Open-Source Tool-Augmented Framework for Explainable Table-based Reasoning</li>
+                                            <li>Expertise-Centric Prompting Framework for Financial Tabular Data Generation using Pre-trained Large Language Models</li>
+                                            <li>TABGEN-RAG: Iterative Retrieval for Tabular Data Generation with Large Language Models</li>
+                                            <li>DynoClass: A Dynamic Table-Class Detection System Without the Need for Predefined Ontologies</li>
+                                            <li>HySem: A context length optimized LLM pipeline for unstructured tabular extraction</li>
+                                            <li>Enhancing Biomedical Schema Matching with LLM-based Training Data Generation</li>
+                                            <li>Relational Deep Learning: Graph Representation Learning on Relational Databases</li>
+                                            <li>SALT: Sales Autocompletion Linked Business Tables Dataset</li>
+                                            <li>Towards Agentic Schema Refinement</li>
+                                            <li>RACOON: An LLM-based Framework for Retrieval-Augmented Column Type Annotation with a Knowledge Graph</li>
+                                            <li>Synthetic SQL Column Descriptions and Their Impact on Text-to-SQL Performance</li>
+                                            <li>SynQL: Synthetic Data Generation for In-Domain, Low-Resource Text-to-SQL Parsing</li>
+                                            <li>Data-Centric Text-to-SQL with Large Language Models</li>
+                                            <li>Towards Optimizing SQL Generation via LLM Routing</li>
+
+                                        </div>
+                                    </td>
+                                </tr>                                
+
+                                <tr >
+                                    <th scope="row" data-time="12:00">12:00</th>
+                                    <td>
+                                    <!-- <span scope="row" data-time="12:00">12:00 PM</span> -
+                                    <span scope="row" data-time="13:30">1:30 PM</span> -->
+                                    <span><b>Lunch Break</b></span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row" data-time="13:30">1:30 PM</th>
+                                    <td><b>Session 3 (NL interfaces to tables)</b></td>
+                                </tr>
+
+                                <tr>
+                                    <th></th>
+                                    <td>
+                                        <span scope="row" data-time="13:30">1:30 PM</span> -
+                                        <span scope="row" data-time="14:10">2:10 PM</span>
+                                        <a href="https://people.eecs.berkeley.edu/~matei/" target="_blank">Invited Talk by Matei Zaharia (UC Berkeley / Databricks): Lessons from building natural language query interfaces in Databricks AI/BI</a>
+                                        <br>
+                                        <a data-toggle="collapse" href="#schedule-talk3" aria-cexpanded="false"
+                                            aria-controls="schedule-talk3">[Abstract]</a>
+                                        <div class="collapse" id="schedule-talk3">
+                                            TBC
+                                        </div>
+                                        <a data-toggle="collapse" href="#speaker-bio-talk3" aria-cexpanded="false"
+                                        aria-controls="speaker-bio-talk3">[Speaker Bio]</a>
+                                        <div class="collapse" id="speaker-bio-talk3">
+                                            Matei Zaharia is an Associate Professor of EECS at Berkeley and a Cofounder and CTO of Databricks. He started the Apache Spark open source project during his PhD at UC Berkeley in 2009, and has worked broadly on other widely used data and AI software, including Delta Lake, MLflow, Dolly and ColBERT. He currently works on a variety of research projects in cloud computing, database management, AI and information retrieval. Matei’s research was recognized through the 2014 ACM Doctoral Dissertation Award, an NSF CAREER Award, and the US Presidential Early Career Award for Scientists and Engineers (PECASE).
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th></th>
+                                    <td>
+                                    <span scope="row" data-time="14:10">02:10 PM</span> -
+                                    <span scope="row" data-time="14:20">02:20 PM</span>        
+                                    <a class="paper-title" href="https://openreview.net/forum?id=RubZlwPv6D" target="_blank">MSc-SQL: Multi-Sample Critiquing Small Language Models For Text-To-SQL Translation</a>
+                                    <br>
+                                    <span class="paper-authors">Satya Krishna Gorti, Ilan Gofman, Zhaoyan Liu, Jiapeng Wu, Noël Vouitsis, Guangwei Yu, Jesse Cresswell, Rasa Hosseinzadeh</span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th></th>
+                                    <td>
+                                    <span scope="row" data-time="14:20">02:20 PM</span> -
+                                    <span scope="row" data-time="14:30">02:30 PM</span>        
+                                    <a class="paper-title" href="https://openreview.net/forum?id=fglyh5pa7d" target="_blank">The Death of Schema Linking? Text-to-SQL in the Age of Well-Reasoned Language Models</a>
+                                    <br>
+                                    <span class="paper-authors">Karime Maamari, Fadhil Abubaker, Daniel Jaroslawicz, Amine Mhedhbi
+                                    </span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th></th>
+                                    <td>
+                                    <span scope="row" data-time="14:30">02:30 PM</span> -
+                                    <span scope="row" data-time="15:15">03:15 PM</span>
+
+                                        <a data-toggle="collapse" href="#poster-2" aria-cexpanded="false"
+                                        aria-controls="poster-2">Poster: Session 2 (unfold)</a>
+                                        <div class="collapse" id="poster-2">
+                                        <li>On Short Textual Value Column Representation Using Symbol Level Language Models</li>
+                                        <li>Benchmarking table comprehension in the wild</li>
+                                        <li>Matchmaker: Self-Improving Compositional LLM Programs for Table Schema Matching</li>
+                                        <li>TARGET: Benchmarking Table Retrieval for Generative Tasks</li>
+                                        <li>Multi-Stage QLoRA with Augmented Structured Dialogue Corpora: Efficient and Improved Conversational Healthcare AI</li>
+                                        <li>Learning Metadata-Agnostic Representations for Text-to-SQL In-Context Example Selection</li>
+                                        <li>Enhancing Table Representations with LLM-powered Synthetic Data Generation</li>
+                                        <li>UniTable: Towards a Unified Framework for Table Recognition via Self-Supervised Pretraining</li>
+                                        <li>Automating Enterprise Data Engineering with LLMs</li>
+                                        <li>Lightweight Correlation-Aware Table Compression</li>
+                                        <li>MSc-SQL: Multi-Sample Critiquing Small Language Models For Text-To-SQL Translation</li>
+                                        <li>The Death of Schema Linking? Text-to-SQL in the Age of Well-Reasoned Language Models</li>
+                                        <li>TabSketchFM: Sketch-based Tabular Representation Learning for Data Discovery over Data Lakes</li>
+
+                                        <li>PORTAL: Scalable Tabular Foundation Models via Content-Specific Tokenization</li>
+                                        <li>Tabby: Tabular Adaptation for Language Models</li>
+                                        <li>ICE-T: Interactions-aware Cross-column Contrastive Embedding for Heterogeneous Tabular Datasets</li>
+                                        <li>TabDeco: A Comprehensive Contrastive Framework for Decoupled Representations in Tabular Data</li>
+                                        <li>LLM Embeddings Improve Test-time Adaptation to Tabular -Shifts</li>
+                                        <li>Recurrent Interpolants for Probabilistic Time Series Prediction</li>
+                                        <li>Improving LLM Group Fairness on Tabular Data via In-Context Learning</li>
+                                        <li>Distributionally robust self-supervised learning for tabular data</li>
+                                        <li>Sparsely Connected Layers for Financial Tabular Data</li>
+                                        <li>Learnable Numerical Input Normalization for Tabular Representation Learning based on B-splines</li>
+                                        <li>Relational Data Generation with Graph Neural Networks and Latent Diffusion Models</li>
+                                        <li>AGATa: Attention-Guided Augmentation for Tabular Data in Contrastive Learning</li>
+                                        <li>GAMformer: Exploring In-Context Learning for Generalized Additive Models</li>
+                                        <li>TabFlex: Scaling Tabular Learning to Millions with Linear Attention</li>
+                                        <li>Unlearning Tabular Data Without a "Forget Set''</li>
+                                        <li>Scalable Representation Learning for Multimodal Tabular Transactions</li>
+                                        </div>
+                                    </td>
+                                </tr>
+                                
+
+
+                                <tr>
+                                    <th scope="row" data-time="15:15">03:15 PM</th>
+                                    <td>
+                                        <!-- <span scope="row" data-time="15:10">03:10 PM</span> -
+                                        <span scope="row" data-time="15:30">03:30 PM</span> -->
+                                        <span><b>Coffee Break</b></span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row" data-time="15:30">03:30 PM</th>
+                                    <td><b>Session 4:</b> &#128293;</td>
+                                </tr>
+
+                                <tr>
+                                    <th></th>
+                                    <td>
+                                    <span scope="row" data-time="15:30">03:30 PM</span> -
+                                    <span scope="row" data-time="16:10">04:10 PM</span>
+                                    
+                                        <span><a href="https://homes.cs.washington.edu/~jpgard/" target="_blank">Invited Talk by Josh Gardner (Apple):  Toward Robust, Reliable, and Generalizable Tabular Data Models</a></span>
+                                        <br/>
+                                        <a data-toggle="collapse" href="#schedule-talk4" aria-cexpanded="false"
+                                            aria-controls="schedule-talk4">[Abstract]</a>
+                                        <div class="collapse" id="schedule-talk4">
+                                            Tabular data is widely used across many domains and real-world applications. However, tabular data research has not yet achieved the level of robust and transferable large-scale modeling which has been hugely impactful for data modalities such as text, images, and audio. In this talk, I will apply an empirical perspective to understand the landscape of robustness and transferability in tabular data, and discuss our recent progress toward improved data, models, and evaluations to enable true tabular foundation models.
+                                        </div>
+                                        <a data-toggle="collapse" href="#speaker-bio-talk4" aria-cexpanded="false"
+                                        aria-controls="speaker-bio-talk4">[Speaker Bio]</a>
+                                        <div class="collapse" id="speaker-bio-talk4">
+                                            Josh is a Research Scientist on the Foundation Modeling team at Apple. Prior to joining Apple, Josh completed his PhD at the University of Washington. Josh's research centers on the empirical foundations of machine learning -- in particular, the impact of data on foundation models, and improving foundation models' understanding of new data modalities beyond images and text.
+                                        </div>
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <th></th>
+                                    <td>
+
+                                    <span scope="row" data-time="16:10">04:10 PM</span> -
+                                    <span scope="row" data-time="16:50">04:50 PM</span>
+
+                                        Panel: TRL and Startups
+                                        <br>
+                                        Xiao Ling (Numbers Station), Kenny Daniel (hyperparam), Maithra Raghu (Samaya AI), Shivam Singhai (Structured), Junwei Ma (layer6)
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row" data-time="16:50">04:50 PM</th>
+                                    <td><b>Closing Notes & Awards</b></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <hr />
+
+    </div>
+
+
+    <hr/>
+
+    <div>
+    <div class="row" id="guidelines">
+        <div class="col-xs-12">
+            <h2>Submission Guidelines</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <h3>Submission link</h3>
+            Submit your (anonymized) paper through OpenReview at: <b><a href="" target="blank">TBC</a></b><br>
+            Please be aware that accepted papers are expected to be presented at the workshop in-person.
+        </div>
+
+        <div class="col-xs-12">
+            <br>
+            <h3>Formatting guidelines</h3>
+            The workshop accepts regular research papers and industrial papers of the following types:
+            <ul>
+                <div class="col-xs-12">
+                    <li>Short paper: 4 pages + references and appendix.</li>
+                    <li>Regular paper: 8 pages + references and appendix.</li>
+                </div>
+            </ul>
+            <br>
+            <br>
+            Submissions should be anonymized and follow the <a href="https://media.neurips.cc/Conferences/NeurIPS2024/Styles.zip" target="blank">NeurIPS style files (zip)</a>, but can exclude the checklist.
+            Non-anonymous preprints are no problem, and artifacts do not have to be anonymized. Just submitting the paper without author names/affiliations is sufficient.
+            Supplementary material, if any, may be added in the appendix.
+            The footer of accepted papers should state “Table Representation Learning Workshop at NeurIPS 2024”. We expect authors to adopt an inclusive and diverse writing style.
+            The <a href="https://dbdni.github.io/pages/inclusivewriting.html" target="blank">“Diversity and Inclusion in Writing”</a> guide by the DE&I in DB Conferences effort is a good resource.
+        </div>
+        
+        <div class="col-xs-12">
+            <br>
+            <h3>Review process</h3>
+            Papers will receive light reviews in a double-anonymous manner.
+            All accepted submissions will be published on the website and made public on OpenReview but the workshop is non-archival (i.e. without proceedings).
+        </div>
+
+        <div class="col-xs-12">
+            <br>
+            <h3>Novelty and conflicts</h3>
+            The workshop cannot accept submissions that have been published at NeurIPS or other machine learning venues as-is, but we do invite relevant papers from the main conference (NeurIPS) to be submitted to the workshop as 4-page short papers.
+            We also welcome submissions that have been published in, for example, data management or natural language processing venues.
+            We rely on OpenReview for handling conflicts, so please ensure that the conflicts in every author's OpenReview profile are complete, in particular, with respect to the organization and program committees.
+            <br>
+        </div>
+
+        <div class="col-xs-12">
+            <br>
+            <h3>Camera-ready instructions</h3>
+            Camera-ready papers are expected to express the authors and affiliations on the first page, and state "Table Representation Learning Workshop at NeurIPS 2024'' in the footer.
+            The camera-ready version may exceed the page limit for acknowledgements or small content changes, but revision is not required (for short papers: please be aware of novelty requirements of archival venues, e.g. SIGMOD, CVPR).
+            The camera-ready version should be submitted through OpenReview (submission -> edit -> revision), and will be published on OpenReview and this website. Please make sure that all meta-data is correct as well, as it will be imported to the NeurIPS website.
+        </div>
+
+        <div class="col-xs-12">
+            <br>
+            <h3>Presentation instructions</h3>
+            All accepted papers will be presented as poster during one of the poster sessions (the schedule per poster session will be released soon). For poster formatting, please refer to the poster instructions on <a href="https://neurips.cc/Conferences/2024/PosterInstructions" target="blank">the NeurIPS site</a> (template, upload, etc), you can print and bring the poster yourself or print it locally through the facilities offered by NeurIPS.
+            <br>
+            Optional: authors of poster submissions are also invited to send a teaser video of approx. 3 minutes (.mp4) to madelon@berkeley.edu, which will be hosted on the website and <a href="https://www.youtube.com/channel/UCON8k4OzdrX9iswYIwb14jQ" target="blank"> YouTube channel</a> of the workshop.
+            <br>
+            Papers selected for oral presentation are also asked to prepare a talk of 9 minutes (+1 min Q&A), and upload their slides through the "slides" field in OpenReview (pdf) or share a link to Google Slides with madelon@cwi.nl. The schedule for the oral talks will be published soon. The recordings of oral talks will be published afterwards.</b>
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="row">
+        <div class="col-xs-12">
+        <h3>Program Committee: TBC</h3>
+        <a data-toggle="collapse" href="#pc" aria-cexpanded="false"
+        aria-controls="pc">Unfold for full committee</a>
+        <div class="collapse" id="pc">
+
+        We are very grateful to all below members of the Program Committee!<br>
+
+        Sercan O Arik,	Google<br>
+        Micah Goldblum,	New York University<br>
+        Andreas Muller, Microsoft<br>
+        Xi Fang,	Yale University<br>
+        Naihao Deng,	University of Michigan<br>
+        Sebastian Schelter,	BIFOLD & TU Berlin<br>
+        Weijie Xu,	Amazon<br>
+        Rajat Agarwal,	Amazon<br>
+        Lei Cao, University of Arizona<br>
+        Paul Groth,	University of Amsterdam<br>
+        Alex Zhuang, University of Waterloo<br>
+        Sepanta Zeighami,	University of California, Berkeley<br>
+        Jayoung Kim,	Yonsei University<br>
+        Jaehyun Nam,	KAIST<br>
+        Sascha Marton,	University of Mannheim<br>
+        Tianji Cong,	University of Michigan<br>
+        Myung Jun Kim,	Inria<br>
+        Aneta Koleva,	University of Munich<br>
+        Peter Baile Chen,	MIT<br>
+        Gerardo Vitagliano,	MIT<br>
+        Reynold Cheng,	the University of Hong Kong<br>
+        Till Döhmen,	MotherDuck / University of Amsterdam<br>
+        Ivan Rubachev,	Higher School of Economics<br>
+        Raul Castro Fernandez,	University of Chicago<br>
+        Paolo Papotti,	Eurecom<br>
+        Carsten Binnig,	TU Darmstadt / Google<br>
+        Tianbao Xie,	the University of Hong Kong<br>
+        Jintai Chen,	University of Illinois at Urbana-Champaign<br>
+        Sebastian Bordt,	Eberhard-Karls-Universität Tübingen<br>
+        Panupong Pasupat,	Google<br>
+        Liangming Pan,	University of Arizona<br>
+        Xinyuan Lu, National University of Singapore<br>
+        Ziyu Yao,	George Mason University<br>
+        Shuhan Zheng,	Hitachi, Ltd.<br>
+        Shuaichen Chang,	Amazon<br>
+        Julian Martin Eisenschlos,	Google DeepMind<br>
+        Noah Hollmann,	Albert-Ludwigs-Universität Freiburg<br>
+        Tianshu Zhang,	Ohio State University<br>
+        Liane Vogel,	Technische Universität Darmstadt<br>
+        Roman Levin	Amazon<br>
+        Yury Gorishniy,	Moscow Institute of Physics and Technology<br>
+        Edward Choi,	KAIST<br>
+        Gyubok Lee,	KAIST<br>
+        Mingyu Zheng,	University of Chinese Academy of Sciences<br>
+        Tassilo Klein,	SAP<br>
+        Ge Qu,	the University of Hong Kong<br>
+        Artem Babenko,	Yandex<br>
+        Shreya Shankar,	University of California Berkeley<br>
+        Xiang Deng,	Google<br>
+        Mengyu Zhou,	Microsoft Research<br>
+        Mira Moukheiber,	MIT<br>
+        Amine Mhedhbi, Polytechnique Montréal<br>
+        <br>
+        </div>
+        <br>
+    </div>
+
+
+    <!-- <div class="col-xs-12">
+        <h3>Review for TRL?</h3>
+        We are compiling a PC for light reviewing of submissions to TRL 2023 (at most 3 reviews per reviewer).<br>
+        We invite researchers with expertise relevant to TRL to express their interest in reviewing through the below form.<br>
+        Your time and expertise is much appreciated!
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdjlbY-590PzDNBtOlUlCzxD_Uhbkmq389pRieW7L5B7F31_g/viewform?embedded=true" width="680" height="320" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <br>
+    </div> -->
+
+    </div>
+
+    <hr />
+
+    <div class="row" id="accepted-papers">
+        <div class="col-xs-12">
+            <h2>Accepted Papers</h2>
+            <!-- <p>Note: 2 additional papers were accepted but are not listed here because of an anonymity period.</p> -->
+        </div>
+    </div>
+
+    <br/>
+
+    <div>
+        <h3>2024</h3>
+
+        <div>
+    
+            <!-- <a data-toggle="collapse" href="#2024" aria-cexpanded="true"
+            aria-controls="2024">2024</a> -->
+            <!-- <div id="2024" class="collapse"> -->
+    
+                <br/>
+    
+                <h4>Oral</h4>
+                
+                <ul class="paper-list">
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=QYdXAN3mLH" target="_blank">MotherNet: Fast Training and Inference via Hyper-Network Transformers</a>
+                        <br>
+                        <span class="paper-authors">Andreas Mueller, Carlo Curino, Raghu Ramakrishnan
+                        <br>
+                    </li>
+
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=2ZHKA9xo8V" target="_blank">PyTorch Frame: A Modular Framework for Multi-Modal Tabular Learning</a>
+                        <br>
+                        <span class="paper-authors">Weihua Hu, Yiwen Yuan, Zecheng Zhang, Akihiro Nitta, Kaidi Cao, Vid Kocijan, Jinu Sunil, Jure Leskovec, Matthias Fey
+                        <br>
+                    </li>
+
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=UF8RE1rkfU" target="_blank">TART: An Open-Source Tool-Augmented Framework for Explainable Table-based Reasoning</a>&nbsp; &nbsp; <a style="border-bottom: 0;" href="https://youtu.be/rKRVLMXz3hE?si=-FHR0X50n_u1v2F3" target="blank"><i class="fa fa-play" aria-hidden="true"></i> video pitch</a><br>
+                        <br>
+                        <span class="paper-authors">Xinyuan Lu, Liangming Pan, Yubo Ma, Preslav Nakov, Min-Yen Kan
+                        <br>
+                    </li>
+    
+                    
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=xzEB47W6VS" target="_blank">Large Language Models Engineer Too Many Simple Features for Tabular Data</a>
+                        <br>
+                        <span class="paper-authors">Jaris Küken, Lennart Purucker, Frank Hutter
+                        <br>
+                    </li>
+                    
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=LoSpFLqaHg" target="_blank">TabDiff: a Unified Diffusion Model for Multi-Modal Tabular Data Generation</a>
+                        <br>
+                        <span class="paper-authors">Juntong Shi, Minkai Xu, Harper Hua, Hengrui Zhang, Stefano Ermon, Jure Leskovec
+                        <br>
+                    </li>
+
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=N3o3jF9H0G" target="_blank">Expertise-Centric Prompting Framework for Financial Tabular Data Generation using Pre-trained Large Language Models</a>
+                        <br>
+                        <span class="paper-authors">Subin Kim, Jungmin Son, Minyoung Jung, Youngjun Kwak
+                        <br>
+                    </li>
+
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=j4KoseJBUO" target="_blank">TabSketchFM: Sketch-based Tabular Representation Learning for Data Discovery over Data Lakes</a>
+                        <br>
+                        <span class="paper-authors">Aamod Khatiwada, Harsha Kokel, Ibrahim Abdelaziz, Subhajit Chaudhury, Julian Dolby, Oktie Hassanzadeh, Zhenhan Huang, Tejaswini Pedapati, Horst Samulowitz, Kavitha Srinivas
+                        <br>
+                    </li>
+    
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=RubZlwPv6D" target="_blank">The Death of Schema Linking? Text-to-SQL in the Age of Well-Reasoned Language Models</a>
+                        <br>
+                        <span class="paper-authors">Karime Maamari, Fadhil Abubaker, Daniel Jaroslawicz, Amine Mhedhbi
+                        <br>
+                    </li>
+                    
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=RubZlwPv6D" target="_blank">MSc-SQL: Multi-Sample Critiquing Small Language Models For Text-To-SQL Translation</a>
+                        <br>
+                        <span class="paper-authors">Satya Krishna Gorti, Ilan Gofman, Zhaoyan Liu, Jiapeng Wu, Noël Vouitsis, Guangwei Yu, Jesse Cresswell, Rasa Hosseinzadeh
+                        <br>
+                    </li>
+
+                </ul>
+                
+                <h4>Poster</h4>
+    
+                <br/>
+                <ul class="paper-list">            
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=yhD2icebZ0" target="_blank">AdapTable: Test-Time Adaptation for Tabular Data via Shift-Aware Uncertainty Calibrator and Label Distribution Handler</a>
+                        <br>
+                        <span class="paper-authors">Changhun Kim, Taewon Kim, Seungyeon Woo, June Yong Yang, Eunho Yang
+                        <br>
+                    </li>
+                    
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=71u8OvjYbZ" target="_blank">Distributionally robust self-supervised learning for tabular data</a>
+                        <br>
+                        <span class="paper-authors">Shantanu Ghosh, Tiankang Xie, Mikhail Kuznetsov
+                        <br>
+                    </li>
+                    
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=LFCSTy6MYe" target="_blank">Unmasking Trees for Tabular Data</a>
+                        <!-- &nbsp; &nbsp; <a style="border-bottom: 0;" href="https://youtu.be/MlOnUW1AQms?si=f8Ifitdq3vQmz95Q" target="blank"><i class="fa fa-play" aria-hidden="true"></i> recording</a> -->
+                        <br>
+                        <span class="paper-authors">Calvin McCarter
+                        <br>
+                    </li>
+                    
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=uN4VgmxyyV" target="_blank">UniTable: Towards a Unified Framework for Table Recognition via Self-Supervised Pretraining</a>
+                        <br>
+                        <span class="paper-authors">ShengYun Peng, Aishwarya Chakravarthy, Seongmin Lee, Xiaojing Wang, Rajarajeswari Balasubramaniyan, Duen Horng Chau
+                        <br>
+                    </li>
+                    
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=m6TD8EJKax" target="_blank">Improving LLM Group Fairness on Tabular Data via In-Context Learning</a>
+                        <br>
+                        <span class="paper-authors">Valeriia Cherepanova, Chia-Jung Lee, Nil-Jana Akpinar, Riccardo Fogliato, Martin Andres Bertran, Michael Kearns, James Zou
+                        <br>
+                    </li>
+                    
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=gYNpjdaN5j" target="_blank">Recurrent Interpolants for Probabilistic Time Series Prediction</a>
+                        <br>
+                        <span class="paper-authors">Yu Chen, Marin Biloš, Sarthak Mittal, Wei Deng, Kashif Rasul, Anderson Schneider
+                        <br>
+                    </li>
+                    
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=z7eIn3aShi" target="_blank">Lightweight Correlation-Aware Table Compression</a>&nbsp; &nbsp; <a style="border-bottom: 0;" href="https://youtu.be/B0bUTNIJ1O8?si=yOVK5lIEdQdczdsq" target="blank"><i class="fa fa-play" aria-hidden="true"></i> video pitch</a><br>
+                        <br>
+                        <span class="paper-authors">Mihail Stoian, Alexander van Renen, Jan Kobiolka, Ping-Lin Kuo, Josif Grabocka, Andreas Kipf
+                        <br>
+                    </li>
+                    
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=gGGvnjFUfL" target="_blank">TARGET: Benchmarking Table Retrieval for Generative Tasks</a>
+                        <br>
+                        <span class="paper-authors">Xingyu Ji, Aditya Parameswaran, Madelon Hulsebos
+                        <br>
+                    </li>                    
+
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=l1u7jA60wT" target="_blank">LLM Embeddings Improve Test-time Adaptation to Tabular Y|X-Shifts</a>
+                        <br>
+                        <span class="paper-authors">Yibo Zeng, Jiashuo Liu, Henry Lam, Hongseok Namkoong
+                        <br>
+                    </li>
+
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=h9465s0xu7" target="_blank">Enhancing Table Representations with LLM-powered Synthetic Data Generation</a>
+                        <br>
+                        <span class="paper-authors">Dayu Yang, Natawut Monaikul, Amanda Ding, Bozhao Tan, Kishore Mosaliganti, Giri Iyengar
+                        <br>
+                    </li>
+                    
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=HW91Uvfuoh" target="_blank">Learning Metadata-Agnostic Representations for Text-to-SQL In-Context Example Selection</a>
+                        <br>
+                        <span class="paper-authors">Chuhong Mai, Ro-ee Tal, Thahir Mohamed
+                        <br>
+                    </li>
+                    
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=ejfKPO9aw0" target="_blank">Unnormalized Density Estimation with Root Sobolev Norm Regularization</a>
+                        <br>
+                        <span class="paper-authors">Mark Kozdoba, Binyamin Perets, Shie Mannor
+                        <br>
+                    </li>
+                    
+                    
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=Fu9HxEYXxx" target="_blank">TabDeco: A Comprehensive Contrastive Framework for Decoupled Representations in Tabular Data</a>
+                        <br>
+                        <span class="paper-authors">Suiyao Chen, Jing Wu, Yunxiao Wang, Cheng Ji, Tianpei Xie, Daniel Cociorva, Michael Sharps, Cecile Levasseur, Hakan Brunzell
+                        <br>
+                    </li>
+                    
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=UZbELpkWIr" target="_blank">SALT: Sales Autocompletion Linked Business Tables Dataset</a>
+                        <br>
+                        <span class="paper-authors">Tassilo Klein, Clemens Biehl, Margarida Costa, Andre Sres, Jonas Kolk, Johannes Hoffart
+                        <br>
+                    </li>
+                    
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=ny1XtbcGNV" target="_blank">ICE-T: Interactions-aware Cross-column Contrastive Embedding for Heterogeneous Tabular Datasets</a>
+                       <br>
+                        <span class="paper-authors">Tomas Tokar, Scott Sanner
+                        <br>
+                    </li>
+                    
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=RPx7L1uMYq" target="_blank">Multi-Stage QLoRA with Augmented Structured Dialogue Corpora: Efficient and Improved Conversational Healthcare AI</a>&nbsp; &nbsp; <a style="border-bottom: 0;" href="https://youtu.be/DxGab-8T0tY?si=gzPc1_zkFeHgP-GI" target="blank"><i class="fa fa-play" aria-hidden="true"></i> video pitch</a><br>
+                        <br>
+                        <span class="paper-authors">Dasun Athukoralage, Thushari Atapattu
+                        <br>
+                    </li>
+                    
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=gDKIjZcg93" target="_blank">Data-Centric Text-to-SQL with Large Language Models</a>
+                        <br>
+                        <span class="paper-authors">Zezhou Huang, Shuo Zhang, Kechen Liu, Eugene Wu
+                        <br>
+                    </li>
+    
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=KCklcYUlLb" target="_blank">Matchmaker: Self-Improving Compositional LLM Programs for Table Schema Matching</a>
+                        <br>
+                        <span class="paper-authors">Nabeel Seedat, Mihaela van der Schaar
+                        <br>
+                    </li>            
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=fpWAVLBUKT" target="_blank">Relational Deep Learning: Graph Representation Learning on Relational Databases</a>
+                        <br>
+                        <span class="paper-authors">Joshua Robinson, Rishabh Ranjan, Weihua Hu, Kexin Huang, Jiaqi Han, Alejandro Dobles, Matthias Fey, Jan Eric Lenssen, Yiwen Yuan, Zecheng Zhang, Xinwei He, Jure Leskovec
+                        <br>
+                    </li>
+                    
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=gh3WrztrNC" target="_blank">Tabby: Tabular Adaptation for Language Models</a>
+                        <br>
+                        <span class="paper-authors">Sonia Cromp, Satya Sai Srinath Namburi GNVV, Catherine Cao, Mohammed Alkhudhayri, Samuel Guo, Nicholas Roberts, Frederic Sala
+                        <br>
+                    </li>
+                    
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=AH8126gMln" target="_blank">Adaptivee: Adaptive Ensemble for Tabular Data</a>
+                        <br>
+                        <span class="paper-authors">Dawid Płudowski, Katarzyna Woźnica
+                        <br>
+                    </li>
+                    
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=H02X7RO3OC" target="_blank">The Tabular Foundation Model TabPFN Outperforms Specialized Time Series Forecasting Models Based on Simple Features</a>
+                        <br>
+                        <span class="paper-authors">Shi Bin Hoo, Samuel Müller, David Salinas, Frank Hutter
+                        <br>
+                    </li>
+
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=GyiIAIcOUC" target="_blank">Scaling Generative Tabular Learning for Large Language Models</a>
+                        <br>
+                        <span class="paper-authors">Yiming Sun, Xumeng Wen, Shun Zheng, Xiaowei Jia, Jiang Bian
+                        <br>
+                    </li>
+                    
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=ud5YBKY1vJ" target="_blank">Drift-Resilient TabPFN: In-Context Learning Temporal Distribution Shifts on Tabular Data</a>
+                        <br>
+                        <span class="paper-authors">David Schnurr, Kai Helli, Noah Hollmann, Samuel Müller, Frank Hutter
+                        <br>
+                    </li>
+                                
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=TSZQvknbLO" target="_blank">PORTAL: Scalable Tabular Foundation Models via Content-Specific Tokenization</a>
+                        <br>
+                        <span class="paper-authors">Marco Spinaci, Marek Polewczyk, Johannes Hoffart, Markus C. Kohler, Sam Thelin, Tassilo Klein
+                        <br>
+                    </li>
+                    
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=unlufkzs7v" target="_blank">RACOON: An LLM-based Framework for Retrieval-Augmented Column Type Annotation with a Knowledge Graph</a>
+                        <br>
+                        <span class="paper-authors">Lindsey Linxi Wei, Guorui Xiao, Magdalena Balazinska
+                        <br>
+                    </li>
+                    
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=WONAFkmGcm" target="_blank">Augmenting Small-size Tabular Data with Class-Specific Energy-Based Models</a>
+                        <span class="paper-authors">Andrei Margeloiu, Xiangjian Jiang, Nikola Simidjievski, Mateja Jamnik
+                        <br>
+                    </li>
+                    
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=3qFGLue5vx" target="_blank">TabGraphs: A Benchmark and Strong Baselines for Learning on Graphs with Tabular Node Features</a>
+                        <br>
+                        <span class="paper-authors">Gleb Bazhenov, Oleg Platonov, Liudmila Prokhorenkova
+                        <br>
+                    </li>
+                    
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=4dOJ0PRY7R" target="_blank">Exploration of autoregressive models for in-context learning on tabular data</a>
+                        <br>
+                        <span class="paper-authors">Stefan K. Baur, Sohyeong Kim
+                        <br>
+                    </li>            
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=3I0bVvUj25" target="_blank">Adapting TabPFN for Zero-Inflated Metagenomic Data</a>
+                        <br>
+                        <span class="paper-authors">Giulia Perciballi, Federica Granese, Ahmad Fall, Farida Zehraoui, Edi Prifti, Jean-Daniel Zucker
+                        <br>
+                    </li>
+                    
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=m85fYEJtDc" target="_blank">Automating Enterprise Data Engineering with LLMs</a>
+                        <br>
+                        <span class="paper-authors">Jan-Micha Bodensohn, Ulf Brackmann, Liane Vogel, Anupam Sanghi, Carsten Binnig
+                        <br>
+                    </li>
+                    
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=lv234j8Hq7" target="_blank">Tabular Data Generation using Binary Diffusion</a>&nbsp; &nbsp; <a style="border-bottom: 0;" href="https://youtu.be/2DivX3sGjCI?si=tYE9Wn58A5Zx0zhs" target="blank"><i class="fa fa-play" aria-hidden="true"></i> video pitch</a><br>
+                        <br>
+                        <span class="paper-authors">Vitaliy Kinakh, Slava Voloshynovskiy
+                        <br>
+                    </li>
+
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=zuArE2o9CH" target="_blank">On Short Textual Value Column Representation Using Symbol Level Language Models</a>
+                        <br>
+                        <span class="paper-authors">Ron Begleiter, Nathan Roll
+                        <br>
+                    </li>
+
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=QkPZ0sFgsy" target="_blank">Scalable Representation Learning for Multimodal Tabular Transactions</a>
+                        <br>
+                        <span class="paper-authors">Natraj Raman, Sumitra Ganesh, Manuela Veloso
+                        <br>
+                    </li>
+
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=DNlWbTTQYX" target="_blank">Unlearning Tabular Data Without a "Forget Set''</a>
+                        <br>
+                        <span class="paper-authors">Aviraj Newatia, Michael Cooper, Rahul Krishnan
+                        <br>
+                    </li>
+
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=BnKvIn8JKl" target="_blank">From One to Zero: RAG-IM Adapts Language Models for Interpretable Zero-Shot Predictions on Clinical Tabular Data</a>
+                        <br>
+                        <span class="paper-authors">Sazan Mahbub, Caleb Ellington, Sina Alinejad, Kevin Wen, Yingtao Luo, Ben Lengerich, Eric Xing
+                        <br>
+                    </li>
+
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=WrexlGBDCH" target="_blank">SynQL: Synthetic Data Generation for In-Domain, Low-Resource Text-to-SQL Parsing</a>
+                        <br>
+                        <span class="paper-authors">Denver Baumgartner, Tomasz Kornuta
+                        <br>
+                    </li>
+
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=f8aganC0tN" target="_blank">TabFlex: Scaling Tabular Learning to Millions with Linear Attention</a>
+                        <br>
+                        <span class="paper-authors">Yuchen Zeng, Wonjun Kang, Andreas Mueller
+                        <br>
+                    </li>
+
+
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=GyiIAIcOUC" target="_blank">Enhancing Biomedical Schema Matching with LLM-based Training Data Generation</a>
+                        <br>
+                        <span class="paper-authors">Yurong Liu, Aécio Santos, Eduardo H. M. Pena, Roque Lopez, Eden Wu, Juliana Freire
+                        <br>
+                    </li>
+
+
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=NbHPP4sf1m" target="_blank">Benchmarking table comprehension in the wild</a>
+                        <br>
+                        <span class="paper-authors">Yikang Pan, Yi Zhu, Rand Xie, Yizhi Liu
+                        <br>
+                    </li>
+
+
+                    <li>
+                        <a class="paper-title" href="https://openreview.net/forum?id=W2CkzaqQnG" target="_blank">GAMformer: Exploring In-Context Learning for Generalized Additive Models</a>
+                        <br>
+                        <span class="paper-authors">Andreas Mueller, Julien Siems, Harsha Nori, David Salinas, Arber Zela, Rich Caruana, Frank Hutter
+                        <br>
+                    </li>
+
+
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=JzYEHy0mmE" target="_blank">Towards Agentic Schema Refinement</a>
+                    <br>
+                    <span class="paper-authors">Agapi Rissaki, Ilias Fountalis, Nikolaos Vasiloglou, Wolfgang Gatterbauer
+                    <br>
+                </li>                
+
+
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=hA0b6MUbSF" target="_blank">Synthetic SQL Column Descriptions and Their Impact on Text-to-SQL Performance</a>
+                    <br>
+                    <span class="paper-authors">Niklas Wretblad, Oskar Holmström, Erik Larsson, Axel Wiksäter, Hjalmar Öhman, Oscar Söderlund, Ture Pontén, Martin Forsberg, Martin Sörme, Fredrik Heintz
+                    <br>
+                </li>
+
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=LFyQyV5HxQ" target="_blank">Towards Localization via Data Embedding for TabPFN</a>
+                    <br>
+                    <span class="paper-authors">Mykhailo Koshil, Thomas Nagler, Matthias Feurer, Katharina Eggensperger
+                    <br>
+                </li>
+
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=l5VGHbRVW0" target="_blank">AGATa: Attention-Guided Augmentation for Tabular Data in Contrastive Learning</a>
+                    <br>
+                    <span class="paper-authors">Moonjung Eo, Kyungeun Lee, Min-Kook Suh, Hye-Seung Cho, Ye Seul Sim, Woohyung Lim
+                    <br>
+                </li>
+
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=1f6SIVYExy" target="_blank">HySem: A context length optimized LLM pipeline for unstructured tabular extraction</a>
+                    <br>
+                    <span class="paper-authors">Narayanan PP, Anantharaman Palacode Narayana Iyer
+                    <br>
+                </li>
+
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=r45TbawHl8" target="_blank">DynoClass: A Dynamic Table-Class Detection System Without the Need for Predefined Ontologies</a>
+                    <br>
+                    <span class="paper-authors">Haonan Wang, Eugene Wu, Kechen Liu, Jiaxiang Liu
+                    <br>
+                </li>
+
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=gubwDTURac" target="_blank">TABGEN-RAG: Iterative Retrieval for Tabular Data Generation with Large Language Models</a>
+                    <br>
+                    <span class="paper-authors">Liancheng Fang, Aiwei Liu, Hengrui Zhang, Henry Peng Zou, Weizhi Zhang, Philip Yu
+                    <br>
+                </li>
+
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=MNLR2NYN2Z" target="_blank">Relational Data Generation with Graph Neural Networks and Latent Diffusion Models</a>
+                    <br>
+                    <span class="paper-authors">Valter Hudovernik
+                    <br>
+                </li>
+
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=UXIjKZwJts" target="_blank">Learnable Numerical Input Normalization for Tabular Representation Learning based on B-splines</a>
+                    <br>
+                    <span class="paper-authors">Min-Kook Suh, Moonjung Eo, Ye Seul Sim, Woohyung Lim
+                    <br>
+                </li>
+
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=VYvYR7U7s3" target="_blank">Towards Optimizing SQL Generation via LLM Routing</a>
+                    <br>
+                    <span class="paper-authors">Mohammadhossein Malekpour, Nour Shaheen, Foutse Khomh, Amine Mhedhbi
+                    <br>
+                </li>
+
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=nOlnGAdWky" target="_blank">Sparsely Connected Layers for Financial Tabular Data</a>
+                    <br>
+                    <span class="paper-authors">Mohammed Abdulrahman, Hui Chen, Yin Wang
+                    <br>
+                </li>
+                </ul>
+
+                <br/>
+            </div>
+        <br>
+    </div>
+
+
+    <div>
+        <br>
+
+        <a data-toggle="collapse" href="#2023" aria-cexpanded="false"
+        aria-controls="2023">2023 (unfold)</a>
+        <div class="collapse" id="2023">
+
+            <br/>
+
+            <h4>Oral</h4>
+            
+            <ul class="paper-list">
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=zxaoBcdACd" target="_blank">MultiTabQA: Generating Tabular Answers for Multi-Table Question Answering</a>
+                    <br>
+                    <span class="paper-authors">Vaishali Pal, Andrew Yates, Evangelos Kanoulas, Maarten Rijke
+                    <br>
+                </li>
+
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=jSebr3OJA2" target="_blank">GCondNet: A Novel Method for Improving Neural Networks on Small High-Dimensional Tabular Data</a>
+                    <br>
+                    <span class="paper-authors">Andrei Margeloiu, Nikola Simidjievski, Pietro Lió, Mateja Jamnik
+                    <br>
+                </li>
+
+                            
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=gs6yfSvwue" target="_blank">High-Performance Transformers for Table Structure Recognition Need Early Convolutions</a>
+                    <br>
+                    <span class="paper-authors">ShengYun Peng, Seongmin Lee, Xiaojing Wang, Rajarajeswari Balasubramaniyan, Duen Horng Chau
+                    <br>
+                </li>
+
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=dkeZPuFmIz" target="_blank">Self-supervised Representation Learning from Random Data Projectors</a>
+                    <br>
+                    <span class="paper-authors">Yi Sui, Tongzi Wu, Jesse Cresswell, Ga Wu, George Stein, Xiao Shi Huang, Xiaochen Zhang, Maksims Volkovs
+                    <br>
+                </li>
+
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=VRBhaU8IDz" target="_blank">HyperFast: Instant Classification for Tabular Data</a>
+                    <br>
+                    <span class="paper-authors">David Bonet, Daniel Mas Montserrat, Xavier Giró-i-Nieto, Alexander Ioannidis
+                    <br>
+                </li>
+                
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=UkP1BSm2tt" target="_blank">Training-Free Generalization on Heterogeneous Tabular Data via Meta-Representation</a>
+                    <br>
+                    <span class="paper-authors">Han-Jia Ye, Qile Zhou, De-Chuan Zhan
+                    <br>
+                </li>
+                
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=Ld5UCpiT07" target="_blank">Tabular Representation, Noisy Operators, and Impacts on Table Structure Understanding Tasks in LLMs</a>
+                    <br>
+                    <span class="paper-authors">Ananya Singha, José Cambronero, Sumit Gulwani, Vu Le, Chris Parnin
+                    <br>
+                </li>
+                
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=FflKTuIRTD" target="_blank">Data Ambiguity Strikes Back: How Documentation Improves GPT&#x27;s Text-to-SQL</a>
+                    <br>
+                    <span class="paper-authors">Zachary Huang, Pavan Kalyan Damalapati, Eugene Wu
+                    <br>
+                </li>
+                
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=EocsZtcA7P" target="_blank">IngesTables: Scalable and Efficient Training of LLM-Enabled Tabular Foundation Models</a>
+                    <br>
+                    <span class="paper-authors">Scott Yak, Yihe Dong, Javier Gonzalvo, Sercan Arik
+                    <br>
+                </li>
+                
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=6Kb3pE9nWQ" target="_blank">Pool-Search-Demonstrate: Improving Data-wrangling LLMs via better in-context examples</a>
+                    <br>
+                    <span class="paper-authors">Joon Suk Huh, Changho Shin, Elina Choi
+                    <br>
+                </li>
+                
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=5sOZNkkKh3" target="_blank">How to Prompt LLMs for Text-to-SQL: A Study in Zero-shot, Single-domain, and Cross-domain Settings</a>
+                    <br>
+                    <span class="paper-authors">Shuaichen Chang, Eric Fosler-Lussier
+                    <br>
+                </li>
+                
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=4MkkNsAEmO" target="_blank">TabPFGen – Tabular Data Generation with TabPFN</a>
+                    <br>
+                    <span class="paper-authors">Jeremy (Junwei) Ma, Apoorv Dankar, George Stein, Guangwei Yu, Anthony Caterini
+                    <br>
+                </li>
+            </ul>
+            
+            <h4>Poster</h4>
+
+            <br/>
+            <ul class="paper-list">            
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=zWzgulKtvw" target="_blank">Generating Data Augmentation Queries Using Large Language Models</a>
+                    <br>
+                    <span class="paper-authors">Christopher Buss, Jasmin Mousavi, Mikhail Tokarev, Arash Termehchy, David Maier, Stefan Lee
+                    <br>
+                </li>
+                
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=uzVCoZSfly" target="_blank">ReConTab: Regularized Contrastive Representation Learning for Tabular Data</a>
+                    <br>
+                    <span class="paper-authors">Suiyao Chen, Jing Wu, NAIRA HOVAKIMYAN, Handong Yao
+                    <br>
+                </li>
+                
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=u2OVQ2Xvq1" target="_blank">Unlocking the Transferability of Tokens in Deep Models for Tabular Data</a>
+                    <br>
+                    <span class="paper-authors">Qile Zhou, Han-Jia Ye, Leye Wang, De-Chuan Zhan
+                    <br>
+                </li>
+                
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=s0rM4hWBUq" target="_blank">Augmentation for Context in Financial Numerical Reasoning over Textual and Tabular Data with Large-Scale Language Model</a>
+                    &nbsp; &nbsp; <a style="border-bottom: 0;" href="https://youtu.be/MlOnUW1AQms?si=f8Ifitdq3vQmz95Q" target="blank"><i class="fa fa-play" aria-hidden="true"></i> recording</a>
+                    <br>
+                    <span class="paper-authors">Yechan Hwang, Jinsu Lim, Young-Jun Lee, Ho-Jin Choi
+                    <br>
+                </li>
+                
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=rSuRu22bbN" target="_blank">TabContrast: A Local-Global Level Method for Tabular Contrastive Learning</a>
+                    <br>
+                    <span class="paper-authors">Hao Liu, Yixin Chen, Bradley A Fritz, Christopher King
+                    <br>
+                </li>
+                
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=pPAK4FIopM" target="_blank">Explaining Explainers: Necessity and Sufficiency in Tabular Data</a>
+                    <br>
+                    <span class="paper-authors">Prithwijit Chowdhury, Mohit Prabhushankar, Ghassan AlRegib
+                    <br>
+                </li>
+                
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=lsn7ehxAdt" target="_blank">Beyond Individual Input for Deep Anomaly Detection on Tabular Data</a>
+                    <br>
+                    <span class="paper-authors">Hugo Thimonier, Fabrice Popineau, Arpad Rimmel, Bich-Liên DOAN
+                    <br>
+                </li>
+                
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=lWBMNF7D8F" target="_blank">GradTree: Learning Axis-Aligned Decision Trees with Gradient Descent</a>
+                    <br>
+                    <span class="paper-authors">Sascha Marton, Stefan Lüdtke, Christian Bartelt, Heiner Stuckenschmidt
+                    <br>
+                </li>
+                
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=l1u7jA60wT" target="_blank">Elephants Never Forget: Testing Language Models for Memorization of Tabular Data</a>
+                    <br>
+                    <span class="paper-authors">Sebastian Bordt, Harsha Nori, Rich Caruana
+                    <br>
+                </li>
+                
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=kzR5Cj5blw" target="_blank">InterpreTabNet: Enhancing Interpretability of Tabular Data Using Deep Generative Models and Large Language Models</a>
+                    <br>
+                    <span class="paper-authors">Jacob Yoke Hong Si, Rahul Krishnan, Michael Cooper, Wendy Yusi Cheng
+                    <br>
+                </li>
+                
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=k5Mnd4pO7X" target="_blank">On Incorporating new Variables during Evaluation</a>
+                    <br>
+                    <span class="paper-authors">Harsimran Bhasin, Soumyadeep Ghosh
+                    <br>
+                </li>
+                
+                
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=ejfKPO9aw0" target="_blank">Unnormalized Density Estimation with Root Sobolev Norm Regularization</a>
+                    <br>
+                    <span class="paper-authors">Mark Kozdoba, Binyamin Perets, Shie Mannor
+                    <br>
+                </li>
+                
+                
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=dQLDxIPsU4" target="_blank">Tree-Regularized Tabular Embeddings</a>
+                    <br>
+                    <span class="paper-authors">Xuan Li, Yun Wang, Bo Li
+                    <br>
+                </li>
+                
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=btK3lk5puP" target="_blank">Binning as a Pretext Task: Improving Self-Supervised Learning in Tabular Domains</a>
+                    <br>
+                    <span class="paper-authors">Kyungeun Lee, Ye Seul Sim, Hyeseung Cho, Suhee Yoon, Sanghyu Yoon, Woohyung Lim
+                    <br>
+                </li>
+                
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=b4GEmjsHAB" target="_blank">A Deep Learning Blueprint for Relational Databases</a>
+                    &nbsp; &nbsp; <a style="border-bottom: 0;" href="https://youtu.be/1QUQogj_xmI?si=gOFsXhhuG1EYGwWm" target="blank"><i class="fa fa-play" aria-hidden="true"></i> recording</a>
+                    <br>
+                    <span class="paper-authors">Lukáš Zahradník, Jan Neumann, Gustav Šír
+                    <br>
+                </li>
+                
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=b0OhN0ii36" target="_blank">Scaling TabPFN: Sketching and Feature Selection for Tabular Prior-Data Fitted Networks</a>
+                    <br>
+                    <span class="paper-authors">Benjamin Feuer, Niv Cohen, Chinmay Hegde
+                    <br>
+                </li>
+                
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=WXNmnmpRBJ" target="_blank">Modeling string entries for tabular data prediction: do we need big large language models?</a>
+                    <br>
+                    <span class="paper-authors">Leo Grinsztajn, Myung Jun Kim, Edouard Oyallon, Gael Varoquaux
+                    <br>
+                </li>
+
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=V4Pa9B8zRk" target="_blank">Hopular: Modern Hopfield Networks for Tabular Data</a>
+                    <br>
+                    <span class="paper-authors">Bernhard Schäfl, Lukas Gruber, Angela Bitto, Sepp Hochreiter
+                    <br>
+                </li>            
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=TSkiaPP1sq" target="_blank">NeuroDB: Efficient, Privacy-Preserving and Robust Query Answering with Neural Networks</a>
+                    <br>
+                    <span class="paper-authors">Sepanta Zeighami, Cyrus Shahabi
+                    <br>
+                </li>
+                
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=R8VFPAfOcN" target="_blank">A DB-First approach to query factual information in LLMs</a>
+                    <br>
+                    <span class="paper-authors">Mohammed SAEED, Nicola De Cao, Paolo Papotti
+                    <br>
+                </li>
+                
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=PxEY7pBb6F" target="_blank">A Performance-Driven Benchmark for Feature Selection in Tabular Deep Learning</a>
+                    <br>
+                    <span class="paper-authors">Valeriia Cherepanova, Roman Levin, Gowthami Somepalli, Jonas Geiping, C. Bayan Bruss, Andrew Wilson, Tom Goldstein, Micah Goldblum
+                    <br>
+                </li>
+                
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=OFV0uNeZ7R" target="_blank">Incorporating LLM Priors into Tabular Learners</a>
+                    <br>
+                    <span class="paper-authors">Max Zhu, Siniša Stanivuk, Andrija Petrovic, Mladen Nikolic, Pietro Lió
+                    <br>
+                </li>
+                
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=MzSNAO2ZlW" target="_blank">CHORUS: Foundation Models for Unified Data Discovery and Exploration</a>
+                    <br>
+                    <span class="paper-authors">Moe Kayali, Anton Lykov, Ilias Fountalis, Nikolaos Vasiloglou, Dan Olteanu, Dan Suciu
+                    <br>
+                </li>
+                            
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=JIrTIMI5Yd" target="_blank">Introducing the Observatory Library for End-to-End Table Embedding Inference</a>
+                    &nbsp; &nbsp; <a style="border-bottom: 0;" href="https://youtu.be/H3ww-MXInrk?si=dlFCspTFifnr8GKI" target="blank"><i class="fa fa-play" aria-hidden="true"></i> recording</a>
+                    <br>
+                    <span class="paper-authors">Tianji Cong, Zhenjie Sun, Paul Groth, H. V. Jagadish, Madelon Hulsebos
+                    <br>
+                </li>
+                
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=IbiiNw4oRj" target="_blank">Scaling Experiments in Self-Supervised Cross-Table Representation Learning</a>
+                    <br>
+                    <span class="paper-authors">Maximilian Schambach, Dominique Paul, Johannes Otterbach
+                    <br>
+                </li>
+                
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=HtdZSf1ObU" target="_blank">Benchmarking Tabular Representation Models in Transfer Learning Settings</a>
+                    <br>
+                    <span class="paper-authors">Qixuan Jin, Talip Ucar
+                    <br>
+                </li>
+                
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=HK3MUPgFg4" target="_blank">Exploring the Retrieval Mechanism for Tabular Deep Learning</a>
+                    <br>
+                    <span class="paper-authors">Felix den Breejen, Sangmin Bae, Stephen Cha, Tae-Young Kim, Seoung Hyun Koh, Se-Young Yun
+                    <br>
+                </li>
+                
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=H0gENXL7F2" target="_blank">In Defense of Zero Imputation for Tabular Deep Learning</a>
+                    <br>
+                    <span class="paper-authors">John Van Ness, Madeleine Udell
+                    <br>
+                </li>            
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=3gBqMkELhZ" target="_blank">Multitask-Guided Self-Supervised Tabular Learning for Patient-Specific Survival Prediction</a>
+                    <br>
+                    <span class="paper-authors">You Wu, Omid Bazgir, Yongju Lee, Tommaso Biancalani, James Lu, Ehsan Hajiramezanali
+                    <br>
+                </li>
+                
+                <li>
+                    <a class="paper-title" href="https://openreview.net/forum?id=3L2u0unIHd" target="_blank">Testing the Limits of Unified Sequence to Sequence LLM Pretraining on Diverse Table Data Tasks</a>
+                    <br>
+                    <span class="paper-authors">Soumajyoti Sarkar, Leonard Lausen
+                    <br>
+                </li>
+                
+            </ul>
+
+            <br/>
+        </div>
+        <!-- <b style="color: red">An early list of accepted papers is <a href="https://openreview.net/group?id=NeurIPS.cc/2023/Workshop/TRL">here</a></b> -->
+    </div>
+
+
+
+
+
+    <br/>
+    <br/>
+
+    <div>
+
+        <a data-toggle="collapse" href="#2022" aria-cexpanded="false"
+        aria-controls="2022">2022 (unfold)</a>
+        <div class="collapse" id="2022">
+
+            <br/>
+
+            <h4>Oral</h4>
+
+            <br/>
+
+            <ul class="paper-list">
+            <li>
+                <a class="paper-title" href="../../assets/papers/analysis_of_the_attention_in_t.pdf" target="_blank">Analysis of the Attention in
+                    Tabular
+                    Language Models</a> &nbsp; &nbsp; <a style="border-bottom: 0;" href="https://slideslive.com/38993349" target="blank"><i class="fa fa-play" aria-hidden="true"></i> recording</a>
+                <br>
+                <span class="paper-authors">Aneta Koleva, Martin Ringsquandl, Volker Tresp</span>
+                <br>
+            </li>
+            </li>
+
+            <li> <a class="paper-title" href="assets/papers/transfer_learning_with_deep_ta.pdf" target="_blank">Transfer Learning with Deep
+                    Tabular
+                    Models</a>&nbsp; &nbsp; <a style="border-bottom: 0;" href="https://slideslive.com/38993348" target="blank"><i class="fa fa-play" aria-hidden="true"></i> recording</a>
+                <br>
+                <span class="paper-authors">Roman Levin, Valeriia Cherepanova, Avi Schwarzschild, Arpit Bansal, C. Bayan
+                    Bruss,
+                    Tom
+                    Goldstein, Andrew Gordon Wilson, Micah Goldblum
+                </span>
+            </li>
+
+            <li> <a class="paper-title" href="assets/papers/stable_table_generation_framew.pdf" target="_blank">STable: Table Generation
+                    Framework
+                    for
+                    Encoder-Decoder Models</a>
+                        &nbsp; &nbsp; <a style="border-bottom: 0;" href="https://slideslive.com/38993352" target="blank"><i class="fa fa-play" aria-hidden="true"></i> recording</a>
+
+                        <br>
+                <span class="paper-authors">Michał Pietruszka, Michał Turski, Łukasz Borchmann, Tomasz Dwojak, Gabriela
+                    Pałka,
+                    Karolina Szyndler, Dawid Jurkiewicz, Łukasz Garncarek</span>
+            </li>
+
+            <li> <a class="paper-title" href="assets/papers/tabpfn_a_transformer_that_solv.pdf" target="_blank">TabPFN: A Transformer That
+                    Solves
+                    Small
+                    Tabular Classification Problems in a Second</a>
+                    &nbsp; &nbsp; <a style="border-bottom: 0;" href="https://slideslive.com/38993350" target="blank"><i class="fa fa-play" aria-hidden="true"></i> recording</a>
+                    <br>
+                <span class="paper-authors">Noah Hollmann, Samuel Müller, Katharina Eggensperger, Frank Hutter</span>
+            </li>
+
+            <li> <a class="paper-title" href="assets/papers/towards_parameter_efficient_au.pdf" target="_blank">Towards Parameter-Efficient
+                    Automation
+                    of Data Wrangling Tasks with Prefix-Tuning</a>
+                    &nbsp; &nbsp; <a style="border-bottom: 0;" href="https://slideslive.com/38993351" target="blank"><i class="fa fa-play" aria-hidden="true"></i> recording</a>
+                    <br>
+                <span class="paper-authors">David Vos, Till Döhmen, Sebastian Schelter</span>
+            </li>
+
+            <li> <a class="paper-title" href="https://openreview.net/forum?id=7q_-aEdnGZw" target="_blank">RegCLR: A Self-Supervised Framework
+                    for Tabular Representation Learning in the Wild</a>
+                    &nbsp; &nbsp; <a style="border-bottom: 0;" href="https://slideslive.com/38996604" target="blank"><i class="fa fa-play" aria-hidden="true"></i> recording</a>
+                    <br>
+                <span class="paper-authors">Weiyao Wang, Byung-Hak Kim, Varun Ganapathi</span>
+            </li>
+            </ul>
+
+            <br/>
+
+            <h4>Poster</h4>
+            
+            <br/>
+
+            <ul class="paper-list">
+            <li> <a class="paper-title" href="assets/papers/saint_improved_neural_networks.pdf" target="_blank">SAINT: Improved Neural Networks
+                    for
+                    Tabular Data via Row Attention and Contrastive Pre-Training</a><br>
+                <span class="paper-authors">Gowthami Somepalli, Avi Schwarzschild, Micah Goldblum, C. Bayan Bruss, Tom
+                    Goldstein</span>
+            </li>
+
+            <li> <a class="paper-title" href="assets/papers/generic_entity_resolution_mode.pdf" target="_blank">Generic Entity Resolution
+                    Models</a><br>
+                <span class="paper-authors">Jiawei Tang, Yifei Zuo, Lei Cao, Samuel Madden</span>
+            </li>
+
+            <li> <a class="paper-title" href="assets/papers/towards_foundation_models_for_.pdf" target="_blank">Towards Foundation Models for
+                    Relational Databases</a>&nbsp; &nbsp; <a style="border-bottom: 0;" href="https://www.youtube.com/watch?v=GyeGQGmTv30" target="blank"><i class="fa fa-play" aria-hidden="true"></i> video
+                        pitch</a>
+                    <br>
+                <span class="paper-authors">Liane Vogel, Benjamin Hilprecht, Carsten Binnig</span>
+            </li>
+
+
+            <li> <a class="paper-title" href="assets/papers/diffusion_models_for_missing_v.pdf" target="_blank">Diffusion models for missing value imputation in tabular data</a> &nbsp; &nbsp; <a style="border-bottom: 0;" href="https://www.youtube.com/watch?v=URlh7KJfXzM" target="blank"><i class="fa fa-play" aria-hidden="true"></i> video pitch</a><br>
+                <span class="paper-authors">Shuhan Zheng, Nontawat Charoenphakdee</span>
+            </li>
+
+            <li> <a class="paper-title" href="assets/papers/stab_self_supervised_learning_.pdf" target="_blank">STab: Self-supervised Learning
+                    for
+                    Tabular Data</a><br>
+                <span class="paper-authors">Ehsan Hajiramezanali, Max W Shen, Gabriele Scalia, Nathaniel Lee Diamant</span>
+            </li>
+
+            <li> <a class="paper-title" href="assets/papers/caspr_customer_activity_sequen.pdf" target="_blank">CASPR: Customer Activity
+                    Sequence
+                    based
+                    Prediction and Representation</a><br>
+                <span class="paper-authors">Damian Konrad Kowalczyk, Pin-Jung Chen, Sahil Bhatnagar</span>
+            </li>
+
+            <li> <a class="paper-title" href="assets/papers/conditional_contrastive_networ.pdf" target="_blank">Conditional Contrastive
+                    Networks</a><br>
+                <span class="paper-authors">Emily Mu, John Guttag</span>
+            </li>
+
+            <li> <a class="paper-title" href="assets/papers/self_supervised_representation.pdf" target="_blank">Self-supervised Representation Learning Across Sequential and Tabular Features Using Transformers</a><br>
+                <span class="paper-authors">Rajat Agarwal, Anand Muralidhar, Agniva Som, Hemant Kowshik</span>
+            </li>
+
+            <li> <a class="paper-title" href="assets/papers/the_need_for_tabular_represent.pdf" target="_blank">The Need for Tabular
+                    Representation
+                    Learning: An Industry Perspective</a><br>
+                <span class="paper-authors">Joyce Cahoon, Alexandra Savelieva, Andreas C Mueller, Avrilia Floratou, Carlo
+                    Curino,
+                    Hiren Patel, Jordan Henkel, Markus Weimer, Roman Batoukov, Shaleen Deep, Venkatesh Emani, Richard
+                    Wydrowski,
+                    Nellie Gustafsson</span>
+            </li>
+
+            <li> <a class="paper-title" href="assets/papers/stunt_few_shot_tabular_learnin.pdf" target="_blank">STUNT: Few-shot Tabular Learning
+                    with
+                    <span class="paper-authors">Self-generated Tasks from Unlabeled Tables</a><br>
+                Jaehyun Nam, Jihoon Tack, Kyungmin Lee, Hankook Lee, Jinwoo Shin<</li>
+
+            <li> <a class="paper-title" href="assets/papers/tabular_data_generation_can_we.pdf" target="_blank">Tabular Data Generation: Can We
+                    Fool
+                    XGBoost?</a>
+                <br>
+                <span class="paper-authors">EL Hacen Zein, Tanguy Urvoy</span>
+            </li>
+
+            <li> <a class="paper-title" href="assets/papers/sima_federating_data_silos_usi.pdf" target="_blank">SiMa: Federating Data Silos using
+                    GNNs</a>&nbsp; &nbsp; <a style="border-bottom: 0;" href="https://www.youtube.com/watch?v=y4ZOobI1v2w" target="blank"><i class="fa fa-play" aria-hidden="true"></i> video
+                        pitch</a>
+                        <br>
+                <span class="paper-authors">Christos Koutras, Rihan Hai, Kyriakos Psarakis, Marios Fragkoulis, Asterios
+                    Katsifodimos
+
+            <li> <a class="paper-title" href="assets/papers/self_supervised_pre_training_f.pdf" target="_blank">Self Supervised Pre-training for
+                    Large Scale Tabular Data</a><br>
+                <span class="paper-authors">Sharad Chitlangia, Anand Muralidhar, Rajat Agarwal</span>
+            </li>
+
+            <li> <a class="paper-title" href="assets/papers/rotar_efficient_row_based_tabl.pdf" target="_blank">RoTaR: Efficient Row-Based Table
+                    Representation Learning via Teacher-Student Training</a><br>
+                <span class="paper-authors">Zui Chen, Lei Cao, Samuel Madden</span>
+            </li>
+
+            <li> <a class="paper-title" href="assets/papers/mapqa_a_dataset_for_question_a.pdf" target="_blank">MapQA: A Dataset for Question
+                    Answering on Choropleth Maps</a><br>
+                <span class="paper-authors">Shuaichen Chang, David Palzer, Jialin Li, Eric Fosler-Lussier, Ningchuan
+                    Xiao</span>
+            </li>
+
+            <li> <a class="paper-title" href="assets/papers/met_masked_encoding_for_tabula.pdf" target="_blank">MET: Masked Encoding for Tabular
+                    Data</a><br>
+                <span class="paper-authors">Kushal Alpesh Majmundar, Sachin Goyal, Praneeth Netrapalli, Prateek Jain</span>
+            </li>
+
+            <li> <a class="paper-title" href="assets/papers/active_learning_with_tabular_l.pdf" target="_blank">Active Learning with Table
+                    Language
+                    Models</a><br>
+                <span class="paper-authors">Martin Ringsquandl, Aneta Koleva</span>
+            </li>
+
+            <li> <a class="paper-title" href="assets/papers/structural_embedding_of_data_f.pdf" target="_blank">Structural Embedding of Data
+                    Files
+                    with MAGRITTE</a>
+                    &nbsp; &nbsp; <a style="border-bottom: 0;" href="https://www.youtube.com/watch?v=_seBQIBzFoI" target="blank"><i class="fa fa-play" aria-hidden="true"></i> video
+                        pitch</a>
+                        <br>
+                <span class="paper-authors">Gerardo Vitagliano, Mazhar Hameed, Felix Naumann</span>
+            </li>
+            <br>
+            </ul>
+            <br>
+        </div>
+        <br>
+        <h1> </h1>
+        <br>
+    </div>
