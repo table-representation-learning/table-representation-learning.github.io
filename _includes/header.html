@@ -1,39 +1,10 @@
-<!-- <div class="top-strip"></div> -->
-<div class="navbar navbar-default navbar-fixed-top" id="navbar-container">
-  <div class="container">
-
-    <div class="navbar-header">
-      <a class="navbar-brand" href="/"></a>
-      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-
-    <div class="navbar-collapse collapse" id="navbar-main">
-      <ul class="nav navbar-nav">
-        <li><a  href=""><b>TRL</b>@NeurIPS'24</a></li>
-        <li><a  href="#cfp">CfP</a></li>
-        <!-- <li><a  href="#schedule">Schedule</a></li> -->
-        <li><a  href="#organization">Organization</a></li>
-        <li><a  href="#guidelines">Submission</a></li>
-        <li><a  href="#program">Program</a></li>
-        <li><a  href="#accepted-papers">Accepted Papers</a></li>
-        <!-- <li><a href="#sponsor"></a></li> -->
-      </ul>
-    </div>
-
-  </div>
-</div>
-
-<div class="row" id="title">
-  <div class="col-xs-12">
-    <center>
-      <h1><b>3rd Table Representation Learning Workshop @ NeurIPS 2024</b></h1>
-    </center>
-    <center>
-      <h3>14 December 2024, Vancouver, Canada.</h3>
-    </center>
-  </div>
-</div>
+{% if page.url contains 'ACL2025' %}
+  {% include header_acl2025.html %}
+{% elsif page.url contains 'NeurIPS2024' %}
+  {% include header_neurips2024.html %}
+{% elsif page.url contains 'NeurIPS2023' %}
+  {% include header_neurips2023.html %}  
+{% else %}
+  <!-- Default header for other pages -->
+  {% include header_acl2025.html %}
+{% endif %}
