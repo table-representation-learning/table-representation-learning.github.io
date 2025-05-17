@@ -87,6 +87,15 @@ a {
   color: inherit;
 }
 
+#img-link, #img-link img{
+  text-decoration: none !important;
+  border:0px !important;
+  outline:none;
+  border-width: 0px;
+  outline-width:0px;
+  border-bottom: none;
+}
+
 #title {
   background-image: url("../img/background/negative-space-abstract-shape-pattern-background-8.jpg");
   background-size: cover;
