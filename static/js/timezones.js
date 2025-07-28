@@ -83,7 +83,7 @@ $.fn.timezones.defaults = {
 
 function updateTable() {
   $("#schedule-table th[scope='row']").each(function() {
-    var newTime = moment.tz("2024-12-14 " + $(this).data("time"), "Canada/Pacific").tz($("#timezone-select").val());
+    var newTime = moment.tz("2024-12-14 " + $(this).data("time"), "Europe/Vienna").tz($("#timezone-select").val());
     if (newTime.format("DD") != "14") {
       $(this).html(newTime.format("HH:mm A [<br/>(Dec] DD[)]"));
     } else {
@@ -92,7 +92,7 @@ function updateTable() {
   });
 
   $("#schedule-table span[scope='row']").each(function() {
-    var newTime = moment.tz("2024-12-14 " + $(this).data("time"), "Canada/Pacific").tz($("#timezone-select").val());
+    var newTime = moment.tz("2024-12-14 " + $(this).data("time"), "Europe/Vienna").tz($("#timezone-select").val());
     if (newTime.format("DD") != "14") {
       $(this).html(newTime.format("HH:mm A [(Dec] DD[)]"));
     } else {
